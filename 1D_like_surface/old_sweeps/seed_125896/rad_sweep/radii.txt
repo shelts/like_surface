@@ -1,0 +1,2 @@
+start at 0.02
+increase by 0.02

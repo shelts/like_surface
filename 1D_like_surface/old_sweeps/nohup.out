@@ -1,0 +1,2279 @@
+17:00:37: Process 22112 created scene instance 0
+17:01:49: Making final checkpoint
+17:01:49: Removing checkpoint file 'nbody_checkpoint'
+17:04:10: Process 23407 created scene instance 0
+17:05:23: Making final checkpoint
+17:05:23: Removing checkpoint file 'nbody_checkpoint'
+17:07:44: Process 24689 created scene instance 0
+17:08:55: Making final checkpoint
+17:08:56: Removing checkpoint file 'nbody_checkpoint'
+17:11:17: Process 25943 created scene instance 0
+17:12:31: Making final checkpoint
+17:12:31: Removing checkpoint file 'nbody_checkpoint'
+17:14:52: Process 27211 created scene instance 0
+17:15:58: Making final checkpoint
+17:15:59: Removing checkpoint file 'nbody_checkpoint'
+17:18:20: Process 28461 created scene instance 0
+17:19:27: Making final checkpoint
+17:19:27: Removing checkpoint file 'nbody_checkpoint'
+17:21:48: Process 29686 created scene instance 0
+17:23:02: Making final checkpoint
+17:23:02: Removing checkpoint file 'nbody_checkpoint'
+17:25:24: Process 30971 created scene instance 0
+17:26:34: Making final checkpoint
+17:26:34: Removing checkpoint file 'nbody_checkpoint'
+17:28:56: Process 32198 created scene instance 0
+17:30:11: Making final checkpoint
+17:30:11: Removing checkpoint file 'nbody_checkpoint'
+17:32:33: Process 1104 created scene instance 0
+17:33:41: Making final checkpoint
+17:33:42: Removing checkpoint file 'nbody_checkpoint'
+17:36:03: Process 2674 created scene instance 0
+17:37:15: Making final checkpoint
+17:37:15: Removing checkpoint file 'nbody_checkpoint'
+17:39:36: Process 4042 created scene instance 0
+17:40:50: Making final checkpoint
+17:40:50: Removing checkpoint file 'nbody_checkpoint'
+17:43:11: Process 5338 created scene instance 0
+17:44:21: Making final checkpoint
+17:44:22: Removing checkpoint file 'nbody_checkpoint'
+17:46:43: Process 6591 created scene instance 0
+17:47:54: Making final checkpoint
+17:47:54: Removing checkpoint file 'nbody_checkpoint'
+17:50:15: Process 7848 created scene instance 0
+17:51:27: Making final checkpoint
+17:51:27: Removing checkpoint file 'nbody_checkpoint'
+17:53:48: Process 9104 created scene instance 0
+17:55:00: Making final checkpoint
+17:55:00: Removing checkpoint file 'nbody_checkpoint'
+17:57:21: Process 10347 created scene instance 0
+17:58:33: Making final checkpoint
+17:58:33: Removing checkpoint file 'nbody_checkpoint'
+18:00:54: Process 11603 created scene instance 0
+18:02:06: Making final checkpoint
+18:02:06: Removing checkpoint file 'nbody_checkpoint'
+18:04:27: Process 12891 created scene instance 0
+18:05:36: Making final checkpoint
+18:05:36: Removing checkpoint file 'nbody_checkpoint'
+18:07:57: Process 14108 created scene instance 0
+18:09:09: Making final checkpoint
+18:09:09: Removing checkpoint file 'nbody_checkpoint'
+18:11:30: Process 15376 created scene instance 0
+18:12:39: Making final checkpoint
+18:12:39: Removing checkpoint file 'nbody_checkpoint'
+18:15:01: Process 16629 created scene instance 0
+18:16:08: Making final checkpoint
+18:16:09: Removing checkpoint file 'nbody_checkpoint'
+18:18:30: Process 17890 created scene instance 0
+18:19:42: Making final checkpoint
+18:19:42: Removing checkpoint file 'nbody_checkpoint'
+18:22:03: Process 19136 created scene instance 0
+18:23:14: Making final checkpoint
+18:23:14: Removing checkpoint file 'nbody_checkpoint'
+18:25:35: Process 20391 created scene instance 0
+18:26:46: Making final checkpoint
+18:26:47: Removing checkpoint file 'nbody_checkpoint'
+18:29:08: Process 21656 created scene instance 0
+18:30:21: Making final checkpoint
+18:30:21: Removing checkpoint file 'nbody_checkpoint'
+18:32:42: Process 22944 created scene instance 0
+18:33:56: Making final checkpoint
+18:33:56: Removing checkpoint file 'nbody_checkpoint'
+18:36:17: Process 24198 created scene instance 0
+18:37:33: Making final checkpoint
+18:37:33: Removing checkpoint file 'nbody_checkpoint'
+18:39:54: Process 25486 created scene instance 0
+18:41:09: Making final checkpoint
+18:41:09: Removing checkpoint file 'nbody_checkpoint'
+18:43:30: Process 26785 created scene instance 0
+18:44:44: Making final checkpoint
+18:44:44: Removing checkpoint file 'nbody_checkpoint'
+18:47:05: Process 28059 created scene instance 0
+18:48:20: Making final checkpoint
+18:48:20: Removing checkpoint file 'nbody_checkpoint'
+18:50:42: Process 29346 created scene instance 0
+18:51:54: Making final checkpoint
+18:51:54: Removing checkpoint file 'nbody_checkpoint'
+18:54:15: Process 30602 created scene instance 0
+18:55:26: Making final checkpoint
+18:55:27: Removing checkpoint file 'nbody_checkpoint'
+18:57:48: Process 31852 created scene instance 0
+18:58:58: Making final checkpoint
+18:58:58: Removing checkpoint file 'nbody_checkpoint'
+19:01:19: Process 648 created scene instance 0
+19:02:26: Making final checkpoint
+19:02:26: Removing checkpoint file 'nbody_checkpoint'
+19:04:47: Process 2075 created scene instance 0
+19:05:54: Making final checkpoint
+19:05:54: Removing checkpoint file 'nbody_checkpoint'
+19:08:15: Process 3574 created scene instance 0
+19:09:21: Making final checkpoint
+19:09:21: Removing checkpoint file 'nbody_checkpoint'
+19:11:43: Process 4810 created scene instance 0
+19:12:51: Making final checkpoint
+19:12:51: Removing checkpoint file 'nbody_checkpoint'
+19:15:13: Process 6064 created scene instance 0
+19:15:18: Making final checkpoint
+19:15:18: Removing checkpoint file 'nbody_checkpoint'
+19:17:39: Process 6922 created scene instance 0
+19:17:50: Making final checkpoint
+19:17:50: Removing checkpoint file 'nbody_checkpoint'
+19:20:11: Process 7845 created scene instance 0
+19:20:27: Making final checkpoint
+19:20:27: Removing checkpoint file 'nbody_checkpoint'
+19:22:49: Process 8760 created scene instance 0
+19:23:10: Making final checkpoint
+19:23:11: Removing checkpoint file 'nbody_checkpoint'
+19:25:32: Process 9741 created scene instance 0
+19:25:57: Making final checkpoint
+19:25:57: Removing checkpoint file 'nbody_checkpoint'
+19:28:19: Process 10718 created scene instance 0
+19:28:48: Making final checkpoint
+19:28:48: Removing checkpoint file 'nbody_checkpoint'
+19:31:10: Process 11739 created scene instance 0
+19:31:43: Making final checkpoint
+19:31:43: Removing checkpoint file 'nbody_checkpoint'
+19:34:04: Process 12782 created scene instance 0
+19:34:42: Making final checkpoint
+19:34:42: Removing checkpoint file 'nbody_checkpoint'
+19:37:03: Process 13844 created scene instance 0
+19:37:45: Making final checkpoint
+19:37:45: Removing checkpoint file 'nbody_checkpoint'
+19:40:07: Process 14923 created scene instance 0
+19:40:53: Making final checkpoint
+19:40:54: Removing checkpoint file 'nbody_checkpoint'
+19:43:15: Process 16062 created scene instance 0
+19:44:06: Making final checkpoint
+19:44:06: Removing checkpoint file 'nbody_checkpoint'
+19:46:27: Process 17194 created scene instance 0
+19:47:21: Making final checkpoint
+19:47:22: Removing checkpoint file 'nbody_checkpoint'
+19:49:43: Process 18359 created scene instance 0
+19:50:40: Making final checkpoint
+19:50:41: Removing checkpoint file 'nbody_checkpoint'
+19:53:02: Process 19547 created scene instance 0
+19:54:04: Making final checkpoint
+19:54:04: Removing checkpoint file 'nbody_checkpoint'
+19:56:25: Process 20739 created scene instance 0
+19:57:34: Making final checkpoint
+19:57:34: Removing checkpoint file 'nbody_checkpoint'
+19:59:55: Process 22004 created scene instance 0
+20:01:02: Making final checkpoint
+20:01:02: Removing checkpoint file 'nbody_checkpoint'
+20:03:24: Process 23230 created scene instance 0
+20:04:41: Making final checkpoint
+20:04:41: Removing checkpoint file 'nbody_checkpoint'
+20:07:03: Process 24504 created scene instance 0
+20:08:25: Making final checkpoint
+20:08:25: Removing checkpoint file 'nbody_checkpoint'
+20:10:47: Process 25853 created scene instance 0
+20:12:08: Making final checkpoint
+20:12:08: Removing checkpoint file 'nbody_checkpoint'
+20:14:30: Process 27183 created scene instance 0
+20:15:52: Making final checkpoint
+20:15:52: Removing checkpoint file 'nbody_checkpoint'
+20:18:13: Process 28492 created scene instance 0
+20:19:41: Making final checkpoint
+20:19:41: Removing checkpoint file 'nbody_checkpoint'
+20:22:02: Process 29867 created scene instance 0
+20:23:40: Making final checkpoint
+20:23:40: Removing checkpoint file 'nbody_checkpoint'
+20:26:01: Process 31275 created scene instance 0
+20:27:38: Making final checkpoint
+20:27:38: Removing checkpoint file 'nbody_checkpoint'
+20:30:00: Process 32697 created scene instance 0
+20:31:15: Making final checkpoint
+20:31:15: Removing checkpoint file 'nbody_checkpoint'
+20:33:36: Process 1593 created scene instance 0
+20:34:49: Making final checkpoint
+20:34:50: Removing checkpoint file 'nbody_checkpoint'
+20:37:11: Process 3246 created scene instance 0
+20:38:21: Making final checkpoint
+20:38:21: Removing checkpoint file 'nbody_checkpoint'
+20:40:43: Process 4509 created scene instance 0
+20:41:57: Making final checkpoint
+20:41:57: Removing checkpoint file 'nbody_checkpoint'
+20:44:18: Process 5777 created scene instance 0
+20:45:25: Making final checkpoint
+20:45:25: Removing checkpoint file 'nbody_checkpoint'
+20:47:46: Process 7027 created scene instance 0
+20:48:55: Making final checkpoint
+20:48:55: Removing checkpoint file 'nbody_checkpoint'
+20:51:16: Process 8249 created scene instance 0
+20:52:33: Making final checkpoint
+20:52:33: Removing checkpoint file 'nbody_checkpoint'
+20:54:55: Process 9566 created scene instance 0
+20:56:05: Making final checkpoint
+20:56:05: Removing checkpoint file 'nbody_checkpoint'
+20:58:26: Process 10823 created scene instance 0
+20:59:39: Making final checkpoint
+20:59:39: Removing checkpoint file 'nbody_checkpoint'
+21:02:00: Process 12066 created scene instance 0
+21:03:10: Making final checkpoint
+21:03:10: Removing checkpoint file 'nbody_checkpoint'
+21:05:32: Process 13321 created scene instance 0
+21:06:44: Making final checkpoint
+21:06:44: Removing checkpoint file 'nbody_checkpoint'
+21:09:06: Process 14578 created scene instance 0
+21:10:19: Making final checkpoint
+21:10:19: Removing checkpoint file 'nbody_checkpoint'
+21:12:40: Process 15869 created scene instance 0
+21:13:52: Making final checkpoint
+21:13:53: Removing checkpoint file 'nbody_checkpoint'
+21:16:14: Process 17122 created scene instance 0
+21:17:25: Making final checkpoint
+21:17:26: Removing checkpoint file 'nbody_checkpoint'
+21:19:47: Process 18413 created scene instance 0
+21:20:59: Making final checkpoint
+21:20:59: Removing checkpoint file 'nbody_checkpoint'
+21:23:20: Process 19659 created scene instance 0
+21:24:32: Making final checkpoint
+21:24:32: Removing checkpoint file 'nbody_checkpoint'
+21:26:54: Process 20911 created scene instance 0
+21:28:08: Making final checkpoint
+21:28:09: Removing checkpoint file 'nbody_checkpoint'
+21:30:30: Process 22217 created scene instance 0
+21:31:45: Making final checkpoint
+21:31:45: Removing checkpoint file 'nbody_checkpoint'
+21:34:06: Process 23501 created scene instance 0
+21:35:17: Making final checkpoint
+21:35:17: Removing checkpoint file 'nbody_checkpoint'
+21:37:39: Process 24751 created scene instance 0
+21:38:50: Making final checkpoint
+21:38:50: Removing checkpoint file 'nbody_checkpoint'
+21:41:11: Process 26007 created scene instance 0
+21:42:21: Making final checkpoint
+21:42:21: Removing checkpoint file 'nbody_checkpoint'
+21:44:42: Process 27275 created scene instance 0
+21:45:54: Making final checkpoint
+21:45:54: Removing checkpoint file 'nbody_checkpoint'
+21:48:16: Process 28554 created scene instance 0
+21:49:26: Making final checkpoint
+21:49:26: Removing checkpoint file 'nbody_checkpoint'
+21:51:47: Process 29807 created scene instance 0
+21:52:59: Making final checkpoint
+21:52:59: Removing checkpoint file 'nbody_checkpoint'
+21:55:20: Process 31061 created scene instance 0
+21:56:33: Making final checkpoint
+21:56:33: Removing checkpoint file 'nbody_checkpoint'
+21:58:54: Process 32319 created scene instance 0
+22:00:07: Making final checkpoint
+22:00:07: Removing checkpoint file 'nbody_checkpoint'
+22:02:28: Process 1173 created scene instance 0
+22:03:41: Making final checkpoint
+22:03:41: Removing checkpoint file 'nbody_checkpoint'
+22:06:02: Process 2755 created scene instance 0
+22:07:15: Making final checkpoint
+22:07:16: Removing checkpoint file 'nbody_checkpoint'
+22:09:37: Process 4132 created scene instance 0
+22:10:50: Making final checkpoint
+22:10:50: Removing checkpoint file 'nbody_checkpoint'
+22:13:11: Process 5391 created scene instance 0
+22:14:24: Making final checkpoint
+22:14:24: Removing checkpoint file 'nbody_checkpoint'
+22:16:45: Process 6674 created scene instance 0
+22:18:00: Making final checkpoint
+22:18:00: Removing checkpoint file 'nbody_checkpoint'
+22:20:21: Process 7963 created scene instance 0
+22:21:32: Making final checkpoint
+22:21:32: Removing checkpoint file 'nbody_checkpoint'
+22:23:53: Process 9220 created scene instance 0
+22:25:03: Making final checkpoint
+22:25:03: Removing checkpoint file 'nbody_checkpoint'
+22:27:24: Process 10468 created scene instance 0
+22:28:32: Making final checkpoint
+22:28:32: Removing checkpoint file 'nbody_checkpoint'
+22:30:53: Process 11700 created scene instance 0
+22:31:59: Making final checkpoint
+22:31:59: Removing checkpoint file 'nbody_checkpoint'
+22:34:20: Process 12925 created scene instance 0
+22:35:27: Making final checkpoint
+22:35:27: Removing checkpoint file 'nbody_checkpoint'
+22:37:48: Process 14144 created scene instance 0
+22:38:53: Making final checkpoint
+22:38:53: Removing checkpoint file 'nbody_checkpoint'
+22:41:14: Process 15365 created scene instance 0
+22:42:20: Making final checkpoint
+22:42:20: Removing checkpoint file 'nbody_checkpoint'
+22:44:41: Process 16607 created scene instance 0
+22:44:47: Making final checkpoint
+22:44:47: Removing checkpoint file 'nbody_checkpoint'
+22:47:08: Process 17485 created scene instance 0
+22:47:18: Making final checkpoint
+22:47:18: Removing checkpoint file 'nbody_checkpoint'
+22:49:39: Process 18380 created scene instance 0
+22:49:55: Making final checkpoint
+22:49:55: Removing checkpoint file 'nbody_checkpoint'
+22:52:16: Process 19324 created scene instance 0
+22:52:37: Making final checkpoint
+22:52:38: Removing checkpoint file 'nbody_checkpoint'
+22:54:59: Process 20277 created scene instance 0
+22:55:24: Making final checkpoint
+22:55:24: Removing checkpoint file 'nbody_checkpoint'
+22:57:45: Process 21284 created scene instance 0
+22:58:14: Making final checkpoint
+22:58:14: Removing checkpoint file 'nbody_checkpoint'
+23:00:35: Process 22296 created scene instance 0
+23:01:12: Making final checkpoint
+23:01:12: Removing checkpoint file 'nbody_checkpoint'
+23:03:34: Process 23348 created scene instance 0
+23:04:11: Making final checkpoint
+23:04:11: Removing checkpoint file 'nbody_checkpoint'
+23:06:32: Process 24411 created scene instance 0
+23:07:14: Making final checkpoint
+23:07:14: Removing checkpoint file 'nbody_checkpoint'
+23:09:36: Process 25488 created scene instance 0
+23:10:24: Making final checkpoint
+23:10:25: Removing checkpoint file 'nbody_checkpoint'
+23:12:46: Process 26629 created scene instance 0
+23:13:37: Making final checkpoint
+23:13:37: Removing checkpoint file 'nbody_checkpoint'
+23:15:58: Process 27761 created scene instance 0
+23:16:53: Making final checkpoint
+23:16:53: Removing checkpoint file 'nbody_checkpoint'
+23:19:14: Process 29079 created scene instance 0
+23:20:14: Making final checkpoint
+23:20:14: Removing checkpoint file 'nbody_checkpoint'
+23:22:35: Process 30342 created scene instance 0
+23:23:36: Making final checkpoint
+23:23:36: Removing checkpoint file 'nbody_checkpoint'
+23:25:57: Process 31591 created scene instance 0
+23:27:03: Making final checkpoint
+23:27:03: Removing checkpoint file 'nbody_checkpoint'
+23:29:24: Process 351 created scene instance 0
+23:30:32: Making final checkpoint
+23:30:32: Removing checkpoint file 'nbody_checkpoint'
+23:32:53: Process 1685 created scene instance 0
+23:34:11: Making final checkpoint
+23:34:11: Removing checkpoint file 'nbody_checkpoint'
+23:36:32: Process 3353 created scene instance 0
+23:37:53: Making final checkpoint
+23:37:53: Removing checkpoint file 'nbody_checkpoint'
+23:40:14: Process 4671 created scene instance 0
+23:41:34: Making final checkpoint
+23:41:35: Removing checkpoint file 'nbody_checkpoint'
+23:43:56: Process 6000 created scene instance 0
+23:45:19: Making final checkpoint
+23:45:19: Removing checkpoint file 'nbody_checkpoint'
+23:47:40: Process 7340 created scene instance 0
+23:49:11: Making final checkpoint
+23:49:11: Removing checkpoint file 'nbody_checkpoint'
+23:51:32: Process 8712 created scene instance 0
+23:53:10: Making final checkpoint
+23:53:10: Removing checkpoint file 'nbody_checkpoint'
+23:55:31: Process 10117 created scene instance 0
+23:57:06: Making final checkpoint
+23:57:06: Removing checkpoint file 'nbody_checkpoint'
+23:59:08: Process 11524 created scene instance 0
+04:12:02: Making final checkpoint
+04:12:02: Removing checkpoint file 'nbody_checkpoint'
+04:14:06: Process 5554 created scene instance 0
+05:30:27: Making final checkpoint
+05:30:27: Removing checkpoint file 'nbody_checkpoint'
+05:32:34: Process 826 created scene instance 0
+06:09:05: Making final checkpoint
+06:09:05: Removing checkpoint file 'nbody_checkpoint'
+06:11:15: Process 14906 created scene instance 0
+06:32:35: Making final checkpoint
+06:32:35: Removing checkpoint file 'nbody_checkpoint'
+06:34:42: Process 23209 created scene instance 0
+06:48:46: Making final checkpoint
+06:48:46: Removing checkpoint file 'nbody_checkpoint'
+06:51:00: Process 28947 created scene instance 0
+07:01:11: Making final checkpoint
+07:01:11: Removing checkpoint file 'nbody_checkpoint'
+07:03:26: Process 890 created scene instance 0
+07:11:15: Making final checkpoint
+07:11:15: Removing checkpoint file 'nbody_checkpoint'
+07:13:31: Process 4923 created scene instance 0
+07:19:49: Making final checkpoint
+07:19:49: Removing checkpoint file 'nbody_checkpoint'
+07:22:06: Process 7936 created scene instance 0
+07:27:11: Making final checkpoint
+07:27:11: Removing checkpoint file 'nbody_checkpoint'
+07:29:24: Process 10535 created scene instance 0
+07:33:47: Making final checkpoint
+07:33:47: Removing checkpoint file 'nbody_checkpoint'
+07:36:07: Process 12897 created scene instance 0
+07:39:56: Making final checkpoint
+07:39:56: Removing checkpoint file 'nbody_checkpoint'
+07:42:17: Process 15121 created scene instance 0
+07:45:36: Making final checkpoint
+07:45:36: Removing checkpoint file 'nbody_checkpoint'
+07:47:58: Process 17137 created scene instance 0
+07:50:54: Making final checkpoint
+07:50:54: Removing checkpoint file 'nbody_checkpoint'
+07:53:16: Process 19028 created scene instance 0
+07:55:53: Making final checkpoint
+07:55:53: Removing checkpoint file 'nbody_checkpoint'
+07:58:16: Process 20800 created scene instance 0
+08:00:43: Making final checkpoint
+08:00:43: Removing checkpoint file 'nbody_checkpoint'
+08:03:06: Process 22516 created scene instance 0
+08:05:16: Making final checkpoint
+08:05:16: Removing checkpoint file 'nbody_checkpoint'
+08:07:40: Process 24355 created scene instance 0
+08:09:37: Making final checkpoint
+08:09:38: Removing checkpoint file 'nbody_checkpoint'
+08:12:02: Process 25926 created scene instance 0
+08:13:50: Making final checkpoint
+08:13:50: Removing checkpoint file 'nbody_checkpoint'
+08:16:15: Process 27424 created scene instance 0
+08:17:56: Making final checkpoint
+08:17:56: Removing checkpoint file 'nbody_checkpoint'
+08:20:15: Process 28899 created scene instance 0
+08:21:47: Making final checkpoint
+08:21:47: Removing checkpoint file 'nbody_checkpoint'
+08:24:12: Process 30245 created scene instance 0
+08:25:38: Making final checkpoint
+08:25:38: Removing checkpoint file 'nbody_checkpoint'
+08:28:04: Process 31617 created scene instance 0
+08:29:25: Making final checkpoint
+08:29:25: Removing checkpoint file 'nbody_checkpoint'
+08:31:52: Process 508 created scene instance 0
+08:33:08: Making final checkpoint
+08:33:08: Removing checkpoint file 'nbody_checkpoint'
+08:35:35: Process 2000 created scene instance 0
+08:36:45: Making final checkpoint
+08:36:45: Removing checkpoint file 'nbody_checkpoint'
+08:39:06: Process 3573 created scene instance 0
+08:40:17: Making final checkpoint
+08:40:17: Removing checkpoint file 'nbody_checkpoint'
+08:42:46: Process 4834 created scene instance 0
+08:43:49: Making final checkpoint
+08:43:50: Removing checkpoint file 'nbody_checkpoint'
+08:46:19: Process 6087 created scene instance 0
+08:47:19: Making final checkpoint
+08:47:20: Removing checkpoint file 'nbody_checkpoint'
+08:49:49: Process 7347 created scene instance 0
+08:50:47: Making final checkpoint
+08:50:47: Removing checkpoint file 'nbody_checkpoint'
+08:53:17: Process 8568 created scene instance 0
+08:54:12: Making final checkpoint
+08:54:12: Removing checkpoint file 'nbody_checkpoint'
+08:56:42: Process 9792 created scene instance 0
+08:57:33: Making final checkpoint
+08:57:33: Removing checkpoint file 'nbody_checkpoint'
+09:00:03: Process 10990 created scene instance 0
+09:00:52: Making final checkpoint
+09:00:52: Removing checkpoint file 'nbody_checkpoint'
+09:03:21: Process 12146 created scene instance 0
+09:04:09: Making final checkpoint
+09:04:09: Removing checkpoint file 'nbody_checkpoint'
+09:06:38: Process 13339 created scene instance 0
+09:07:25: Making final checkpoint
+09:07:25: Removing checkpoint file 'nbody_checkpoint'
+09:09:54: Process 14508 created scene instance 0
+09:10:40: Making final checkpoint
+09:10:40: Removing checkpoint file 'nbody_checkpoint'
+09:13:09: Process 15648 created scene instance 0
+09:13:51: Making final checkpoint
+09:13:52: Removing checkpoint file 'nbody_checkpoint'
+09:16:21: Process 16812 created scene instance 0
+09:17:01: Making final checkpoint
+09:17:02: Removing checkpoint file 'nbody_checkpoint'
+09:19:31: Process 17923 created scene instance 0
+09:20:09: Making final checkpoint
+09:20:09: Removing checkpoint file 'nbody_checkpoint'
+09:22:31: Process 19050 created scene instance 0
+09:23:41: Making final checkpoint
+09:23:42: Removing checkpoint file 'nbody_checkpoint'
+09:26:04: Process 20302 created scene instance 0
+09:27:12: Making final checkpoint
+09:27:12: Removing checkpoint file 'nbody_checkpoint'
+09:29:35: Process 21567 created scene instance 0
+09:30:45: Making final checkpoint
+09:30:45: Removing checkpoint file 'nbody_checkpoint'
+09:33:08: Process 22823 created scene instance 0
+09:34:18: Making final checkpoint
+09:34:18: Removing checkpoint file 'nbody_checkpoint'
+09:36:42: Process 24079 created scene instance 0
+09:37:50: Making final checkpoint
+09:37:50: Removing checkpoint file 'nbody_checkpoint'
+09:40:13: Process 25339 created scene instance 0
+09:41:22: Making final checkpoint
+09:41:22: Removing checkpoint file 'nbody_checkpoint'
+09:43:46: Process 26609 created scene instance 0
+09:44:55: Making final checkpoint
+09:44:55: Removing checkpoint file 'nbody_checkpoint'
+09:47:16: Process 27884 created scene instance 0
+09:48:24: Making final checkpoint
+09:48:24: Removing checkpoint file 'nbody_checkpoint'
+09:50:43: Process 29112 created scene instance 0
+09:51:55: Making final checkpoint
+09:51:55: Removing checkpoint file 'nbody_checkpoint'
+09:54:14: Process 30371 created scene instance 0
+09:55:23: Making final checkpoint
+09:55:23: Removing checkpoint file 'nbody_checkpoint'
+09:57:42: Process 31590 created scene instance 0
+09:58:48: Making final checkpoint
+09:58:48: Removing checkpoint file 'nbody_checkpoint'
+10:01:06: Process 345 created scene instance 0
+10:02:12: Making final checkpoint
+10:02:12: Removing checkpoint file 'nbody_checkpoint'
+10:04:29: Process 1622 created scene instance 0
+10:05:37: Making final checkpoint
+10:05:37: Removing checkpoint file 'nbody_checkpoint'
+10:07:54: Process 3221 created scene instance 0
+10:08:59: Making final checkpoint
+10:08:59: Removing checkpoint file 'nbody_checkpoint'
+10:11:16: Process 4418 created scene instance 0
+10:12:22: Making final checkpoint
+10:12:22: Removing checkpoint file 'nbody_checkpoint'
+10:14:38: Process 5659 created scene instance 0
+10:15:43: Making final checkpoint
+10:15:43: Removing checkpoint file 'nbody_checkpoint'
+10:17:59: Process 6850 created scene instance 0
+10:19:04: Making final checkpoint
+10:19:04: Removing checkpoint file 'nbody_checkpoint'
+10:21:19: Process 8015 created scene instance 0
+10:22:24: Making final checkpoint
+10:22:24: Removing checkpoint file 'nbody_checkpoint'
+10:24:39: Process 9212 created scene instance 0
+10:25:44: Making final checkpoint
+10:25:44: Removing checkpoint file 'nbody_checkpoint'
+10:27:59: Process 10404 created scene instance 0
+10:29:04: Making final checkpoint
+10:29:04: Removing checkpoint file 'nbody_checkpoint'
+10:31:19: Process 11604 created scene instance 0
+10:32:24: Making final checkpoint
+10:32:25: Removing checkpoint file 'nbody_checkpoint'
+10:34:39: Process 12801 created scene instance 0
+10:35:45: Making final checkpoint
+10:35:45: Removing checkpoint file 'nbody_checkpoint'
+10:37:54: Process 13960 created scene instance 0
+10:38:59: Making final checkpoint
+10:38:59: Removing checkpoint file 'nbody_checkpoint'
+10:41:14: Process 15121 created scene instance 0
+10:42:18: Making final checkpoint
+10:42:18: Removing checkpoint file 'nbody_checkpoint'
+10:44:33: Process 16331 created scene instance 0
+10:45:37: Making final checkpoint
+10:45:38: Removing checkpoint file 'nbody_checkpoint'
+10:47:52: Process 17489 created scene instance 0
+10:48:58: Making final checkpoint
+10:48:58: Removing checkpoint file 'nbody_checkpoint'
+10:51:13: Process 18680 created scene instance 0
+10:52:17: Making final checkpoint
+10:52:17: Removing checkpoint file 'nbody_checkpoint'
+10:54:31: Process 19878 created scene instance 0
+10:55:37: Making final checkpoint
+10:55:37: Removing checkpoint file 'nbody_checkpoint'
+10:57:51: Process 21038 created scene instance 0
+10:59:00: Making final checkpoint
+10:59:00: Removing checkpoint file 'nbody_checkpoint'
+11:01:14: Process 22267 created scene instance 0
+11:02:21: Making final checkpoint
+11:02:21: Removing checkpoint file 'nbody_checkpoint'
+11:04:35: Process 23463 created scene instance 0
+11:05:43: Making final checkpoint
+11:05:43: Removing checkpoint file 'nbody_checkpoint'
+11:07:57: Process 24653 created scene instance 0
+11:09:03: Making final checkpoint
+11:09:04: Removing checkpoint file 'nbody_checkpoint'
+11:11:17: Process 25860 created scene instance 0
+11:12:23: Making final checkpoint
+11:12:24: Removing checkpoint file 'nbody_checkpoint'
+11:14:37: Process 27029 created scene instance 0
+11:15:43: Making final checkpoint
+11:15:44: Removing checkpoint file 'nbody_checkpoint'
+11:17:57: Process 28218 created scene instance 0
+11:19:06: Making final checkpoint
+11:19:06: Removing checkpoint file 'nbody_checkpoint'
+11:21:27: Process 29414 created scene instance 0
+11:21:40: Making final checkpoint
+11:21:40: Removing checkpoint file 'nbody_checkpoint'
+11:24:03: Process 30337 created scene instance 0
+11:24:43: Making final checkpoint
+11:24:43: Removing checkpoint file 'nbody_checkpoint'
+11:27:07: Process 31432 created scene instance 0
+11:28:02: Making final checkpoint
+11:28:02: Removing checkpoint file 'nbody_checkpoint'
+11:30:23: Process 32610 created scene instance 0
+11:31:34: Making final checkpoint
+11:31:34: Removing checkpoint file 'nbody_checkpoint'
+11:33:53: Process 1467 created scene instance 0
+11:35:11: Making final checkpoint
+11:35:11: Removing checkpoint file 'nbody_checkpoint'
+11:37:29: Process 3136 created scene instance 0
+11:38:57: Making final checkpoint
+11:38:57: Removing checkpoint file 'nbody_checkpoint'
+11:41:15: Process 4483 created scene instance 0
+11:42:52: Making final checkpoint
+11:42:52: Removing checkpoint file 'nbody_checkpoint'
+11:45:09: Process 5903 created scene instance 0
+11:46:55: Making final checkpoint
+11:46:55: Removing checkpoint file 'nbody_checkpoint'
+11:49:11: Process 7344 created scene instance 0
+11:51:02: Making final checkpoint
+11:51:02: Removing checkpoint file 'nbody_checkpoint'
+11:53:18: Process 8783 created scene instance 0
+11:55:16: Making final checkpoint
+11:55:16: Removing checkpoint file 'nbody_checkpoint'
+11:57:32: Process 10304 created scene instance 0
+11:59:37: Making final checkpoint
+11:59:37: Removing checkpoint file 'nbody_checkpoint'
+12:01:52: Process 11828 created scene instance 0
+12:04:02: Making final checkpoint
+12:04:03: Removing checkpoint file 'nbody_checkpoint'
+12:06:17: Process 13386 created scene instance 0
+12:08:34: Making final checkpoint
+12:08:34: Removing checkpoint file 'nbody_checkpoint'
+12:10:48: Process 15006 created scene instance 0
+12:13:10: Making final checkpoint
+12:13:10: Removing checkpoint file 'nbody_checkpoint'
+12:15:24: Process 16639 created scene instance 0
+12:17:53: Making final checkpoint
+12:17:53: Removing checkpoint file 'nbody_checkpoint'
+12:20:07: Process 18323 created scene instance 0
+12:22:38: Making final checkpoint
+12:22:39: Removing checkpoint file 'nbody_checkpoint'
+12:24:52: Process 20000 created scene instance 0
+12:27:32: Making final checkpoint
+12:27:32: Removing checkpoint file 'nbody_checkpoint'
+12:29:45: Process 21760 created scene instance 0
+12:32:28: Making final checkpoint
+12:32:29: Removing checkpoint file 'nbody_checkpoint'
+12:34:40: Process 23530 created scene instance 0
+12:37:32: Making final checkpoint
+12:37:32: Removing checkpoint file 'nbody_checkpoint'
+12:39:54: Process 25303 created scene instance 0
+12:41:01: Making final checkpoint
+12:41:01: Removing checkpoint file 'nbody_checkpoint'
+12:43:23: Process 26575 created scene instance 0
+12:44:31: Making final checkpoint
+12:44:31: Removing checkpoint file 'nbody_checkpoint'
+12:46:53: Process 27789 created scene instance 0
+12:48:04: Making final checkpoint
+12:48:04: Removing checkpoint file 'nbody_checkpoint'
+12:50:25: Process 29077 created scene instance 0
+12:51:33: Making final checkpoint
+12:51:33: Removing checkpoint file 'nbody_checkpoint'
+12:53:53: Process 30303 created scene instance 0
+12:54:59: Making final checkpoint
+12:54:59: Removing checkpoint file 'nbody_checkpoint'
+12:57:20: Process 31518 created scene instance 0
+12:58:29: Making final checkpoint
+12:58:30: Removing checkpoint file 'nbody_checkpoint'
+13:00:51: Process 447 created scene instance 0
+13:01:58: Making final checkpoint
+13:01:58: Removing checkpoint file 'nbody_checkpoint'
+13:04:19: Process 1838 created scene instance 0
+13:05:28: Making final checkpoint
+13:05:28: Removing checkpoint file 'nbody_checkpoint'
+13:07:49: Process 3406 created scene instance 0
+13:08:59: Making final checkpoint
+13:08:59: Removing checkpoint file 'nbody_checkpoint'
+13:11:19: Process 4657 created scene instance 0
+13:12:26: Making final checkpoint
+13:12:26: Removing checkpoint file 'nbody_checkpoint'
+13:14:46: Process 5896 created scene instance 0
+13:15:54: Making final checkpoint
+13:15:54: Removing checkpoint file 'nbody_checkpoint'
+13:18:14: Process 7116 created scene instance 0
+13:19:23: Making final checkpoint
+13:19:23: Removing checkpoint file 'nbody_checkpoint'
+13:21:42: Process 8372 created scene instance 0
+13:22:49: Making final checkpoint
+13:22:49: Removing checkpoint file 'nbody_checkpoint'
+13:25:07: Process 9568 created scene instance 0
+13:26:16: Making final checkpoint
+13:26:16: Removing checkpoint file 'nbody_checkpoint'
+13:28:32: Process 10826 created scene instance 0
+13:29:39: Making final checkpoint
+13:29:39: Removing checkpoint file 'nbody_checkpoint'
+13:31:54: Process 12017 created scene instance 0
+13:33:03: Making final checkpoint
+13:33:03: Removing checkpoint file 'nbody_checkpoint'
+13:35:19: Process 13243 created scene instance 0
+13:36:26: Making final checkpoint
+13:36:26: Removing checkpoint file 'nbody_checkpoint'
+13:38:41: Process 14441 created scene instance 0
+13:39:49: Making final checkpoint
+13:39:49: Removing checkpoint file 'nbody_checkpoint'
+13:42:04: Process 15639 created scene instance 0
+13:43:12: Making final checkpoint
+13:43:12: Removing checkpoint file 'nbody_checkpoint'
+13:45:28: Process 16864 created scene instance 0
+13:46:36: Making final checkpoint
+13:46:36: Removing checkpoint file 'nbody_checkpoint'
+13:48:51: Process 18063 created scene instance 0
+13:50:00: Making final checkpoint
+13:50:00: Removing checkpoint file 'nbody_checkpoint'
+13:52:15: Process 19277 created scene instance 0
+13:53:27: Making final checkpoint
+13:53:27: Removing checkpoint file 'nbody_checkpoint'
+13:55:42: Process 20502 created scene instance 0
+13:56:52: Making final checkpoint
+13:56:52: Removing checkpoint file 'nbody_checkpoint'
+13:59:07: Process 21705 created scene instance 0
+14:00:16: Making final checkpoint
+14:00:16: Removing checkpoint file 'nbody_checkpoint'
+14:02:31: Process 22924 created scene instance 0
+14:03:40: Making final checkpoint
+14:03:40: Removing checkpoint file 'nbody_checkpoint'
+14:05:55: Process 24117 created scene instance 0
+14:07:06: Making final checkpoint
+14:07:06: Removing checkpoint file 'nbody_checkpoint'
+14:09:21: Process 25347 created scene instance 0
+14:10:29: Making final checkpoint
+14:10:29: Removing checkpoint file 'nbody_checkpoint'
+14:12:44: Process 26583 created scene instance 0
+14:13:53: Making final checkpoint
+14:13:53: Removing checkpoint file 'nbody_checkpoint'
+14:16:08: Process 27773 created scene instance 0
+14:17:17: Making final checkpoint
+14:17:17: Removing checkpoint file 'nbody_checkpoint'
+14:19:32: Process 29008 created scene instance 0
+14:20:41: Making final checkpoint
+14:20:41: Removing checkpoint file 'nbody_checkpoint'
+14:22:56: Process 30194 created scene instance 0
+14:24:04: Making final checkpoint
+14:24:04: Removing checkpoint file 'nbody_checkpoint'
+14:26:19: Process 31386 created scene instance 0
+14:27:27: Making final checkpoint
+14:27:27: Removing checkpoint file 'nbody_checkpoint'
+14:29:42: Process 32626 created scene instance 0
+14:30:49: Making final checkpoint
+14:30:49: Removing checkpoint file 'nbody_checkpoint'
+new seed time
+finished the times
+finished radii
+finished masses
+gvfs-open: parser: error opening location: Error when getting information for file '/home/sidd/Desktop/MW-research/like_surface/like_surface/parser': No such file or directory
+QDBusConnection: session D-Bus connection created before QCoreApplication. Application may misbehave.
+Connecting to deprecated signal QDBusConnectionInterface::serviceOwnerChanged(QString,QString,QString)
+QDBusConnection: session D-Bus connection created before QCoreApplication. Application may misbehave.
+QDBusConnection: session D-Bus connection created before QCoreApplication. Application may misbehave.
+kbuildsycoca4 running...
+kbuildsycoca4(4067) KBuildSycoca::checkTimestamps: checking file timestamps
+kbuildsycoca4(4067) KBuildSycoca::checkTimestamps: timestamps check ok
+kbuildsycoca4(4067) kdemain: Emitting notifyDatabaseChanged ()
+kate(4046)/kate-filetree KateFileTreePluginView::KateFileTreePluginView: BEGIN: mw: Kate::MainWindow(0xd96990)
+kate(4046)/kate-filetree ProxyItem::ProxyItem: ProxyItem(0x1185370,0x0,-1,QObject(0x0) ,"m_root")
+kate(4046)/kate-filetree ProxyItem::ProxyItem: ProxyItem(0x1185fe0,0x0,-1,QObject(0x0) ,"Untitled")
+kate(4046)/kate-filetree KateFileTreeModel::documentOpened: before add: ProxyItem(0x1185fe0,0x0,-1,KateDocument(0xf4e870) , "Untitled" )
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: END!
+kate(4046)/kate-filetree KateFileTreeModel::handleInsert: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::handleInsert: empty item
+kate(4046)/kate-filetree ProxyItem::addChild: added ProxyItem(0x1185fe0,0x1185370,0,KateDocument(0xf4e870) , "Untitled" )   to ProxyItemDir(0x1185370,0x0,-1,"m_root", children:1)
+kate(4046)/kate-filetree KateFileTreeModel::documentOpened: after add: ProxyItem(0x1185fe0,0x1185370,0,KateDocument(0xf4e870) , "Untitled" )
+kate(4046)/kate-filetree KateFileTreeProxyModel::KateFileTreeProxyModel: BEGIN!
+kate(4046)/kate-filetree KateFileTreePluginView::setListMode: BEGIN
+kate(4046)/kate-filetree KateFileTreePluginView::setListMode: treeMode
+kate(4046)/kate-filetree KateFileTreePluginView::setListMode: END
+QDBusConnection: session D-Bus connection created before QCoreApplication. Application may misbehave.
+QDBusConnection: session D-Bus connection created before QCoreApplication. Application may misbehave.
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeProxyModel::docIndex: !
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: selected doc= KateDocument(0xf4e870) QModelIndex(0,0,0x11854d0,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: display= "Untitled"
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: adding viewHistory ProxyItem(0x1185fe0,0x1185370,0,KateDocument(0xf4e870) , "Untitled" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  0  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: END!
+kate(4046)/kate-filetree KateFileTree::slotCurrentChanged: current: QModelIndex(0,0,0x11854d0,KateFileTreeProxyModel(0xe36500) )  previous: QModelIndex(-1,-1,0x0,QObject(0x0) )
+kate(4046)/kate-filetree KateFileTree::slotCurrentChanged: got doc, setting prev: QModelIndex(0,0,0x11854d0,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeProxyModel::docIndex: !
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: selected doc= KateDocument(0xf4e870) QModelIndex(0,0,0x11854d0,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: display= "Untitled"
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: adding viewHistory ProxyItem(0x1185fe0,0x1185370,0,KateDocument(0xf4e870) , "Untitled" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  0  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeProxyModel::docIndex: !
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: selected doc= KateDocument(0xf4e870) QModelIndex(0,0,0x11854d0,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: display= "Untitled"
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: adding viewHistory ProxyItem(0x1185fe0,0x1185370,0,KateDocument(0xf4e870) , "Untitled" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  0  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: change to unnamed item
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: ProxyItem(0x1185fe0,0x1185370,0,KateDocument(0xf4e870) , "Untitled" )
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: "Untitled" -> "Untitled"
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: removing brush ProxyItem(0x1185fe0,0x1185370,0,KateDocument(0xf4e870) , "Untitled" )
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: removing/replacing view history ProxyItem(0x1185fe0,0x1185370,0,KateDocument(0xf4e870) , "Untitled" )
+kate(4046)/kate-filetree KateFileTreeModel::handleNameChange: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::handleNameChange: bogus name change
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeProxyModel::docIndex: !
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: selected doc= KateDocument(0xf4e870) QModelIndex(0,0,0x11854d0,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: display= "Untitled"
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: adding viewHistory ProxyItem(0x1185fe0,0x1185370,0,KateDocument(0xf4e870) , "Untitled" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  0  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: ProxyItem(0x1185fe0,0x1185370,0,KateDocument(0xf4e870) , "Untitled" )
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: "Untitled" -> "/home/sidd/Desktop/MW-research/like_surface/like_surface/parser.py"
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: removing brush ProxyItem(0x1185fe0,0x1185370,0,KateDocument(0xf4e870) , "Untitled" )
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: removing/replacing view history ProxyItem(0x1185fe0,0x1185370,0,KateDocument(0xf4e870) , "Untitled" )
+kate(4046)/kate-filetree KateFileTreeModel::handleNameChange: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::handleNameChange: removing ProxyItem(0x1185fe0,0x1185370,0,KateDocument(0xf4e870) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/parser.py" )   from ProxyItemDir(0x1185370,0x0,-1,"m_root", children:1)
+kate(4046)/kate-filetree KateFileTree::slotCurrentChanged: current: QModelIndex(-1,-1,0x0,QObject(0x0) ) previous: QModelIndex(0,0,0x11854d0,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree ProxyItem::remChild: remove ProxyItem(0x1185fe0,0x1185370,0,KateDocument(0xf4e870) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/parser.py" )   from ProxyItemDir(0x1185370,0x0,-1,"m_root", children:1)
+kate(4046)/kate-filetree KateFileTreeModel::handleEmptyParents: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::handleEmptyParents: parent ProxyItemDir(0x1185370,0x0,-1,"m_root", children:0) grandparentProxyItemDir(0x0)
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: END!
+kate(4046)/kate-filetree KateFileTreeModel::handleNameChange: inserting ProxyItem(0x1185fe0,0x0,0,KateDocument(0xf4e870) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/parser.py" )
+kate(4046)/kate-filetree KateFileTreeModel::handleInsert: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::handleInsert: creating a new root
+kate(4046)/kate-filetree ProxyItem::ProxyItem: ProxyItem(0x1959210,0x0,-1,QObject(0x0) ,"/home/sidd/Desktop/MW-research/like_surface/like_surface")
+kate(4046)/kate-filetree KateFileTreeModel::handleInsert: add ProxyItemDir(0x1959210,0x0,-1,"/home/sidd/Desktop/MW-research/like_surface/like_surface", children:0) to m_root
+kate(4046)/kate-filetree ProxyItem::addChild: added ProxyItem(0x1959210,0x1185370,0,QObject(0x0) ,"/home/sidd/Desktop/MW-research/like_surface/like_surface") toProxyItemDir(0x1185370,0x0,-1,"m_root", children:1)
+kate(4046)/kate-filetree KateFileTreeModel::handleInsert: attempting to merge some existing roots
+kate(4046)/kate-filetree KateFileTreeModel::handleInsert: adding ProxyItem(0x1185fe0,0x0,0,KateDocument(0xf4e870) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/parser.py" )   to ProxyItemDir(0x1959210,0x1185370,0,"/home/sidd/Desktop/MW-research/like_surface/like_surface", children:0)
+kate(4046)/kate-filetree ProxyItem::addChild: added ProxyItem(0x1185fe0,0x1959210,0,KateDocument(0xf4e870) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/parser.py" )   to ProxyItemDir(0x1959210,0x1185370,0,"/home/sidd/Desktop/MW-research/like_surface/like_surface", children:1)
+kate(4046)/kate-filetree KateFileTreeModel::handleInsert: END!
+kate(4046)/kate-filetree KateFileTreeModel::handleNameChange: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeProxyModel::docIndex: !
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: selected doc= KateDocument(0xf4e870) QModelIndex(0,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: display= "parser.py"
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: adding viewHistory ProxyItem(0x1185fe0,0x1959210,0,KateDocument(0xf4e870) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/parser.py" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  0  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: END!
+kate(4046)/kate-filetree KateFileTree::slotCurrentChanged: current: QModelIndex(0,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )  previous: QModelIndex(-1,-1,0x0,QObject(0x0) )
+kate(4046)/kate-filetree KateFileTree::slotCurrentChanged: got doc, setting prev: QModelIndex(0,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: ProxyItem(0x1185fe0,0x1959210,0,KateDocument(0xf4e870) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/parser.py" )
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: "parser.py" -> "/home/sidd/Desktop/MW-research/like_surface/like_surface/parser.py"
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: removing brush ProxyItem(0x1185fe0,0x1959210,0,KateDocument(0xf4e870) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/parser.py" )
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: removing/replacing view history ProxyItem(0x1185fe0,0x1959210,0,KateDocument(0xf4e870) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/parser.py" )
+kate(4046)/kate-filetree KateFileTreeModel::handleNameChange: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::handleNameChange: bogus name change
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeProxyModel::docIndex: !
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: selected doc= KateDocument(0xf4e870) QModelIndex(0,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: display= "parser.py"
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: adding viewHistory ProxyItem(0x1185fe0,0x1959210,0,KateDocument(0xf4e870) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/parser.py" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  0  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeProxyModel::docIndex: !
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: selected doc= KateDocument(0xf4e870) QModelIndex(0,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: display= "parser.py"
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: adding viewHistory ProxyItem(0x1185fe0,0x1959210,0,KateDocument(0xf4e870) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/parser.py" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  0  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: ProxyItem(0x1185fe0,0x1959210,0,KateDocument(0xf4e870) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/parser.py" )
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: "parser.py" -> "/home/sidd/Desktop/MW-research/like_surface/like_surface/parser.py"
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: removing brush ProxyItem(0x1185fe0,0x1959210,0,KateDocument(0xf4e870) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/parser.py" )
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: removing/replacing view history ProxyItem(0x1185fe0,0x1959210,0,KateDocument(0xf4e870) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/parser.py" )
+kate(4046)/kate-filetree KateFileTreeModel::handleNameChange: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::handleNameChange: bogus name change
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeProxyModel::docIndex: !
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: selected doc= KateDocument(0xf4e870) QModelIndex(0,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: display= "parser.py"
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: adding viewHistory ProxyItem(0x1185fe0,0x1959210,0,KateDocument(0xf4e870) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/parser.py" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  0  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeProxyModel::docIndex: !
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: selected doc= KateDocument(0xf4e870) QModelIndex(0,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: display= "parser.py"
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: adding viewHistory ProxyItem(0x1185fe0,0x1959210,0,KateDocument(0xf4e870) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/parser.py" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  0  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: END!
+QInotifyFileSystemWatcherEngine::addPaths: inotify_add_watch failed: No such file or directory
+QFileSystemWatcher: failed to add paths: /home/sidd/.kde/share/config/activitymanager-pluginsrc
+QObject::connect: Cannot connect (null)::resourceScoreUpdated(QString, QString, QString, double) to NepomukPlugin::resourceScoreUpdated(QString, QString, QString, double)
+QObject::connect: Cannot connect (null)::recentStatsDeleted(QString, int, QString) to NepomukPlugin::deleteRecentStats(QString, int, QString)
+QObject::connect: Cannot connect (null)::earlierStatsDeleted(QString, int) to NepomukPlugin::deleteEarlierStats(QString, int)
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeProxyModel::docIndex: !
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: selected doc= KateDocument(0xf4e870) QModelIndex(0,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: display= "parser.py"
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: adding viewHistory ProxyItem(0x1185fe0,0x1959210,0,KateDocument(0xf4e870) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/parser.py" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  0  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeProxyModel::docIndex: !
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: selected doc= KateDocument(0xf4e870) QModelIndex(0,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: display= "parser.py"
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: adding viewHistory ProxyItem(0x1185fe0,0x1959210,0,KateDocument(0xf4e870) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/parser.py" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  0  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: END!
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+kactivitymanagerd(4073)/nepomuk (library): Could not find virtuoso to connect to. Aborting 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeProxyModel::docIndex: !
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: selected doc= KateDocument(0xf4e870) QModelIndex(0,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: display= "parser.py"
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: adding viewHistory ProxyItem(0x1185fe0,0x1959210,0,KateDocument(0xf4e870) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/parser.py" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  0  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: END!
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+kate(4046)/kate-filetree KateFileTreePluginView::documentOpened: open KateDocument(0x1bfacb0)
+kate(4046)/kate-filetree ProxyItem::ProxyItem: ProxyItem(0x1beab20,0x0,-1,QObject(0x0) ,"Untitled")
+kate(4046)/kate-filetree KateFileTreeModel::documentOpened: before add: ProxyItem(0x1beab20,0x0,-1,KateDocument(0x1bfacb0) , "Untitled" )
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: END!
+kate(4046)/kate-filetree KateFileTreeModel::handleInsert: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::handleInsert: empty item
+kate(4046)/kate-filetree ProxyItem::addChild: added ProxyItem(0x1beab20,0x1185370,1,KateDocument(0x1bfacb0) , "Untitled" )   to ProxyItemDir(0x1185370,0x0,-1,"m_root", children:2)
+kate(4046)/kate-filetree KateFileTreeModel::documentOpened: after add: ProxyItem(0x1beab20,0x1185370,1,KateDocument(0x1bfacb0) , "Untitled" )
+[31mvoid DBusMenuExporterPrivate::addAction(QAction*, int)[0m: Already tracking action "Show Confirmation" under id 1143 
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeProxyModel::docIndex: !
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: selected doc= KateDocument(0x1bfacb0) QModelIndex(1,0,0xfde410,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: display= "Untitled"
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: adding viewHistory ProxyItem(0x1beab20,0x1185370,1,KateDocument(0x1bfacb0) , "Untitled" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  0  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: END!
+kate(4046)/kate-filetree KateFileTree::slotCurrentChanged: current: QModelIndex(1,0,0xfde410,KateFileTreeProxyModel(0xe36500) )  previous: QModelIndex(0,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTree::slotCurrentChanged: got doc, setting prev: QModelIndex(1,0,0xfde410,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: END!
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+kate(4046)/kate-filetree KateFileTree::slotCurrentChanged: current: QModelIndex(0,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )  previous: QModelIndex(1,0,0xfde410,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTree::slotCurrentChanged: got doc, setting prev: QModelIndex(0,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTree::mouseClicked: got index QModelIndex(0,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTree::mouseClicked: got doc QModelIndex(0,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )  setting prev: QModelIndex(-1,-1,0x0,QObject(0x0) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeProxyModel::docIndex: !
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: selected doc= KateDocument(0xf4e870) QModelIndex(0,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: display= "parser.py"
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: adding viewHistory ProxyItem(0x1185fe0,0x1959210,0,KateDocument(0xf4e870) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/parser.py" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  0  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: END!
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+kate(4046)/kate-filetree KateFileTree::slotCurrentChanged: current: QModelIndex(1,0,0xfde410,KateFileTreeProxyModel(0xe36500) )  previous: QModelIndex(0,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTree::slotCurrentChanged: got doc, setting prev: QModelIndex(1,0,0xfde410,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTree::mouseClicked: got index QModelIndex(1,0,0xfde410,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTree::mouseClicked: got doc QModelIndex(1,0,0xfde410,KateFileTreeProxyModel(0xe36500) )  setting prev: QModelIndex(-1,-1,0x0,QObject(0x0) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeProxyModel::docIndex: !
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: selected doc= KateDocument(0x1bfacb0) QModelIndex(1,0,0xfde410,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: display= "Untitled"
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: adding viewHistory ProxyItem(0x1beab20,0x1185370,1,KateDocument(0x1bfacb0) , "Untitled" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  0  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: END!
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: modified!
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: adding editHistory ProxyItem(0x1beab20,0x1185370,1,KateDocument(0x1bfacb0) , "Untitled" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  1  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: END!
+kate(4046)/kate-filetree KateFileTree::slotCurrentChanged: current: QModelIndex(0,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )  previous: QModelIndex(1,0,0xfde410,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTree::slotCurrentChanged: got doc, setting prev: QModelIndex(0,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTree::mouseClicked: got index QModelIndex(0,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTree::mouseClicked: got doc QModelIndex(0,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )  setting prev: QModelIndex(-1,-1,0x0,QObject(0x0) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeProxyModel::docIndex: !
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: selected doc= KateDocument(0xf4e870) QModelIndex(0,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: display= "parser.py"
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: adding viewHistory ProxyItem(0x1185fe0,0x1959210,0,KateDocument(0xf4e870) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/parser.py" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  1  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: END!
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+kate(4046)/kate-filetree KateFileTree::slotCurrentChanged: current: QModelIndex(1,0,0xfde410,KateFileTreeProxyModel(0xe36500) )  previous: QModelIndex(0,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTree::slotCurrentChanged: got doc, setting prev: QModelIndex(1,0,0xfde410,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTree::slotCurrentChanged: current: QModelIndex(0,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )  previous: QModelIndex(1,0,0xfde410,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTree::slotCurrentChanged: got doc, setting prev: QModelIndex(0,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTree::slotCurrentChanged: current: QModelIndex(1,0,0xfde410,KateFileTreeProxyModel(0xe36500) )  previous: QModelIndex(0,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTree::slotCurrentChanged: got doc, setting prev: QModelIndex(1,0,0xfde410,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTree::mouseClicked: got index QModelIndex(1,0,0xfde410,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTree::mouseClicked: got doc QModelIndex(1,0,0xfde410,KateFileTreeProxyModel(0xe36500) )  setting prev: QModelIndex(-1,-1,0x0,QObject(0x0) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeProxyModel::docIndex: !
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: selected doc= KateDocument(0x1bfacb0) QModelIndex(1,0,0xfde410,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: display= "Untitled"
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: adding viewHistory ProxyItem(0x1beab20,0x1185370,1,KateDocument(0x1bfacb0) , "Untitled" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  1  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: END!
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+Object::connect: No such signal org::freedesktop::UPower::DeviceAdded(QDBusObjectPath)
+Object::connect: No such signal org::freedesktop::UPower::DeviceRemoved(QDBusObjectPath)
+Object::connect: No such signal org::freedesktop::UPower::DeviceAdded(QDBusObjectPath)
+Object::connect: No such signal org::freedesktop::UPower::DeviceRemoved(QDBusObjectPath)
+kio_trash(4091) TrashProtocol::createUDSEntry: couldn't stat  "/home/sidd/.local/share/Trash/files/bleach" 
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: ProxyItem(0x1beab20,0x1185370,1,KateDocument(0x1bfacb0) , "Untitled" )
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: "Untitled" -> "/home/sidd/Desktop/MW-research/like_surface/like_surface/mass_sweeper_precise.py"
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: removing brush ProxyItem(0x1beab20,0x1185370,1,KateDocument(0x1bfacb0) , "Untitled" )
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: removing/replacing view history ProxyItem(0x1beab20,0x1185370,1,KateDocument(0x1bfacb0) , "Untitled" )
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: removing/replacing edit history ProxyItem(0x1beab20,0x1185370,1,KateDocument(0x1bfacb0) , "Untitled" )
+kate(4046)/kate-filetree KateFileTreeModel::handleNameChange: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::handleNameChange: removing ProxyItem(0x1beab20,0x1185370,1,KateDocument(0x1bfacb0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/mass_sweeper_precise.py" )   from ProxyItemDir(0x1185370,0x0,-1,"m_root", children:2)
+kate(4046)/kate-filetree KateFileTree::slotCurrentChanged: current: QModelIndex(0,0,0xfde410,KateFileTreeProxyModel(0xe36500) )  previous: QModelIndex(1,0,0xfde410,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree ProxyItem::remChild: remove ProxyItem(0x1beab20,0x1185370,1,KateDocument(0x1bfacb0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/mass_sweeper_precise.py" )   from ProxyItemDir(0x1185370,0x0,-1,"m_root", children:2)
+kate(4046)/kate-filetree KateFileTreeModel::handleEmptyParents: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::handleEmptyParents: parent ProxyItemDir(0x1185370,0x0,-1,"m_root", children:1) grandparentProxyItemDir(0x0)
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: END!
+kate(4046)/kate-filetree KateFileTreeModel::handleNameChange: inserting ProxyItem(0x1beab20,0x0,1,KateDocument(0x1bfacb0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/mass_sweeper_precise.py" )
+kate(4046)/kate-filetree KateFileTreeModel::handleInsert: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::handleInsert: got a root, inserting into it
+kate(4046)/kate-filetree KateFileTreeModel::insertItemInto: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::insertItemInto: creating tree for ProxyItem(0x1beab20,0x0,1,KateDocument(0x1bfacb0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/mass_sweeper_precise.py" )
+kate(4046)/kate-filetree KateFileTreeModel::insertItemInto: adding ProxyItem(0x1beab20,0x0,1,KateDocument(0x1bfacb0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/mass_sweeper_precise.py" )   to ProxyItemDir(0x1959210,0x1185370,0,"/home/sidd/Desktop/MW-research/like_surface/like_surface", children:1)
+kate(4046)/kate-filetree ProxyItem::addChild: added ProxyItem(0x1beab20,0x1959210,1,KateDocument(0x1bfacb0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/mass_sweeper_precise.py" )   to ProxyItemDir(0x1959210,0x1185370,0,"/home/sidd/Desktop/MW-research/like_surface/like_surface", children:2)
+kate(4046)/kate-filetree KateFileTreeModel::insertItemInto: END!
+kate(4046)/kate-filetree KateFileTreeModel::handleInsert: END!
+kate(4046)/kate-filetree KateFileTreeModel::handleNameChange: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeProxyModel::docIndex: !
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: selected doc= KateDocument(0x1bfacb0) QModelIndex(0,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: display= "mass_sweeper_precise.py"
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: adding viewHistory ProxyItem(0x1beab20,0x1959210,1,KateDocument(0x1bfacb0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/mass_sweeper_precise.py" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  1  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: END!
+kate(4046)/kate-filetree KateFileTree::slotCurrentChanged: current: QModelIndex(0,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )  previous: QModelIndex(0,0,0xfde410,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTree::slotCurrentChanged: got doc, setting prev: QModelIndex(0,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: ProxyItem(0x1beab20,0x1959210,1,KateDocument(0x1bfacb0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/mass_sweeper_precise.py" )
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: "mass_sweeper_precise.py" -> "/home/sidd/Desktop/MW-research/like_surface/like_surface/mass_sweeper_precise.py"
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: removing brush ProxyItem(0x1beab20,0x1959210,1,KateDocument(0x1bfacb0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/mass_sweeper_precise.py" )
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: removing/replacing view history ProxyItem(0x1beab20,0x1959210,1,KateDocument(0x1bfacb0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/mass_sweeper_precise.py" )
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: removing/replacing edit history ProxyItem(0x1beab20,0x1959210,1,KateDocument(0x1bfacb0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/mass_sweeper_precise.py" )
+kate(4046)/kate-filetree KateFileTreeModel::handleNameChange: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::handleNameChange: bogus name change
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeProxyModel::docIndex: !
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: selected doc= KateDocument(0x1bfacb0) QModelIndex(0,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: display= "mass_sweeper_precise.py"
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: adding viewHistory ProxyItem(0x1beab20,0x1959210,1,KateDocument(0x1bfacb0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/mass_sweeper_precise.py" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  1  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: saved!
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: adding editHistory ProxyItem(0x1beab20,0x1959210,1,KateDocument(0x1bfacb0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/mass_sweeper_precise.py" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  1  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: END!
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 20 (X_GetProperty)
+  Resource id:  0x46000ea
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: modified!
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: adding editHistory ProxyItem(0x1beab20,0x1959210,1,KateDocument(0x1bfacb0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/mass_sweeper_precise.py" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  1  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: ProxyItem(0x1beab20,0x1959210,1,KateDocument(0x1bfacb0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/mass_sweeper_precise.py" )
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: "mass_sweeper_precise.py" -> "/home/sidd/Desktop/MW-research/like_surface/like_surface/mass_sweeper_precise.py"
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: removing brush ProxyItem(0x1beab20,0x1959210,1,KateDocument(0x1bfacb0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/mass_sweeper_precise.py" )
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: removing/replacing view history ProxyItem(0x1beab20,0x1959210,1,KateDocument(0x1bfacb0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/mass_sweeper_precise.py" )
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: removing/replacing edit history ProxyItem(0x1beab20,0x1959210,1,KateDocument(0x1bfacb0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/mass_sweeper_precise.py" )
+kate(4046)/kate-filetree KateFileTreeModel::handleNameChange: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::handleNameChange: bogus name change
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeProxyModel::docIndex: !
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: selected doc= KateDocument(0x1bfacb0) QModelIndex(0,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: display= "mass_sweeper_precise.py"
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: adding viewHistory ProxyItem(0x1beab20,0x1959210,1,KateDocument(0x1bfacb0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/mass_sweeper_precise.py" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  1  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: saved!
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: adding editHistory ProxyItem(0x1beab20,0x1959210,1,KateDocument(0x1bfacb0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/mass_sweeper_precise.py" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  1  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeProxyModel::docIndex: !
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: selected doc= KateDocument(0xf4e870) QModelIndex(1,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: display= "parser.py"
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: adding viewHistory ProxyItem(0x1185fe0,0x1959210,0,KateDocument(0xf4e870) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/parser.py" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  1  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: END!
+kate(4046)/kate-filetree KateFileTree::slotCurrentChanged: current: QModelIndex(1,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )  previous: QModelIndex(0,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTree::slotCurrentChanged: got doc, setting prev: QModelIndex(1,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: END!
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeProxyModel::docIndex: !
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: selected doc= KateDocument(0xf4e870) QModelIndex(1,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: display= "parser.py"
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: adding viewHistory ProxyItem(0x1185fe0,0x1959210,0,KateDocument(0xf4e870) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/parser.py" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  1  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeProxyModel::docIndex: !
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: selected doc= KateDocument(0x1bfacb0) QModelIndex(0,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: display= "mass_sweeper_precise.py"
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: adding viewHistory ProxyItem(0x1beab20,0x1959210,1,KateDocument(0x1bfacb0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/mass_sweeper_precise.py" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  1  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: END!
+kate(4046)/kate-filetree KateFileTree::slotCurrentChanged: current: QModelIndex(0,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )  previous: QModelIndex(1,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTree::slotCurrentChanged: got doc, setting prev: QModelIndex(0,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeProxyModel::docIndex: !
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: selected doc= KateDocument(0x1bfacb0) QModelIndex(0,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: display= "mass_sweeper_precise.py"
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: adding viewHistory ProxyItem(0x1beab20,0x1959210,1,KateDocument(0x1bfacb0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/mass_sweeper_precise.py" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  1  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: END!
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeProxyModel::docIndex: !
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: selected doc= KateDocument(0xf4e870) QModelIndex(1,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: display= "parser.py"
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: adding viewHistory ProxyItem(0x1185fe0,0x1959210,0,KateDocument(0xf4e870) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/parser.py" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  1  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: END!
+kate(4046)/kate-filetree KateFileTree::slotCurrentChanged: current: QModelIndex(1,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )  previous: QModelIndex(0,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTree::slotCurrentChanged: got doc, setting prev: QModelIndex(1,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: END!
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeProxyModel::docIndex: !
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: selected doc= KateDocument(0x1bfacb0) QModelIndex(0,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: display= "mass_sweeper_precise.py"
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: adding viewHistory ProxyItem(0x1beab20,0x1959210,1,KateDocument(0x1bfacb0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/mass_sweeper_precise.py" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  1  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: END!
+kate(4046)/kate-filetree KateFileTree::slotCurrentChanged: current: QModelIndex(0,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )  previous: QModelIndex(1,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTree::slotCurrentChanged: got doc, setting prev: QModelIndex(0,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeProxyModel::docIndex: !
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: selected doc= KateDocument(0x1bfacb0) QModelIndex(0,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: display= "mass_sweeper_precise.py"
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: adding viewHistory ProxyItem(0x1beab20,0x1959210,1,KateDocument(0x1bfacb0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/mass_sweeper_precise.py" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  1  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: END!
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+kate(4046)/kate-filetree KateFileTreePluginView::documentOpened: open KateDocument(0x160c090)
+kate(4046)/kate-filetree ProxyItem::ProxyItem: ProxyItem(0x13362a0,0x0,-1,QObject(0x0) ,"Untitled")
+kate(4046)/kate-filetree KateFileTreeModel::documentOpened: before add: ProxyItem(0x13362a0,0x0,-1,KateDocument(0x160c090) , "Untitled" )
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: END!
+kate(4046)/kate-filetree KateFileTreeModel::handleInsert: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::handleInsert: empty item
+kate(4046)/kate-filetree ProxyItem::addChild: added ProxyItem(0x13362a0,0x1185370,1,KateDocument(0x160c090) , "Untitled" )   to ProxyItemDir(0x1185370,0x0,-1,"m_root", children:2)
+kate(4046)/kate-filetree KateFileTreeModel::documentOpened: after add: ProxyItem(0x13362a0,0x1185370,1,KateDocument(0x160c090) , "Untitled" )
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: change to unnamed item
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: ProxyItem(0x13362a0,0x1185370,1,KateDocument(0x160c090) , "Untitled" )
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: "Untitled" -> "Untitled"
+kate(4046)/kate-filetree KateFileTreeModel::handleNameChange: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::handleNameChange: bogus name change
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeProxyModel::docIndex: !
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: selected doc= KateDocument(0x1bfacb0) QModelIndex(0,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: display= "mass_sweeper_precise.py"
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: adding viewHistory ProxyItem(0x1beab20,0x1959210,1,KateDocument(0x1bfacb0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/mass_sweeper_precise.py" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  1  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: ProxyItem(0x13362a0,0x1185370,1,KateDocument(0x160c090) , "Untitled" )
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: "Untitled" -> "/home/sidd/Desktop/MW-research/like_surface/like_surface/data_vals.py"
+kate(4046)/kate-filetree KateFileTreeModel::handleNameChange: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::handleNameChange: removing ProxyItem(0x13362a0,0x1185370,1,KateDocument(0x160c090) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/data_vals.py" )   from ProxyItemDir(0x1185370,0x0,-1,"m_root", children:2)
+kate(4046)/kate-filetree ProxyItem::remChild: remove ProxyItem(0x13362a0,0x1185370,1,KateDocument(0x160c090) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/data_vals.py" )   from ProxyItemDir(0x1185370,0x0,-1,"m_root", children:2)
+kate(4046)/kate-filetree KateFileTreeModel::handleEmptyParents: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::handleEmptyParents: parent ProxyItemDir(0x1185370,0x0,-1,"m_root", children:1) grandparentProxyItemDir(0x0)
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: END!
+kate(4046)/kate-filetree KateFileTreeModel::handleNameChange: inserting ProxyItem(0x13362a0,0x0,1,KateDocument(0x160c090) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/data_vals.py" )
+kate(4046)/kate-filetree KateFileTreeModel::handleInsert: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::handleInsert: got a root, inserting into it
+kate(4046)/kate-filetree KateFileTreeModel::insertItemInto: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::insertItemInto: creating tree for ProxyItem(0x13362a0,0x0,1,KateDocument(0x160c090) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/data_vals.py" )
+kate(4046)/kate-filetree KateFileTreeModel::insertItemInto: adding ProxyItem(0x13362a0,0x0,1,KateDocument(0x160c090) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/data_vals.py" )   to ProxyItemDir(0x1959210,0x1185370,0,"/home/sidd/Desktop/MW-research/like_surface/like_surface", children:2)
+kate(4046)/kate-filetree ProxyItem::addChild: added ProxyItem(0x13362a0,0x1959210,2,KateDocument(0x160c090) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/data_vals.py" )   to ProxyItemDir(0x1959210,0x1185370,0,"/home/sidd/Desktop/MW-research/like_surface/like_surface", children:3)
+kate(4046)/kate-filetree KateFileTreeModel::insertItemInto: END!
+kate(4046)/kate-filetree KateFileTreeModel::handleInsert: END!
+kate(4046)/kate-filetree KateFileTreeModel::handleNameChange: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeProxyModel::docIndex: !
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: selected doc= KateDocument(0x1bfacb0) QModelIndex(1,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: display= "mass_sweeper_precise.py"
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: adding viewHistory ProxyItem(0x1beab20,0x1959210,1,KateDocument(0x1bfacb0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/mass_sweeper_precise.py" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  1  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: ProxyItem(0x13362a0,0x1959210,2,KateDocument(0x160c090) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/data_vals.py" )
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: "data_vals.py" -> "/home/sidd/Desktop/MW-research/like_surface/like_surface/data_vals.py"
+kate(4046)/kate-filetree KateFileTreeModel::handleNameChange: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::handleNameChange: bogus name change
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeProxyModel::docIndex: !
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: selected doc= KateDocument(0x1bfacb0) QModelIndex(1,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: display= "mass_sweeper_precise.py"
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: adding viewHistory ProxyItem(0x1beab20,0x1959210,1,KateDocument(0x1bfacb0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/mass_sweeper_precise.py" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  1  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeProxyModel::docIndex: !
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: selected doc= KateDocument(0x160c090) QModelIndex(0,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: display= "data_vals.py"
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: adding viewHistory ProxyItem(0x13362a0,0x1959210,2,KateDocument(0x160c090) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/data_vals.py" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  1  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: END!
+kate(4046)/kate-filetree KateFileTree::slotCurrentChanged: current: QModelIndex(0,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )  previous: QModelIndex(1,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTree::slotCurrentChanged: got doc, setting prev: QModelIndex(0,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: END!
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+kate(4046)/kate-filetree KateFileTree::mouseClicked: got index QModelIndex(0,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTree::mouseClicked: got doc QModelIndex(0,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )  setting prev: QModelIndex(-1,-1,0x0,QObject(0x0) )
+kate(4046)/kate-filetree KateFileTreePluginView::documentOpened: open KateDocument(0x12212d0)
+kate(4046)/kate-filetree ProxyItem::ProxyItem: ProxyItem(0x1e36b00,0x0,-1,QObject(0x0) ,"Untitled")
+kate(4046)/kate-filetree KateFileTreeModel::documentOpened: before add: ProxyItem(0x1e36b00,0x0,-1,KateDocument(0x12212d0) , "Untitled" )
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: END!
+kate(4046)/kate-filetree KateFileTreeModel::handleInsert: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::handleInsert: empty item
+kate(4046)/kate-filetree ProxyItem::addChild: added ProxyItem(0x1e36b00,0x1185370,1,KateDocument(0x12212d0) , "Untitled" )   to ProxyItemDir(0x1185370,0x0,-1,"m_root", children:2)
+kate(4046)/kate-filetree KateFileTreeModel::documentOpened: after add: ProxyItem(0x1e36b00,0x1185370,1,KateDocument(0x12212d0) , "Untitled" )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeProxyModel::docIndex: !
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: selected doc= KateDocument(0x12212d0) QModelIndex(1,0,0xfde410,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: display= "Untitled"
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: adding viewHistory ProxyItem(0x1e36b00,0x1185370,1,KateDocument(0x12212d0) , "Untitled" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  1  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: END!
+kate(4046)/kate-filetree KateFileTree::slotCurrentChanged: current: QModelIndex(1,0,0xfde410,KateFileTreeProxyModel(0xe36500) )  previous: QModelIndex(0,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTree::slotCurrentChanged: got doc, setting prev: QModelIndex(1,0,0xfde410,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: END!
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: modified!
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: adding editHistory ProxyItem(0x1e36b00,0x1185370,1,KateDocument(0x12212d0) , "Untitled" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  2  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: saved!
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: adding editHistory ProxyItem(0x1e36b00,0x1185370,1,KateDocument(0x12212d0) , "Untitled" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  2  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: END!
+kate(4046)/kate-filetree KateFileTree::mouseClicked: got index QModelIndex(1,0,0xfde410,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTree::mouseClicked: got doc QModelIndex(1,0,0xfde410,KateFileTreeProxyModel(0xe36500) )  setting prev: QModelIndex(-1,-1,0x0,QObject(0x0) )
+kate(4046)/kate-filetree KateFileTreeModel::documentClosed: "" ProxyItem(0x1e36b00,0x1185370,1,KateDocument(0x12212d0) , "Untitled" )
+kate(4046)/kate-filetree KateFileTreeModel::documentClosed: removing brush ProxyItem(0x1e36b00,0x1185370,1,KateDocument(0x12212d0) , "Untitled" )
+kate(4046)/kate-filetree KateFileTreeModel::documentClosed: removing viewHistory ProxyItem(0x1e36b00,0x1185370,1,KateDocument(0x12212d0) , "Untitled" )
+kate(4046)/kate-filetree KateFileTreeModel::documentClosed: removing editHistory ProxyItem(0x1e36b00,0x1185370,1,KateDocument(0x12212d0) , "Untitled" )
+kate(4046)/kate-filetree KateFileTree::slotCurrentChanged: current: QModelIndex(0,0,0xfde410,KateFileTreeProxyModel(0xe36500) )  previous: QModelIndex(1,0,0xfde410,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree ProxyItem::remChild: remove ProxyItem(0x1e36b00,0x1185370,1,KateDocument(0x12212d0) , "Untitled" )   from ProxyItemDir(0x1185370,0x0,-1,"m_root", children:2)
+kate(4046)/kate-filetree KateFileTreeModel::handleEmptyParents: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::handleEmptyParents: parent ProxyItemDir(0x1185370,0x0,-1,"m_root", children:1) grandparentProxyItemDir(0x0)
+kate(4046)/kate-filetree KateFileTreePluginView::documentClosed: close KateDocument(0x12212d0)
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeProxyModel::docIndex: !
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: selected doc= KateDocument(0x160c090) QModelIndex(0,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: display= "data_vals.py"
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: adding viewHistory ProxyItem(0x13362a0,0x1959210,2,KateDocument(0x160c090) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/data_vals.py" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  1  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: END!
+kate(4046)/kate-filetree KateFileTree::slotCurrentChanged: current: QModelIndex(0,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )  previous: QModelIndex(0,0,0x11854d0,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTree::slotCurrentChanged: got doc, setting prev: QModelIndex(0,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: END!
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+kate(4046)/kate-filetree KateFileTree::slotCurrentChanged: current: QModelIndex(1,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )  previous: QModelIndex(0,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTree::slotCurrentChanged: got doc, setting prev: QModelIndex(1,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTree::mouseClicked: got index QModelIndex(1,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTree::mouseClicked: got doc QModelIndex(1,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )  setting prev: QModelIndex(-1,-1,0x0,QObject(0x0) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeProxyModel::docIndex: !
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: selected doc= KateDocument(0x1bfacb0) QModelIndex(1,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: display= "mass_sweeper_precise.py"
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: adding viewHistory ProxyItem(0x1beab20,0x1959210,1,KateDocument(0x1bfacb0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/mass_sweeper_precise.py" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  1  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: END!
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: modified!
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: adding editHistory ProxyItem(0x1beab20,0x1959210,1,KateDocument(0x1bfacb0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/mass_sweeper_precise.py" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  1  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: ProxyItem(0x1beab20,0x1959210,1,KateDocument(0x1bfacb0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/mass_sweeper_precise.py" )
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: "mass_sweeper_precise.py" -> "/home/sidd/Desktop/MW-research/like_surface/like_surface/mass_sweeper_precise.py"
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: removing brush ProxyItem(0x1beab20,0x1959210,1,KateDocument(0x1bfacb0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/mass_sweeper_precise.py" )
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: removing/replacing view history ProxyItem(0x1beab20,0x1959210,1,KateDocument(0x1bfacb0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/mass_sweeper_precise.py" )
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: removing/replacing edit history ProxyItem(0x1beab20,0x1959210,1,KateDocument(0x1bfacb0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/mass_sweeper_precise.py" )
+kate(4046)/kate-filetree KateFileTreeModel::handleNameChange: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::handleNameChange: bogus name change
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeProxyModel::docIndex: !
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: selected doc= KateDocument(0x1bfacb0) QModelIndex(1,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: display= "mass_sweeper_precise.py"
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: adding viewHistory ProxyItem(0x1beab20,0x1959210,1,KateDocument(0x1bfacb0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/mass_sweeper_precise.py" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  1  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: saved!
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: adding editHistory ProxyItem(0x1beab20,0x1959210,1,KateDocument(0x1bfacb0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/mass_sweeper_precise.py" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  1  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: modified!
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: adding editHistory ProxyItem(0x1beab20,0x1959210,1,KateDocument(0x1bfacb0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/mass_sweeper_precise.py" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  1  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: ProxyItem(0x1beab20,0x1959210,1,KateDocument(0x1bfacb0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/mass_sweeper_precise.py" )
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: "mass_sweeper_precise.py" -> "/home/sidd/Desktop/MW-research/like_surface/like_surface/mass_sweeper_precise.py"
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: removing brush ProxyItem(0x1beab20,0x1959210,1,KateDocument(0x1bfacb0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/mass_sweeper_precise.py" )
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: removing/replacing view history ProxyItem(0x1beab20,0x1959210,1,KateDocument(0x1bfacb0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/mass_sweeper_precise.py" )
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: removing/replacing edit history ProxyItem(0x1beab20,0x1959210,1,KateDocument(0x1bfacb0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/mass_sweeper_precise.py" )
+kate(4046)/kate-filetree KateFileTreeModel::handleNameChange: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::handleNameChange: bogus name change
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeProxyModel::docIndex: !
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: selected doc= KateDocument(0x1bfacb0) QModelIndex(1,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: display= "mass_sweeper_precise.py"
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: adding viewHistory ProxyItem(0x1beab20,0x1959210,1,KateDocument(0x1bfacb0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/mass_sweeper_precise.py" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  1  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: saved!
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: adding editHistory ProxyItem(0x1beab20,0x1959210,1,KateDocument(0x1bfacb0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/mass_sweeper_precise.py" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  1  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: modified!
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: adding editHistory ProxyItem(0x1beab20,0x1959210,1,KateDocument(0x1bfacb0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/mass_sweeper_precise.py" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  1  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: ProxyItem(0x1beab20,0x1959210,1,KateDocument(0x1bfacb0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/mass_sweeper_precise.py" )
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: "mass_sweeper_precise.py" -> "/home/sidd/Desktop/MW-research/like_surface/like_surface/mass_sweeper_precise.py"
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: removing brush ProxyItem(0x1beab20,0x1959210,1,KateDocument(0x1bfacb0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/mass_sweeper_precise.py" )
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: removing/replacing view history ProxyItem(0x1beab20,0x1959210,1,KateDocument(0x1bfacb0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/mass_sweeper_precise.py" )
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: removing/replacing edit history ProxyItem(0x1beab20,0x1959210,1,KateDocument(0x1bfacb0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/mass_sweeper_precise.py" )
+kate(4046)/kate-filetree KateFileTreeModel::handleNameChange: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::handleNameChange: bogus name change
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeProxyModel::docIndex: !
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: selected doc= KateDocument(0x1bfacb0) QModelIndex(1,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: display= "mass_sweeper_precise.py"
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: adding viewHistory ProxyItem(0x1beab20,0x1959210,1,KateDocument(0x1bfacb0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/mass_sweeper_precise.py" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  1  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: saved!
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: adding editHistory ProxyItem(0x1beab20,0x1959210,1,KateDocument(0x1bfacb0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/mass_sweeper_precise.py" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  1  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: END!
+kate(4046)/kate-filetree KateFileTree::mouseClicked: got index QModelIndex(1,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTree::mouseClicked: got doc QModelIndex(1,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )  setting prev: QModelIndex(-1,-1,0x0,QObject(0x0) )
+kate(4046)/kate-filetree KateFileTree::slotCurrentChanged: current: QModelIndex(2,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )  previous: QModelIndex(1,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTree::slotCurrentChanged: got doc, setting prev: QModelIndex(2,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTree::mouseClicked: got index QModelIndex(2,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTree::mouseClicked: got doc QModelIndex(2,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )  setting prev: QModelIndex(-1,-1,0x0,QObject(0x0) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeProxyModel::docIndex: !
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: selected doc= KateDocument(0xf4e870) QModelIndex(2,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: display= "parser.py"
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: adding viewHistory ProxyItem(0x1185fe0,0x1959210,0,KateDocument(0xf4e870) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/parser.py" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  1  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: END!
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+kate(4046)/kate-filetree KateFileTreePluginView::documentOpened: open KateDocument(0x158e6e0)
+kate(4046)/kate-filetree ProxyItem::ProxyItem: ProxyItem(0x1bf7a20,0x0,-1,QObject(0x0) ,"/home/sidd/Desktop/MW-research/like_surface/like_surface/plot.gnuplot")
+kate(4046)/kate-filetree KateFileTreeModel::documentOpened: before add: ProxyItem(0x1bf7a20,0x0,-1,KateDocument(0x158e6e0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot.gnuplot" )
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: END!
+kate(4046)/kate-filetree KateFileTreeModel::handleInsert: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::handleInsert: got a root, inserting into it
+kate(4046)/kate-filetree KateFileTreeModel::insertItemInto: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::insertItemInto: creating tree for ProxyItem(0x1bf7a20,0x0,-1,KateDocument(0x158e6e0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot.gnuplot" )
+kate(4046)/kate-filetree KateFileTreeModel::insertItemInto: adding ProxyItem(0x1bf7a20,0x0,-1,KateDocument(0x158e6e0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot.gnuplot" )   to ProxyItemDir(0x1959210,0x1185370,0,"/home/sidd/Desktop/MW-research/like_surface/like_surface", children:3)
+kate(4046)/kate-filetree ProxyItem::addChild: added ProxyItem(0x1bf7a20,0x1959210,3,KateDocument(0x158e6e0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot.gnuplot" )   to ProxyItemDir(0x1959210,0x1185370,0,"/home/sidd/Desktop/MW-research/like_surface/like_surface", children:4)
+kate(4046)/kate-filetree KateFileTreeModel::insertItemInto: END!
+kate(4046)/kate-filetree KateFileTreeModel::handleInsert: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentOpened: after add: ProxyItem(0x1bf7a20,0x1959210,3,KateDocument(0x158e6e0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot.gnuplot" )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeProxyModel::docIndex: !
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: selected doc= KateDocument(0xf4e870) QModelIndex(2,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: display= "parser.py"
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: adding viewHistory ProxyItem(0x1185fe0,0x1959210,0,KateDocument(0xf4e870) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/parser.py" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  1  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeProxyModel::docIndex: !
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: selected doc= KateDocument(0x158e6e0) QModelIndex(3,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: display= "plot.gnuplot"
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: adding viewHistory ProxyItem(0x1bf7a20,0x1959210,3,KateDocument(0x158e6e0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot.gnuplot" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  1  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: END!
+kate(4046)/kate-filetree KateFileTree::slotCurrentChanged: current: QModelIndex(3,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )  previous: QModelIndex(2,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTree::slotCurrentChanged: got doc, setting prev: QModelIndex(3,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: END!
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 20 (X_GetProperty)
+  Resource id:  0x46001fa
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 20 (X_GetProperty)
+  Resource id:  0x46001fa
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+kate(4046)/kate-filetree KateFileTree::slotCurrentChanged: current: QModelIndex(2,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )  previous: QModelIndex(3,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTree::slotCurrentChanged: got doc, setting prev: QModelIndex(2,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTree::mouseClicked: got index QModelIndex(2,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTree::mouseClicked: got doc QModelIndex(2,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )  setting prev: QModelIndex(-1,-1,0x0,QObject(0x0) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeProxyModel::docIndex: !
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: selected doc= KateDocument(0xf4e870) QModelIndex(2,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: display= "parser.py"
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: adding viewHistory ProxyItem(0x1185fe0,0x1959210,0,KateDocument(0xf4e870) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/parser.py" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  1  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: END!
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+kate(4046)/kate-filetree KateFileTreePluginView::documentOpened: open KateDocument(0x219e6e0)
+kate(4046)/kate-filetree ProxyItem::ProxyItem: ProxyItem(0x1c50c10,0x0,-1,QObject(0x0) ,"Untitled")
+kate(4046)/kate-filetree KateFileTreeModel::documentOpened: before add: ProxyItem(0x1c50c10,0x0,-1,KateDocument(0x219e6e0) , "Untitled" )
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: END!
+kate(4046)/kate-filetree KateFileTreeModel::handleInsert: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::handleInsert: empty item
+kate(4046)/kate-filetree ProxyItem::addChild: added ProxyItem(0x1c50c10,0x1185370,1,KateDocument(0x219e6e0) , "Untitled" )   to ProxyItemDir(0x1185370,0x0,-1,"m_root", children:2)
+kate(4046)/kate-filetree KateFileTreeModel::documentOpened: after add: ProxyItem(0x1c50c10,0x1185370,1,KateDocument(0x219e6e0) , "Untitled" )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeProxyModel::docIndex: !
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: selected doc= KateDocument(0x219e6e0) QModelIndex(1,0,0xfde410,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: display= "Untitled"
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: adding viewHistory ProxyItem(0x1c50c10,0x1185370,1,KateDocument(0x219e6e0) , "Untitled" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  1  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: END!
+kate(4046)/kate-filetree KateFileTree::slotCurrentChanged: current: QModelIndex(1,0,0xfde410,KateFileTreeProxyModel(0xe36500) )  previous: QModelIndex(2,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTree::slotCurrentChanged: got doc, setting prev: QModelIndex(1,0,0xfde410,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: END!
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: modified!
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: adding editHistory ProxyItem(0x1c50c10,0x1185370,1,KateDocument(0x219e6e0) , "Untitled" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  2  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: END!
+kate(4046)/kate-filetree KateFileTree::slotCurrentChanged: current: QModelIndex(3,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )  previous: QModelIndex(1,0,0xfde410,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTree::slotCurrentChanged: got doc, setting prev: QModelIndex(3,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTree::mouseClicked: got index QModelIndex(3,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTree::mouseClicked: got doc QModelIndex(3,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )  setting prev: QModelIndex(-1,-1,0x0,QObject(0x0) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeProxyModel::docIndex: !
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: selected doc= KateDocument(0x158e6e0) QModelIndex(3,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: display= "plot.gnuplot"
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: adding viewHistory ProxyItem(0x1bf7a20,0x1959210,3,KateDocument(0x158e6e0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot.gnuplot" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  2  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: END!
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+kate(4046)/kate-filetree KateFileTree::slotCurrentChanged: current: QModelIndex(1,0,0xfde410,KateFileTreeProxyModel(0xe36500) )  previous: QModelIndex(3,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTree::slotCurrentChanged: got doc, setting prev: QModelIndex(1,0,0xfde410,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTree::mouseClicked: got index QModelIndex(1,0,0xfde410,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTree::mouseClicked: got doc QModelIndex(1,0,0xfde410,KateFileTreeProxyModel(0xe36500) )  setting prev: QModelIndex(-1,-1,0x0,QObject(0x0) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeProxyModel::docIndex: !
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: selected doc= KateDocument(0x219e6e0) QModelIndex(1,0,0xfde410,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: display= "Untitled"
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: adding viewHistory ProxyItem(0x1c50c10,0x1185370,1,KateDocument(0x219e6e0) , "Untitled" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  2  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: END!
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+[31muint DBusMenuExporterDBus::GetLayout(int, int, const QStringList&, DBusMenuLayoutItem&)[0m: Condition failed: menu 
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: ProxyItem(0x1c50c10,0x1185370,1,KateDocument(0x219e6e0) , "Untitled" )
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: "Untitled" -> "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot"
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: removing brush ProxyItem(0x1c50c10,0x1185370,1,KateDocument(0x219e6e0) , "Untitled" )
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: removing/replacing view history ProxyItem(0x1c50c10,0x1185370,1,KateDocument(0x219e6e0) , "Untitled" )
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: removing/replacing edit history ProxyItem(0x1c50c10,0x1185370,1,KateDocument(0x219e6e0) , "Untitled" )
+kate(4046)/kate-filetree KateFileTreeModel::handleNameChange: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::handleNameChange: removing ProxyItem(0x1c50c10,0x1185370,1,KateDocument(0x219e6e0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot" )   from ProxyItemDir(0x1185370,0x0,-1,"m_root", children:2)
+kate(4046)/kate-filetree KateFileTree::slotCurrentChanged: current: QModelIndex(0,0,0xfde410,KateFileTreeProxyModel(0xe36500) )  previous: QModelIndex(1,0,0xfde410,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree ProxyItem::remChild: remove ProxyItem(0x1c50c10,0x1185370,1,KateDocument(0x219e6e0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot" )   from ProxyItemDir(0x1185370,0x0,-1,"m_root", children:2)
+kate(4046)/kate-filetree KateFileTreeModel::handleEmptyParents: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::handleEmptyParents: parent ProxyItemDir(0x1185370,0x0,-1,"m_root", children:1) grandparentProxyItemDir(0x0)
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: END!
+kate(4046)/kate-filetree KateFileTreeModel::handleNameChange: inserting ProxyItem(0x1c50c10,0x0,1,KateDocument(0x219e6e0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot" )
+kate(4046)/kate-filetree KateFileTreeModel::handleInsert: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::handleInsert: got a root, inserting into it
+kate(4046)/kate-filetree KateFileTreeModel::insertItemInto: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::insertItemInto: creating tree for ProxyItem(0x1c50c10,0x0,1,KateDocument(0x219e6e0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot" )
+kate(4046)/kate-filetree KateFileTreeModel::insertItemInto: adding ProxyItem(0x1c50c10,0x0,1,KateDocument(0x219e6e0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot" )   to ProxyItemDir(0x1959210,0x1185370,0,"/home/sidd/Desktop/MW-research/like_surface/like_surface", children:4)
+kate(4046)/kate-filetree ProxyItem::addChild: added ProxyItem(0x1c50c10,0x1959210,4,KateDocument(0x219e6e0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot" )   to ProxyItemDir(0x1959210,0x1185370,0,"/home/sidd/Desktop/MW-research/like_surface/like_surface", children:5)
+kate(4046)/kate-filetree KateFileTreeModel::insertItemInto: END!
+kate(4046)/kate-filetree KateFileTreeModel::handleInsert: END!
+kate(4046)/kate-filetree KateFileTreeModel::handleNameChange: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeProxyModel::docIndex: !
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: selected doc= KateDocument(0x219e6e0) QModelIndex(4,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: display= "plot_mass_precise.gnuplot"
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: adding viewHistory ProxyItem(0x1c50c10,0x1959210,4,KateDocument(0x219e6e0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  2  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: END!
+kate(4046)/kate-filetree KateFileTree::slotCurrentChanged: current: QModelIndex(4,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )  previous: QModelIndex(0,0,0xfde410,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTree::slotCurrentChanged: got doc, setting prev: QModelIndex(4,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: ProxyItem(0x1c50c10,0x1959210,4,KateDocument(0x219e6e0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot" )
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: "plot_mass_precise.gnuplot" -> "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot"
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: removing brush ProxyItem(0x1c50c10,0x1959210,4,KateDocument(0x219e6e0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot" )
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: removing/replacing view history ProxyItem(0x1c50c10,0x1959210,4,KateDocument(0x219e6e0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot" )
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: removing/replacing edit history ProxyItem(0x1c50c10,0x1959210,4,KateDocument(0x219e6e0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot" )
+kate(4046)/kate-filetree KateFileTreeModel::handleNameChange: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::handleNameChange: bogus name change
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeProxyModel::docIndex: !
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: selected doc= KateDocument(0x219e6e0) QModelIndex(4,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: display= "plot_mass_precise.gnuplot"
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: adding viewHistory ProxyItem(0x1c50c10,0x1959210,4,KateDocument(0x219e6e0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  2  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: saved!
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: adding editHistory ProxyItem(0x1c50c10,0x1959210,4,KateDocument(0x219e6e0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  2  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: END!
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 20 (X_GetProperty)
+  Resource id:  0x4600263
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode: 20 (X_GetProperty)
+  Resource id:  0x4600263
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: modified!
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: adding editHistory ProxyItem(0x1c50c10,0x1959210,4,KateDocument(0x219e6e0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  2  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: ProxyItem(0x1c50c10,0x1959210,4,KateDocument(0x219e6e0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot" )
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: "plot_mass_precise.gnuplot" -> "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot"
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: removing brush ProxyItem(0x1c50c10,0x1959210,4,KateDocument(0x219e6e0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot" )
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: removing/replacing view history ProxyItem(0x1c50c10,0x1959210,4,KateDocument(0x219e6e0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot" )
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: removing/replacing edit history ProxyItem(0x1c50c10,0x1959210,4,KateDocument(0x219e6e0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot" )
+kate(4046)/kate-filetree KateFileTreeModel::handleNameChange: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::handleNameChange: bogus name change
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeProxyModel::docIndex: !
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: selected doc= KateDocument(0x219e6e0) QModelIndex(4,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: display= "plot_mass_precise.gnuplot"
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: adding viewHistory ProxyItem(0x1c50c10,0x1959210,4,KateDocument(0x219e6e0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  2  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: saved!
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: adding editHistory ProxyItem(0x1c50c10,0x1959210,4,KateDocument(0x219e6e0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  2  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: modified!
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: adding editHistory ProxyItem(0x1c50c10,0x1959210,4,KateDocument(0x219e6e0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  2  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: ProxyItem(0x1c50c10,0x1959210,4,KateDocument(0x219e6e0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot" )
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: "plot_mass_precise.gnuplot" -> "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot"
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: removing brush ProxyItem(0x1c50c10,0x1959210,4,KateDocument(0x219e6e0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot" )
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: removing/replacing view history ProxyItem(0x1c50c10,0x1959210,4,KateDocument(0x219e6e0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot" )
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: removing/replacing edit history ProxyItem(0x1c50c10,0x1959210,4,KateDocument(0x219e6e0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot" )
+kate(4046)/kate-filetree KateFileTreeModel::handleNameChange: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::handleNameChange: bogus name change
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeProxyModel::docIndex: !
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: selected doc= KateDocument(0x219e6e0) QModelIndex(4,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: display= "plot_mass_precise.gnuplot"
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: adding viewHistory ProxyItem(0x1c50c10,0x1959210,4,KateDocument(0x219e6e0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  2  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: saved!
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: adding editHistory ProxyItem(0x1c50c10,0x1959210,4,KateDocument(0x219e6e0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  2  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: modified!
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: adding editHistory ProxyItem(0x1c50c10,0x1959210,4,KateDocument(0x219e6e0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  2  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: ProxyItem(0x1c50c10,0x1959210,4,KateDocument(0x219e6e0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot" )
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: "plot_mass_precise.gnuplot" -> "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot"
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: removing brush ProxyItem(0x1c50c10,0x1959210,4,KateDocument(0x219e6e0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot" )
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: removing/replacing view history ProxyItem(0x1c50c10,0x1959210,4,KateDocument(0x219e6e0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot" )
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: removing/replacing edit history ProxyItem(0x1c50c10,0x1959210,4,KateDocument(0x219e6e0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot" )
+kate(4046)/kate-filetree KateFileTreeModel::handleNameChange: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::handleNameChange: bogus name change
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeProxyModel::docIndex: !
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: selected doc= KateDocument(0x219e6e0) QModelIndex(4,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: display= "plot_mass_precise.gnuplot"
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: adding viewHistory ProxyItem(0x1c50c10,0x1959210,4,KateDocument(0x219e6e0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  2  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: saved!
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: adding editHistory ProxyItem(0x1c50c10,0x1959210,4,KateDocument(0x219e6e0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  2  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: modified!
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: adding editHistory ProxyItem(0x1c50c10,0x1959210,4,KateDocument(0x219e6e0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  2  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: ProxyItem(0x1c50c10,0x1959210,4,KateDocument(0x219e6e0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot" )
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: "plot_mass_precise.gnuplot" -> "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot"
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: removing brush ProxyItem(0x1c50c10,0x1959210,4,KateDocument(0x219e6e0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot" )
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: removing/replacing view history ProxyItem(0x1c50c10,0x1959210,4,KateDocument(0x219e6e0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot" )
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: removing/replacing edit history ProxyItem(0x1c50c10,0x1959210,4,KateDocument(0x219e6e0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot" )
+kate(4046)/kate-filetree KateFileTreeModel::handleNameChange: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::handleNameChange: bogus name change
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeProxyModel::docIndex: !
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: selected doc= KateDocument(0x219e6e0) QModelIndex(4,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: display= "plot_mass_precise.gnuplot"
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: adding viewHistory ProxyItem(0x1c50c10,0x1959210,4,KateDocument(0x219e6e0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  2  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: saved!
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: adding editHistory ProxyItem(0x1c50c10,0x1959210,4,KateDocument(0x219e6e0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  2  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: modified!
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: adding editHistory ProxyItem(0x1c50c10,0x1959210,4,KateDocument(0x219e6e0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  2  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: ProxyItem(0x1c50c10,0x1959210,4,KateDocument(0x219e6e0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot" )
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: "plot_mass_precise.gnuplot" -> "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot"
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: removing brush ProxyItem(0x1c50c10,0x1959210,4,KateDocument(0x219e6e0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot" )
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: removing/replacing view history ProxyItem(0x1c50c10,0x1959210,4,KateDocument(0x219e6e0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot" )
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: removing/replacing edit history ProxyItem(0x1c50c10,0x1959210,4,KateDocument(0x219e6e0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot" )
+kate(4046)/kate-filetree KateFileTreeModel::handleNameChange: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::handleNameChange: bogus name change
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeProxyModel::docIndex: !
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: selected doc= KateDocument(0x219e6e0) QModelIndex(4,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: display= "plot_mass_precise.gnuplot"
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: adding viewHistory ProxyItem(0x1c50c10,0x1959210,4,KateDocument(0x219e6e0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  2  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: saved!
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: adding editHistory ProxyItem(0x1c50c10,0x1959210,4,KateDocument(0x219e6e0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  2  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: modified!
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: adding editHistory ProxyItem(0x1c50c10,0x1959210,4,KateDocument(0x219e6e0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  2  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: ProxyItem(0x1c50c10,0x1959210,4,KateDocument(0x219e6e0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot" )
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: "plot_mass_precise.gnuplot" -> "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot"
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: removing brush ProxyItem(0x1c50c10,0x1959210,4,KateDocument(0x219e6e0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot" )
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: removing/replacing view history ProxyItem(0x1c50c10,0x1959210,4,KateDocument(0x219e6e0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot" )
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: removing/replacing edit history ProxyItem(0x1c50c10,0x1959210,4,KateDocument(0x219e6e0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot" )
+kate(4046)/kate-filetree KateFileTreeModel::handleNameChange: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::handleNameChange: bogus name change
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeProxyModel::docIndex: !
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: selected doc= KateDocument(0x219e6e0) QModelIndex(4,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: display= "plot_mass_precise.gnuplot"
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: adding viewHistory ProxyItem(0x1c50c10,0x1959210,4,KateDocument(0x219e6e0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  2  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: saved!
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: adding editHistory ProxyItem(0x1c50c10,0x1959210,4,KateDocument(0x219e6e0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  2  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: modified!
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: adding editHistory ProxyItem(0x1c50c10,0x1959210,4,KateDocument(0x219e6e0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  2  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: ProxyItem(0x1c50c10,0x1959210,4,KateDocument(0x219e6e0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot" )
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: "plot_mass_precise.gnuplot" -> "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot"
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: removing brush ProxyItem(0x1c50c10,0x1959210,4,KateDocument(0x219e6e0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot" )
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: removing/replacing view history ProxyItem(0x1c50c10,0x1959210,4,KateDocument(0x219e6e0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot" )
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: removing/replacing edit history ProxyItem(0x1c50c10,0x1959210,4,KateDocument(0x219e6e0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot" )
+kate(4046)/kate-filetree KateFileTreeModel::handleNameChange: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::handleNameChange: bogus name change
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeProxyModel::docIndex: !
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::docIndex: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: selected doc= KateDocument(0x219e6e0) QModelIndex(4,0,0x1497f70,KateFileTreeProxyModel(0xe36500) )
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: display= "plot_mass_precise.gnuplot"
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: adding viewHistory ProxyItem(0x1c50c10,0x1959210,4,KateDocument(0x219e6e0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  2  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentActivated: END!
+kate(4046)/kate-filetree KateFileTreePluginView::viewChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentNameChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: saved!
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::setupIcon: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentModifiedChanged: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: adding editHistory ProxyItem(0x1c50c10,0x1959210,4,KateDocument(0x219e6e0) , "/home/sidd/Desktop/MW-research/like_surface/like_surface/plot_mass_precise.gnuplot" )
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: BEGIN!
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: m_editHistory contains  2  elements
+kate(4046)/kate-filetree KateFileTreeModel::updateBackgrounds: END!
+kate(4046)/kate-filetree KateFileTreeModel::documentEdited: END!
+kate(4046)/kate-filetree KateFileTreePluginSettings::save: save config!

@@ -1,0 +1,79 @@
+Using OpenMP 6 max threads on a system with 8 processors
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+<search_likelihood>-644.417510285026538</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+<search_likelihood>-545.504103460479314</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+<search_likelihood>-440.565745818013738</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+<search_likelihood>-370.849751116595201</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+<search_likelihood>-263.378070285437673</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+<search_likelihood>-244.024859135515612</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+<search_likelihood>-198.389852721369465</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+<search_likelihood>-143.983178480949732</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+<search_likelihood>-111.153556995662072</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+<search_likelihood>-79.771416094428332</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+<search_likelihood>-60.054984898703665</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+<search_likelihood>-42.575702210004707</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+<search_likelihood>-32.935980389787076</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+<search_likelihood>-22.718379194705889</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+<search_likelihood>-15.915377501688845</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+<search_likelihood>-6.548394067274621</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+<search_likelihood>-3.171979356494917</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+<search_likelihood>-3.839275233257024</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+<search_likelihood>-1.371363981578537</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+<search_likelihood>-0.000000001000000</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+<search_likelihood>-3.328437101198673</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+<search_likelihood>-5.001788161032406</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+<search_likelihood>-11.882352273164623</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+<search_likelihood>-15.671083903341982</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+<search_likelihood>-21.490820906074102</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+<search_likelihood>-20.796641451193825</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+<search_likelihood>-30.109290770919376</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+<search_likelihood>-44.851230411682778</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+<search_likelihood>-53.060621492253908</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+<search_likelihood>-54.290073663547169</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+<search_likelihood>-59.459706212559425</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+<search_likelihood>-59.487551214203940</search_likelihood>

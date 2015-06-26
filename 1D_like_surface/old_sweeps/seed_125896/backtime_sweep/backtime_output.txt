@@ -1,0 +1,104 @@
+Using OpenMP 6 max threads on a system with 8 processors
+Number of particles in bins is very small compared to total. (0 << 10000). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+Number of particles in bins is very small compared to total. (0 << 10000). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+Number of particles in bins is very small compared to total. (0 << 10000). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+Number of particles in bins is very small compared to total. (0 << 10000). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+<search_likelihood>-365.721024494028370</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+Number of particles in bins is very small compared to total. (0 << 10000). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+<search_likelihood>-693.591700405585470</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+Number of particles in bins is very small compared to total. (0 << 10000). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+Number of particles in bins is very small compared to total. (0 << 10000). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+Number of particles in bins is very small compared to total. (0 << 10000). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+Number of particles in bins is very small compared to total. (0 << 10000). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+<search_likelihood>-1.040982546988135</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+<search_likelihood>-0.000000001000000</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+<search_likelihood>-49.742990465423574</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+<search_likelihood>-190.560639458943513</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+<search_likelihood>-65.684345376752859</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+Number of particles in bins is very small compared to total. (0 << 10000). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+Number of particles in bins is very small compared to total. (0 << 10000). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+Number of particles in bins is very small compared to total. (0 << 10000). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+Likelihood was NAN. Returning worst case. 
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+Likelihood was NAN. Returning worst case. 
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+Likelihood was NAN. Returning worst case. 
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+Likelihood was NAN. Returning worst case. 
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+Likelihood was NAN. Returning worst case. 
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+Likelihood was NAN. Returning worst case. 
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+<search_likelihood>-93.627021860321648</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+<search_likelihood>-117.228696019864543</search_likelihood>
+Using OpenMP 6 max threads on a system with 8 processors
+<search_likelihood>-144.400088643911829</search_likelihood>

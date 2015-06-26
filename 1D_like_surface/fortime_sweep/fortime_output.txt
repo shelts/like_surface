@@ -1,0 +1,64 @@
+Using OpenMP 8 max threads on a system with 8 processors
+Likelihood was NAN. Returning worst case. 
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+Likelihood was NAN. Returning worst case. 
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+Likelihood was NAN. Returning worst case. 
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+Likelihood was NAN. Returning worst case. 
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+Likelihood was NAN. Returning worst case. 
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+Likelihood was NAN. Returning worst case. 
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+<search_likelihood>-110.269610096215246</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+<search_likelihood>-484.443690533564620</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+<search_likelihood>0.000000000726432</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+<search_likelihood>-314.969874039875492</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+<search_likelihood>-621.376450861533044</search_likelihood>
