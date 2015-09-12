@@ -1,0 +1,108 @@
+Using OpenMP 8 max threads on a system with 8 processors
+Likelihood was NAN. Returning worst case. 
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+Number of particles in bins is very small compared to total. (1 << 20000). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+Likelihood was NAN. Returning worst case. 
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+Number of particles in bins is very small compared to total. (0 << 20000). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+Number of particles in bins is very small compared to total. (0 << 20000). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+Number of particles in bins is very small compared to total. (0 << 20000). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+Likelihood was NAN. Returning worst case. 
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+<search_likelihood>-0.000000000020955</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+<search_likelihood>-298.362141085754331</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+<search_likelihood>-385.460116835316853</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+<search_likelihood>-399.741265555113955</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+<search_likelihood>-405.789795576464542</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+<search_likelihood>-408.633024401090836</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+Likelihood was NAN. Returning worst case. 
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+Likelihood was NAN. Returning worst case. 
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+Likelihood was NAN. Returning worst case. 
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+Likelihood was NAN. Returning worst case. 
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+Likelihood was NAN. Returning worst case. 
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+Likelihood was NAN. Returning worst case. 
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+Likelihood was NAN. Returning worst case. 
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+Likelihood was NAN. Returning worst case. 
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+Likelihood was NAN. Returning worst case. 
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+Likelihood was NAN. Returning worst case. 
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+Likelihood was NAN. Returning worst case. 
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+Likelihood was NAN. Returning worst case. 
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+Likelihood was NAN. Returning worst case. 
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+Likelihood was NAN. Returning worst case. 
+<search_likelihood>-9999999.900000000372529</search_likelihood>

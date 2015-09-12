@@ -1,105 +1,141 @@
 Using OpenMP 8 max threads on a system with 8 processors
-Likelihood was NAN. Returning worst case. 
-<search_likelihood>-9999999.900000000372529</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-Likelihood was NAN. Returning worst case. 
-<search_likelihood>-9999999.900000000372529</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-Likelihood was NAN. Returning worst case. 
-<search_likelihood>-9999999.900000000372529</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-Likelihood was NAN. Returning worst case. 
-<search_likelihood>-9999999.900000000372529</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-Likelihood was NAN. Returning worst case. 
+Poor likelihood.  Returning worst case.
 <search_likelihood>-9999999.900000000372529</search_likelihood>
 Using OpenMP 8 max threads on a system with 8 processors
 Poor likelihood.  Returning worst case.
 <search_likelihood>-9999999.900000000372529</search_likelihood>
 Using OpenMP 8 max threads on a system with 8 processors
-Likelihood was NAN. Returning worst case. 
-<search_likelihood>-9999999.900000000372529</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-Likelihood was NAN. Returning worst case. 
+Poor likelihood.  Returning worst case.
 <search_likelihood>-9999999.900000000372529</search_likelihood>
 Using OpenMP 8 max threads on a system with 8 processors
 Poor likelihood.  Returning worst case.
 <search_likelihood>-9999999.900000000372529</search_likelihood>
 Using OpenMP 8 max threads on a system with 8 processors
-Likelihood was NAN. Returning worst case. 
+Poor likelihood.  Returning worst case.
 <search_likelihood>-9999999.900000000372529</search_likelihood>
 Using OpenMP 8 max threads on a system with 8 processors
-Likelihood was NAN. Returning worst case. 
+Poor likelihood.  Returning worst case.
 <search_likelihood>-9999999.900000000372529</search_likelihood>
 Using OpenMP 8 max threads on a system with 8 processors
-Likelihood was NAN. Returning worst case. 
+Poor likelihood.  Returning worst case.
 <search_likelihood>-9999999.900000000372529</search_likelihood>
 Using OpenMP 8 max threads on a system with 8 processors
-Likelihood was NAN. Returning worst case. 
+Poor likelihood.  Returning worst case.
 <search_likelihood>-9999999.900000000372529</search_likelihood>
 Using OpenMP 8 max threads on a system with 8 processors
-Likelihood was NAN. Returning worst case. 
+Poor likelihood.  Returning worst case.
 <search_likelihood>-9999999.900000000372529</search_likelihood>
 Using OpenMP 8 max threads on a system with 8 processors
-Likelihood was NAN. Returning worst case. 
+Poor likelihood.  Returning worst case.
 <search_likelihood>-9999999.900000000372529</search_likelihood>
 Using OpenMP 8 max threads on a system with 8 processors
-Likelihood was NAN. Returning worst case. 
+Poor likelihood.  Returning worst case.
 <search_likelihood>-9999999.900000000372529</search_likelihood>
 Using OpenMP 8 max threads on a system with 8 processors
-Likelihood was NAN. Returning worst case. 
+Poor likelihood.  Returning worst case.
 <search_likelihood>-9999999.900000000372529</search_likelihood>
 Using OpenMP 8 max threads on a system with 8 processors
-Likelihood was NAN. Returning worst case. 
+<search_likelihood>-404.101183138303952</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+<search_likelihood>-86.223801158910476</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+<search_likelihood>-0.000000000020955</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+<search_likelihood>-69.214101947963385</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+<search_likelihood>-244.162930304675768</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+<search_likelihood>-496.349810269331499</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+Poor likelihood.  Returning worst case.
 <search_likelihood>-9999999.900000000372529</search_likelihood>
 Using OpenMP 8 max threads on a system with 8 processors
-<search_likelihood>0.000000000726432</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-<search_likelihood>-107.087144295172450</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-Likelihood was NAN. Returning worst case. 
+Poor likelihood.  Returning worst case.
 <search_likelihood>-9999999.900000000372529</search_likelihood>
 Using OpenMP 8 max threads on a system with 8 processors
-Likelihood was NAN. Returning worst case. 
+Poor likelihood.  Returning worst case.
 <search_likelihood>-9999999.900000000372529</search_likelihood>
 Using OpenMP 8 max threads on a system with 8 processors
-Likelihood was NAN. Returning worst case. 
+Poor likelihood.  Returning worst case.
 <search_likelihood>-9999999.900000000372529</search_likelihood>
 Using OpenMP 8 max threads on a system with 8 processors
-Likelihood was NAN. Returning worst case. 
+Poor likelihood.  Returning worst case.
 <search_likelihood>-9999999.900000000372529</search_likelihood>
 Using OpenMP 8 max threads on a system with 8 processors
-Likelihood was NAN. Returning worst case. 
+Poor likelihood.  Returning worst case.
 <search_likelihood>-9999999.900000000372529</search_likelihood>
 Using OpenMP 8 max threads on a system with 8 processors
-Likelihood was NAN. Returning worst case. 
+Poor likelihood.  Returning worst case.
 <search_likelihood>-9999999.900000000372529</search_likelihood>
 Using OpenMP 8 max threads on a system with 8 processors
-Likelihood was NAN. Returning worst case. 
+Poor likelihood.  Returning worst case.
 <search_likelihood>-9999999.900000000372529</search_likelihood>
 Using OpenMP 8 max threads on a system with 8 processors
-Likelihood was NAN. Returning worst case. 
+Poor likelihood.  Returning worst case.
 <search_likelihood>-9999999.900000000372529</search_likelihood>
 Using OpenMP 8 max threads on a system with 8 processors
-Likelihood was NAN. Returning worst case. 
+Poor likelihood.  Returning worst case.
 <search_likelihood>-9999999.900000000372529</search_likelihood>
 Using OpenMP 8 max threads on a system with 8 processors
-Likelihood was NAN. Returning worst case. 
+Poor likelihood.  Returning worst case.
 <search_likelihood>-9999999.900000000372529</search_likelihood>
 Using OpenMP 8 max threads on a system with 8 processors
-Likelihood was NAN. Returning worst case. 
+Poor likelihood.  Returning worst case.
 <search_likelihood>-9999999.900000000372529</search_likelihood>
 Using OpenMP 8 max threads on a system with 8 processors
-<search_likelihood>-132.397224756591356</search_likelihood>
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
 Using OpenMP 8 max threads on a system with 8 processors
-<search_likelihood>-162.405889796440960</search_likelihood>
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
 Using OpenMP 8 max threads on a system with 8 processors
-<search_likelihood>-212.164972241777605</search_likelihood>
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
 Using OpenMP 8 max threads on a system with 8 processors
-<search_likelihood>-329.856899103085368</search_likelihood>
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
 Using OpenMP 8 max threads on a system with 8 processors
-<search_likelihood>-470.404792070072176</search_likelihood>
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
 Using OpenMP 8 max threads on a system with 8 processors
-<search_likelihood>-459.793402198763658</search_likelihood>
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
 Using OpenMP 8 max threads on a system with 8 processors
-<search_likelihood>-206.276847267854322</search_likelihood>
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>

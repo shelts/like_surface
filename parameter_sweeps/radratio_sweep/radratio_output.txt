@@ -1,0 +1,70 @@
+Using OpenMP 8 max threads on a system with 8 processors
+<search_likelihood>-0.341066734653881</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+<search_likelihood>-0.139261545499534</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+<search_likelihood>-0.322700245399672</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+<search_likelihood>-0.101896191382434</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+<search_likelihood>-0.279609025598362</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+<search_likelihood>-0.011123463269767</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+<search_likelihood>-0.014589679401095</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+<search_likelihood>-0.000000000020955</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+<search_likelihood>-0.030096633150861</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+<search_likelihood>-0.078017294414536</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+<search_likelihood>-0.017874072313536</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+<search_likelihood>-0.009539454799518</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+<search_likelihood>-0.036211614792203</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+<search_likelihood>-0.061840271426696</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+<search_likelihood>-0.144605410814822</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+<search_likelihood>-1.831658819893133</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+<search_likelihood>-0.976559032178726</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+<search_likelihood>-1.755801671698417</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+<search_likelihood>-1.881490966460219</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+<search_likelihood>-1.140145623204282</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+<search_likelihood>-1.677588290210728</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+<search_likelihood>-2.275992119833442</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+<search_likelihood>-1.675913204929759</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+<search_likelihood>-2.096135097528378</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+<search_likelihood>-2.761292937840114</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+<search_likelihood>-2.559104057250780</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+<search_likelihood>-2.759494279367062</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+<search_likelihood>-2.184867646859242</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+<search_likelihood>-1.718506409627452</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+<search_likelihood>-2.228087472638306</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+<search_likelihood>-1.877452710899748</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+<search_likelihood>-2.273861248823916</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+<search_likelihood>-1.751628624157090</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+<search_likelihood>-1.631511303929197</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+<search_likelihood>-1.407246231812994</search_likelihood>
