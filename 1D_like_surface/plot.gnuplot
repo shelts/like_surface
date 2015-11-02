@@ -42,7 +42,7 @@ set output "plots/radratio.jpeg"
 set title 'Radius Ratio'
 set ylabel 'Likelihood'
 set xlabel 'parameter value'
-set xrange[0:0.75]
+# set xrange[0:0.75]
 # set yrange[-999:1]
 plot "<paste parameter_data/radratio_vals.txt likelihood_data/radratio_data.txt"   using 1:2 title 'seed 125868' with lines
 

@@ -23,7 +23,5 @@ while mass_counter < 191:
 	  counter=counter+1
 	  massratio_counter=massratio_counter+0.02
 	  massratio=str(massratio_counter)
-	mass_counter=mass_counter+10
+	mass_counter=mass_counter + 10
 	mass=str(mass_counter)
-
-

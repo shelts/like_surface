@@ -2,6 +2,6 @@
 
 
 ./clean.sh
-./data_vals.py
-./looping_parser.py
+./1D_data_vals.py
+./1D_parser.py
 gnuplot plot.gnuplot
