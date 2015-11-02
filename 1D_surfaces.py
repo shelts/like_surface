@@ -52,7 +52,7 @@ while counter < ft[1]:
         -h " + input_hist + " \
         -z " + output_hist + " \
         -n 8 -x -e " + seed + " -i " + name + " " + back_time + " " + r0 + " " + light_r_ratio + " " + mass + " " + mass_ratio + " \
-        2>>~/research/like_surface/parameter_sweeps/fortime_sweep/fortime_output.txt")
+        2>>~/research/like_surface/parameter_sweeps/ft.txt")
   counter = counter + ft[2]
   name = str(counter)
   
@@ -66,7 +66,7 @@ while counter < bt[1]:
         -h " + input_hist + " \
         -z " + output_hist + " \
         -n 8 -x -e  " + seed + " -i " + sim_time + " " + name + " " + r0 + " " + light_r_ratio + " " + mass + " " + mass_ratio + " \
-        2>>~/research/like_surface/parameter_sweeps/backtime_sweep/backtime_output.txt")
+        2>>~/research/like_surface/parameter_sweeps/bt.txt")
   counter = counter + bt[2]
   name = str(counter)
  
@@ -80,7 +80,7 @@ while counter < r[1]:
         -h " + input_hist + " \
         -z " + output_hist + " \
         -n 8 -x -e  " + seed + " -i " + sim_time + " " + back_time + " " + name + " " + light_r_ratio + " " + mass + " " + mass_ratio + " \
-        2>>~/research/like_surface/parameter_sweeps/rad_sweep/rad_output.txt")
+        2>>~/research/like_surface/parameter_sweeps/rad.txt")
   counter = counter + r[2]
   name = str(counter)
  
@@ -94,7 +94,7 @@ while counter < r_r[1]:
         -h " + input_hist + " \
         -z " + output_hist + " \
         -n 8 -x -e  " + seed + " -i " + sim_time + " " + back_time + " " + r0 + " " + name + " " + mass + " " + mass_ratio + " \
-        2>>~/research/like_surface/parameter_sweeps/radratio_sweep/radratio_output.txt")
+        2>>~/research/like_surface/parameter_sweeps/rr.txt")
   counter = counter + r_r[2]
   name = str(counter)
 
@@ -108,7 +108,7 @@ while counter < m[1]:
         -h " + input_hist + " \
         -z " + output_hist + " \
         -n 8 -x -e  " + seed + " -i " + sim_time + " " + back_time + " " + r0 + " " + light_r_ratio + " " + name + " " + mass_ratio + " \
-        2>>~/research/like_surface/parameter_sweeps/mass_sweep/mass_output.txt")
+        2>>~/research/like_surface/parameter_sweeps/mass.txt")
   counter = counter + m[2]
   name = str(counter)
 
@@ -122,7 +122,7 @@ while counter < m_r[1]:
         -h " + input_hist + " \
         -z " + output_hist + " \
         -n 8 -x -e  " + seed + " -i " + sim_time + " " + back_time + " " + r0 + " " + light_r_ratio + " " + mass + " " + name + " \
-        2>>~/research/like_surface/parameter_sweeps/massratio_sweep/massratio_output.txt")
+        2>>~/research/like_surface/parameter_sweeps/mr.txt")
   counter = counter + m_r[2]
   name = str(counter)
 

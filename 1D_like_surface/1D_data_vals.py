@@ -15,7 +15,7 @@ m_r           = [0.1, 0.75, 0.02]
 
 
 #  FORWARD TIME #
-f = open('./parameter_data/fortime_vals.txt', 'w')
+f = open('./parameter_data/ft_vals.txt', 'w')
 counter = ft[0]
 while counter < ft[1]:
     f.write("%s \n" % counter)
@@ -23,7 +23,7 @@ while counter < ft[1]:
 f.close()
   
 #  BACKWARD TIME  #  
-f = open('./parameter_data/backtime_vals.txt', 'w')
+f = open('./parameter_data/bt_vals.txt', 'w')
 counter = bt[0]
 while counter < bt[1]:
     f.write("%s \n" % counter)
@@ -39,7 +39,7 @@ while counter < r[1]:
 f.close()
  
  #  RADIUS RATIO  #
-f = open('./parameter_data/radratio_vals.txt', 'w')
+f = open('./parameter_data/rr_vals.txt', 'w')
 counter = r_r[0]
 while counter < r_r[1]:
     f.write("%s \n" % counter)
@@ -55,7 +55,7 @@ while counter < m[1]:
 f.close()
 
 #  MASS RATIO  #
-f = open('./parameter_data/massratio_vals.txt', 'w')
+f = open('./parameter_data/mr_vals.txt', 'w')
 counter = m_r[0]
 while counter < m_r[1]:
     f.write("%s \n" % counter)
