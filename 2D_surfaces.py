@@ -18,13 +18,13 @@ seed          = "98213548"
 input_hist    = "~/research/like_surface/histogram_in_seed"  + seed + "_20kEMD_2_1_p5_p2_30_p2.hist"
 output_hist   = "~/research/like_surface/histogram_out_seed" + seed + "_20kEMD_2_1_p5_p2_30_sweep.hist"
 
-#parameter    = [start, end, increment]
-ft            = [0.25, 3.0, 0.25]
-bt            = [0.1, 2.0, 0.05]
-r             = [0.1, 0.75, 0.02]
-r_r           = [0.06, 0.75, 0.02]
-m             = [2, 100, 2]
-m_r           = [0.1, 0.75, 0.02]
+#parameter = [start, end, increment]
+ft         = [0.25, 3.0, 0.25]
+bt         = [0.25, 2.0, 0.25]
+r          = [0.1, 1.0, 0.1]
+r_r        = [0.1, 0.75, 0.05]
+m          = [2.0, 50.0, 2.0]
+m_r        = [0.1, 0.75, 0.05]
 
 #--------------------------------------------------------------------------------------------------
 
@@ -55,7 +55,7 @@ while fwt_counter < ft[1]:
                 -h " + input_hist + " \
                 -z " + output_hist + " \
                 -n 10 -x -e  " + seed + " -i " + fwt + " " + bwt + " " + r0 + " " + light_r_ratio + " " + mass + " " + mass_ratio + " \
-                2>>~/research/like_surface/2d_parameter_sweeps/ft_vs_bt/output.txt")
+                2>>~/research/like_surface/2d_parameter_sweeps/ft_vs_bt.txt")
         bwt_counter = bwt_counter + bt[2]
         bwt = str(bwt_counter)
     fwt_counter = fwt_counter + ft[2]
@@ -74,7 +74,7 @@ while fwt_counter < ft[1]:
                 -h " + input_hist + " \
                 -z " + output_hist + " \
                 -n 10 -x -e  " + seed + " -i " + fwt + " " + back_time + " " + rad + " " + light_r_ratio + " " + mass + " " + mass_ratio + " \
-                2>>~/research/like_surface/2d_parameter_sweeps/ft_vs_rad/output.txt")
+                2>>~/research/like_surface/2d_parameter_sweeps/ft_vs_rad.txt")
         rad_counter = rad_counter + r[2]
         rad = str(rad_counter)
     fwt_counter = fwt_counter + ft[2]
@@ -92,7 +92,7 @@ while fwt_counter < ft[1]:
                 -h " + input_hist + " \
                 -z " + output_hist + " \
                 -n 10 -x -e  " + seed + " -i " + fwt + " " + back_time + " " + r0 + " " + rr + " " + mass + " " + mass_ratio + " \
-                2>>~/research/like_surface/2d_parameter_sweeps/ft_vs_rr/output.txt")
+                2>>~/research/like_surface/2d_parameter_sweeps/ft_vs_rr.txt")
         rr_counter = rr_counter + r_r[2]
         rr = str(rr_counter)
     fwt_counter = fwt_counter + ft[2]
@@ -111,7 +111,7 @@ while fwt_counter < ft[1]:
                 -h " + input_hist + " \
                 -z " + output_hist + " \
                 -n 10 -x -e  " + seed + " -i " + fwt + " " + back_time + " " + r0 + " " + light_r_ratio + " " + ms + " " + mass_ratio + " \
-                2>>~/research/like_surface/2d_parameter_sweeps/ft_vs_m/output.txt")
+                2>>~/research/like_surface/2d_parameter_sweeps/ft_vs_m.txt")
         m_counter = m_counter + m[2]
         ms = str(m_counter) 
     fwt_counter = fwt_counter + ft[2]
@@ -130,7 +130,7 @@ while fwt_counter < ft[1]:
                 -h " + input_hist + " \
                 -z " + output_hist + " \
                 -n 10 -x -e  " + seed + " -i " + fwt + " " + back_time + " " + r0 + " " + light_r_ratio + " " + mass + " " + mr + " \
-                2>>~/research/like_surface/2d_parameter_sweeps/ft_vs_mr/output.txt")
+                2>>~/research/like_surface/2d_parameter_sweeps/ft_vs_mr.txt")
         mr_counter = mr_counter + m_r[2]
         mr = str(mr_counter) 
     fwt_counter = fwt_counter + ft[2]
@@ -150,7 +150,7 @@ while bwt_counter < bt[1]:
                 -h " + input_hist + " \
                 -z " + output_hist + " \
                 -n 10 -x -e  " + seed + " -i " + sim_time + " " + bwt + " " + rad + " " + light_r_ratio + " " + mass + " " + mass_ratio + " \
-                2>>~/research/like_surface/2d_parameter_sweeps/bt_vs_r/output.txt")
+                2>>~/research/like_surface/2d_parameter_sweeps/bt_vs_r.txt")
         rad_counter = rad_counter + r[2]
         rad = str(rad_counter)
     bwt_counter = bwt_counter + bt[2]
@@ -168,7 +168,7 @@ while bwt_counter < bt[1]:
                 -h " + input_hist + " \
                 -z " + output_hist + " \
                 -n 10 -x -e  " + seed + " -i " + sim_time + " " + bwt + " " + r0 + " " + rr + " " + mass + " " + mass_ratio + " \
-                2>>~/research/like_surface/2d_parameter_sweeps/bt_vs_rr/output.txt")
+                2>>~/research/like_surface/2d_parameter_sweeps/bt_vs_rr.txt")
         rr_counter = rr_counter + r_r[2]
         rr = str(rr_counter)
     bwt_counter = bwt_counter + bt[2]
@@ -187,7 +187,7 @@ while bwt_counter < bt[1]:
                 -h " + input_hist + " \
                 -z " + output_hist + " \
                 -n 10 -x -e  " + seed + " -i " + sim_time + " " + bwt + " " + r0 + " " + light_r_ratio + " " + ms + " " + mass_ratio + " \
-                2>>~/research/like_surface/2d_parameter_sweeps/bt_vs_m/output.txt")
+                2>>~/research/like_surface/2d_parameter_sweeps/bt_vs_m.txt")
         m_counter = m_counter + m[2]
         ms = str(m_counter) 
     bwt_counter = bwt_counter + bt[2]
@@ -205,7 +205,7 @@ while bwt_counter < bt[1]:
                 -h " + input_hist + " \
                 -z " + output_hist + " \
                 -n 10 -x -e  " + seed + " -i " + sim_time + " " + bwt + " " + r0 + " " + light_r_ratio + " " + mass + " " + mr + " \
-                2>>~/research/like_surface/2d_parameter_sweeps/bt_vs_mr/output.txt")
+                2>>~/research/like_surface/2d_parameter_sweeps/bt_vs_mr.txt")
         mr_counter = mr_counter + m_r[2]
         mr = str(mr_counter) 
     bwt_counter = bwt_counter + bt[2]
@@ -225,7 +225,7 @@ while r_counter < r[1]:
                 -h " + input_hist + " \
                 -z " + output_hist + " \
                 -n 10 -x -e  " + seed + " -i " + sim_time + " " + back_time + " " + rad + " " + rr + " " + mass + " " + mass_ratio + " \
-                2>>~/research/like_surface/2d_parameter_sweeps/r_vs_rr/output.txt")
+                2>>~/research/like_surface/2d_parameter_sweeps/r_vs_rr.txt")
         rr_counter = rr_counter + r_r[2]
         rr = str(rr_counter)
     r_counter = r_counter + r[2]
@@ -244,7 +244,7 @@ while r_counter < r[1]:
                 -h " + input_hist + " \
                 -z " + output_hist + " \
                 -n 10 -x -e  " + seed + " -i " + sim_time + " " + back_time + " " + rad + " " + light_r_ratio + " " + ms + " " + mass_ratio + " \
-                2>>~/research/like_surface/2d_parameter_sweeps/r_vs_m/output.txt")
+                2>>~/research/like_surface/2d_parameter_sweeps/r_vs_m.txt")
         m_counter = m_counter + m[2]
         ms = str(m_counter) 
     r_counter = r_counter + r[2]
@@ -262,7 +262,7 @@ while r_counter < r[1]:
                 -h " + input_hist + " \
                 -z " + output_hist + " \
                 -n 10 -x -e  " + seed + " -i " + sim_time + " " + back_time + " " + rad + " " + light_r_ratio + " " + mass + " " + mr + " \
-                2>>~/research/like_surface/2d_parameter_sweeps/r_vs_mr/output.txt")
+                2>>~/research/like_surface/2d_parameter_sweeps/r_vs_mr.txt")
         mr_counter = mr_counter + m_r[2]
         mr = str(mr_counter) 
     r_counter = r_counter + r[2]
@@ -281,7 +281,7 @@ while rr_counter < r_r[1]:
                 -h " + input_hist + " \
                 -z " + output_hist + " \
                 -n 10 -x -e  " + seed + " -i " + sim_time + " " + back_time + " " + r0 + " " + rr + " " + ms + " " + mass_ratio + " \
-                2>>~/research/like_surface/2d_parameter_sweeps/rr_vs_m/output.txt")
+                2>>~/research/like_surface/2d_parameter_sweeps/rr_vs_m.txt")
         m_counter = m_counter + m[2]
         ms = str(m_counter) 
     rr_counter = rr_counter + r_r[2]
@@ -299,7 +299,7 @@ while rr_counter < r_r[1]:
                 -h " + input_hist + " \
                 -z " + output_hist + " \
                 -n 10 -x -e  " + seed + " -i " + sim_time + " " + back_time + " " + r0 + " " + rr + " " + mass + " " + mr + " \
-                2>>~/research/like_surface/2d_parameter_sweeps/rr_vs_mr/output.txt")
+                2>>~/research/like_surface/2d_parameter_sweeps/rr_vs_mr.txt")
         mr_counter = mr_counter + m_r[2]
         mr = str(mr_counter) 
     rr_counter = rr_counter + r_r[2]
@@ -318,12 +318,10 @@ while m_counter < m[1]:
                 -h " + input_hist + " \
                 -z " + output_hist + " \
                 -n 10 -x -e  " + seed + " -i " + sim_time + " " + back_time + " " + r0 + " " + light_r_ratio + " " + ms + " " + mr + " \
-                2>>~/research/like_surface/2d_parameter_sweeps/m_vs_mr/output.txt")
+                2>>~/research/like_surface/2d_parameter_sweeps/m_vs_mr.txt")
         mr_counter = mr_counter + m_r[2]
         mr = str(mr_counter) 
     m_counter = m_counter + m[2]
     ms = str(m_counter)
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
-
-

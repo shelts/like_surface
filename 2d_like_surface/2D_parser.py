@@ -1,46 +1,19 @@
 #! /usr/bin/python
 import os
-f= open('./data/2d_mass_massratio_sweep_precise.txt', 'w')
-g= open('./data/out_precise.txt', 'r')
 
-for line in g:
-  if (line.startswith("<")):
-    ss=line.split('<search_likelihood>')#splits the line between the two sides the delimiter
-    tt=ss[1].split('</search_likelihood>')#chooses the second of the split parts and resplits
-    f.write("%s \n" % tt[0])#writes the first of the resplit lines
+names   = [ 'ft_vs_bt', 'ft_vs_rad', 'ft_vs_rr', 'ft_vs_m', 'ft_vs_mr', 'bt_vs_r', 'bt_vs_rr', 'bt_vs_m', 'bt_vs_mr', 'r_vs_rr', 'r_vs_m', 'r_vs_mr', 'rr_vs_m', 'rr_vs_mr', 'm_vs_mr']
+N  = 15
+M  = 0
+
+for i in range(M,N):
+  g = open('./parameter_sweeps/' + str(names[i]) + '.txt', 'r')
+  f = open('./likelihood_data/' + str(names[i]) + '_data.txt', 'w')
+
+  for line in g:
+    if (line.startswith("<")):
+      ss = line.split('<search_likelihood>')#splits the line between the two sides the delimiter
+      tt = ss[1].split('</search_likelihood>')#chooses the second of the split parts and resplits
+      f.write("%s \n" % tt[0])#writes the first of the resplit lines
     
-f.close()
-g.close()
-
-
-t= open('./data/2d_mass_massratio_sweep_precise.txt', 'r') 
-h= open('./data/data_precise.dat', 'w')
-mass_counter=1.0
-mass=str(mass_counter)
-massratio_counter=0.1
-massratio=str(massratio_counter)
-counter=1
-
-s =[]
-
-for line in t:
-  s.append(line)
-
-i=0
-while mass_counter < 191:
-	massratio_counter=0.1
-	massratio=str(massratio_counter)
-	while massratio_counter < 0.75:
-	  h.write("%s \t %s \t %s" % (mass, massratio, str(s[i])))
-	  i=i+1
-	  counter=counter+1
-	  massratio_counter=massratio_counter+0.02
-	  massratio=str(massratio_counter)
-	mass_counter=mass_counter+1
-	mass=str(mass_counter)
-
-t.close()
-h.close()
-
-
-
+  f.close()
+  g.close()
