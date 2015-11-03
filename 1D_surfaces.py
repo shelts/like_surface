@@ -33,7 +33,7 @@ os.system("rm -r ~/research/nbody_test")
 os.system("mkdir ~/research/nbody_test")
 
 os.chdir("../nbody_test")
-os.system("cmake -DCMAKE_BUILD_TYPE=Release  -DNBODY_GL=ON -DBOINC_APPLICATION=OFF -DSEPARATION=OFF -DNBODY_OPENMP=ON    ~/research/milkywayathome_client/")
+os.system("cmake -DCMAKE_BUILD_TYPE=Release  -DNBODY_GL=OFF -DBOINC_APPLICATION=OFF -DSEPARATION=OFF -DNBODY_OPENMP=ON    ~/research/milkywayathome_client/")
 os.system("make -j ")
 os.chdir("../like_surface")
 

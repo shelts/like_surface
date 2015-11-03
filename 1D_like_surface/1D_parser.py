@@ -6,7 +6,7 @@ folders = ['fortime_sweep', 'backtime_sweep',  'rad_sweep', 'radratio_sweep', 'm
 types   = ['ft', 'bt', 'rad', 'rr', 'mass', 'mr']
 
 
-for i in range(0,6):
+for i in range(3,4):
   g = open('./parameter_sweeps/' + str(names[i]) + '.txt', 'r')
   f = open('./likelihood_data/' + str(names[i]) + '_data.txt', 'w')
 

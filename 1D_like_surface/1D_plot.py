@@ -19,8 +19,8 @@ rr = 0.75
 m = 50
 mr = 0.75
 ranges = [ft, bt, r, rr, m, mr]
-N  = 6
-M  = 0
+N  = 4
+M  = 3
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
@@ -36,13 +36,13 @@ f.write("set key off\n")
 for i in range(M, N):
     f.write("set xlabel '" + titles[i] + "'\n")
     f.write("set ylabel 'likelihood'\n")
-    f.write("set yrange [-1000:0]\n")
+    #f.write("set yrange [-200:0]\n")
     f.write("set xrange[0:" + str(ranges[i]) + "]\n")
 
     p = "<paste parameter_data/" + names[i] + "_vals.txt likelihood_data/" + names[i] + "_data.txt"
     f.write("set output 'plots/" + names[i] + ".jpeg' \n")
     f.write("set title 'Likelihood Surface of " + titles[i] + "' \n")
-    f.write("plot '" + p + "' using 1:2:  with lines \n\n") 
+    f.write("plot '" + p + "' using 1:2  with lines \n\n") 
 
     f.write("# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # \n")
     f.write("# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # \n")

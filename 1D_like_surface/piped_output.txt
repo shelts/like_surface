@@ -1,4 +1,2 @@
 "1D_plot.gnuplot", line 10: undefined variable: with
 
-"1D_plot.gnuplot", line 10: undefined variable: with
-
