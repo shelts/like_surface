@@ -6,7 +6,7 @@ N  = 15
 M  = 0
 
 for i in range(M,N):
-  g = open('./parameter_sweeps/' + str(names[i]) + '.txt', 'r')
+  g = open('./2d_parameter_sweeps/' + str(names[i]) + '.txt', 'r')
   f = open('./likelihood_data/' + str(names[i]) + '_data.txt', 'w')
 
   for line in g:

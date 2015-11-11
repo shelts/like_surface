@@ -41,8 +41,9 @@ for i in range(M, N):
     f.write("set xlabel '" + xlabels[i] + "'\n")
     f.write("set ylabel '" + ylabels[i] + "'\n")
     f.write("set zlabel 'likelihood'\n")
-    f.write("set palette rgbformula -7,2,-7\n")
-    f.write("set cbrange [-1000:0]\n")
+    #f.write("set palette  maxcolors 1000\n")
+    f.write("set palette rgbformulae -7,0,0\n")
+    f.write("set cbrange [-20:0]\n")
     f.write("set xrange[0:" + str(xranges[i]) + "]\n")
     f.write("set yrange[0:" + str(yranges[i]) + "]\n\n\n")
 
