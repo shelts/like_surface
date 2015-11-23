@@ -21,6 +21,7 @@ r = 1.0
 rr = 0.75
 m = 50
 mr = 0.75
+color_cutoff = -1
 xranges = [ft, ft, ft, ft, ft, bt, bt, bt, bt, r, r, r, rr, rr, m]
 yranges = [bt, r, rr, m, mr, r, rr, m , mr, rr, m, mr, m, mr, mr]
 N  = 15
@@ -43,7 +44,7 @@ for i in range(M, N):
     f.write("set zlabel 'likelihood'\n")
     #f.write("set palette  maxcolors 1000\n")
     f.write("set palette rgbformulae -7,0,0\n")
-    f.write("set cbrange [-20:0]\n")
+    f.write("set cbrange [" + str(color_cutoff) + ":0]\n")
     f.write("set xrange[0:" + str(xranges[i]) + "]\n")
     f.write("set yrange[0:" + str(yranges[i]) + "]\n\n\n")
 
