@@ -1,2 +1,3 @@
 "1D_plot.gnuplot", line 10: undefined variable: with
 
+Warning: empty y range [-93.6566:-93.6566], adjusting to [-94.5931:-92.72]

@@ -14,16 +14,21 @@ t  = ['forward evolve time', 'backward evolve time', 'radius', 'radius ratio', '
 xlabels = [f, f, f, f, f, b, b, b, b, rad, rad ,rad, r_r, r_r, mass]  
 ylabels = [b, rad, r_r, mass, m_r, rad, r_r, mass, m_r, r_r, mass, m_r, mass, m_r, m_r]
 
-#ranges
-ft = 3.0
-bt = 2.0
-r = 1.0
-rr = 0.75
-m = 50
-mr = 0.75
+#starts, ends
+ft  = [1.0, 3.0]
+bt  = [0.8, 1.2]
+r   = [0.1, 0.9]
+rr  = [0.1, 0.7]
+m   = [2.0, 45]
+mr  = [0.1, 0.55]
+xranges_start = [ft[0], ft[0], ft[0], ft[0], ft[0], bt[0], bt[0], bt[0], bt[0], r[0], r[0], r[0], rr[0], rr[0], m[0]]
+yranges_start = [bt[0], r[0], rr[0], m[0], mr[0], r[0], rr[0], m [0], mr[0], rr[0], m[0], mr[0], m[0], mr[0], mr[0]]
+
+xranges = [ft[1], ft[1], ft[1], ft[1], ft[1], bt[1], bt[1], bt[1], bt[1], r[1], r[1], r[1], rr[1], rr[1], m[1]]
+yranges = [bt[1], r[1], rr[1], m[1], mr[1], r[1], rr[1], m [1], mr[1], rr[1], m[1], mr[1], m[1], mr[1], mr[1]]
+
 color_cutoff = -1
-xranges = [ft, ft, ft, ft, ft, bt, bt, bt, bt, r, r, r, rr, rr, m]
-yranges = [bt, r, rr, m, mr, r, rr, m , mr, rr, m, mr, m, mr, mr]
+
 N  = 15
 M  = 0
 
@@ -35,7 +40,7 @@ like_data = "likelihood_data/"
 
 f = open('2D_plot.gnuplot', 'w')
 f.write("reset\n")
-f.write("set terminal jpeg\n")
+f.write("set terminal png\n")
 f.write("set key off\n")
 
 for i in range(M, N):
@@ -44,12 +49,14 @@ for i in range(M, N):
     f.write("set zlabel 'likelihood'\n")
     #f.write("set palette  maxcolors 1000\n")
     f.write("set palette rgbformulae -7,0,0\n")
-    f.write("set cbrange [" + str(color_cutoff) + ":0]\n")
-    f.write("set xrange[0:" + str(xranges[i]) + "]\n")
-    f.write("set yrange[0:" + str(yranges[i]) + "]\n\n\n")
+    #f.write("set palette defined ( 1 1 1 1 , 0 0 0 0  )\n")
+    #f.write("set palette gray \n")
+    f.write("set cbrange[" + str(color_cutoff) + ":0]\n")
+    f.write("set xrange[" + str(xranges_start[i]) + ":" + str(xranges[i]) + "]\n")
+    f.write("set yrange[" + str(yranges_start[i]) + ":" + str(yranges[i]) + "]\n\n\n")
 
     p = "<paste parameter_data/" + names[i] + ".txt likelihood_data/" + names[i] + "_data.txt"
-    f.write("set output 'plots/" + names[i] + ".jpeg' \n")
+    f.write("set output 'plots/" + names[i] + ".png' \n")
     f.write("set title 'Likelihood Surface of " + str(xlabels[i]) + " vs " + str(ylabels[i]) + "' \n")
     f.write("plot '" + p + "' using 1:2:3  with image \n\n") 
 

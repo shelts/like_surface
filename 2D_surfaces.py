@@ -26,6 +26,24 @@ r_r        = [0.1, 0.75, 0.05]
 m          = [2.0, 50.0, 1.0]
 m_r        = [0.1, 0.75, 0.05]
 
+yes = True
+no  = False
+
+run_ft_v_bt = yes
+run_ft_v_r  = yes
+run_ft_v_rr = yes
+run_ft_v_m  = yes
+run_ft_v_mr = yes
+run_bt_v_r  = yes
+run_bt_v_rr = yes
+run_bt_v_m  = yes
+run_bt_v_mr = yes
+run_r_v_rr  = yes
+run_r_v_m   = yes
+run_r_v_mr  = yes
+run_rr_v_m  = yes
+run_rr_v_mr = yes
+run_m_v_mr  = yes
 #--------------------------------------------------------------------------------------------------
 
 #this makes a comparison histogram
@@ -43,285 +61,299 @@ os.system(" " + binary + " \
     -n 8 -x -e " + seed + " -i "+ sim_time + " " + back_time + " " + r0 + " " + light_r_ratio + " " + mass + " " + mass_ratio )
 
 
-##  FORWARD TIME VS BACKTIME #
-#fwt_counter = ft[0]
-#fwt = str(fwt_counter)
-#while fwt_counter < ft[1]:
-    #bwt_counter = bt[0]
-    #bwt = str(bwt_counter)
-    #while bwt_counter < bt[1]:
-        #os.system(" " + binary + " \
-                #-f " + lua + " \
-                #-h " + input_hist + " \
-                #-z " + output_hist + " \
-                #-n 10 -x -e  " + seed + " -i " + fwt + " " + bwt + " " + r0 + " " + light_r_ratio + " " + mass + " " + mass_ratio + " \
-                #2>>~/research/like_surface/2d_parameter_sweeps/ft_vs_bt.txt")
-        #bwt_counter = bwt_counter + bt[2]
-        #bwt = str(bwt_counter)
-    #fwt_counter = fwt_counter + ft[2]
-    #fwt = str(fwt_counter)
+#  FORWARD TIME VS BACKTIME #
+if(run_ft_v_bt == True):
+    fwt_counter = ft[0]
+    fwt = str(fwt_counter)
+    while fwt_counter < ft[1]:
+        bwt_counter = bt[0]
+        bwt = str(bwt_counter)
+        while bwt_counter < bt[1]:
+            os.system(" " + binary + " \
+                    -f " + lua + " \
+                    -h " + input_hist + " \
+                    -z " + output_hist + " \
+                    -n 10 -x -e  " + seed + " -i " + fwt + " " + bwt + " " + r0 + " " + light_r_ratio + " " + mass + " " + mass_ratio + " \
+                    2>>~/research/like_surface/2d_parameter_sweeps/ft_vs_bt.txt")
+            bwt_counter = bwt_counter + bt[2]
+            bwt = str(bwt_counter)
+        fwt_counter = fwt_counter + ft[2]
+        fwt = str(fwt_counter)
   
   
-##  FORWARD TIME VS RAD #
-#fwt_counter = ft[0]
-#fwt = str(fwt_counter)
-#while fwt_counter < ft[1]:
-    #rad_counter = r[0]
-    #rad = str(rad_counter)
-    #while rad_counter < r[1]:
-        #os.system(" " + binary + " \
-                #-f " + lua + " \
-                #-h " + input_hist + " \
-                #-z " + output_hist + " \
-                #-n 10 -x -e  " + seed + " -i " + fwt + " " + back_time + " " + rad + " " + light_r_ratio + " " + mass + " " + mass_ratio + " \
-                #2>>~/research/like_surface/2d_parameter_sweeps/ft_vs_rad.txt")
-        #rad_counter = rad_counter + r[2]
-        #rad = str(rad_counter)
-    #fwt_counter = fwt_counter + ft[2]
-    #fwt = str(fwt_counter)
+#  FORWARD TIME VS RAD #
+if(run_ft_v_r == True):
+    fwt_counter = ft[0]
+    fwt = str(fwt_counter)
+    while fwt_counter < ft[1]:
+        rad_counter = r[0]
+        rad = str(rad_counter)
+        while rad_counter < r[1]:
+            os.system(" " + binary + " \
+                    -f " + lua + " \
+                    -h " + input_hist + " \
+                    -z " + output_hist + " \
+                    -n 10 -x -e  " + seed + " -i " + fwt + " " + back_time + " " + rad + " " + light_r_ratio + " " + mass + " " + mass_ratio + " \
+                    2>>~/research/like_surface/2d_parameter_sweeps/ft_vs_rad.txt")
+            rad_counter = rad_counter + r[2]
+            rad = str(rad_counter)
+        fwt_counter = fwt_counter + ft[2]
+        fwt = str(fwt_counter)
   
-##  FORWARD TIME VS RAD RATIO #
-#fwt_counter = ft[0]
-#fwt = str(fwt_counter)
-#while fwt_counter < ft[1]:
-    #rr_counter = r_r[0]
-    #rr = str(rr_counter)
-    #while rr_counter < r_r[1]:
-        #os.system(" " + binary + " \
-                #-f " + lua + " \
-                #-h " + input_hist + " \
-                #-z " + output_hist + " \
-                #-n 10 -x -e  " + seed + " -i " + fwt + " " + back_time + " " + r0 + " " + rr + " " + mass + " " + mass_ratio + " \
-                #2>>~/research/like_surface/2d_parameter_sweeps/ft_vs_rr.txt")
-        #rr_counter = rr_counter + r_r[2]
-        #rr = str(rr_counter)
-    #fwt_counter = fwt_counter + ft[2]
-    #fwt = str(fwt_counter)
+#  FORWARD TIME VS RAD RATIO #
+if(run_ft_v_rr == True):
+    fwt_counter = ft[0]
+    fwt = str(fwt_counter)
+    while fwt_counter < ft[1]:
+        rr_counter = r_r[0]
+        rr = str(rr_counter)
+        while rr_counter < r_r[1]:
+            os.system(" " + binary + " \
+                    -f " + lua + " \
+                    -h " + input_hist + " \
+                    -z " + output_hist + " \
+                    -n 10 -x -e  " + seed + " -i " + fwt + " " + back_time + " " + r0 + " " + rr + " " + mass + " " + mass_ratio + " \
+                    2>>~/research/like_surface/2d_parameter_sweeps/ft_vs_rr.txt")
+            rr_counter = rr_counter + r_r[2]
+            rr = str(rr_counter)
+        fwt_counter = fwt_counter + ft[2]
+        fwt = str(fwt_counter)
 
 
-##  FORWARD TIME VS MASS #
-#fwt_counter = ft[0]
-#fwt = str(fwt_counter)
-#while fwt_counter < ft[1]:
-    #m_counter = m[0]
-    #ms = str(m_counter)
-    #while m_counter < m[1]:
-        #os.system(" " + binary + " \
-                #-f " + lua + " \
-                #-h " + input_hist + " \
-                #-z " + output_hist + " \
-                #-n 10 -x -e  " + seed + " -i " + fwt + " " + back_time + " " + r0 + " " + light_r_ratio + " " + ms + " " + mass_ratio + " \
-                #2>>~/research/like_surface/2d_parameter_sweeps/ft_vs_m.txt")
-        #m_counter = m_counter + m[2]
-        #ms = str(m_counter) 
-    #fwt_counter = fwt_counter + ft[2]
-    #fwt = str(fwt_counter)
+#  FORWARD TIME VS MASS #
+if(run_ft_v_m == True):
+    fwt_counter = ft[0]
+    fwt = str(fwt_counter)
+    while fwt_counter < ft[1]:
+        m_counter = m[0]
+        ms = str(m_counter)
+        while m_counter < m[1]:
+            os.system(" " + binary + " \
+                    -f " + lua + " \
+                    -h " + input_hist + " \
+                    -z " + output_hist + " \
+                    -n 10 -x -e  " + seed + " -i " + fwt + " " + back_time + " " + r0 + " " + light_r_ratio + " " + ms + " " + mass_ratio + " \
+                    2>>~/research/like_surface/2d_parameter_sweeps/ft_vs_m.txt")
+            m_counter = m_counter + m[2]
+            ms = str(m_counter) 
+        fwt_counter = fwt_counter + ft[2]
+        fwt = str(fwt_counter)
     
     
-##  FORWARD TIME VS MASS RATIO #
-#fwt_counter = ft[0]
-#fwt = str(fwt_counter)
-#while fwt_counter < ft[1]:
-    #mr_counter = m_r[0]
-    #mr = str(mr_counter)
-    #while mr_counter < m_r[1]:
-        #os.system(" " + binary + " \
-                #-f " + lua + " \
-                #-h " + input_hist + " \
-                #-z " + output_hist + " \
-                #-n 10 -x -e  " + seed + " -i " + fwt + " " + back_time + " " + r0 + " " + light_r_ratio + " " + mass + " " + mr + " \
-                #2>>~/research/like_surface/2d_parameter_sweeps/ft_vs_mr.txt")
-        #mr_counter = mr_counter + m_r[2]
-        #mr = str(mr_counter) 
-    #fwt_counter = fwt_counter + ft[2]
-    #fwt = str(fwt_counter)
+#  FORWARD TIME VS MASS RATIO #
+if(run_ft_v_mr == True):
+    fwt_counter = ft[0]
+    fwt = str(fwt_counter)
+    while fwt_counter < ft[1]:
+        mr_counter = m_r[0]
+        mr = str(mr_counter)
+        while mr_counter < m_r[1]:
+            os.system(" " + binary + " \
+                    -f " + lua + " \
+                    -h " + input_hist + " \
+                    -z " + output_hist + " \
+                    -n 10 -x -e  " + seed + " -i " + fwt + " " + back_time + " " + r0 + " " + light_r_ratio + " " + mass + " " + mr + " \
+                    2>>~/research/like_surface/2d_parameter_sweeps/ft_vs_mr.txt")
+            mr_counter = mr_counter + m_r[2]
+            mr = str(mr_counter) 
+        fwt_counter = fwt_counter + ft[2]
+        fwt = str(fwt_counter)
     
-## # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
-## # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
-##  BACKWARD TIME VS RAD #
-#bwt_counter = bt[0]
-#bwt = str(bwt_counter)
-#while bwt_counter < bt[1]:
-    #rad_counter = r[0]
-    #rad = str(rad_counter)
-    #while rad_counter < r[1]:
-        #os.system(" " + binary + " \
-                #-f " + lua + " \
-                #-h " + input_hist + " \
-                #-z " + output_hist + " \
-                #-n 10 -x -e  " + seed + " -i " + sim_time + " " + bwt + " " + rad + " " + light_r_ratio + " " + mass + " " + mass_ratio + " \
-                #2>>~/research/like_surface/2d_parameter_sweeps/bt_vs_r.txt")
-        #rad_counter = rad_counter + r[2]
-        #rad = str(rad_counter)
-    #bwt_counter = bwt_counter + bt[2]
-    #bwt = str(bwt_counter)
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+#  BACKWARD TIME VS RAD #
+if(run_bt_v_r == True):
+    bwt_counter = bt[0]
+    bwt = str(bwt_counter)
+    while bwt_counter < bt[1]:
+        rad_counter = r[0]
+        rad = str(rad_counter)
+        while rad_counter < r[1]:
+            os.system(" " + binary + " \
+                    -f " + lua + " \
+                    -h " + input_hist + " \
+                    -z " + output_hist + " \
+                    -n 10 -x -e  " + seed + " -i " + sim_time + " " + bwt + " " + rad + " " + light_r_ratio + " " + mass + " " + mass_ratio + " \
+                    2>>~/research/like_surface/2d_parameter_sweeps/bt_vs_r.txt")
+            rad_counter = rad_counter + r[2]
+            rad = str(rad_counter)
+        bwt_counter = bwt_counter + bt[2]
+        bwt = str(bwt_counter)
   
-##  BACKWARD TIME VS RAD RATIO #
-#bwt_counter = bt[0]
-#bwt = str(bwt_counter)
-#while bwt_counter < bt[1]:
-    #rr_counter = r_r[0]
-    #rr = str(rr_counter)
-    #while rr_counter < r_r[1]:
-        #os.system(" " + binary + " \
-                #-f " + lua + " \
-                #-h " + input_hist + " \
-                #-z " + output_hist + " \
-                #-n 10 -x -e  " + seed + " -i " + sim_time + " " + bwt + " " + r0 + " " + rr + " " + mass + " " + mass_ratio + " \
-                #2>>~/research/like_surface/2d_parameter_sweeps/bt_vs_rr.txt")
-        #rr_counter = rr_counter + r_r[2]
-        #rr = str(rr_counter)
-    #bwt_counter = bwt_counter + bt[2]
-    #bwt = str(bwt_counter)
+#  BACKWARD TIME VS RAD RATIO #
+if(run_bt_v_rr == True):
+    bwt_counter = bt[0]
+    bwt = str(bwt_counter)
+    while bwt_counter < bt[1]:
+        rr_counter = r_r[0]
+        rr = str(rr_counter)
+        while rr_counter < r_r[1]:
+            os.system(" " + binary + " \
+                    -f " + lua + " \
+                    -h " + input_hist + " \
+                    -z " + output_hist + " \
+                    -n 10 -x -e  " + seed + " -i " + sim_time + " " + bwt + " " + r0 + " " + rr + " " + mass + " " + mass_ratio + " \
+                    2>>~/research/like_surface/2d_parameter_sweeps/bt_vs_rr.txt")
+            rr_counter = rr_counter + r_r[2]
+            rr = str(rr_counter)
+        bwt_counter = bwt_counter + bt[2]
+        bwt = str(bwt_counter)
 
 
-##  BACKWARD TIME VS MASS #
-#bwt_counter = bt[0]
-#bwt = str(bwt_counter)
-#while bwt_counter < bt[1]:
-    #m_counter = m[0]
-    #ms = str(m_counter)
-    #while m_counter < m[1]:
-        #os.system(" " + binary + " \
-                #-f " + lua + " \
-                #-h " + input_hist + " \
-                #-z " + output_hist + " \
-                #-n 10 -x -e  " + seed + " -i " + sim_time + " " + bwt + " " + r0 + " " + light_r_ratio + " " + ms + " " + mass_ratio + " \
-                #2>>~/research/like_surface/2d_parameter_sweeps/bt_vs_m.txt")
-        #m_counter = m_counter + m[2]
-        #ms = str(m_counter) 
-    #bwt_counter = bwt_counter + bt[2]
-    #bwt = str(bwt_counter) 
+#  BACKWARD TIME VS MASS #
+if(run_bt_v_m == True):
+    bwt_counter = bt[0]
+    bwt = str(bwt_counter)
+    while bwt_counter < bt[1]:
+        m_counter = m[0]
+        ms = str(m_counter)
+        while m_counter < m[1]:
+            os.system(" " + binary + " \
+                    -f " + lua + " \
+                    -h " + input_hist + " \
+                    -z " + output_hist + " \
+                    -n 10 -x -e  " + seed + " -i " + sim_time + " " + bwt + " " + r0 + " " + light_r_ratio + " " + ms + " " + mass_ratio + " \
+                    2>>~/research/like_surface/2d_parameter_sweeps/bt_vs_m.txt")
+            m_counter = m_counter + m[2]
+            ms = str(m_counter) 
+        bwt_counter = bwt_counter + bt[2]
+        bwt = str(bwt_counter) 
  
-##  BACKWARDS TIME VS MASS RATIO #
-#bwt_counter = bt[0]
-#bwt = str(bwt_counter)
-#while bwt_counter < bt[1]:
-    #mr_counter = m_r[0]
-    #mr = str(mr_counter)
-    #while mr_counter < m_r[1]:
-        #os.system(" " + binary + " \
-                #-f " + lua + " \
-                #-h " + input_hist + " \
-                #-z " + output_hist + " \
-                #-n 10 -x -e  " + seed + " -i " + sim_time + " " + bwt + " " + r0 + " " + light_r_ratio + " " + mass + " " + mr + " \
-                #2>>~/research/like_surface/2d_parameter_sweeps/bt_vs_mr.txt")
-        #mr_counter = mr_counter + m_r[2]
-        #mr = str(mr_counter) 
-    #bwt_counter = bwt_counter + bt[2]
-    #bwt = str(bwt_counter)
-## # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
-## # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
-  
-##  RAD VS RAD RATIO #
-#r_counter = r[0]
-#rad = str(r_counter)
-#while r_counter < r[1]:
-    #rr_counter = r_r[0]
-    #rr = str(rr_counter)
-    #while rr_counter < r_r[1]:
-        #os.system(" " + binary + " \
-                #-f " + lua + " \
-                #-h " + input_hist + " \
-                #-z " + output_hist + " \
-                #-n 10 -x -e  " + seed + " -i " + sim_time + " " + back_time + " " + rad + " " + rr + " " + mass + " " + mass_ratio + " \
-                #2>>~/research/like_surface/2d_parameter_sweeps/r_vs_rr.txt")
-        #rr_counter = rr_counter + r_r[2]
-        #rr = str(rr_counter)
-    #r_counter = r_counter + r[2]
-    #rad = str(r_counter)
+#  BACKWARDS TIME VS MASS RATIO #
+if(run_bt_v_mr == True):
+    bwt_counter = bt[0]
+    bwt = str(bwt_counter)
+    while bwt_counter < bt[1]:
+        mr_counter = m_r[0]
+        mr = str(mr_counter)
+        while mr_counter < m_r[1]:
+            os.system(" " + binary + " \
+                    -f " + lua + " \
+                    -h " + input_hist + " \
+                    -z " + output_hist + " \
+                    -n 10 -x -e  " + seed + " -i " + sim_time + " " + bwt + " " + r0 + " " + light_r_ratio + " " + mass + " " + mr + " \
+                    2>>~/research/like_surface/2d_parameter_sweeps/bt_vs_mr.txt")
+            mr_counter = mr_counter + m_r[2]
+            mr = str(mr_counter) 
+        bwt_counter = bwt_counter + bt[2]
+        bwt = str(bwt_counter)
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+#  RAD VS RAD RATIO #
+if(run_r_v_rr == True):
+    r_counter = r[0]
+    rad = str(r_counter)
+    while r_counter < r[1]:
+        rr_counter = r_r[0]
+        rr = str(rr_counter)
+        while rr_counter < r_r[1]:
+            os.system(" " + binary + " \
+                    -f " + lua + " \
+                    -h " + input_hist + " \
+                    -z " + output_hist + " \
+                    -n 10 -x -e  " + seed + " -i " + sim_time + " " + back_time + " " + rad + " " + rr + " " + mass + " " + mass_ratio + " \
+                    2>>~/research/like_surface/2d_parameter_sweeps/r_vs_rr.txt")
+            rr_counter = rr_counter + r_r[2]
+            rr = str(rr_counter)
+        r_counter = r_counter + r[2]
+        rad = str(r_counter)
 
 
 #  RAD VS MASS #
-r_counter = r[0]
-rad = str(r_counter)
-while r_counter < r[1]:
-    m_counter = m[0]
-    ms = str(m_counter)
-    while m_counter < m[1]:
-        os.system(" " + binary + " \
-                -f " + lua + " \
-                -h " + input_hist + " \
-                -z " + output_hist + " \
-                -n 10 -x -e  " + seed + " -i " + sim_time + " " + back_time + " " + rad + " " + light_r_ratio + " " + ms + " " + mass_ratio + " \
-                2>>~/research/like_surface/2d_parameter_sweeps/r_vs_m.txt")
-        m_counter = m_counter + m[2]
-        ms = str(m_counter) 
-    r_counter = r_counter + r[2]
+if(run_r_v_m == True):
+    r_counter = r[0]
     rad = str(r_counter)
+    while r_counter < r[1]:
+        m_counter = m[0]
+        ms = str(m_counter)
+        while m_counter < m[1]:
+            os.system(" " + binary + " \
+                    -f " + lua + " \
+                    -h " + input_hist + " \
+                    -z " + output_hist + " \
+                    -n 10 -x -e  " + seed + " -i " + sim_time + " " + back_time + " " + rad + " " + light_r_ratio + " " + ms + " " + mass_ratio + " \
+                    2>>~/research/like_surface/2d_parameter_sweeps/r_vs_m.txt")
+            m_counter = m_counter + m[2]
+            ms = str(m_counter) 
+        r_counter = r_counter + r[2]
+        rad = str(r_counter)
  
 #  RAD VS MASS RATIO #
-r_counter = r[0]
-rad = str(r_counter)
-while r_counter < r[1]:
-    mr_counter = m_r[0]
-    mr = str(mr_counter)
-    while mr_counter < m_r[1]:
-        os.system(" " + binary + " \
-                -f " + lua + " \
-                -h " + input_hist + " \
-                -z " + output_hist + " \
-                -n 10 -x -e  " + seed + " -i " + sim_time + " " + back_time + " " + rad + " " + light_r_ratio + " " + mass + " " + mr + " \
-                2>>~/research/like_surface/2d_parameter_sweeps/r_vs_mr.txt")
-        mr_counter = mr_counter + m_r[2]
-        mr = str(mr_counter) 
-    r_counter = r_counter + r[2]
+if(run_r_v_mr == True):
+    r_counter = r[0]
     rad = str(r_counter)
+    while r_counter < r[1]:
+        mr_counter = m_r[0]
+        mr = str(mr_counter)
+        while mr_counter < m_r[1]:
+            os.system(" " + binary + " \
+                    -f " + lua + " \
+                    -h " + input_hist + " \
+                    -z " + output_hist + " \
+                    -n 10 -x -e  " + seed + " -i " + sim_time + " " + back_time + " " + rad + " " + light_r_ratio + " " + mass + " " + mr + " \
+                    2>>~/research/like_surface/2d_parameter_sweeps/r_vs_mr.txt")
+            mr_counter = mr_counter + m_r[2]
+            mr = str(mr_counter) 
+        r_counter = r_counter + r[2]
+        rad = str(r_counter)
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 #  RAD RATIO VS MASS #
-rr_counter = r_r[0]
-rr = str(rr_counter)
-while rr_counter < r_r[1]:
-    m_counter = m[0]
-    ms = str(m_counter)
-    while m_counter < m[1]:
-        os.system(" " + binary + " \
-                -f " + lua + " \
-                -h " + input_hist + " \
-                -z " + output_hist + " \
-                -n 10 -x -e  " + seed + " -i " + sim_time + " " + back_time + " " + r0 + " " + rr + " " + ms + " " + mass_ratio + " \
-                2>>~/research/like_surface/2d_parameter_sweeps/rr_vs_m.txt")
-        m_counter = m_counter + m[2]
-        ms = str(m_counter) 
-    rr_counter = rr_counter + r_r[2]
+if(run_rr_v_m == True):
+    rr_counter = r_r[0]
     rr = str(rr_counter)
+    while rr_counter < r_r[1]:
+        m_counter = m[0]
+        ms = str(m_counter)
+        while m_counter < m[1]:
+            os.system(" " + binary + " \
+                    -f " + lua + " \
+                    -h " + input_hist + " \
+                    -z " + output_hist + " \
+                    -n 10 -x -e  " + seed + " -i " + sim_time + " " + back_time + " " + r0 + " " + rr + " " + ms + " " + mass_ratio + " \
+                    2>>~/research/like_surface/2d_parameter_sweeps/rr_vs_m.txt")
+            m_counter = m_counter + m[2]
+            ms = str(m_counter) 
+        rr_counter = rr_counter + r_r[2]
+        rr = str(rr_counter)
  
 #  RAD RATIO VS MASS RATIO #
-rr_counter = r_r[0]
-rr = str(rr_counter)
-while rr_counter < r_r[1]:
-    mr_counter = m_r[0]
-    mr = str(mr_counter)
-    while mr_counter < m_r[1]:
-        os.system(" " + binary + " \
-                -f " + lua + " \
-                -h " + input_hist + " \
-                -z " + output_hist + " \
-                -n 10 -x -e  " + seed + " -i " + sim_time + " " + back_time + " " + r0 + " " + rr + " " + mass + " " + mr + " \
-                2>>~/research/like_surface/2d_parameter_sweeps/rr_vs_mr.txt")
-        mr_counter = mr_counter + m_r[2]
-        mr = str(mr_counter) 
-    rr_counter = rr_counter + r_r[2]
+if(run_rr_v_mr == True):
+    rr_counter = r_r[0]
     rr = str(rr_counter)
+    while rr_counter < r_r[1]:
+        mr_counter = m_r[0]
+        mr = str(mr_counter)
+        while mr_counter < m_r[1]:
+            os.system(" " + binary + " \
+                    -f " + lua + " \
+                    -h " + input_hist + " \
+                    -z " + output_hist + " \
+                    -n 10 -x -e  " + seed + " -i " + sim_time + " " + back_time + " " + r0 + " " + rr + " " + mass + " " + mr + " \
+                    2>>~/research/like_surface/2d_parameter_sweeps/rr_vs_mr.txt")
+            mr_counter = mr_counter + m_r[2]
+            mr = str(mr_counter) 
+        rr_counter = rr_counter + r_r[2]
+        rr = str(rr_counter)
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 #  MASS VS MASS RATIO #
-m_counter = m[0]
-ms = str(m_counter)
-while m_counter < m[1]:
-    mr_counter = m_r[0]
-    mr = str(mr_counter)
-    while mr_counter < m_r[1]:
-        os.system(" " + binary + " \
-                -f " + lua + " \
-                -h " + input_hist + " \
-                -z " + output_hist + " \
-                -n 10 -x -e  " + seed + " -i " + sim_time + " " + back_time + " " + r0 + " " + light_r_ratio + " " + ms + " " + mr + " \
-                2>>~/research/like_surface/2d_parameter_sweeps/m_vs_mr.txt")
-        mr_counter = mr_counter + m_r[2]
-        mr = str(mr_counter) 
-    m_counter = m_counter + m[2]
+if(run_m_v_mr == True):
+    m_counter = m[0]
     ms = str(m_counter)
+    while m_counter < m[1]:
+        mr_counter = m_r[0]
+        mr = str(mr_counter)
+        while mr_counter < m_r[1]:
+            os.system(" " + binary + " \
+                    -f " + lua + " \
+                    -h " + input_hist + " \
+                    -z " + output_hist + " \
+                    -n 10 -x -e  " + seed + " -i " + sim_time + " " + back_time + " " + r0 + " " + light_r_ratio + " " + ms + " " + mr + " \
+                    2>>~/research/like_surface/2d_parameter_sweeps/m_vs_mr.txt")
+            mr_counter = mr_counter + m_r[2]
+            mr = str(mr_counter) 
+        m_counter = m_counter + m[2]
+        ms = str(m_counter)
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
