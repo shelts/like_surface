@@ -1,3 +1,90 @@
-"1D_plot.gnuplot", line 10: undefined variable: with
+"1D_plot.gnuplot", line 4: undefined variable: set
 
-Warning: empty y range [-93.6566:-93.6566], adjusting to [-94.5931:-92.72]
+
+set arrow from 0,-30 to ,-1 nohead
+                        ^
+"1D_plot.gnuplot", line 8: invalid expression 
+
+
+set arrow from 0,-30 to ,-1 nohead
+                        ^
+"1D_plot.gnuplot", line 8: invalid expression 
+
+
+set arrow from 0,-30 to ,-1 nohead
+                        ^
+"1D_plot.gnuplot", line 8: invalid expression 
+
+
+set arrow from 0,-30 to ,-1 nohead
+                        ^
+"multiplot_1d.gnuplot", line 5: invalid expression 
+
+
+set arrow from 0,-30 to ,-1 nohead
+                        ^
+"multiplot_1d.gnuplot", line 5: invalid expression 
+
+"multiplot_1d.gnuplot", line 12: undefined variable: with
+
+"multiplot_1d.gnuplot", line 12: undefined variable: plot
+
+"multiplot_1d.gnuplot", line 15: undefined variable: with
+
+
+plot 4 with lines
+       ^
+"multiplot_1d.gnuplot", line 15: "with" allowed only after parametric function fully specified
+
+"multiplot_1d.gnuplot", line 15: parametric function not fully specified
+
+"multiplot_1d.gnuplot", line 12: undefined variable: with
+
+"multiplot_1d.gnuplot", line 12: warning: Skipping unreadable file "correct"
+"multiplot_1d.gnuplot", line 21: warning: Skipping unreadable file "correct"
+"multiplot_1d.gnuplot", line 30: warning: Skipping unreadable file "correct"
+"multiplot_1d.gnuplot", line 39: warning: Skipping unreadable file "correct"
+"multiplot_1d.gnuplot", line 48: warning: Skipping unreadable file "correct"
+"multiplot_1d.gnuplot", line 57: warning: Skipping unreadable file "correct"
+"multiplot_1d.gnuplot", line 12: warning: Skipping unreadable file "correct.txt"
+"multiplot_1d.gnuplot", line 21: warning: Skipping unreadable file "correct.txt"
+"multiplot_1d.gnuplot", line 30: warning: Skipping unreadable file "correct.txt"
+"multiplot_1d.gnuplot", line 39: warning: Skipping unreadable file "correct.txt"
+"multiplot_1d.gnuplot", line 48: warning: Skipping unreadable file "correct.txt"
+"multiplot_1d.gnuplot", line 57: warning: Skipping unreadable file "correct.txt"
+"multiplot_1d.gnuplot", line 12: warning: Skipping unreadable file "correct.txt"
+"multiplot_1d.gnuplot", line 21: warning: Skipping unreadable file "correct.txt"
+"multiplot_1d.gnuplot", line 30: warning: Skipping unreadable file "correct.txt"
+"multiplot_1d.gnuplot", line 39: warning: Skipping unreadable file "correct.txt"
+"multiplot_1d.gnuplot", line 48: warning: Skipping unreadable file "correct.txt"
+"multiplot_1d.gnuplot", line 57: warning: Skipping unreadable file "correct.txt"
+"multiplot_1d.gnuplot", line 12: warning: Skipping unreadable file "correct.txt"
+"multiplot_1d.gnuplot", line 21: warning: Skipping unreadable file "correct.txt"
+"multiplot_1d.gnuplot", line 30: warning: Skipping unreadable file "correct.txt"
+"multiplot_1d.gnuplot", line 39: warning: Skipping unreadable file "correct.txt"
+"multiplot_1d.gnuplot", line 48: warning: Skipping unreadable file "correct.txt"
+"multiplot_1d.gnuplot", line 57: warning: Skipping unreadable file "correct.txt"
+"multiplot_1d.gnuplot", line 12: warning: Skipping unreadable file "correct.txt"
+"multiplot_1d.gnuplot", line 21: warning: Skipping unreadable file "correct.txt"
+"multiplot_1d.gnuplot", line 30: warning: Skipping unreadable file "correct.txt"
+"multiplot_1d.gnuplot", line 39: warning: Skipping unreadable file "correct.txt"
+"multiplot_1d.gnuplot", line 48: warning: Skipping unreadable file "correct.txt"
+"multiplot_1d.gnuplot", line 57: warning: Skipping unreadable file "correct.txt"
+"multiplot_1d.gnuplot", line 12: warning: Skipping unreadable file "correct.txt"
+"multiplot_1d.gnuplot", line 21: warning: Skipping unreadable file "correct.txt"
+"multiplot_1d.gnuplot", line 30: warning: Skipping unreadable file "correct.txt"
+"multiplot_1d.gnuplot", line 39: warning: Skipping unreadable file "correct.txt"
+"multiplot_1d.gnuplot", line 48: warning: Skipping unreadable file "correct.txt"
+"multiplot_1d.gnuplot", line 57: warning: Skipping unreadable file "correct.txt"
+
+set output 'plots/ft.jpeg' 
+                           ^
+cannot open file; output not changed
+"1D_plot.gnuplot", line 8: util.c: No such file or directory
+
+
+set output 'plots/like_surfaces_1d.png' 
+                                        ^
+cannot open file; output not changed
+"multiplot_1d.gnuplot", line 5: util.c: No such file or directory
+

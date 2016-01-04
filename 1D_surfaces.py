@@ -21,10 +21,10 @@ output_hist   = "~/research/like_surface/histogram_out_seed" + seed + "_20kEMD_s
 #parameter    = [start, end, increment]
 ft         = [3.9, 4.2, 0.01]#30
 bt         = [0.96, 1.08, 0.005]#24
-r          = [0.3, 0.8, 0.01]#50
-r_r        = [0.35, 0.8, 0.01]#45
-m          = [52.0, 72.0, 1.0]#20
-m_r        = [0.17, 0.24, 0.005]#14
+r          = [0.1, 0.8, 0.01]#80
+r_r        = [0.1, 0.8, 0.01]#80
+m          = [52.0, 72.0, 0.25]#80
+m_r        = [0.17, 0.24, 0.001]#70
 
 yes = True
 no  = False
@@ -82,36 +82,6 @@ if( run_backward_evolve_ratio == True):
         name = str(counter)
     
 
-    #  RADIUS  #
-if( run_radius == True):
-    counter = r[0]
-    name = str(counter)
-    while counter < r[1]:
-        os.system(" " + binary + " \
-                -f " + lua + " \
-                -h " + input_hist + " \
-                -z " + output_hist + " \
-                -n 8 -x -e  " + seed + " -i " + sim_time + " " + back_time + " " + name + " " + light_r_ratio + " " + mass + " " + mass_ratio + " \
-                2>>~/research/like_surface/parameter_sweeps/rad.txt")
-        counter = counter + r[2]
-        name = str(counter)
-    
-    
-    #  RADIUS RATIO  #
-if( run_radius_ratio == True):
-    counter = r_r[0]
-    name = str(counter)
-    while counter < r_r[1]:
-        os.system(" " + binary + " \
-                -f " + lua + " \
-                -h " + input_hist + " \
-                -z " + output_hist + " \
-                -n 8 -x -e  " + seed + " -i " + sim_time + " " + back_time + " " + r0 + " " + name + " " + mass + " " + mass_ratio + " \
-                2>>~/research/like_surface/parameter_sweeps/rr.txt")
-        counter = counter + r_r[2]
-        name = str(counter)
-
-
     #  MASS  #
 if( run_mass == True):
     counter = m[0]
@@ -140,5 +110,32 @@ if( run_mass_ratio == True):
                 2>>~/research/like_surface/parameter_sweeps/mr.txt")
         counter = counter + m_r[2]
         name = str(counter)
-
-
+        
+    #  RADIUS  #
+if( run_radius == True):
+    counter = r[0]
+    name = str(counter)
+    while counter < r[1]:
+        os.system(" " + binary + " \
+                -f " + lua + " \
+                -h " + input_hist + " \
+                -z " + output_hist + " \
+                -n 8 -x -e  " + seed + " -i " + sim_time + " " + back_time + " " + name + " " + light_r_ratio + " " + mass + " " + mass_ratio + " \
+                2>>~/research/like_surface/parameter_sweeps/rad.txt")
+        counter = counter + r[2]
+        name = str(counter)
+    
+    
+    #  RADIUS RATIO  #
+if( run_radius_ratio == True):
+    counter = r_r[0]
+    name = str(counter)
+    while counter < r_r[1]:
+        os.system(" " + binary + " \
+                -f " + lua + " \
+                -h " + input_hist + " \
+                -z " + output_hist + " \
+                -n 8 -x -e  " + seed + " -i " + sim_time + " " + back_time + " " + r0 + " " + name + " " + mass + " " + mass_ratio + " \
+                2>>~/research/like_surface/parameter_sweeps/rr.txt")
+        counter = counter + r_r[2]
+        name = str(counter)

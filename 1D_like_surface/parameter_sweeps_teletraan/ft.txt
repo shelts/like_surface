@@ -1,0 +1,62 @@
+Using OpenMP 8 max threads on a system with 4 processors
+<search_likelihood>-23.202170399259050</search_likelihood>
+Using OpenMP 8 max threads on a system with 4 processors
+<search_likelihood>-17.724183284608007</search_likelihood>
+Using OpenMP 8 max threads on a system with 4 processors
+<search_likelihood>-13.200256997109719</search_likelihood>
+Using OpenMP 8 max threads on a system with 4 processors
+<search_likelihood>-10.197577068189631</search_likelihood>
+Using OpenMP 8 max threads on a system with 4 processors
+<search_likelihood>-7.585464492929212</search_likelihood>
+Using OpenMP 8 max threads on a system with 4 processors
+<search_likelihood>-5.304886040322886</search_likelihood>
+Using OpenMP 8 max threads on a system with 4 processors
+<search_likelihood>-2.244014535337602</search_likelihood>
+Using OpenMP 8 max threads on a system with 4 processors
+<search_likelihood>-0.789320018701818</search_likelihood>
+Using OpenMP 8 max threads on a system with 4 processors
+<search_likelihood>-0.633862230227197</search_likelihood>
+Using OpenMP 8 max threads on a system with 4 processors
+<search_likelihood>-0.305495804170506</search_likelihood>
+Using OpenMP 8 max threads on a system with 4 processors
+<search_likelihood>-0.000000000142318</search_likelihood>
+Using OpenMP 8 max threads on a system with 4 processors
+<search_likelihood>-0.117042368444370</search_likelihood>
+Using OpenMP 8 max threads on a system with 4 processors
+<search_likelihood>-0.403027143465162</search_likelihood>
+Using OpenMP 8 max threads on a system with 4 processors
+<search_likelihood>-0.798932155317962</search_likelihood>
+Using OpenMP 8 max threads on a system with 4 processors
+<search_likelihood>-1.149035723417194</search_likelihood>
+Using OpenMP 8 max threads on a system with 4 processors
+<search_likelihood>-2.140002750239267</search_likelihood>
+Using OpenMP 8 max threads on a system with 4 processors
+<search_likelihood>-3.170406164221095</search_likelihood>
+Using OpenMP 8 max threads on a system with 4 processors
+<search_likelihood>-3.469850635048158</search_likelihood>
+Using OpenMP 8 max threads on a system with 4 processors
+<search_likelihood>-3.801815453734748</search_likelihood>
+Using OpenMP 8 max threads on a system with 4 processors
+<search_likelihood>-4.553374750674149</search_likelihood>
+Using OpenMP 8 max threads on a system with 4 processors
+<search_likelihood>-6.316802140538146</search_likelihood>
+Using OpenMP 8 max threads on a system with 4 processors
+<search_likelihood>-6.635352960398553</search_likelihood>
+Using OpenMP 8 max threads on a system with 4 processors
+<search_likelihood>-6.095324829306473</search_likelihood>
+Using OpenMP 8 max threads on a system with 4 processors
+<search_likelihood>-5.227271399083619</search_likelihood>
+Using OpenMP 8 max threads on a system with 4 processors
+<search_likelihood>-4.953263035689944</search_likelihood>
+Using OpenMP 8 max threads on a system with 4 processors
+<search_likelihood>-5.007737868670722</search_likelihood>
+Using OpenMP 8 max threads on a system with 4 processors
+<search_likelihood>-4.691326846584221</search_likelihood>
+Using OpenMP 8 max threads on a system with 4 processors
+<search_likelihood>-5.446175247367901</search_likelihood>
+Using OpenMP 8 max threads on a system with 4 processors
+<search_likelihood>-5.584641685601555</search_likelihood>
+Using OpenMP 8 max threads on a system with 4 processors
+<search_likelihood>-4.232472152453030</search_likelihood>
+Using OpenMP 8 max threads on a system with 4 processors
+<search_likelihood>-4.000046478903280</search_likelihood>
