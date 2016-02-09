@@ -1,90 +1,24 @@
-"1D_plot.gnuplot", line 4: undefined variable: set
-
-
-set arrow from 0,-30 to ,-1 nohead
-                        ^
-"1D_plot.gnuplot", line 8: invalid expression 
-
-
-set arrow from 0,-30 to ,-1 nohead
-                        ^
-"1D_plot.gnuplot", line 8: invalid expression 
-
-
-set arrow from 0,-30 to ,-1 nohead
-                        ^
-"1D_plot.gnuplot", line 8: invalid expression 
-
-
-set arrow from 0,-30 to ,-1 nohead
-                        ^
-"multiplot_1d.gnuplot", line 5: invalid expression 
-
-
-set arrow from 0,-30 to ,-1 nohead
-                        ^
-"multiplot_1d.gnuplot", line 5: invalid expression 
-
-"multiplot_1d.gnuplot", line 12: undefined variable: with
-
-"multiplot_1d.gnuplot", line 12: undefined variable: plot
-
-"multiplot_1d.gnuplot", line 15: undefined variable: with
-
-
-plot 4 with lines
-       ^
-"multiplot_1d.gnuplot", line 15: "with" allowed only after parametric function fully specified
-
-"multiplot_1d.gnuplot", line 15: parametric function not fully specified
-
-"multiplot_1d.gnuplot", line 12: undefined variable: with
-
-"multiplot_1d.gnuplot", line 12: warning: Skipping unreadable file "correct"
-"multiplot_1d.gnuplot", line 21: warning: Skipping unreadable file "correct"
-"multiplot_1d.gnuplot", line 30: warning: Skipping unreadable file "correct"
-"multiplot_1d.gnuplot", line 39: warning: Skipping unreadable file "correct"
-"multiplot_1d.gnuplot", line 48: warning: Skipping unreadable file "correct"
-"multiplot_1d.gnuplot", line 57: warning: Skipping unreadable file "correct"
-"multiplot_1d.gnuplot", line 12: warning: Skipping unreadable file "correct.txt"
-"multiplot_1d.gnuplot", line 21: warning: Skipping unreadable file "correct.txt"
-"multiplot_1d.gnuplot", line 30: warning: Skipping unreadable file "correct.txt"
-"multiplot_1d.gnuplot", line 39: warning: Skipping unreadable file "correct.txt"
-"multiplot_1d.gnuplot", line 48: warning: Skipping unreadable file "correct.txt"
-"multiplot_1d.gnuplot", line 57: warning: Skipping unreadable file "correct.txt"
-"multiplot_1d.gnuplot", line 12: warning: Skipping unreadable file "correct.txt"
-"multiplot_1d.gnuplot", line 21: warning: Skipping unreadable file "correct.txt"
-"multiplot_1d.gnuplot", line 30: warning: Skipping unreadable file "correct.txt"
-"multiplot_1d.gnuplot", line 39: warning: Skipping unreadable file "correct.txt"
-"multiplot_1d.gnuplot", line 48: warning: Skipping unreadable file "correct.txt"
-"multiplot_1d.gnuplot", line 57: warning: Skipping unreadable file "correct.txt"
-"multiplot_1d.gnuplot", line 12: warning: Skipping unreadable file "correct.txt"
-"multiplot_1d.gnuplot", line 21: warning: Skipping unreadable file "correct.txt"
-"multiplot_1d.gnuplot", line 30: warning: Skipping unreadable file "correct.txt"
-"multiplot_1d.gnuplot", line 39: warning: Skipping unreadable file "correct.txt"
-"multiplot_1d.gnuplot", line 48: warning: Skipping unreadable file "correct.txt"
-"multiplot_1d.gnuplot", line 57: warning: Skipping unreadable file "correct.txt"
-"multiplot_1d.gnuplot", line 12: warning: Skipping unreadable file "correct.txt"
-"multiplot_1d.gnuplot", line 21: warning: Skipping unreadable file "correct.txt"
-"multiplot_1d.gnuplot", line 30: warning: Skipping unreadable file "correct.txt"
-"multiplot_1d.gnuplot", line 39: warning: Skipping unreadable file "correct.txt"
-"multiplot_1d.gnuplot", line 48: warning: Skipping unreadable file "correct.txt"
-"multiplot_1d.gnuplot", line 57: warning: Skipping unreadable file "correct.txt"
-"multiplot_1d.gnuplot", line 12: warning: Skipping unreadable file "correct.txt"
-"multiplot_1d.gnuplot", line 21: warning: Skipping unreadable file "correct.txt"
-"multiplot_1d.gnuplot", line 30: warning: Skipping unreadable file "correct.txt"
-"multiplot_1d.gnuplot", line 39: warning: Skipping unreadable file "correct.txt"
-"multiplot_1d.gnuplot", line 48: warning: Skipping unreadable file "correct.txt"
-"multiplot_1d.gnuplot", line 57: warning: Skipping unreadable file "correct.txt"
-
-set output 'plots/ft.jpeg' 
-                           ^
-cannot open file; output not changed
-"1D_plot.gnuplot", line 8: util.c: No such file or directory
-
-
-set output 'plots/like_surfaces_1d.png' 
-                                        ^
-cannot open file; output not changed
-"multiplot_1d.gnuplot", line 5: util.c: No such file or directory
-
+paste: likelihood_data/ft_data.txt: No such file or directory
+"1D_plot.gnuplot", line 10: warning: Skipping data file with no valid points
+paste: likelihood_data/bt_data.txt: No such file or directory
+"1D_plot.gnuplot", line 20: warning: Skipping data file with no valid points
+paste: likelihood_data/rad_data.txt: No such file or directory
+"1D_plot.gnuplot", line 30: warning: Skipping data file with no valid points
+paste: likelihood_data/rr_data.txt: No such file or directory
+"1D_plot.gnuplot", line 40: warning: Skipping data file with no valid points
+paste: likelihood_data/mass_data.txt: No such file or directory
+"1D_plot.gnuplot", line 50: warning: Skipping data file with no valid points
+paste: likelihood_data/mr_data.txt: No such file or directory
+"1D_plot.gnuplot", line 60: warning: Skipping data file with no valid points
+paste: likelihood_data/ft_data.txt: No such file or directory
+"multiplot_1d.gnuplot", line 12: warning: Skipping data file with no valid points
+paste: likelihood_data/bt_data.txt: No such file or directory
+"multiplot_1d.gnuplot", line 21: warning: Skipping data file with no valid points
+paste: likelihood_data/rad_data.txt: No such file or directory
+"multiplot_1d.gnuplot", line 30: warning: Skipping data file with no valid points
+paste: likelihood_data/rr_data.txt: No such file or directory
+"multiplot_1d.gnuplot", line 39: warning: Skipping data file with no valid points
+paste: likelihood_data/mass_data.txt: No such file or directory
+"multiplot_1d.gnuplot", line 48: warning: Skipping data file with no valid points
+paste: likelihood_data/mr_data.txt: No such file or directory
+"multiplot_1d.gnuplot", line 57: warning: Skipping data file with no valid points

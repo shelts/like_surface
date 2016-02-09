@@ -39,13 +39,13 @@ f.write("set key off\n")
 for i in range(M, N):
     f.write("set xlabel '" + titles[i] + "'\n")
     f.write("set ylabel 'likelihood'\n")
-    f.write("set yrange [-1:0]\n")
+    f.write("set yrange [-50:0]\n")
     f.write("set xrange[" + str(ranges_start[i]) + ":" + str(ranges_end[i]) + "]\n")
     
     p = "<paste parameter_data/" + names[i] + "_vals.txt likelihood_data/" + names[i] + "_data.txt"
     f.write("set output 'plots/" + names[i] + ".jpeg' \n")
     f.write("set title 'Likelihood Surface of " + titles[i] + "' \n")
-    f.write("plot '" + p + "' using 1:2  with points\n\n") 
+    f.write("plot '" + p + "' using 1:2  with lines\n\n") 
 
     f.write("# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # \n")
     f.write("# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # \n")
@@ -53,4 +53,4 @@ for i in range(M, N):
 f.close()
 
 os.system("gnuplot 1D_plot.gnuplot 2>>piped_output.txt")
-#os.system("rm 1D_plot.gnuplot")
+os.system("rm 1D_plot.gnuplot")

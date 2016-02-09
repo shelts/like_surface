@@ -4,7 +4,7 @@ from subprocess import call
 #--------------------------------------------------------------------------------------------------
 #       PARAMETER LIBRARY       #
 #--------------------------------------------------------------------------------------------------
-args = [4, 1, 0.2, 0.25, 60, 0.2]
+args = [4, 1, 0.2, 0.2, 12, 0.2]
 sim_time      = str(args[0])
 back_time     = str(args[1])
 r0            = str(args[2])
@@ -13,9 +13,9 @@ mass          = str(args[4])
 mass_ratio    = str(args[5])
 
 binary        = "~/research/nbody_test/bin/milkyway_nbody"
-lua           = "~/research/lua/EMD_20k_isotropic_1_54.lua"
+lua           = "~/research/lua/EMD_20k_isotropic_1_54_npa3.lua"
 seed          = "98213548"
-input_hist    = "~/research/like_surface/histogram_in_seed"  + seed + "_20kEMD_4_1_p2_p25_60_p2.hist"
+input_hist    = "~/research/like_surface/histogram_in_seed"  + seed + "_20kEMD_4_1_p2_p2_12_p2.hist"
 output_hist   = "~/research/like_surface/histogram_out_seed" + seed + "_20kEMD_sweep.hist"
 
 #parameter    = [start, end, increment]
@@ -23,8 +23,8 @@ ft         = [3.9, 4.2, 0.01]#30
 bt         = [0.96, 1.08, 0.005]#24
 r          = [0.1, 0.8, 0.01]#80
 r_r        = [0.1, 0.8, 0.01]#80
-m          = [52.0, 72.0, 0.25]#80
-m_r        = [0.17, 0.24, 0.001]#70
+m          = [1.0, 20.0, 0.25]#80
+m_r        = [0.20, 0.30, 0.001]#70
 
 yes = True
 no  = False

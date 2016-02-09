@@ -55,4 +55,4 @@ for i in range(M, N):
 f.close()
 
 os.system("gnuplot multiplot_1d.gnuplot 2>>piped_output.txt")
-#os.system("rm 1D_plot.gnuplot")
+os.system("rm 1D_plot.gnuplot")

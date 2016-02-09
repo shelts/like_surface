@@ -1,1 +1,0 @@
-start at .1 and increase by .02
