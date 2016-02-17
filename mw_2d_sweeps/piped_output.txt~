@@ -1,0 +1,9 @@
+"mw_2d_plot.gnuplot", line 17: *All* edges undefined or out of range, thus no plot.
+
+"mw_2d_plot.gnuplot", line 16: *All* edges undefined or out of range, thus no plot.
+
+
+set cntrlabel  format '%8.3g' font ',7' start 5 interval 20
+    ^
+"mw_2d_plot.gnuplot", line 7: Unrecognized option.  See 'help set'.
+
