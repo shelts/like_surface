@@ -4,7 +4,7 @@ os.system("./clean.sh")
 y = True
 n = False
 names   = [ 'ft_vs_bt', 'ft_vs_rad', 'ft_vs_rr', 'ft_vs_m', 'ft_vs_mr', 'bt_vs_r', 'bt_vs_rr', 'bt_vs_m', 'bt_vs_mr', 'r_vs_rr', 'r_vs_m', 'r_vs_mr', 'rr_vs_m', 'rr_vs_mr', 'm_vs_mr']
-number_of_files  = 9
+number_of_files  = 17
 M  = 0
 plot = y
 for i in range(M, number_of_files):
