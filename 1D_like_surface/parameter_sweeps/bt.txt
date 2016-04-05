@@ -1,51 +1,154 @@
 Using OpenMP 8 max threads on a system with 8 processors
-Likelihood was NAN. Returning worst case. 
+nSim: 8971
+nData: 7476
+EMDComponent =  0.8238804054
+CostComponent = 0.00000000000000000000
+log(EMDComponent) = -19.3729898652
+log(CostComponent) =       -inf
+Poor likelihood.  Returning worst case.
 <search_likelihood>-9999999.900000000372529</search_likelihood>
 Using OpenMP 8 max threads on a system with 8 processors
-<search_likelihood>-345.219748853273074</search_likelihood>
+nSim: 8774
+nData: 7476
+EMDComponent =  0.8447934628
+CostComponent = 0.00000000000000000000
+log(EMDComponent) = -16.8663104278
+log(CostComponent) = -625.9617750603
+<search_likelihood>-642.828085488120905</search_likelihood>
 Using OpenMP 8 max threads on a system with 8 processors
-<search_likelihood>-210.103488327415249</search_likelihood>
+nSim: 8355
+nData: 7476
+EMDComponent =  0.8975117302
+CostComponent = 0.00000000000000000000
+log(EMDComponent) = -10.8129088851
+log(CostComponent) = -249.6452164132
+<search_likelihood>-260.458125298295045</search_likelihood>
 Using OpenMP 8 max threads on a system with 8 processors
-<search_likelihood>-146.750624066669985</search_likelihood>
+nSim: 7923
+nData: 7476
+EMDComponent =  0.9411077023
+CostComponent = 0.00000000000000000000
+log(EMDComponent) = -6.0697690840
+log(CostComponent) = -57.9009926182
+<search_likelihood>-63.970761702131554</search_likelihood>
 Using OpenMP 8 max threads on a system with 8 processors
-<search_likelihood>-81.719747347475931</search_likelihood>
+nSim: 7476
+nData: 7476
+EMDComponent =  1.0000000000
+CostComponent = 1.00000000000000000000
+log(EMDComponent) = -0.0000000020
+log(CostComponent) = 0.0000000000
+<search_likelihood>-0.000000002037270</search_likelihood>
 Using OpenMP 8 max threads on a system with 8 processors
-<search_likelihood>-39.747259453763348</search_likelihood>
+nSim: 6937
+nData: 7476
+EMDComponent =  0.9266360712
+CostComponent = 0.00000000000000000000
+log(EMDComponent) = -7.6194378196
+log(CostComponent) = -70.8384944011
+<search_likelihood>-78.457932220632799</search_likelihood>
 Using OpenMP 8 max threads on a system with 8 processors
-<search_likelihood>-17.242751621548393</search_likelihood>
+nSim: 6557
+nData: 7476
+EMDComponent =  0.8844577408
+CostComponent = 0.00000000000000000000
+log(EMDComponent) = -12.2780544044
+log(CostComponent) = -196.8001428782
+<search_likelihood>-209.078197282581641</search_likelihood>
 Using OpenMP 8 max threads on a system with 8 processors
-<search_likelihood>-3.604228490886312</search_likelihood>
+nSim: 6275
+nData: 7476
+EMDComponent =  0.8236870766
+CostComponent = 0.00000000000000000000
+log(EMDComponent) = -19.3964582646
+log(CostComponent) = -326.7269147134
+<search_likelihood>-346.123372978042653</search_likelihood>
 Using OpenMP 8 max threads on a system with 8 processors
-<search_likelihood>-0.000000000017462</search_likelihood>
+nSim: 6027
+nData: 7476
+EMDComponent =  0.6361328888
+CostComponent = 0.00000000000000000000
+log(EMDComponent) = -45.2347792823
+log(CostComponent) = -465.4944270285
+<search_likelihood>-510.729206310876634</search_likelihood>
 Using OpenMP 8 max threads on a system with 8 processors
-<search_likelihood>-3.107206522213855</search_likelihood>
+nSim: 3737
+nData: 7476
+EMDComponent =  0.9228978634
+CostComponent = 0.00000000000000000000
+log(EMDComponent) = -8.0236707820
+log(CostComponent) =       -inf
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
 Using OpenMP 8 max threads on a system with 8 processors
-<search_likelihood>-13.959801841734896</search_likelihood>
+nSim: 3520
+nData: 7476
+EMDComponent =  0.8651191044
+CostComponent = 0.00000000000000000000
+log(EMDComponent) = -14.4888088598
+log(CostComponent) =       -inf
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
 Using OpenMP 8 max threads on a system with 8 processors
-<search_likelihood>-31.603636849608691</search_likelihood>
+nSim: 3114
+nData: 7476
+EMDComponent =  0.8345890427
+CostComponent = 0.00000000000000000000
+log(EMDComponent) = -18.0815839759
+log(CostComponent) =       -inf
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
 Using OpenMP 8 max threads on a system with 8 processors
-<search_likelihood>-43.360585180465648</search_likelihood>
+nSim: 2739
+nData: 7476
+EMDComponent =  0.8168538284
+CostComponent = 0.00000000000000000000
+log(EMDComponent) = -20.2295112699
+log(CostComponent) =       -inf
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
 Using OpenMP 8 max threads on a system with 8 processors
-<search_likelihood>-63.962306607552968</search_likelihood>
+nSim: 2219
+nData: 7476
+EMDComponent =  0.8433154774
+CostComponent = 0.00000000000000000000
+log(EMDComponent) = -17.0414159230
+log(CostComponent) =       -inf
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
 Using OpenMP 8 max threads on a system with 8 processors
-<search_likelihood>-83.788744964836567</search_likelihood>
+nSim: 1887
+nData: 7476
+EMDComponent =  0.8537941074
+CostComponent = 0.00000000000000000000
+log(EMDComponent) = -15.8065206255
+log(CostComponent) =       -inf
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
 Using OpenMP 8 max threads on a system with 8 processors
-<search_likelihood>-118.461889782332079</search_likelihood>
+nSim: 1591
+nData: 7476
+EMDComponent =  0.8737106228
+CostComponent = 0.00000000000000000000
+log(EMDComponent) = -13.5006053360
+log(CostComponent) =       -inf
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
 Using OpenMP 8 max threads on a system with 8 processors
-<search_likelihood>-140.969247678398688</search_likelihood>
+nSim: 1471
+nData: 7476
+EMDComponent =  0.8925407791
+CostComponent = 0.00000000000000000000
+log(EMDComponent) = -11.3683075488
+log(CostComponent) =       -inf
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
 Using OpenMP 8 max threads on a system with 8 processors
-<search_likelihood>-167.824031264531214</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-<search_likelihood>-183.178844073299302</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-<search_likelihood>-194.982516359541506</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-<search_likelihood>-199.088104124898479</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-<search_likelihood>-202.384072764538303</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-<search_likelihood>-204.294890683578245</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-<search_likelihood>-205.005152890954975</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-<search_likelihood>-205.264165998209535</search_likelihood>
+nSim: 1315
+nData: 7476
+EMDComponent =  0.9050658035
+CostComponent = 0.00000000000000000000
+log(EMDComponent) = -9.9747626845
+log(CostComponent) =       -inf
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>

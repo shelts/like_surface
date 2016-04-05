@@ -1,437 +1,265 @@
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
 Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-Using OpenMP 8 max threads on a system with 8 processors
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-sh: /home/shelts/research/nbody_test/bin/milkyway_nbody: No such file or directory
-Using OpenMP 8 max threads on a system with 8 processors
+nSim: 7445
+nData: 7476
+EMDComponent =  0.9209009647
+CostComponent =       -nan
+log(EMDComponent) = -8.2402778653
+log(CostComponent) =       -nan
+Likelihood was NAN. Returning worst case. 
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+nSim: 7393
+nData: 7476
+EMDComponent =  0.9226923180
+CostComponent =       -nan
+log(EMDComponent) = -8.0459450039
+log(CostComponent) =       -nan
+Likelihood was NAN. Returning worst case. 
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+nSim: 7386
+nData: 7476
+EMDComponent =  0.9311030579
+CostComponent =       -nan
+log(EMDComponent) = -7.1385311955
+log(CostComponent) =       -nan
+Likelihood was NAN. Returning worst case. 
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+nSim: 7404
+nData: 7476
+EMDComponent =  0.9386344147
+CostComponent =       -nan
+log(EMDComponent) = -6.3329210331
+log(CostComponent) =       -nan
+Likelihood was NAN. Returning worst case. 
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+nSim: 7435
+nData: 7476
+EMDComponent =  0.9387843180
+CostComponent = 0.00000000000000000000
+log(EMDComponent) = -6.3169519480
+log(CostComponent) =       -inf
 Poor likelihood.  Returning worst case.
 <search_likelihood>-9999999.900000000372529</search_likelihood>
 Using OpenMP 8 max threads on a system with 8 processors
+nSim: 7455
+nData: 7476
+EMDComponent =  0.9487553883
+CostComponent = 0.00000000000000000000
+log(EMDComponent) = -5.2604270963
+log(CostComponent) =       -inf
 Poor likelihood.  Returning worst case.
 <search_likelihood>-9999999.900000000372529</search_likelihood>
 Using OpenMP 8 max threads on a system with 8 processors
+nSim: 7364
+nData: 7476
+EMDComponent =  0.9514916658
+CostComponent = 0.00000000000000000000
+log(EMDComponent) = -4.9724351254
+log(CostComponent) =       -inf
 Poor likelihood.  Returning worst case.
 <search_likelihood>-9999999.900000000372529</search_likelihood>
 Using OpenMP 8 max threads on a system with 8 processors
+nSim: 7378
+nData: 7476
+EMDComponent =  0.9501044416
+CostComponent = 0.00000000000000000000
+log(EMDComponent) = -5.1183361859
+log(CostComponent) =       -inf
 Poor likelihood.  Returning worst case.
 <search_likelihood>-9999999.900000000372529</search_likelihood>
 Using OpenMP 8 max threads on a system with 8 processors
+nSim: 7491
+nData: 7476
+EMDComponent =  0.9437708712
+CostComponent = 0.00000000000000000000
+log(EMDComponent) = -5.7871863524
+log(CostComponent) =       -inf
 Poor likelihood.  Returning worst case.
 <search_likelihood>-9999999.900000000372529</search_likelihood>
 Using OpenMP 8 max threads on a system with 8 processors
-Poor likelihood.  Returning worst case.
-<search_likelihood>-9999999.900000000372529</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-Poor likelihood.  Returning worst case.
-<search_likelihood>-9999999.900000000372529</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-Poor likelihood.  Returning worst case.
-<search_likelihood>-9999999.900000000372529</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-Poor likelihood.  Returning worst case.
-<search_likelihood>-9999999.900000000372529</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-Poor likelihood.  Returning worst case.
-<search_likelihood>-9999999.900000000372529</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-Poor likelihood.  Returning worst case.
-<search_likelihood>-9999999.900000000372529</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-Poor likelihood.  Returning worst case.
-<search_likelihood>-9999999.900000000372529</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-Poor likelihood.  Returning worst case.
-<search_likelihood>-9999999.900000000372529</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-Poor likelihood.  Returning worst case.
-<search_likelihood>-9999999.900000000372529</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-Poor likelihood.  Returning worst case.
-<search_likelihood>-9999999.900000000372529</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-Poor likelihood.  Returning worst case.
-<search_likelihood>-9999999.900000000372529</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-Poor likelihood.  Returning worst case.
-<search_likelihood>-9999999.900000000372529</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-Poor likelihood.  Returning worst case.
-<search_likelihood>-9999999.900000000372529</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-Poor likelihood.  Returning worst case.
-<search_likelihood>-9999999.900000000372529</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-Poor likelihood.  Returning worst case.
-<search_likelihood>-9999999.900000000372529</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-Poor likelihood.  Returning worst case.
-<search_likelihood>-9999999.900000000372529</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-Poor likelihood.  Returning worst case.
-<search_likelihood>-9999999.900000000372529</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-Poor likelihood.  Returning worst case.
-<search_likelihood>-9999999.900000000372529</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-Poor likelihood.  Returning worst case.
-<search_likelihood>-9999999.900000000372529</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-Poor likelihood.  Returning worst case.
-<search_likelihood>-9999999.900000000372529</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-Poor likelihood.  Returning worst case.
-<search_likelihood>-9999999.900000000372529</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-Poor likelihood.  Returning worst case.
-<search_likelihood>-9999999.900000000372529</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-Poor likelihood.  Returning worst case.
-<search_likelihood>-9999999.900000000372529</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-Poor likelihood.  Returning worst case.
-<search_likelihood>-9999999.900000000372529</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-Poor likelihood.  Returning worst case.
-<search_likelihood>-9999999.900000000372529</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-Poor likelihood.  Returning worst case.
-<search_likelihood>-9999999.900000000372529</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-Poor likelihood.  Returning worst case.
-<search_likelihood>-9999999.900000000372529</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-Poor likelihood.  Returning worst case.
-<search_likelihood>-9999999.900000000372529</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-Poor likelihood.  Returning worst case.
-<search_likelihood>-9999999.900000000372529</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-Poor likelihood.  Returning worst case.
-<search_likelihood>-9999999.900000000372529</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-Poor likelihood.  Returning worst case.
-<search_likelihood>-9999999.900000000372529</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-Poor likelihood.  Returning worst case.
-<search_likelihood>-9999999.900000000372529</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-<search_likelihood>-537.890164869182058</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-<search_likelihood>-382.772085253936211</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-<search_likelihood>-250.091880879122868</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-<search_likelihood>-155.229638095422786</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-<search_likelihood>-83.962209695491623</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-<search_likelihood>-36.559809533126561</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-<search_likelihood>-9.482617428255683</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-<search_likelihood>-0.000000000017462</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-<search_likelihood>-8.237432963718016</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-<search_likelihood>-28.712735044740775</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-<search_likelihood>-64.299278560547606</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-<search_likelihood>-109.302497944737425</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-<search_likelihood>-167.804073373179619</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-<search_likelihood>-230.560239508039558</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-<search_likelihood>-299.134843182196107</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-<search_likelihood>-384.412180533543506</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-<search_likelihood>-468.622113555887779</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-<search_likelihood>-559.131863809376227</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-<search_likelihood>-646.143512202767738</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-Poor likelihood.  Returning worst case.
-<search_likelihood>-9999999.900000000372529</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-Poor likelihood.  Returning worst case.
-<search_likelihood>-9999999.900000000372529</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-Poor likelihood.  Returning worst case.
-<search_likelihood>-9999999.900000000372529</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-Poor likelihood.  Returning worst case.
-<search_likelihood>-9999999.900000000372529</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-Poor likelihood.  Returning worst case.
-<search_likelihood>-9999999.900000000372529</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-Poor likelihood.  Returning worst case.
-<search_likelihood>-9999999.900000000372529</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-Poor likelihood.  Returning worst case.
-<search_likelihood>-9999999.900000000372529</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-Poor likelihood.  Returning worst case.
-<search_likelihood>-9999999.900000000372529</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-Poor likelihood.  Returning worst case.
-<search_likelihood>-9999999.900000000372529</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-Poor likelihood.  Returning worst case.
-<search_likelihood>-9999999.900000000372529</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-Poor likelihood.  Returning worst case.
-<search_likelihood>-9999999.900000000372529</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-Poor likelihood.  Returning worst case.
-<search_likelihood>-9999999.900000000372529</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-Poor likelihood.  Returning worst case.
-<search_likelihood>-9999999.900000000372529</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-Poor likelihood.  Returning worst case.
-<search_likelihood>-9999999.900000000372529</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-Poor likelihood.  Returning worst case.
-<search_likelihood>-9999999.900000000372529</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-Poor likelihood.  Returning worst case.
-<search_likelihood>-9999999.900000000372529</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-Poor likelihood.  Returning worst case.
-<search_likelihood>-9999999.900000000372529</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-Poor likelihood.  Returning worst case.
-<search_likelihood>-9999999.900000000372529</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-Poor likelihood.  Returning worst case.
-<search_likelihood>-9999999.900000000372529</search_likelihood>
-Using OpenMP 8 max threads on a system with 8 processors
-Poor likelihood.  Returning worst case.
-<search_likelihood>-9999999.900000000372529</search_likelihood>
+nSim: 7361
+nData: 7476
+EMDComponent =  0.9601823688
+CostComponent = 0.00000000000000000000
+log(EMDComponent) = -4.0632045108
+log(CostComponent) = -457.2383179016
+<search_likelihood>-461.301522412403529</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+nSim: 7433
+nData: 7476
+EMDComponent =  0.9679676580
+CostComponent = 0.00000000000000000000
+log(EMDComponent) = -3.2556603376
+log(CostComponent) = -349.6376798810
+<search_likelihood>-352.893340218656476</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+nSim: 7451
+nData: 7476
+EMDComponent =  0.9618474603
+CostComponent = 0.00000000000000000000
+log(EMDComponent) = -3.8899406097
+log(CostComponent) = -226.1589060782
+<search_likelihood>-230.048846687953215</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+nSim: 7486
+nData: 7476
+EMDComponent =  0.9678376269
+CostComponent = 0.00000000000000000000
+log(EMDComponent) = -3.2690946546
+log(CostComponent) = -146.2899458183
+<search_likelihood>-149.559040472939841</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+nSim: 7415
+nData: 7476
+EMDComponent =  0.9797221971
+CostComponent = 0.00000000000000000000
+log(EMDComponent) = -2.0486219895
+log(CostComponent) = -54.1779604825
+<search_likelihood>-56.226582471999180</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+nSim: 7359
+nData: 7476
+EMDComponent =  0.9835302222
+CostComponent = 0.00001216635342765151
+log(EMDComponent) = -1.6606912416
+log(CostComponent) = -11.3168363320
+<search_likelihood>-12.977527573617255</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+nSim: 7431
+nData: 7476
+EMDComponent =  0.9902262557
+CostComponent = 0.03162235565703155893
+log(EMDComponent) = -0.9821820899
+log(CostComponent) = -3.4538909510
+<search_likelihood>-4.436073040926808</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+nSim: 7476
+nData: 7476
+EMDComponent =  1.0000000000
+CostComponent = 1.00000000000000000000
+log(EMDComponent) = -0.0000000020
+log(CostComponent) = 0.0000000000
+<search_likelihood>-0.000000002037270</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+nSim: 7469
+nData: 7476
+EMDComponent =  0.9806885827
+CostComponent = 0.00142117562002664916
+log(EMDComponent) = -1.9500318684
+log(CostComponent) = -6.5562708485
+<search_likelihood>-8.506302716872119</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+nSim: 7450
+nData: 7476
+EMDComponent =  0.9861540508
+CostComponent = 0.00000000000342981722
+log(EMDComponent) = -1.3942698422
+log(CostComponent) = -26.3985141437
+<search_likelihood>-27.792783985927464</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+nSim: 7407
+nData: 7476
+EMDComponent =  0.9674388790
+CostComponent = 0.00000000000000000000
+log(EMDComponent) = -3.3103030220
+log(CostComponent) = -62.4400394747
+<search_likelihood>-65.750342496750818</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+nSim: 7449
+nData: 7476
+EMDComponent =  0.9718628192
+CostComponent = 0.00000000000000000000
+log(EMDComponent) = -2.8540616997
+log(CostComponent) = -87.1529642632
+<search_likelihood>-90.007025962996778</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+nSim: 7461
+nData: 7476
+EMDComponent =  0.9623776603
+CostComponent = 0.00000000000000000000
+log(EMDComponent) = -3.8348327107
+log(CostComponent) = -123.2690937313
+<search_likelihood>-127.103926442005957</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+nSim: 7470
+nData: 7476
+EMDComponent =  0.9630088377
+CostComponent = 0.00000000000000000000
+log(EMDComponent) = -3.7692689968
+log(CostComponent) = -164.4412199528
+<search_likelihood>-168.210488949615268</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+nSim: 7498
+nData: 7476
+EMDComponent =  0.9666249537
+CostComponent = 0.00000000000000000000
+log(EMDComponent) = -3.3944703903
+log(CostComponent) = -202.3372295527
+<search_likelihood>-205.731699942964468</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+nSim: 7498
+nData: 7476
+EMDComponent =  0.9535907078
+CostComponent = 0.00000000000000000000
+log(EMDComponent) = -4.7520727078
+log(CostComponent) = -253.1217423590
+<search_likelihood>-257.873815066775876</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+nSim: 7543
+nData: 7476
+EMDComponent =  0.9485408831
+CostComponent = 0.00000000000000000000
+log(EMDComponent) = -5.2830387674
+log(CostComponent) = -288.3846185731
+<search_likelihood>-293.667657340547919</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+nSim: 7538
+nData: 7476
+EMDComponent =  0.9363520956
+CostComponent = 0.00000000000000000000
+log(EMDComponent) = -6.5763702722
+log(CostComponent) = -345.9255291165
+<search_likelihood>-352.501899388681636</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+nSim: 7517
+nData: 7476
+EMDComponent =  0.9434629011
+CostComponent = 0.00000000000000000000
+log(EMDComponent) = -5.8198235439
+log(CostComponent) = -413.4842524403
+<search_likelihood>-419.304075984241308</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+nSim: 7566
+nData: 7476
+EMDComponent =  0.9402309418
+CostComponent = 0.00000000000000000000
+log(EMDComponent) = -6.1629751156
+log(CostComponent) = -450.1351025253
+<search_likelihood>-456.298077640948577</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+nSim: 7559
+nData: 7476
+EMDComponent =  0.9433362293
+CostComponent = 0.00000000000000000000
+log(EMDComponent) = -5.8332507063
+log(CostComponent) = -514.5287738175
+<search_likelihood>-520.362024523770515</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+nSim: 7579
+nData: 7476
+EMDComponent =  0.9291263628
+CostComponent = 0.00000000000000000000
+log(EMDComponent) = -7.3510529181
+log(CostComponent) = -566.7170219970
+<search_likelihood>-574.068074915050261</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+nSim: 7563
+nData: 7476
+EMDComponent =  0.9262694359
+CostComponent = 0.00000000000000000000
+log(EMDComponent) = -7.6590119183
+log(CostComponent) = -638.6064985786
+<search_likelihood>-646.265510496903289</search_likelihood>

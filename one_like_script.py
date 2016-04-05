@@ -15,7 +15,12 @@ twoD_surface = n
 
 oneD_multiploter = n
 
-
+ft         = [3.85, 4.3, 0.025]#18
+bt         = [3.85, 4.3, 0.025]#18
+r          = [0.1, 0.3, 0.01]#20
+r_r        = [0.7, 0.9, 0.01]#20
+m          = [8.0, 16.0, 0.25]#32
+m_r        = [44., 52.0, 0.25]#32
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
                 #/# # # # # # # # # # # # # # \#
@@ -27,15 +32,9 @@ oneD_multiploter = n
 #    One Dimensional Surface Sweep Func   #
 # # # # # # # # # # # # # # # # # # # # # #
 def oneD_data_vals():
-    ft         = [3.9, 4.2, 0.01]#
-    bt         = [0.96, 1.08, 0.005]#
-    r          = [0.1, 0.8, 0.01]#
-    r_r        = [0.1, 0.8, 0.01]#
-    m          = [1.0, 20.0, 0.25]#
-    m_r        = [0.17, 0.24, 0.001]#
+    c = [3.95, 3.95, 0.2, 0.8, 12, 48]
     #parameter    = [start, end, increment]
 
-    c = [4, 1, 0.2, 0.25, 60, 0.2]
     f = open('./1D_like_surface/parameter_data/ft_vals.txt', 'w')
     #  FORWARD TIME #
     counter = ft[0]
@@ -106,12 +105,13 @@ def oneD_parser():
     g.close()
 
 def oneD_plot():
-    ft = [3.8, 4.2]#plot ranges
-    bt = [0.95, 1.05]
-    r  = [0.15, 0.8]
-    rr = [0.1, 0.8]
-    m  = [1.0, 20.0]
-    mr = [0.15, 0.25]
+    ft = [3.8, 4.3]#plot ranges
+    bt = [3.8, 4.3]
+    r  = [0.1, 0.3]
+    rr = [0.7, 0.9]
+    m  = [8.0, 16.0]
+    mr = [44, 52]
+    l = -50
     ranges_start = [ft[0], bt[0], r[0], rr[0], m[0], mr[0]]
     ranges_end   = [ft[1], bt[1], r[1], rr[1], m[1], mr[1]]
     
@@ -127,7 +127,7 @@ def oneD_plot():
     #m_r = 'mass ratio'
 
     names   = ['ft', 'bt', 'rad', 'rr', 'mass', 'mr']
-    titles  = ['Forward Evolve Time', 'Reverse Orbit Ratio', 'Radius', 'Radius Ratio', 'Mass',  'Mass Ratio']
+    titles  = ['Forward Evolve Time', 'Reverse Orbit Time', 'Baryonic Scale Radius', 'Dark Scale Radius', 'Baryonic Matter Mass',  'Dark Matter Mass']
     # # # # # # # # # # # # # # # # # # # # # # # # # 
     data_vals = "parameter_data/"
     like_data = "likelihood_data/"
@@ -141,7 +141,7 @@ def oneD_plot():
     for i in range(M, N):
         f.write("set xlabel '" + titles[i] + "'\n")
         f.write("set ylabel 'likelihood'\n")
-        f.write("set yrange [-50:0]\n")
+        f.write("set yrange [" + str(l) + ":0]\n")
         f.write("set xrange[" + str(ranges_start[i]) + ":" + str(ranges_end[i]) + "]\n")
         
         p = "<paste 1D_like_surface/parameter_data/" + names[i] + "_vals.txt 1D_like_surface/likelihood_data/" + names[i] + "_data.txt"
@@ -168,15 +168,16 @@ def oneD_multiplot():
     titles  = ['Forward Evolve Time (Gyr)', 'Reverse Orbit Ratio', 'Baryon Scale Radius (kpc)', 'Scale Radius Ratio (Stellar/Dark)', 'Total Mass (Simulation Mass Units)',  'Mass Ratio (Baryonic/Total)']
 
     #correct answers:
-    correct = [4, 1, 0.2, 0.25, 60, 0.2]
+    correct = [3.95, 3.95, 0.2, 0.8, 12, 48]
 
     #ranges
-    ft = [3.8, 4.2]
-    bt = [0.95, 1.05]
-    r  = [0.15, 0.8]
-    rr = [0.1, 0.8]
-    m  = [1, 20.0]
-    mr = [0.15, 0.25]
+    ft = [3.8, 4.3]#plot ranges
+    bt = [3.8, 4.3]
+    r  = [0.1, 0.3]
+    rr = [0.7, 0.9]
+    m  = [8.0, 16.0]
+    mr = [44, 52]
+    l = -50
     ranges_start = [ft[0], bt[0], r[0], rr[0], m[0], mr[0]]
     ranges_end   = [ft[1], bt[1], r[1], rr[1], m[1], mr[1]]
     N  = 6
@@ -198,12 +199,12 @@ def oneD_multiplot():
     for i in range(M, N):
         f.write("set xlabel '" + titles[i] + "'\n")
         f.write("set ylabel 'Likelihood '\n")
-        f.write("set yrange [-50:0]\n")
+        f.write("set yrange [" + str(l) + ":0]\n")
         f.write("set xrange[" + str(ranges_start[i]) + ":" + str(ranges_end[i]) + "]\n")
         #f.write("set parametric\n")
         p = "<paste 1D_like_surface/parameter_data/" + names[i] + "_vals.txt 1D_like_surface/likelihood_data/" + names[i] + "_data.txt"
         f.write("set title '" + titles[i] + "' \n")
-        f.write("plot '" + p + "' using 1:2  with lines, 'parameter_data/correct.txt' using " + str(i + 2) + ":1 with lines\n\n") 
+        f.write("plot '" + p + "' using 1:2  with lines, '1D_like_surface/parameter_data/correct.txt' using " + str(i + 2) + ":1 with lines\n\n") 
 
         f.write("# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # \n")
         f.write("# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # \n")
@@ -216,17 +217,12 @@ def oneD_multiplot():
 #    Two Dimensional Surface Sweep Func   #
 # # # # # # # # # # # # # # # # # # # # # #
 def twoD_data_vals():
-    ft         = [0.25, 3.0, 0.05]
-    bt         = [0.25, 2.0, 0.05]
-    r          = [0.1, 1.0, 0.05]
-    r_r        = [0.1, 0.75, 0.05]
-    m          = [2.0, 50.0, 1.0]
-    m_r        = [0.1, 0.75, 0.05]
+    f = open('./2D_like_surface/parameter_data/ft_vs_bt.txt', 'w')
+
     #parameter = [start, end, increment]
     #--------------------------------------------------------------------------------------------------
 
     #  FORWARD TIME VS BACKTIME #
-    f = open('./2D_like_surface/parameter_data/ft_vs_bt.txt', 'w')
     fwt_counter = ft[0]
     fwt = str(fwt_counter)
     while fwt_counter < ft[1]:
