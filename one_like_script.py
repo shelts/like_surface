@@ -9,12 +9,14 @@ y = True
 n = False
 
 oneD_clean = y
-twoD_clean = n
+twoD_clean = y
 oneD_surface = n
 twoD_surface = n
 
 oneD_multiploter = n
+plot_cost_emd = n
 
+c          = [3.95, 3.95, 0.2, 0.8, 12, 48]
 ft         = [3.85, 4.3, 0.025]#18
 bt         = [3.85, 4.3, 0.025]#18
 r          = [0.1, 0.3, 0.01]#20
@@ -32,10 +34,8 @@ m_r        = [44., 52.0, 0.25]#32
 #    One Dimensional Surface Sweep Func   #
 # # # # # # # # # # # # # # # # # # # # # #
 def oneD_data_vals():
-    c = [3.95, 3.95, 0.2, 0.8, 12, 48]
-    #parameter    = [start, end, increment]
-
     f = open('./1D_like_surface/parameter_data/ft_vals.txt', 'w')
+
     #  FORWARD TIME #
     counter = ft[0]
     while counter < ft[1]:
@@ -167,9 +167,6 @@ def oneD_multiplot():
     names   = ['ft', 'bt', 'rad', 'rr', 'mass', 'mr']
     titles  = ['Forward Evolve Time (Gyr)', 'Reverse Orbit Ratio', 'Baryon Scale Radius (kpc)', 'Scale Radius Ratio (Stellar/Dark)', 'Total Mass (Simulation Mass Units)',  'Mass Ratio (Baryonic/Total)']
 
-    #correct answers:
-    correct = [3.95, 3.95, 0.2, 0.8, 12, 48]
-
     #ranges
     ft = [3.8, 4.3]#plot ranges
     bt = [3.8, 4.3]
@@ -213,6 +210,77 @@ def oneD_multiplot():
 
     os.system("gnuplot multiplot_1d.gnuplot 2>>piped_output.txt")
     os.system("rm multiplot_1d.gnuplot")
+
+def oneD_cost_emd_parser():
+    names   = ['ft', 'bt',  'rad', 'rr', 'mass', 'mr']
+    for i in range(0,6):
+        g = open('./1D_like_surface/parameter_sweeps/' + str(names[i]) + '.txt', 'r')
+        f = open('./1D_like_surface/cost_emd_data/' + str(names[i]) + '_cost_data.txt', 'w')
+        d = open('./1D_like_surface/cost_emd_data/' + str(names[i]) + '_emd_data.txt', 'w')
+        for line in g:
+            if (line.startswith("log(EMDComponent)")):
+                ss = line.split('log(EMDComponent) = ')#splits the line between the two sides the delimiter
+                f.write("%s" % (ss[1]))#writes the first of the resplit lines
+                
+            if (line.startswith("log(CostComponent)")):
+                tt = line.split('log(CostComponent) = ')#chooses the second of the split parts and resplits
+                d.write("%s" % (tt[1]))#writes the first of the resplit lines
+        
+    f.close()
+    g.close()
+    d.close()
+
+def oneD_cost_emd_plot():
+    ft = [3.8, 4.3]#plot ranges
+    bt = [3.8, 4.3]
+    r  = [0.1, 0.3]
+    rr = [0.7, 0.9]
+    m  = [8.0, 16.0]
+    mr = [44, 52]
+    l = -50
+    ranges_start = [ft[0], bt[0], r[0], rr[0], m[0], mr[0]]
+    ranges_end   = [ft[1], bt[1], r[1], rr[1], m[1], mr[1]]
+    
+    #how many of the data sets are we plotting
+    N  = 6
+    M  = 0
+    
+    names   = ['ft', 'bt', 'rad', 'rr', 'mass', 'mr']
+    titles  = ['Forward Evolve Time', 'Reverse Orbit Time', 'Baryonic Scale Radius', 'Dark Scale Radius', 'Baryonic Matter Mass',  'Dark Matter Mass']
+    # # # # # # # # # # # # # # # # # # # # # # # # # 
+    data_vals = "parameter_data/"
+    like_data = "likelihood_data/"
+
+
+    f = open('1D_plot.gnuplot', 'w')
+    f.write("reset\n")
+    f.write("set terminal jpeg\n")
+    f.write("set key on\n")
+
+    for i in range(M, N):
+        f.write("set xlabel '" + titles[i] + "'\n")
+        f.write("set ylabel 'likelihood'\n")
+        f.write("set yrange [" + str(l) + ":0]\n")
+        f.write("set xrange[" + str(ranges_start[i]) + ":" + str(ranges_end[i]) + "]\n")
+        
+        p = "<paste 1D_like_surface/parameter_data/" + names[i] + "_vals.txt 1D_like_surface/cost_emd_data/" + names[i] + "_cost_data.txt"
+        q = "<paste 1D_like_surface/parameter_data/" + names[i] + "_vals.txt 1D_like_surface/cost_emd_data/" + names[i] + "_emd_data.txt"
+        w = "<paste 1D_like_surface/parameter_data/" + names[i] + "_vals.txt 1D_like_surface/likelihood_data/" + names[i] + "_data.txt"
+        f.write("set output '1D_like_surface/cost_emd_plots/" + names[i] + "_cost.jpeg' \n")
+        f.write("set title 'Cost and EMD Surface of " + titles[i] + "' \n")
+        f.write("plot '" + p + "' using 1:2  with lines title 'Cost', '" + q + "' using 1:2  with lines title 'EMD', '" + w + "' using 1:2  with lines title 'Likelihood'\n  \n") 
+        
+        #p = "<paste 1D_like_surface/parameter_data/" + names[i] + "_vals.txt 1D_like_surface/cost_emd_data/" + names[i] + "_emd_data.txt"
+        #f.write("set output '1D_like_surface/cost_emd_plots/" + names[i] + "_emd.jpeg' \n")
+        #f.write("set title 'EMD Surface of " + titles[i] + "' \n")
+        #f.write("plot '" + p + "' using 1:2  with lines\n\n") 
+
+        f.write("# # # # # # # # # # # # # # # # # #\n")
+
+    f.close()
+
+    os.system("gnuplot 1D_plot.gnuplot 2>>piped_output.txt")
+    os.system("rm 1D_plot.gnuplot")
 # # # # # # # # # # # # # # # # # # # # # #
 #    Two Dimensional Surface Sweep Func   #
 # # # # # # # # # # # # # # # # # # # # # #
@@ -549,6 +617,12 @@ def oneD_cleanse():
 
     os.system("rm -r 1D_like_surface/parameter_data")
     os.system("mkdir 1D_like_surface/parameter_data")
+    
+    os.system("rm -r 1D_like_surface/cost_emd_data")
+    os.system("mkdir 1D_like_surface/cost_emd_data")
+    
+    os.system("rm -r 1D_like_surface/cost_emd_plots")
+    os.system("mkdir 1D_like_surface/cost_emd_plots")
 
 def twoD_cleanse():
     os.system("rm -r 2D_like_surface/likelihood_data")
@@ -579,7 +653,9 @@ def main():
     if(oneD_multiploter == True):
         oneD_multiplot()
 
-        
+    if(plot_cost_emd == True):
+        oneD_cost_emd_parser()
+        oneD_cost_emd_plot()
         
         
     if(twoD_surface == True):
