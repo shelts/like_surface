@@ -9,7 +9,7 @@ y = True
 n = False
 
 oneD_clean = y
-twoD_clean = y
+twoD_clean = n
 oneD_surface = n
 twoD_surface = n
 
