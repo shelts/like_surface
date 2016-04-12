@@ -5,6 +5,7 @@ from subprocess import call
 #       PARAMETER LIBRARY       #
 #--------------------------------------------------------------------------------------------------
 args = [3.95, 3.95, 0.2, 0.8, 12, 48]
+
 sim_time      = str(args[0])
 back_time     = str(args[1])
 r0            = str(args[2])
@@ -21,31 +22,32 @@ input_hist    = folder + "arg_" + sim_time + "_" + back_time + "_" + r0 + "_" + 
 output_hist   = folder + "histogram_out_20kEMD_sweep.hist"
 #parameter    = [start, end, increment]
 ft         = [3.85, 4.3, 0.025]#18
-bt         = [3.85, 4.3, 0.025]#18
+bt         = [0.9, 1.08, 0.025]#18
 r          = [0.1, 0.3, 0.01]#20
 r_r        = [0.7, 0.9, 0.01]#20
 m          = [8.0, 16.0, 0.25]#32
-m_r        = [44., 52.0, 0.25]#32
+m_r        = [2., 1200.0, 23]#52
+
 
 y = True
 n = False
 
 #choose what to run
-run_forward_evole_time    = y
-run_backward_evolve_ratio = y
-run_radius                = y
-run_radius_ratio          = y
-run_mass                  = y
+run_forward_evole_time    = n
+run_backward_evolve_ratio = n
+run_radius                = n
+run_radius_ratio          = n
+run_mass                  = n
 run_mass_ratio            = y
 #--------------------------------------------------------------------------------------------------
 
 #os.system("rm -r ~/research/nbody_test")
 #os.system("mkdir ~/research/nbody_test")
 
-#os.chdir("../nbody_test")
-#os.system("cmake -DCMAKE_BUILD_TYPE=Release  -DNBODY_GL=OFF -DBOINC_APPLICATION=OFF -DSEPARATION=OFF -DNBODY_OPENMP=ON    ~/research/milkywayathome_client/")
-#os.system("make -j ")
-#os.chdir("../like_surface")
+os.chdir("../nbody_test")
+os.system("cmake -DCMAKE_BUILD_TYPE=Release  -DNBODY_GL=OFF -DBOINC_APPLICATION=OFF -DSEPARATION=OFF -DNBODY_OPENMP=ON    ~/research/milkywayathome_client/")
+os.system("make -j ")
+os.chdir("../like_surface")
 
 #this makes a comparison histogram
 os.system(" " + binary + " \
@@ -58,7 +60,7 @@ if( run_forward_evole_time == True):
     counter = ft[0]
     name = str(counter)
     while counter < ft[1]:
-        output_hist = folder + "arg_" + name + "_" + back_time + "_" + r0 + "_" + light_r_ratio + "_" + mass + "_" + mass_ratio + ".hist"
+        output_hist = "ft_hists/" + folder + "arg_" + name + "_" + back_time + "_" + r0 + "_" + light_r_ratio + "_" + mass + "_" + mass_ratio + ".hist"
         os.system(" " + binary + " \
                 -f " + lua + " \
                 -h " + input_hist + " \
@@ -90,7 +92,7 @@ if( run_mass == True):
     counter = m[0]
     name = str(counter)
     while counter < m[1]:
-        output_hist = folder + "arg_" + sim_time + "_" + back_time + "_" + r0 + "_" + light_r_ratio + "_" + name + "_" + mass_ratio + ".hist"
+        output_hist = "mass_hists/" + folder + "arg_" + sim_time + "_" + back_time + "_" + r0 + "_" + light_r_ratio + "_" + name + "_" + mass_ratio + ".hist"
         os.system(" " + binary + " \
                 -f " + lua + " \
                 -h " + input_hist + " \
@@ -106,7 +108,7 @@ if( run_mass_ratio == True):
     counter = m_r[0]
     name = str(counter)
     while counter < m_r[1]:
-        output_hist = folder + "arg_" + sim_time + "_" + back_time + "_" + r0 + "_" + light_r_ratio + "_" + mass + "_" + name + ".hist"
+        output_hist = "mr_hists/" + folder + "arg_" + sim_time + "_" + back_time + "_" + r0 + "_" + light_r_ratio + "_" + mass + "_" + name + ".hist"
         os.system(" " + binary + " \
                 -f " + lua + " \
                 -h " + input_hist + " \
@@ -121,7 +123,7 @@ if( run_radius == True):
     counter = r[0]
     name = str(counter)
     while counter < r[1]:
-        output_hist = folder + "arg_" + sim_time + "_" + back_time + "_" + name + "_" + light_r_ratio + "_" + mass + "_" + mass_ratio + ".hist"
+        output_hist = "rad_hists/" + folder + "arg_" + sim_time + "_" + back_time + "_" + name + "_" + light_r_ratio + "_" + mass + "_" + mass_ratio + ".hist"
         os.system(" " + binary + " \
                 -f " + lua + " \
                 -h " + input_hist + " \
@@ -137,7 +139,7 @@ if( run_radius_ratio == True):
     counter = r_r[0]
     name = str(counter)
     while counter < r_r[1]:
-        output_hist = folder + "arg_" + sim_time + "_" + back_time + "_" + r0 + "_" + name + "_" + mass + "_" + mass_ratio + ".hist"
+        output_hist = "rr_hists/" + folder + "arg_" + sim_time + "_" + back_time + "_" + r0 + "_" + name + "_" + mass + "_" + mass_ratio + ".hist"
         os.system(" " + binary + " \
                 -f " + lua + " \
                 -h " + input_hist + " \
