@@ -21,12 +21,12 @@ seed          = "98213548"
 input_hist    = folder + "arg_" + sim_time + "_" + back_time + "_" + r0 + "_" + light_r_ratio + "_" + mass + "_" + mass_ratio + "_correct.hist"
 output_hist   = folder + "histogram_out_20kEMD_sweep.hist"
 #parameter    = [start, end, increment]
-ft         = [3.85, 4.3, 0.025]#18
-bt         = [0.9, 1.08, 0.025]#18
-r          = [0.1, 0.3, 0.01]#20
-r_r        = [0.7, 0.9, 0.01]#20
-m          = [8.0, 16.0, 0.25]#32
-m_r        = [2., 1200.0, 23]#52
+ft         = [3.85, 4.3, 0.025]#
+bt         = [0.9, 1.08, 0.025]#
+r          = [0.1, 3.0, 0.1]#
+r_r        = [0.1, 3.0, 0.1]#
+m          = [2., 120.0, 5]#
+m_r        = [2., 1200.0, 23]#
 
 
 y = True
@@ -60,7 +60,7 @@ if( run_forward_evole_time == True):
     counter = ft[0]
     name = str(counter)
     while counter < ft[1]:
-        output_hist = "ft_hists/" + folder + "arg_" + name + "_" + back_time + "_" + r0 + "_" + light_r_ratio + "_" + mass + "_" + mass_ratio + ".hist"
+        output_hist = folder + "ft_hists/" + "arg_" + name + "_" + back_time + "_" + r0 + "_" + light_r_ratio + "_" + mass + "_" + mass_ratio + ".hist"
         os.system(" " + binary + " \
                 -f " + lua + " \
                 -h " + input_hist + " \
@@ -92,7 +92,7 @@ if( run_mass == True):
     counter = m[0]
     name = str(counter)
     while counter < m[1]:
-        output_hist = "mass_hists/" + folder + "arg_" + sim_time + "_" + back_time + "_" + r0 + "_" + light_r_ratio + "_" + name + "_" + mass_ratio + ".hist"
+        output_hist = folder + "mass_hists/" + "arg_" + sim_time + "_" + back_time + "_" + r0 + "_" + light_r_ratio + "_" + name + "_" + mass_ratio + ".hist"
         os.system(" " + binary + " \
                 -f " + lua + " \
                 -h " + input_hist + " \
@@ -108,7 +108,7 @@ if( run_mass_ratio == True):
     counter = m_r[0]
     name = str(counter)
     while counter < m_r[1]:
-        output_hist = "mr_hists/" + folder + "arg_" + sim_time + "_" + back_time + "_" + r0 + "_" + light_r_ratio + "_" + mass + "_" + name + ".hist"
+        output_hist = folder + "mr_hists/" + "arg_" + sim_time + "_" + back_time + "_" + r0 + "_" + light_r_ratio + "_" + mass + "_" + name + ".hist"
         os.system(" " + binary + " \
                 -f " + lua + " \
                 -h " + input_hist + " \
@@ -123,7 +123,7 @@ if( run_radius == True):
     counter = r[0]
     name = str(counter)
     while counter < r[1]:
-        output_hist = "rad_hists/" + folder + "arg_" + sim_time + "_" + back_time + "_" + name + "_" + light_r_ratio + "_" + mass + "_" + mass_ratio + ".hist"
+        output_hist = folder + "rad_hists/" + "arg_" + sim_time + "_" + back_time + "_" + name + "_" + light_r_ratio + "_" + mass + "_" + mass_ratio + ".hist"
         os.system(" " + binary + " \
                 -f " + lua + " \
                 -h " + input_hist + " \
@@ -139,7 +139,7 @@ if( run_radius_ratio == True):
     counter = r_r[0]
     name = str(counter)
     while counter < r_r[1]:
-        output_hist = "rr_hists/" + folder + "arg_" + sim_time + "_" + back_time + "_" + r0 + "_" + name + "_" + mass + "_" + mass_ratio + ".hist"
+        output_hist = folder + "rr_hists/" + "arg_" + sim_time + "_" + back_time + "_" + r0 + "_" + name + "_" + mass + "_" + mass_ratio + ".hist"
         os.system(" " + binary + " \
                 -f " + lua + " \
                 -h " + input_hist + " \
