@@ -14,7 +14,7 @@ from mpl_toolkits.mplot3d import Axes3D
 inertia = True                                #
 # # # # # # # # # # # # # # # # # # # # # # # #
 #plot which parameter                         #
-parameter_to_plot = 'ml'                      #
+parameter_to_plot = 'ft'                      #
 # # # # # # # # # # # # # # # # # # # # # # # #
 #pop up interactive plots                     #
 pop_up = False                                #

@@ -23,8 +23,8 @@ output_hist   = folder + "histogram_out_20kEMD_sweep.hist"
 #parameter    = [start, end, increment]
 ft         = [3.85, 4.3, 0.025]#
 bt         = [0.9, 1.08, 0.025]#
-r          = [0.1, 3.0, 0.1]#
-r_r        = [0.1, 3.0, 0.1]#
+r          = [0.1, 4.0, 0.1]#
+r_r        = [0.1, 4.0, 0.1]#
 m          = [2., 120.0, 5]#
 m_r        = [2., 1200.0, 23]#
 
@@ -34,7 +34,7 @@ n = False
 
 #choose what to run
 run_forward_evole_time    = n
-run_backward_evolve_ratio = n
+#run_backward_evolve_ratio = n
 run_radius                = n
 run_radius_ratio          = n
 run_mass                  = n
@@ -72,19 +72,19 @@ if( run_forward_evole_time == True):
     
     
     #  BACKWARD TIME  #
-if( run_backward_evolve_ratio == True):
-    counter = bt[0]
-    name = str(counter)
-    while counter < bt[1]:
-        output_hist = folder + "arg_" + sim_time + "_" + name + "_" + r0 + "_" + light_r_ratio + "_" + mass + "_" + mass_ratio + ".hist"
-        os.system(" " + binary + " \
-                -f " + lua + " \
-                -h " + input_hist + " \
-                -z " + output_hist + " \
-                -n 8 -x -e  " + seed + " -i " + sim_time + " " + name + " " + r0 + " " + light_r_ratio + " " + mass + " " + mass_ratio + " \
-                2>>" + folder + "parameter_sweeps/bt.txt")
-        counter = counter + bt[2]
-        name = str(counter)
+#if( run_backward_evolve_ratio == True):
+    #counter = bt[0]
+    #name = str(counter)
+    #while counter < bt[1]:
+        #output_hist = folder + "arg_" + sim_time + "_" + name + "_" + r0 + "_" + light_r_ratio + "_" + mass + "_" + mass_ratio + ".hist"
+        #os.system(" " + binary + " \
+                #-f " + lua + " \
+                #-h " + input_hist + " \
+                #-z " + output_hist + " \
+                #-n 8 -x -e  " + seed + " -i " + sim_time + " " + name + " " + r0 + " " + light_r_ratio + " " + mass + " " + mass_ratio + " \
+                #2>>" + folder + "parameter_sweeps/bt.txt")
+        #counter = counter + bt[2]
+        #name = str(counter)
     
 
     #  MASS  #
