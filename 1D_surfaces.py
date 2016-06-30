@@ -15,7 +15,7 @@ mass_ratio    = str(args[5])
 
 folder        = "~/research/like_surface/hists/"
 binary        = "~/research/nbody_test/bin/milkyway_nbody"
-lua           = "~/research/lua/EMD_20k_v158_fixed_seed_fit_parameters_directly.lua"
+lua           = "~/research/lua/EMD_v162.lua"
 seed          = "98213548"
 
 input_hist    = folder + "arg_" + sim_time + "_" + back_time + "_" + r0 + "_" + light_r_ratio + "_" + mass + "_" + mass_ratio + "_correct.hist"
