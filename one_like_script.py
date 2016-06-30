@@ -8,18 +8,17 @@ import os
 y = True
 n = False
 
-oneD_clean = n
-twoD_clean = n
-oneD_surface = y
+oneD_clean = y
+twoD_clean = y
+oneD_surface = n
 twoD_surface = n
 
 oneD_multiploter = n
-plot_cost_emd = y
+plot_cost_emd = n
 
 special_parser = n
 
-oneD_names   = ['ft', 'rad', 'rr', 'mass', 'mr_100bins']
-#oneD_names   = ['ft', 'bt', 'rad', 'rr', 'mass', 'mr']
+oneD_names   = ['ft', 'bt', 'rad', 'rr', 'mass', 'mr']
 
 c          = [3.95, 3.95, 0.2, 0.8, 12, 48]
 ft         = [3.85, 4.3, 0.025]#
@@ -49,12 +48,12 @@ def oneD_data_vals():
     f.close()
     
     #  BACKWARD TIME  #  
-    #f = open('./1D_like_surface/parameter_data/bt_vals.txt', 'w')
-    #counter = bt[0]
-    #while counter < bt[1]:
-        #f.write("%s \n" % counter)
-        #counter = counter + bt[2]
-    #f.close() 
+    f = open('./1D_like_surface/parameter_data/bt_vals.txt', 'w')
+    counter = bt[0]
+    while counter < bt[1]:
+        f.write("%s \n" % counter)
+        counter = counter + bt[2]
+    f.close() 
 
     #  RADIUS  #
     f = open('./1D_like_surface/parameter_data/' + oneD_names[1] + '_vals.txt', 'w')
@@ -131,8 +130,8 @@ def oneD_plot():
     #mass  = 'mass'
     #m_r = 'mass ratio'
 
-    #titles  = ['Forward Evolve Time', 'Reverse Orbit Time', 'Baryonic Scale Radius', 'Dark Scale Radius', 'Baryonic Matter Mass',  'Dark Matter Mass']
-    titles  = ['Forward Evolve Time', 'Baryonic Scale Radius', 'Dark Scale Radius', 'Baryonic Matter Mass',  'Dark Matter Mass']
+    titles  = ['Forward Evolve Time', 'Reverse Orbit Time Ratio', 'Baryonic Scale Radius', 'Baryonic Scale Radius Ratio', 'Baryonic Matter Mass',  'Baryonic to Mass Ratio']
+    #titles  = ['Forward Evolve Time', 'Baryonic Scale Radius', 'Dark Scale Radius', 'Baryonic Matter Mass',  'Dark Matter Mass']
     # # # # # # # # # # # # # # # # # # # # # # # # # 
     data_vals = "parameter_data/"
     like_data = "likelihood_data/"

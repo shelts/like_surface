@@ -1,0 +1,371 @@
+Using OpenMP 8 max threads on a system with 8 processors
+log(EMDComponent) = -3.5973747595
+log(CostComponent) = -0.0072325942
+
+log(Old CostComponent) = -26.8768451468
+Old likelihood = -30.47421990635739064146
+<search_likelihood>-3.604607353764299</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+log(EMDComponent) = -1.7711755701
+log(CostComponent) = -0.0072325942
+
+log(Old CostComponent) = -26.8768451468
+Old likelihood = -28.64802071691873663895
+<search_likelihood>-1.778408164325648</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+log(EMDComponent) = 0.0000000006
+log(CostComponent) = -0.0000000000
+
+log(Old CostComponent) = 0.0000000000
+Old likelihood = 0.00000000058206772735
+<search_likelihood>0.000000000582068</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+log(EMDComponent) = -2.2184990057
+log(CostComponent) = -0.1029249171
+
+log(Old CostComponent) = -35.4618373958
+Old likelihood = -37.68033640151145391428
+<search_likelihood>-2.321423922822563</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+log(EMDComponent) = -2.6401622403
+log(CostComponent) = -0.8746966019
+
+log(Old CostComponent) = -141.3861796433
+Old likelihood = -144.02634188367326828484
+<search_likelihood>-3.514858842273961</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+log(EMDComponent) = -3.8020141518
+log(CostComponent) = -2.2580349878
+
+log(Old CostComponent) = -247.6764856472
+Old likelihood = -251.47849979895903516081
+<search_likelihood>-6.060049139568672</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+log(EMDComponent) = -3.6120296944
+log(CostComponent) = -3.4937729686
+
+log(Old CostComponent) = -318.1821948582
+Old likelihood = -321.79422455266075075997
+<search_likelihood>-7.105802662982304</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+log(EMDComponent) = -3.8382570192
+log(CostComponent) = -4.6888502099
+
+log(Old CostComponent) = -375.8904916012
+Old likelihood = -379.72874862041135202162
+<search_likelihood>-8.527107229130550</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+log(EMDComponent) = -4.3886977998
+log(CostComponent) = -5.9631416838
+
+log(Old CostComponent) = -430.2488279072
+Old likelihood = -434.63752570697420196666
+<search_likelihood>-10.351839483557544</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+log(EMDComponent) = -3.9407432359
+log(CostComponent) = -8.4668884419
+
+log(Old CostComponent) = -523.0775969324
+Old likelihood = -527.01834016825966955366
+<search_likelihood>-12.407631677782486</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+log(EMDComponent) = -4.1570620920
+log(CostComponent) = -9.8394675627
+
+log(Old CostComponent) = -568.4713042322
+Old likelihood = -572.62836632423568516970
+<search_likelihood>-13.996529654712404</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+log(EMDComponent) = -4.3151935311
+log(CostComponent) = -10.6330158894
+
+log(Old CostComponent) = -593.3645015536
+Old likelihood = -597.67969508472185680148
+<search_likelihood>-14.948209420581142</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+log(EMDComponent) = -3.8035820857
+log(CostComponent) = -13.8932192814
+
+log(Old CostComponent) = -687.5196430747
+Old likelihood = -691.32322516035037551774
+<search_likelihood>-17.696801367046934</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+log(EMDComponent) = -4.1909247579
+log(CostComponent) = -14.6791161314
+
+log(Old CostComponent) = -708.6114452190
+Old likelihood = -712.80236997687745770236
+<search_likelihood>-18.870040889254753</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+log(EMDComponent) = -4.0606671089
+log(CostComponent) = -14.7989379425
+
+log(Old CostComponent) = -711.7804044331
+Old likelihood = -715.84107154205764800281
+<search_likelihood>-18.859605051472872</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+log(EMDComponent) = -4.0977192223
+log(CostComponent) = -18.0482201662
+
+log(Old CostComponent) =       -inf
+Old likelihood =       -inf
+<search_likelihood>-22.145939388474542</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+log(EMDComponent) = -3.2597097300
+log(CostComponent) = -16.4450125209
+
+log(Old CostComponent) =       -inf
+Old likelihood =       -inf
+<search_likelihood>-19.704722250830855</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+log(EMDComponent) = -3.9204768609
+log(CostComponent) = -15.0400999896
+
+log(Old CostComponent) = -718.1223678794
+Old likelihood = -722.04284474030453111482
+<search_likelihood>-18.960576850460928</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+log(EMDComponent) = -3.3516738392
+log(CostComponent) = -15.9417101147
+
+log(Old CostComponent) =       -inf
+Old likelihood =       -inf
+<search_likelihood>-19.293383953926515</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+log(EMDComponent) = -3.3110125341
+log(CostComponent) = -16.1923437989
+
+log(Old CostComponent) =       -inf
+Old likelihood =       -inf
+<search_likelihood>-19.503356332973404</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+log(EMDComponent) = -3.3014947964
+log(CostComponent) = -16.6571257110
+
+log(Old CostComponent) =       -inf
+Old likelihood =       -inf
+<search_likelihood>-19.958620507382637</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+log(EMDComponent) = -3.8037022017
+log(CostComponent) = -15.4056426822
+
+log(Old CostComponent) = -727.6454036928
+Old likelihood = -731.44910589451330906741
+<search_likelihood>-19.209344883900869</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+log(EMDComponent) = -2.2609039522
+log(CostComponent) = -14.6392879450
+
+log(Old CostComponent) = -707.5554255060
+Old likelihood = -709.81632945817204927152
+<search_likelihood>-16.900191897201182</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+log(EMDComponent) = -2.5229501642
+log(CostComponent) = -16.0667726965
+
+log(Old CostComponent) =       -inf
+Old likelihood =       -inf
+<search_likelihood>-18.589722860630300</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+log(EMDComponent) = -2.9325835372
+log(CostComponent) = -16.5296879891
+
+log(Old CostComponent) =       -inf
+Old likelihood =       -inf
+<search_likelihood>-19.462271526384310</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+log(EMDComponent) = -2.3659328546
+log(CostComponent) = -14.5995159527
+
+log(Old CostComponent) = -706.4995559056
+Old likelihood = -708.86548876021970500005
+<search_likelihood>-16.965448807352885</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+log(EMDComponent) = -1.5710620031
+log(CostComponent) = -15.7344018765
+
+log(Old CostComponent) = -736.1284279729
+Old likelihood = -737.69948997593849071563
+<search_likelihood>-17.305463879526151</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+log(EMDComponent) = -2.5962149169
+log(CostComponent) = -15.4056426822
+
+log(Old CostComponent) = -727.6454036928
+Old likelihood = -730.24161860970650650415
+<search_likelihood>-18.001857599094038</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+log(EMDComponent) = -1.8021134353
+log(CostComponent) = -17.4324627840
+
+log(Old CostComponent) =       -inf
+Old likelihood =       -inf
+<search_likelihood>-19.234576219290275</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+log(EMDComponent) = -2.0750823684
+log(CostComponent) = -15.6931095591
+
+log(Old CostComponent) = -735.0584709400
+Old likelihood = -737.13355330841420709476
+<search_likelihood>-17.768191927497085</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+log(EMDComponent) = -2.1107973844
+log(CostComponent) = -17.1287593985
+
+log(Old CostComponent) =       -inf
+Old likelihood =       -inf
+<search_likelihood>-19.239556782851970</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+log(EMDComponent) = -2.7834181989
+log(CostComponent) = -14.9997656616
+
+log(Old CostComponent) = -717.0649998221
+Old likelihood = -719.84841802100675067777
+<search_likelihood>-17.783183860557763</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+log(EMDComponent) = -2.4315248296
+log(CostComponent) = -16.9135303022
+
+log(Old CostComponent) =       -inf
+Old likelihood =       -inf
+<search_likelihood>-19.345055131823759</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+log(EMDComponent) = -2.9003309088
+log(CostComponent) = -16.7423673086
+
+log(Old CostComponent) =       -inf
+Old likelihood =       -inf
+<search_likelihood>-19.642698217382751</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+log(EMDComponent) = -2.3008588788
+log(CostComponent) = -19.2213818372
+
+log(Old CostComponent) =       -inf
+Old likelihood =       -inf
+<search_likelihood>-21.522240716003648</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+log(EMDComponent) = -3.2008010754
+log(CostComponent) = -15.5695711084
+
+log(Old CostComponent) = -731.8816888425
+Old likelihood = -735.08248991790264881274
+<search_likelihood>-18.770372183802667</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+log(EMDComponent) = -2.6384452486
+log(CostComponent) = -17.8270275920
+
+log(Old CostComponent) =       -inf
+Old likelihood =       -inf
+<search_likelihood>-20.465472840559244</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+log(EMDComponent) = -2.7048624629
+log(CostComponent) = -16.5721106183
+
+log(Old CostComponent) =       -inf
+Old likelihood =       -inf
+<search_likelihood>-19.276973081257196</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+log(EMDComponent) = -2.2804379274
+log(CostComponent) = -16.0667726965
+
+log(Old CostComponent) =       -inf
+Old likelihood =       -inf
+<search_likelihood>-18.347210623824957</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+log(EMDComponent) = -3.4995528410
+log(CostComponent) = -17.8711523386
+
+log(Old CostComponent) =       -inf
+Old likelihood =       -inf
+<search_likelihood>-21.370705179684023</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+log(EMDComponent) = -3.5944927671
+log(CostComponent) = -18.2708355119
+
+log(Old CostComponent) =       -inf
+Old likelihood =       -inf
+<search_likelihood>-21.865328278999591</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+log(EMDComponent) = -3.7937798685
+log(CostComponent) = -18.4499529338
+
+log(Old CostComponent) =       -inf
+Old likelihood =       -inf
+<search_likelihood>-22.243732802319194</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+log(EMDComponent) = -3.7175296869
+log(CostComponent) = -19.4052929166
+
+log(Old CostComponent) =       -inf
+Old likelihood =       -inf
+<search_likelihood>-23.122822603526437</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+log(EMDComponent) = -3.7332258454
+log(CostComponent) = -18.7656029296
+
+log(Old CostComponent) =       -inf
+Old likelihood =       -inf
+<search_likelihood>-22.498828775056751</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+log(EMDComponent) = -4.0971484208
+log(CostComponent) = -17.6949945138
+
+log(Old CostComponent) =       -inf
+Old likelihood =       -inf
+<search_likelihood>-21.792142934647007</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+log(EMDComponent) = -3.9733158655
+log(CostComponent) = -18.8563019934
+
+log(Old CostComponent) =       -inf
+Old likelihood =       -inf
+<search_likelihood>-22.829617858937144</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+log(EMDComponent) = -4.2117510795
+log(CostComponent) = -19.9625176803
+
+log(Old CostComponent) =       -inf
+Old likelihood =       -inf
+<search_likelihood>-24.174268759880547</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+log(EMDComponent) = -4.1886563487
+log(CostComponent) = -19.2672738693
+
+log(Old CostComponent) =       -inf
+Old likelihood =       -inf
+<search_likelihood>-23.455930218012249</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+log(EMDComponent) = -3.9911838614
+log(CostComponent) = -19.0383850542
+
+log(Old CostComponent) =       -inf
+Old likelihood =       -inf
+<search_likelihood>-23.029568915533346</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+log(EMDComponent) = -4.4170027698
+log(CostComponent) = -19.9625176803
+
+log(Old CostComponent) =       -inf
+Old likelihood =       -inf
+<search_likelihood>-24.379520450100209</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+log(EMDComponent) = -3.9841261450
+log(CostComponent) = -16.4027596640
+
+log(Old CostComponent) =       -inf
+Old likelihood =       -inf
+<search_likelihood>-20.386885809077786</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+log(EMDComponent) = -4.2564702906
+log(CostComponent) = -19.4052929166
+
+log(Old CostComponent) =       -inf
+Old likelihood =       -inf
+<search_likelihood>-23.661763207219376</search_likelihood>
+Using OpenMP 8 max threads on a system with 8 processors
+log(EMDComponent) = -4.5724094337
+log(CostComponent) = -18.4948747450
+
+log(Old CostComponent) =       -inf
+Old likelihood =       -inf
+<search_likelihood>-23.067284178753873</search_likelihood>
