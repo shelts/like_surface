@@ -76,7 +76,7 @@ if( run_backward_evolve_ratio == True):
     counter = bt[0]
     name = str(counter)
     while counter < bt[1]:
-        output_hist = folder + "arg_" + sim_time + "_" + name + "_" + r0 + "_" + light_r_ratio + "_" + mass + "_" + mass_ratio + ".hist"
+        output_hist = folder + "bt_hists/" + "arg_" + sim_time + "_" + name + "_" + r0 + "_" + light_r_ratio + "_" + mass + "_" + mass_ratio + ".hist"
         os.system(" " + binary + " \
                 -f " + lua + " \
                 -h " + input_hist + " \
@@ -86,6 +86,36 @@ if( run_backward_evolve_ratio == True):
         counter = counter + bt[2]
         name = str(counter)
     
+    #  RADIUS  #
+if( run_radius == True):
+    counter = r[0]
+    name = str(counter)
+    while counter < r[1]:
+        output_hist = folder + "rad_hists/" + "arg_" + sim_time + "_" + back_time + "_" + name + "_" + light_r_ratio + "_" + mass + "_" + mass_ratio + ".hist"
+        os.system(" " + binary + " \
+                -f " + lua + " \
+                -h " + input_hist + " \
+                -z " + output_hist + " \
+                 -b -e  " + seed + " -i " + sim_time + " " + back_time + " " + name + " " + light_r_ratio + " " + mass + " " + mass_ratio + " \
+                2>>" + folder + "parameter_sweeps/rad.txt")
+        counter = counter + r[2]
+        name = str(counter)
+    
+    
+    #  RADIUS RATIO  #
+if( run_radius_ratio == True):
+    counter = r_r[0]
+    name = str(counter)
+    while counter < r_r[1]:
+        output_hist = folder + "rr_hists/" + "arg_" + sim_time + "_" + back_time + "_" + r0 + "_" + name + "_" + mass + "_" + mass_ratio + ".hist"
+        os.system(" " + binary + " \
+                -f " + lua + " \
+                -h " + input_hist + " \
+                -z " + output_hist + " \
+                 -b -e  " + seed + " -i " + sim_time + " " + back_time + " " + r0 + " " + name + " " + mass + " " + mass_ratio + " \
+                2>>" + folder + "parameter_sweeps/rr.txt")
+        counter = counter + r_r[2]
+        name = str(counter)
 
     #  MASS  #
 if( run_mass == True):
@@ -118,33 +148,3 @@ if( run_mass_ratio == True):
         counter = counter + m_r[2]
         name = str(counter)
         
-    #  RADIUS  #
-if( run_radius == True):
-    counter = r[0]
-    name = str(counter)
-    while counter < r[1]:
-        output_hist = folder + "rad_hists/" + "arg_" + sim_time + "_" + back_time + "_" + name + "_" + light_r_ratio + "_" + mass + "_" + mass_ratio + ".hist"
-        os.system(" " + binary + " \
-                -f " + lua + " \
-                -h " + input_hist + " \
-                -z " + output_hist + " \
-                 -b -e  " + seed + " -i " + sim_time + " " + back_time + " " + name + " " + light_r_ratio + " " + mass + " " + mass_ratio + " \
-                2>>" + folder + "parameter_sweeps/rad.txt")
-        counter = counter + r[2]
-        name = str(counter)
-    
-    
-    #  RADIUS RATIO  #
-if( run_radius_ratio == True):
-    counter = r_r[0]
-    name = str(counter)
-    while counter < r_r[1]:
-        output_hist = folder + "rr_hists/" + "arg_" + sim_time + "_" + back_time + "_" + r0 + "_" + name + "_" + mass + "_" + mass_ratio + ".hist"
-        os.system(" " + binary + " \
-                -f " + lua + " \
-                -h " + input_hist + " \
-                -z " + output_hist + " \
-                 -b -e  " + seed + " -i " + sim_time + " " + back_time + " " + r0 + " " + name + " " + mass + " " + mass_ratio + " \
-                2>>" + folder + "parameter_sweeps/rr.txt")
-        counter = counter + r_r[2]
-        name = str(counter)
