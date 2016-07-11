@@ -33,6 +33,9 @@ y = True
 n = False
 
 #choose what to run
+rebuild_binary            = y
+make_correct_answer_hist  = y
+
 run_forward_evole_time    = n
 run_backward_evolve_ratio = n
 run_radius                = n
@@ -41,21 +44,21 @@ run_mass                  = n
 run_mass_ratio            = n
 #--------------------------------------------------------------------------------------------------
 
-#os.system("rm -r ~/research/nbody_test")
-#os.system("mkdir ~/research/nbody_test")
-
-os.chdir("../nbody_test")
-os.system("cmake -DCMAKE_BUILD_TYPE=Release -DBOINC_RELEASE_NAMES=OFF -DNBODY_GL=OFF -DBOINC_APPLICATION=OFF -DSEPARATION=OFF -DNBODY_OPENMP=ON    ~/research/milkywayathome_client/")
-os.system("make -j ")
-os.chdir("../like_surface")
+def rebuild():
+    os.chdir("")
+    #os.system("rm -r ~/research/nbody_test")
+    #os.system("mkdir ~/research/nbody_test")
+    os.chdir("../nbody_test")
+    os.system("cmake -DCMAKE_BUILD_TYPE=Release -DBOINC_RELEASE_NAMES=OFF -DNBODY_GL=OFF -DBOINC_APPLICATION=OFF -DSEPARATION=OFF -DNBODY_OPENMP=ON    ~/research/milkywayathome_client/")
+    os.system("make -j ")
+    os.chdir("../like_surface")
 
 #this makes a comparison histogram
-os.system(" " + binary + " \
-    -f " + lua + " \
-    -z " + input_hist + " \
-    -b -e " + seed + " -i "+ ft_c + " " + bt_c + " " + r_c + " " + rr_c + " " + m_c + " " + mr_c )
-
-
+def make_correct():
+    os.system(" " + binary + " \
+        -f " + lua + " \
+        -z " + input_hist + " \
+        -b -e " + seed + " -i "+ ft_c + " " + bt_c + " " + r_c + " " + rr_c + " " + m_c + " " + mr_c )
 
 def nbody(output_hist, ft, bt, r, rr, m, mr, file_name):
     os.system(" " + binary + " \
@@ -127,6 +130,12 @@ def run_sweep(start, end, intv, para):
         
         
 def main():
+    if(rebuild_binary == True):
+        rebuild()
+        
+    if(make_correct_answer_hist == True):
+        make_correct()
+        
     if(run_forward_evole_time == True):
          run_sweep(ft_rg[0], ft_rg[1], ft_rg[2], 'ft')
     
