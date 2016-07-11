@@ -45,7 +45,7 @@ run_mass_ratio            = n
 #--------------------------------------------------------------------------------------------------
 
 def rebuild():
-    os.chdir("")
+    os.chdir(".")
     #os.system("rm -r ~/research/nbody_test")
     #os.system("mkdir ~/research/nbody_test")
     os.chdir("../nbody_test")
