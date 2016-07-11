@@ -18,7 +18,7 @@ binary        = "~/research/nbody_test/bin/milkyway_nbody"
 lua           = "~/research/lua/EMD_v162.lua"
 seed          = "98213548"
 
-input_hist    = folder + "arg_" + sim_time + "_" + back_time + "_" + r0 + "_" + light_r_ratio + "_" + mass + "_" + mass_ratio + "_correct.hist"
+input_hist    = folder + "arg_" + ft_c + "_" + bt_c + "_" + r_c + "_" + rr_c + "_" + m_c + "_" + mr_c + "_correct.hist"
 #output_hist   = folder + "histogram_out_20kEMD_sweep.hist"
 #parameter    = [start, end, increment]
 ft_rg         = [3.0, 5.0, 0.1]#20
