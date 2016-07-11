@@ -6,12 +6,12 @@ from subprocess import call
 #--------------------------------------------------------------------------------------------------
 args = [3.95, 0.98, 0.2, 0.2, 12, 0.2]
 
-sim_time      = str(args[0])
-back_time     = str(args[1])
-r0            = str(args[2])
-light_r_ratio = str(args[3])
-mass          = str(args[4])
-mass_ratio    = str(args[5])
+ft_c  = str(args[0])
+bt_c  = str(args[1])
+r_c   = str(args[2])
+rr_c  = str(args[3])
+m_c   = str(args[4])
+mr_c  = str(args[5])
 
 folder        = "~/research/like_surface/hists/"
 binary        = "~/research/nbody_test/bin/milkyway_nbody"
@@ -19,14 +19,14 @@ lua           = "~/research/lua/EMD_v162.lua"
 seed          = "98213548"
 
 input_hist    = folder + "arg_" + sim_time + "_" + back_time + "_" + r0 + "_" + light_r_ratio + "_" + mass + "_" + mass_ratio + "_correct.hist"
-output_hist   = folder + "histogram_out_20kEMD_sweep.hist"
+#output_hist   = folder + "histogram_out_20kEMD_sweep.hist"
 #parameter    = [start, end, increment]
-ft         = [3.0, 5.0, 0.1]#20
-bt         = [0.8, 1.2, 0.04]#10
-r          = [0.1, 1.3, 0.06]#20
-r_r        = [0.1, .95, 0.05]#17
-m          = [1., 120.0, 5]#23
-m_r        = [.01, .95, .05]#18
+ft_rg         = [3.0, 5.0, 0.1]#20
+bt_rg         = [0.8, 1.2, 0.04]#10
+r_rg          = [0.1, 1.3, 0.06]#20
+rr_rg         = [0.1, .95, 0.05]#17
+m_rg          = [1., 120.0, 5]#23
+mr_rg         = [.01, .95, .05]#18
 
 
 y = True
@@ -53,98 +53,98 @@ os.chdir("../like_surface")
 os.system(" " + binary + " \
     -f " + lua + " \
     -z " + input_hist + " \
-     -b -e " + seed + " -i "+ sim_time + " " + back_time + " " + r0 + " " + light_r_ratio + " " + mass + " " + mass_ratio )
-
-    #  FORWARD TIME #
-if( run_forward_evole_time == True):
-    counter = ft[0]
-    name = str(counter)
-    while counter < ft[1]:
-        output_hist = folder + "ft_hists/" + "arg_" + name + "_" + back_time + "_" + r0 + "_" + light_r_ratio + "_" + mass + "_" + mass_ratio + ".hist"
-        os.system(" " + binary + " \
-                -f " + lua + " \
-                -h " + input_hist + " \
-                -z " + output_hist + " \
-                 -b -e " + seed + " -i " + name + " " + back_time + " " + r0 + " " + light_r_ratio + " " + mass + " " + mass_ratio + " \
-                2>>" + folder + "parameter_sweeps/ft.txt")
-        counter = counter + ft[2]
-        name = str(counter)
-    
-    
-    #  BACKWARD TIME  #
-if( run_backward_evolve_ratio == True):
-    counter = bt[0]
-    name = str(counter)
-    while counter < bt[1]:
-        output_hist = folder + "bt_hists/" + "arg_" + sim_time + "_" + name + "_" + r0 + "_" + light_r_ratio + "_" + mass + "_" + mass_ratio + ".hist"
-        os.system(" " + binary + " \
-                -f " + lua + " \
-                -h " + input_hist + " \
-                -z " + output_hist + " \
-                 -b -e  " + seed + " -i " + sim_time + " " + name + " " + r0 + " " + light_r_ratio + " " + mass + " " + mass_ratio + " \
-                2>>" + folder + "parameter_sweeps/bt.txt")
-        counter = counter + bt[2]
-        name = str(counter)
-    
-    #  RADIUS  #
-if( run_radius == True):
-    counter = r[0]
-    name = str(counter)
-    while counter < r[1]:
-        output_hist = folder + "rad_hists/" + "arg_" + sim_time + "_" + back_time + "_" + name + "_" + light_r_ratio + "_" + mass + "_" + mass_ratio + ".hist"
-        os.system(" " + binary + " \
-                -f " + lua + " \
-                -h " + input_hist + " \
-                -z " + output_hist + " \
-                 -b -e  " + seed + " -i " + sim_time + " " + back_time + " " + name + " " + light_r_ratio + " " + mass + " " + mass_ratio + " \
-                2>>" + folder + "parameter_sweeps/rad.txt")
-        counter = counter + r[2]
-        name = str(counter)
-    
-    
-    #  RADIUS RATIO  #
-if( run_radius_ratio == True):
-    counter = r_r[0]
-    name = str(counter)
-    while counter < r_r[1]:
-        output_hist = folder + "rr_hists/" + "arg_" + sim_time + "_" + back_time + "_" + r0 + "_" + name + "_" + mass + "_" + mass_ratio + ".hist"
-        os.system(" " + binary + " \
-                -f " + lua + " \
-                -h " + input_hist + " \
-                -z " + output_hist + " \
-                 -b -e  " + seed + " -i " + sim_time + " " + back_time + " " + r0 + " " + name + " " + mass + " " + mass_ratio + " \
-                2>>" + folder + "parameter_sweeps/rr.txt")
-        counter = counter + r_r[2]
-        name = str(counter)
-
-    #  MASS  #
-if( run_mass == True):
-    counter = m[0]
-    name = str(counter)
-    while counter < m[1]:
-        output_hist = folder + "mass_hists/" + "arg_" + sim_time + "_" + back_time + "_" + r0 + "_" + light_r_ratio + "_" + name + "_" + mass_ratio + ".hist"
-        os.system(" " + binary + " \
-                -f " + lua + " \
-                -h " + input_hist + " \
-                -z " + output_hist + " \
-                 -b -e  " + seed + " -i " + sim_time + " " + back_time + " " + r0 + " " + light_r_ratio + " " + name + " " + mass_ratio + " \
-                2>>" + folder + "parameter_sweeps/mass.txt")
-        counter = counter + m[2]
-        name = str(counter)
+    -b -e " + seed + " -i "+ ft_c + " " + bt_c + " " + r_c + " " + rr_c + " " + m_c + " " + mr_c )
 
 
-    #  MASS RATIO  #
-if( run_mass_ratio == True):
-    counter = m_r[0]
-    name = str(counter)
-    while counter < m_r[1]:
-        output_hist = folder + "mr_hists/" + "arg_" + sim_time + "_" + back_time + "_" + r0 + "_" + light_r_ratio + "_" + mass + "_" + name + ".hist"
-        os.system(" " + binary + " \
+
+def nbody(output_hist, ft, bt, r, rr, m, mr, file_name):
+    os.system(" " + binary + " \
                 -f " + lua + " \
                 -h " + input_hist + " \
                 -z " + output_hist + " \
-                 -b -e  " + seed + " -i " + sim_time + " " + back_time + " " + r0 + " " + light_r_ratio + " " + mass + " " + name + " \
-                2>>" + folder + "parameter_sweeps/mr.txt")
-        counter = counter + m_r[2]
+                -b -e " + seed + " -i " + ft + " " + bt + " " + r + " " + rr + " " + m + " " + mr + " \
+                2>>" + folder + "parameter_sweeps/" + file_name + ".txt")
+    return 0
+    
+def run_sweep(start, end, intv, para):
+    counter = start
+    name = str(counter)
+    while counter < end:
+        output_hist = folder + para + "_hists/" + "arg_"
+        if(para == 'ft'):
+            output_hist += name + "_" + bt_c + "_" + r_c + "_" + rr_c + "_" + m_c + "_" + mr_c + ".hist"
+            nbody(output_hist, name, bt_c, r_c, rr_c, m_c, mr_c, para)
+            
+            if(counter < args[0] and counter + intv > args[0]):
+                output_hist = folder + para + "_hists/" + "arg_" + ft_c + "_" + bt_c + "_" + r_c + "_" + rr_c + "_" + m_c + "_" + mr_c + ".hist"
+                nbody(output_hist, ft_c, bt_c, r_c, rr_c, m_c, mr_c, para)
+            
+        elif(para == 'bt'):
+            output_hist += ft_c + "_" + name + "_" + r_c + "_" + rr_c + "_" + m_c + "_" + mr_c + ".hist"
+            nbody(output_hist, ft_c, name, r_c, rr_c, m_c, mr_c, para)
+            
+            if(counter < args[1] and counter + intv > args[1]):
+                output_hist = folder + para + "_hists/" + "arg_" + ft_c + "_" + bt_c + "_" + r_c + "_" + rr_c + "_" + m_c + "_" + mr_c + ".hist"
+                nbody(output_hist, ft_c, bt_c, r_c, rr_c, m_c, mr_c, para)
+        
+        elif(para == 'r'):
+            output_hist += ft_c + "_" + bt_c + "_" + name + "_" + rr_c + "_" + m_c + "_" + mr_c + ".hist"
+            nbody(output_hist, ft_c, bt_c, name, rr_c, m_c, mr_c, para)
+            
+            if(counter < args[2] and counter + intv > args[2]):
+                output_hist = folder + para + "_hists/" + "arg_" + ft_c + "_" + bt_c + "_" + r_c + "_" + rr_c + "_" + m_c + "_" + mr_c + ".hist"
+                nbody(output_hist, ft_c, bt_c, r_c, rr_c, m_c, mr_c, para)
+        
+        elif(para == 'rr'):
+            output_hist += ft_c + "_" + bt_c + "_" + r_c + "_" + name + "_" + m_c + "_" + mr_c + ".hist"
+            nbody(output_hist, ft_c, bt_c, r_c, name, m_c, mr_c, para)
+            
+            if(counter < args[3] and counter + intv > args[3]):
+                output_hist = folder + para + "_hists/" + "arg_" + ft_c + "_" + bt_c + "_" + r_c + "_" + rr_c + "_" + m_c + "_" + mr_c + ".hist"
+                nbody(output_hist, ft_c, bt_c, r_c, rr_c, m_c, mr_c, para)
+        
+        elif(para == 'm'):
+            output_hist += ft_c + "_" + bt_c + "_" + r_c + "_" + rr_c + "_" + name + "_" + mr_c + ".hist"
+            nbody(output_hist, ft_c, bt_c, r_c, rr_c, name, mr_c, para)
+            
+            if(counter < args[4] and counter + intv > args[4]):
+                output_hist = folder + para + "_hists/" + "arg_" + ft_c + "_" + bt_c + "_" + r_c + "_" + rr_c + "_" + m_c + "_" + mr_c + ".hist"
+                nbody(output_hist, ft_c, bt_c, r_c, rr_c, m_c, mr_c, para)
+        
+        elif(para == 'mr'):
+            output_hist += ft_c + "_" + bt_c + "_" + r_c + "_" + rr_c + "_" + m_c + "_" + name + ".hist"
+            nbody(output_hist, ft_c, bt_c, r_c, rr_c, m_c, name, para)
+            
+            if(counter < args[5] and counter + intv > args[5]):
+                output_hist = folder + para + "_hists/" + "arg_" + ft_c + "_" + bt_c + "_" + r_c + "_" + rr_c + "_" + m_c + "_" + mr_c + ".hist"
+                nbody(output_hist, ft_c, bt_c, r_c, rr_c, m_c, mr_c, para)
+          
+        counter += intv
         name = str(counter)
         
+    return 0
+        
+        
+        
+def main():
+    if(run_forward_evole_time == True):
+         run_sweep(ft_rg[0], ft_rg[1], ft_rg[2], 'ft')
+    
+    if(run_backward_evolve_ratio == True):
+         run_sweep(bt_rg[0], bt_rg[1], bt_rg[2], 'bt')
+         
+    if(run_radius == True):
+         run_sweep(r_rg[0], r_rg[1], r_rg[2], 'r')
+         
+    if(run_radius_ratio == True):
+         run_sweep(rr_rg[0], rr_rg[1], rr_rg[2], 'rr')
+         
+    if(run_mass == True):
+         run_sweep(m_rg[0], m_rg[1], m_rg[2], 'm')
+         
+    if(run_mass_ratio == True):
+         run_sweep(mr_rg[0], mr_rg[1], mr_rg[2], 'mr')
+    
+    return 0
+    
+main()
