@@ -74,7 +74,7 @@ def nbody(output_hist, ft, bt, r, rr, m, mr, file_name):
     
 def run_sweep(start, end, N, para):
     counter = 0.0
-    data_vals   = "hists/" + para + "_hists/" + para + "_vals.txt"
+    data_vals   = "hists/parameter_sweeps/" + para + "_vals.txt"
     f = open(data_vals, 'a')
     
     #get the correct answer hist
