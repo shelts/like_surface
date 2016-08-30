@@ -33,7 +33,7 @@ mr_rg         = [.01, .95, 20]#18
 
 y = True
 n = False
-random.seed()
+random.seed(a = 12345678)
 
 #choose what to run
 rebuild_binary            = n
