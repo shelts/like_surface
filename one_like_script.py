@@ -21,7 +21,7 @@ plot_cost_emd = n
 random_iterator = y
 special_parser = n
 
-oneD_names   = ['ft', 'bt', 'rad', 'rr', 'mass', 'mr']
+oneD_names   = ['ft', 'bt', 'r', 'rr', 'mass', 'mr']
 
 c          = [3.95, 0.98, 0.2, 0.2, 12, 0.2]
 ft         = [3.0, 5.0, 0.1]#20
@@ -358,7 +358,8 @@ def reliability(likes, likes_new, vals, vals_new):
     return fraction_match
 
 def random_iterator_sweep():
-    N = 1
+    N = 3
+    M = 0
     #parse the data
     for i in range(0, N):
         g = open('./1D_like_surface/parameter_sweeps/' + str(oneD_names[i]) + '.txt', 'r')
@@ -383,7 +384,7 @@ def random_iterator_sweep():
         
         f = open('./1D_like_surface/parameter_sweeps/' + str(oneD_names[i]) + '_data.txt', 'r')
         g = open('./1D_like_surface/parameter_sweeps/' + str(oneD_names[i]) + '_vals.txt', 'r')
-        h = open('./1D_like_surface/parameter_sweeps/' + str(oneD_names[i]) + '_sorted_data_vals.txt', 'w')
+        h = open('./1D_like_surface/parameter_data/' + str(oneD_names[i]) + '_sorted_data_vals.txt', 'w')
         counter_like = 0
         counter_val  = 0
         
@@ -419,11 +420,46 @@ def random_iterator_sweep():
         h.close()
         
         
+    ft = [3.0, 5.0]#plot ranges
+    bt = [0.8, 1.2]
+    r  = [0.1, 1.3]
+    rr = [0.1, .95]
+    m  = [1., 120.0]
+    mr = [.01, .95]
+    l = -200
+    ranges_start = [ft[0], bt[0], r[0], rr[0], m[0], mr[0]]
+    ranges_end   = [ft[1], bt[1], r[1], rr[1], m[1], mr[1]]
+    
+
+    titles  = ['Forward Evolve Time', 'Reverse Orbit Time Ratio', 'Baryonic Scale Radius', 'Baryonic Scale Radius Ratio', 'Baryonic Matter Mass',  'Baryonic to Mass Ratio']
+    # # # # # # # # # # # # # # # # # # # # # # # # # 
+    data_vals = "parameter_data/"
+    like_data = "likelihood_data/"
+
+
+    f = open('1D_plot_rani.gnuplot', 'w')
+    f.write("reset\n")
+    f.write("set terminal jpeg\n")
+    f.write("set key off\n")
+
+    for i in range(M, N):
+        f.write("set xlabel '" + titles[i] + "'\n")
+        f.write("set ylabel 'likelihood'\n")
+        f.write("set yrange [" + str(l) + ":0]\n")
+        f.write("set xrange[" + str(ranges_start[i]) + ":" + str(ranges_end[i]) + "]\n")
         
-        
-        
-            
-        
+        p = "1D_like_surface/parameter_data/" + oneD_names[i] + "_sorted_data_vals.txt"
+        f.write("set output '1D_like_surface/plots/" + oneD_names[i] + ".jpeg' \n")
+        f.write("set title 'Likelihood Surface of " + titles[i] + "' \n")
+        f.write("plot '" + p + "' using 1:2  with lines\n\n") 
+
+        f.write("# # # # # # # # # # # # # # # # # #\n")
+
+    f.close()
+
+    os.system("gnuplot 1D_plot_rani.gnuplot 2>>piped_output.txt")
+    os.system("rm 1D_plot_rani.gnuplot")
+    return 0
 # # # # # # # # # # # # # # # # # # # # # #
 #    Two Dimensional Surface Sweep Func   #
 # # # # # # # # # # # # # # # # # # # # # #
