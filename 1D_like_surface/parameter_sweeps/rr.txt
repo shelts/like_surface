@@ -1,0 +1,4 @@
+<search_likelihood>-0.000000001000000</search_likelihood>
+<search_likelihood>-651.368268525425151</search_likelihood>
+<search_likelihood>-661.605982838610885</search_likelihood>
+<search_likelihood>-640.626742489369008</search_likelihood>

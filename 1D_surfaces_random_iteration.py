@@ -23,12 +23,12 @@ seed          = "98213548"
 input_hist    = folder + "arg_" + ft_c + "_" + bt_c + "_" + r_c + "_" + rr_c + "_" + m_c + "_" + mr_c + "_correct.hist"
 #output_hist   = folder + "histogram_out_20kEMD_sweep.hist"
 #parameter    = [start, end, number of points]
-ft_rg         = [3.0, 5.0, 20]#20
-bt_rg         = [0.8, 1.2, 20]#10
-r_rg          = [0.1, 1.3, 20]#20
-rr_rg         = [0.1, .95, 20]#17
-m_rg          = [1., 120.0, 20]#23
-mr_rg         = [.01, .95, 20]#18
+ft_rg         = [3.0, 5.0, 40]#20
+bt_rg         = [0.8, 1.2, 40]#10
+r_rg          = [0.1, 1.3, 40]#20
+rr_rg         = [0.1, .95, 40]#17
+m_rg          = [1., 120.0, 40]#23
+mr_rg         = [.01, .95, 40]#18
 
 
 y = True
@@ -79,7 +79,7 @@ def run_sweep(start, end, N, para):
     
     #get the correct answer hist
     output_hist = folder + para + "_hists/" + "arg_" + ft_c + "_" + bt_c + "_" + r_c + "_" + rr_c + "_" + m_c + "_" + mr_c + ".hist"
-    nbody(output_hist, ft_c, bt_c, r_c, rr_c, m_c, mr_c, para)
+    #nbody(output_hist, ft_c, bt_c, r_c, rr_c, m_c, mr_c, para)
     
     while counter < N:
         output_hist = folder + para + "_hists/" + "arg_"
@@ -90,42 +90,42 @@ def run_sweep(start, end, N, para):
             if(counter == 0.0):
                 f.write("%s \n" % ft_c)
             output_hist += name + "_" + bt_c + "_" + r_c + "_" + rr_c + "_" + m_c + "_" + mr_c + ".hist"
-            nbody(output_hist, name, bt_c, r_c, rr_c, m_c, mr_c, para)
+            #nbody(output_hist, name, bt_c, r_c, rr_c, m_c, mr_c, para)
             
             
         elif(para == 'bt'):
             if(counter == 0.0):
                 f.write("%s \n" % bt_c)
             output_hist += ft_c + "_" + name + "_" + r_c + "_" + rr_c + "_" + m_c + "_" + mr_c + ".hist"
-            nbody(output_hist, ft_c, name, r_c, rr_c, m_c, mr_c, para)
+            #nbody(output_hist, ft_c, name, r_c, rr_c, m_c, mr_c, para)
             
         
         elif(para == 'r'):
             if(counter == 0.0):
                 f.write("%s \n" % r_c)
             output_hist += ft_c + "_" + bt_c + "_" + name + "_" + rr_c + "_" + m_c + "_" + mr_c + ".hist"
-            nbody(output_hist, ft_c, bt_c, name, rr_c, m_c, mr_c, para)
+            #nbody(output_hist, ft_c, bt_c, name, rr_c, m_c, mr_c, para)
             
         
         elif(para == 'rr'):
             if(counter == 0.0):
                 f.write("%s \n" % rr_c)
             output_hist += ft_c + "_" + bt_c + "_" + r_c + "_" + name + "_" + m_c + "_" + mr_c + ".hist"
-            nbody(output_hist, ft_c, bt_c, r_c, name, m_c, mr_c, para)
+            #nbody(output_hist, ft_c, bt_c, r_c, name, m_c, mr_c, para)
             
         
         elif(para == 'm'):
             if(counter == 0.0):
                 f.write("%s \n" % m_c)
             output_hist += ft_c + "_" + bt_c + "_" + r_c + "_" + rr_c + "_" + name + "_" + mr_c + ".hist"
-            nbody(output_hist, ft_c, bt_c, r_c, rr_c, name, mr_c, para)
+            #nbody(output_hist, ft_c, bt_c, r_c, rr_c, name, mr_c, para)
             
         
         elif(para == 'mr'):
             if(counter == 0.0):
                 f.write("%s \n" % mr_c)
             output_hist += ft_c + "_" + bt_c + "_" + r_c + "_" + rr_c + "_" + m_c + "_" + name + ".hist"
-            nbody(output_hist, ft_c, bt_c, r_c, rr_c, m_c, name, para)
+            #nbody(output_hist, ft_c, bt_c, r_c, rr_c, m_c, name, para)
             
           
         f.write("%s \n" % name)

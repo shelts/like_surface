@@ -11,12 +11,14 @@ n = False
 
 oneD_clean = n
 twoD_clean = n
-oneD_surface = y
+oneD_surface = n
 twoD_surface = n
 
-oneD_multiploter = y
+oneD_multiploter = n
 plot_cost_emd = n
 
+
+random_iterator = y
 special_parser = n
 
 oneD_names   = ['ft', 'bt', 'rad', 'rr', 'mass', 'mr']
@@ -232,6 +234,7 @@ def oneD_multiplot():
     os.system("gnuplot multiplot_1d.gnuplot 2>>piped_output.txt")
     os.system("rm multiplot_1d.gnuplot")
     return 0
+
 def oneD_cost_emd_parser():
     for i in range(0,5):
         g = open('./1D_like_surface/parameter_sweeps/' + str(oneD_names[i]) + '.txt', 'r')
@@ -302,6 +305,125 @@ def oneD_cost_emd_plot():
 
     os.system("gnuplot 1D_plot.gnuplot 2>>piped_output.txt")
     os.system("rm 1D_plot.gnuplot")
+
+def sort(likes, vals):
+    N = len(likes)
+    like_tmp = []
+    val_tmp  = []
+    like_new = []
+    val_new  = []
+    for i in range(0, N):
+        like_new.append(likes[i])
+        val_new.append(vals[i])
+        like_tmp.append(likes[i])
+        val_tmp.append(vals[i])
+        
+    while(1):
+        for i in range(0, N - 1):
+            if(val_new[i] < val_new[i + 1]):
+                val_tmp[i] = val_new[i]
+                val_tmp[i + 1] = val_new[i + 1]
+                like_tmp[i] = like_new[i]
+                like_tmp[i + 1] = like_new[i + 1]
+                
+            elif(val_new[i] >= val_new[i + 1]):
+                val_tmp[i] = val_new[i + 1]
+                val_tmp[i + 1] = val_new[i]
+                like_tmp[i] = like_new[i + 1]
+                like_tmp[i + 1] = like_new[i]
+            for j in range(0, N):
+                val_new[j] = val_tmp[j]
+                like_new[j] = like_tmp[j]
+        
+        for i in range(0, N - 1):
+            in_order = True
+            diff = (val_new[i + 1]) - (val_new[i])
+            if(diff > 0):
+                continue
+            else:
+                in_order = False
+                break
+        if(in_order == True):
+            break
+    return val_new, like_new
+
+def reliability(likes, likes_new, vals, vals_new):
+    N = len(likes)
+    matches = 0.0
+    for i in range(0, N):
+        for j in range(0, N):
+            if(vals[i] == vals_new[j] and likes[i] == likes_new[j]):
+                matches += 1.0
+    fraction_match = 100.0 * matches / float(N)
+    return fraction_match
+
+def random_iterator_sweep():
+    N = 1
+    #parse the data
+    for i in range(0, N):
+        g = open('./1D_like_surface/parameter_sweeps/' + str(oneD_names[i]) + '.txt', 'r')
+        f = open('./1D_like_surface/parameter_sweeps/' + str(oneD_names[i]) + '_data.txt', 'w')
+
+        for line in g:
+            if (line.startswith("<")):
+                ss = line.split('<search_likelihood>')#splits the line between the two sides the delimiter
+                tt = ss[1].split('</search_likelihood>')#chooses the second of the split parts and resplits
+                f.write("%s \n" % tt[0])#writes the first of the resplit lines
+        
+    f.close()
+    g.close()
+    
+    
+    
+    for i in range(0, N):
+        likes = []
+        vals  = []
+        vals_new = []
+        likes_new = []
+        
+        f = open('./1D_like_surface/parameter_sweeps/' + str(oneD_names[i]) + '_data.txt', 'r')
+        g = open('./1D_like_surface/parameter_sweeps/' + str(oneD_names[i]) + '_vals.txt', 'r')
+        h = open('./1D_like_surface/parameter_sweeps/' + str(oneD_names[i]) + '_sorted_data_vals.txt', 'w')
+        counter_like = 0
+        counter_val  = 0
+        
+        #make sure lists are the same length
+        for line in f:
+            l = float(line)
+            likes.append(l)
+            counter_like += 1
+        for line in g:
+            l = float(line)
+            vals.append(l)
+            counter_val += 1
+            
+        #report and break if they are not
+        if( counter_like != counter_val):
+            print "value list length mismatch"
+            break
+
+        #sort the data values in order of least to greats with their corresponding likelihoods.
+        vals_new, likes_new = sort(likes, vals)
+        #make sure the likelihoods were sorted correctly with the values
+        reliability_of_sorting = reliability(likes, likes_new, vals, vals_new)
+        
+        if(reliability_of_sorting != 100.0):
+            print "HOLY FUCKING SHIT, SOMETHING IS WRONG"
+        
+        for j in range(0, counter_like):
+            h.write("%0.15f %0.15f\n" % (vals_new[j], likes_new[j]))
+        
+        os.system("rm ./1D_like_surface/parameter_sweeps/" + str(oneD_names[i]) + "_data.txt")
+        f.close()
+        g.close()
+        h.close()
+        
+        
+        
+        
+        
+            
+        
 # # # # # # # # # # # # # # # # # # # # # #
 #    Two Dimensional Surface Sweep Func   #
 # # # # # # # # # # # # # # # # # # # # # #
@@ -703,7 +825,9 @@ def main():
         twoD_parser()
         twoD_plot()
         
-    special_parser
+    if(random_iterator == True):
+        random_iterator_sweep()
+    
     if(special_parser == True):
         all_hists_in_one_file_parser()
 main()    
