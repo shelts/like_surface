@@ -11,17 +11,17 @@ n = False
 
 oneD_clean = n
 twoD_clean = n
-oneD_surface = n
+oneD_surface = y
 twoD_surface = n
 
 oneD_multiploter = n
 plot_cost_emd = n
 
 
-random_iterator = y
+random_iterator = n
 special_parser = n
 
-oneD_names   = ['ft', 'bt', 'r', 'rr', 'mass', 'mr']
+oneD_names   = ['ft', 'bt', 'r', 'rr', 'm', 'mr']
 
 c          = [3.95, 0.98, 0.2, 0.2, 12, 0.2]
 ft         = [3.0, 5.0, 0.1]#20
@@ -30,7 +30,7 @@ r          = [0.1, 1.3, 0.06]#20
 r_r        = [0.1, .95, 0.05]#17
 m          = [1., 120.0, 5]#23
 m_r        = [.01, .95, .05]#18
-
+N = 6
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
                 #/# # # # # # # # # # # # # # \#
                 #          Engine Room         #
@@ -40,77 +40,43 @@ m_r        = [.01, .95, .05]#18
 # # # # # # # # # # # # # # # # # # # # # #
 #    One Dimensional Surface Sweep Func   #
 # # # # # # # # # # # # # # # # # # # # # #
-def oneD_data_vals():
-    f = open('./1D_like_surface/parameter_data/' + oneD_names[0] + '_vals.txt', 'w')
+def combine(name_of_sweeps):
+    for i in range(0, N):
+        f = open('./1D_like_surface/likelihood_data'  + name_of_sweeps + '/'  + str(oneD_names[i]) + '_data.txt', 'r')
+        g = open('./1D_like_surface/parameter_sweeps' + name_of_sweeps + '/'  + str(oneD_names[i]) + '_vals.txt', 'r')
+        h = open('./1D_like_surface/likelihood_data'  + name_of_sweeps + '/'  + str(oneD_names[i]) + '_data_vals.txt', 'w')
+        
+        likes = []
+        vals  = []
+        
+        counter_like = 0
+        counter_val  = 0
+        
+        #make sure lists are the same length
+        for line in f:
+            l = float(line)
+            likes.append(l)
+            counter_like += 1
+        for line in g:
+            l = float(line)
+            vals.append(l)
+            counter_val += 1
+            
+        #report and break if they are not
+        if( counter_like != counter_val):
+            print "value list length mismatch"
+            break
 
-    #  FORWARD TIME #
-    counter = ft[0]
-    while counter < ft[1]:
-        f.write("%s \n" % counter)
-        if(counter < c[0] and counter + ft[2] > c[0]):
-            f.write("%s \n" % c[0])
-        counter += ft[2]
-    f.close()
-    
-    #  BACKWARD TIME  #  
-    f = open('./1D_like_surface/parameter_data/' + oneD_names[1] + '_vals.txt', 'w')
-    counter = bt[0]
-    while counter < bt[1]:
-        f.write("%s \n" % counter)
-        if(counter < c[1] and counter + bt[2] > c[1]):
-            f.write("%s \n" % c[1])
-        counter += bt[2]
-    f.close() 
+        for j in range(0, counter_like):
+            h.write("%0.15f %0.15f\n" % (vals[j], likes[j]))
+        
+        os.system("rm ./1D_like_surface/likelihood_data" + name_of_sweeps + "/" + str(oneD_names[i]) + "_data.txt")
+    return 0
 
-    #  RADIUS  #
-    f = open('./1D_like_surface/parameter_data/' + oneD_names[2] + '_vals.txt', 'w')
-    counter = r[0]
-    while counter < r[1]:
-        f.write("%s \n" % counter)
-        if(counter < c[2] and counter + r[2] > c[2]):
-            f.write("%s \n" % c[2])
-        counter += r[2]
-    f.close()
-    
-    #  RADIUS RATIO  #
-    f = open('./1D_like_surface/parameter_data/' + oneD_names[3] + '_vals.txt', 'w')
-    counter = r_r[0]
-    while counter < r_r[1]:
-        f.write("%s \n" % counter)
-        if(counter < c[3] and counter + r_r[2] > c[3]):
-            f.write("%s \n" % c[3])
-        counter += r_r[2]
-    f.close()
-
-    #  MASS  #
-    f = open('./1D_like_surface/parameter_data/' + oneD_names[4] + '_vals.txt', 'w')
-    counter = m[0]
-    while counter < m[1]:
-        f.write("%s \n" % counter)
-        if(counter < c[4] and counter + m[2] > c[4]):
-            f.write("%s \n" % c[4])
-        counter += m[2]
-    f.close()
-
-    #  MASS RATIO  #
-    f = open('./1D_like_surface/parameter_data/' + oneD_names[5] + '_vals.txt', 'w')
-    counter = m_r[0]
-    while counter < m_r[1]:
-        f.write("%s \n" % counter)
-        if(counter < c[5] and counter + m_r[2] > c[5]):
-            f.write("%s \n" % c[5])
-        counter += m_r[2]
-    f.close()
-
-    #    Correct Answers     #
-    f = open('./1D_like_surface/parameter_data/correct.txt', 'w')
-    for i in range(0, 500):
-        f.write("%f \t %f \t %f \t %f \t %f \t %f \t %f\n" % (-i, c[0], c[1], c[2], c[3], c[4], c[5]))
-
-def oneD_parser():
-    for i in range(0,6):
-        g = open('./1D_like_surface/parameter_sweeps/' + str(oneD_names[i]) + '.txt', 'r')
-        f = open('./1D_like_surface/likelihood_data/' + str(oneD_names[i]) + '_data.txt', 'w')
+def oneD_parser(name_of_sweeps):
+    for i in range(0, N):
+        g = open('./1D_like_surface/parameter_sweeps' + name_of_sweeps + '/' + str(oneD_names[i]) + '.txt', 'r')
+        f = open('./1D_like_surface/likelihood_data'  + name_of_sweeps + '/' + str(oneD_names[i]) + '_data.txt', 'w')
 
         for line in g:
             if (line.startswith("<")):
@@ -120,6 +86,9 @@ def oneD_parser():
         
     f.close()
     g.close()
+    combine(name_of_sweeps)
+    return 0 
+
 
 def oneD_plot():
     ft = [3.0, 5.0]#plot ranges
@@ -163,7 +132,8 @@ def oneD_plot():
         f.write("set yrange [" + str(l) + ":0]\n")
         f.write("set xrange[" + str(ranges_start[i]) + ":" + str(ranges_end[i]) + "]\n")
         
-        p = "<paste 1D_like_surface/parameter_data/" + oneD_names[i] + "_vals.txt 1D_like_surface/likelihood_data/" + oneD_names[i] + "_data.txt"
+        #p = "<paste 1D_like_surface/parameter_data/" + oneD_names[i] + "_vals.txt 1D_like_surface/likelihood_data/" + oneD_names[i] + "_data.txt"
+        p = "1D_like_surface/parameter_data/" + oneD_names[i] + "_sorted_data_vals.txt"
         f.write("set output '1D_like_surface/plots/" + oneD_names[i] + ".jpeg' \n")
         f.write("set title 'Likelihood Surface of " + titles[i] + "' \n")
         f.write("plot '" + p + "' using 1:2  with lines\n\n") 
@@ -235,77 +205,6 @@ def oneD_multiplot():
     os.system("rm multiplot_1d.gnuplot")
     return 0
 
-def oneD_cost_emd_parser():
-    for i in range(0,5):
-        g = open('./1D_like_surface/parameter_sweeps/' + str(oneD_names[i]) + '.txt', 'r')
-        f = open('./1D_like_surface/cost_emd_data/' + str(oneD_names[i]) + '_cost_data.txt', 'w')
-        d = open('./1D_like_surface/cost_emd_data/' + str(oneD_names[i]) + '_emd_data.txt', 'w')
-        for line in g:
-            if (line.startswith("log(EMDComponent)")):
-                ss = line.split('log(EMDComponent) = ')#splits the line between the two sides the delimiter
-                d.write("%f\n" % (float(ss[1])))#writes the first of the resplit lines
-                
-            if (line.startswith("log(CostComponent)")):
-                tt = line.split('log(CostComponent) = ')#chooses the second of the split parts and resplits
-                f.write("%s" % (tt[1]))#writes the first of the resplit lines
-        
-    f.close()
-    g.close()
-    d.close()
-
-def oneD_cost_emd_plot():
-    ft = [3.8, 4.3]#plot ranges
-    bt = [3.8, 4.3]
-    r  = [0.1, 4.0]
-    rr = [0.7, 4.0]
-    m  = [2.0, 120.0]
-    mr = [2, 1200]
-    l = -100
-    #ranges_start = [ft[0], bt[0], r[0], rr[0], m[0], mr[0]]
-    #ranges_end   = [ft[1], bt[1], r[1], rr[1], m[1], mr[1]]
-    ranges_start = [ft[0], r[0], rr[0], m[0], mr[0]]
-    ranges_end   = [ft[1], r[1], rr[1], m[1], mr[1]]
-    #how many of the data sets are we plotting
-    N  = 5
-    M  = 0
-    
-    #titles  = ['Forward Evolve Time', 'Reverse Orbit Time', 'Baryonic Scale Radius', 'Dark Scale Radius', 'Baryonic Matter Mass',  'Dark Matter Mass']
-    titles  = ['Forward Evolve Time', 'Baryonic Scale Radius', 'Dark Scale Radius', 'Baryonic Matter Mass',  'Dark Matter Mass']
-    # # # # # # # # # # # # # # # # # # # # # # # # # 
-    data_vals = "parameter_data/"
-    like_data = "likelihood_data/"
-
-
-    f = open('1D_plot.gnuplot', 'w')
-    f.write("reset\n")
-    f.write("set terminal jpeg\n")
-    f.write("set key on\n")
-
-    for i in range(M, N):
-        f.write("set xlabel '" + titles[i] + "'\n")
-        f.write("set ylabel 'likelihood'\n")
-        f.write("set yrange [" + str(l) + ":0]\n")
-        f.write("set xrange[" + str(ranges_start[i]) + ":" + str(ranges_end[i]) + "]\n")
-        
-        p = "<paste 1D_like_surface/parameter_data/" + oneD_names[i] + "_vals.txt 1D_like_surface/cost_emd_data/" + oneD_names[i] + "_cost_data.txt"
-        q = "<paste 1D_like_surface/parameter_data/" + oneD_names[i] + "_vals.txt 1D_like_surface/cost_emd_data/" + oneD_names[i] + "_emd_data.txt"
-        w = "<paste 1D_like_surface/parameter_data/" + oneD_names[i] + "_vals.txt 1D_like_surface/likelihood_data/" + oneD_names[i] + "_data.txt"
-        f.write("set output '1D_like_surface/cost_emd_plots/" + oneD_names[i] + "_cost.jpeg' \n")
-        f.write("set title 'Cost and EMD Surface of " + titles[i] + "' \n")
-        f.write("plot '" + p + "' using 1:2  with lines title 'Cost', '" + q + "' using 1:2  with lines title 'EMD', '" + w + "' using 1:2  with lines title 'Likelihood'\n  \n") 
-        
-        #p = "<paste 1D_like_surface/parameter_data/" + oneD_names[i] + "_vals.txt 1D_like_surface/cost_emd_data/" + oneD_names[i] + "_emd_data.txt"
-        #f.write("set output '1D_like_surface/cost_emd_plots/" + oneD_names[i] + "_emd.jpeg' \n")
-        #f.write("set title 'EMD Surface of " + titles[i] + "' \n")
-        #f.write("plot '" + p + "' using 1:2  with lines\n\n") 
-
-        f.write("# # # # # # # # # # # # # # # # # #\n")
-
-    f.close()
-
-    os.system("gnuplot 1D_plot.gnuplot 2>>piped_output.txt")
-    os.system("rm 1D_plot.gnuplot")
-
 def sort(likes, vals):
     N = len(likes)
     like_tmp = []
@@ -360,10 +259,11 @@ def reliability(likes, likes_new, vals, vals_new):
 def random_iterator_sweep():
     N = 3
     M = 0
+    name_of_sweeps = "random_it"
     #parse the data
     for i in range(0, N):
-        g = open('./1D_like_surface/parameter_sweeps/' + str(oneD_names[i]) + '.txt', 'r')
-        f = open('./1D_like_surface/parameter_sweeps/' + str(oneD_names[i]) + '_data.txt', 'w')
+        g = open('./1D_like_surface/parameter_sweeps' + name_of_sweeps + '/' + str(oneD_names[i]) + '.txt', 'r')
+        f = open('./1D_like_surface/parameter_sweeps' + name_of_sweeps + '/' + str(oneD_names[i]) + '_data.txt', 'w')
 
         for line in g:
             if (line.startswith("<")):
@@ -382,9 +282,9 @@ def random_iterator_sweep():
         vals_new = []
         likes_new = []
         
-        f = open('./1D_like_surface/parameter_sweeps/' + str(oneD_names[i]) + '_data.txt', 'r')
-        g = open('./1D_like_surface/parameter_sweeps/' + str(oneD_names[i]) + '_vals.txt', 'r')
-        h = open('./1D_like_surface/parameter_data/' + str(oneD_names[i]) + '_sorted_data_vals.txt', 'w')
+        f = open('./1D_like_surface/parameter_sweeps' + name_of_sweeps + '/' + str(oneD_names[i]) + '_data.txt', 'r')
+        g = open('./1D_like_surface/parameter_sweeps' + name_of_sweeps + '/' + str(oneD_names[i]) + '_vals.txt', 'r')
+        h = open('./1D_like_surface/parameter_data'   + name_of_sweeps + '/' + str(oneD_names[i]) + '_sorted_data_vals.txt', 'w')
         counter_like = 0
         counter_val  = 0
         
@@ -414,7 +314,7 @@ def random_iterator_sweep():
         for j in range(0, counter_like):
             h.write("%0.15f %0.15f\n" % (vals_new[j], likes_new[j]))
         
-        os.system("rm ./1D_like_surface/parameter_sweeps/" + str(oneD_names[i]) + "_data.txt")
+        os.system("rm ./1D_like_surface/parameter_sweeps" + name_of_sweeps + "/" + str(oneD_names[i]) + "_data.txt")
         f.close()
         g.close()
         h.close()
@@ -448,8 +348,8 @@ def random_iterator_sweep():
         f.write("set yrange [" + str(l) + ":0]\n")
         f.write("set xrange[" + str(ranges_start[i]) + ":" + str(ranges_end[i]) + "]\n")
         
-        p = "1D_like_surface/parameter_data/" + oneD_names[i] + "_sorted_data_vals.txt"
-        f.write("set output '1D_like_surface/plots/" + oneD_names[i] + ".jpeg' \n")
+        p = "1D_like_surface/parameter_data" + name_of_sweeps + "/" + oneD_names[i] + "_sorted_data_vals.txt"
+        f.write("set output '1D_like_surface/plots" + name_of_sweeps + "/" + oneD_names[i] + ".jpeg' \n")
         f.write("set title 'Likelihood Surface of " + titles[i] + "' \n")
         f.write("plot '" + p + "' using 1:2  with lines\n\n") 
 
@@ -844,8 +744,8 @@ def main():
         twoD_cleanse()
     
     if(oneD_surface == True):
-        oneD_data_vals()
-        #oneD_parser()
+        #oneD_data_vals()
+        oneD_parser()
         oneD_plot()
     
     if(oneD_multiploter == True):
