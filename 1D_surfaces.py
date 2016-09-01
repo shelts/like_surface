@@ -2,6 +2,8 @@
 #/* Copyright (c) 2016 Siddhartha Shelton */
 import os
 from subprocess import call
+import random
+random.seed(a = 12345678)
 #--------------------------------------------------------------------------------------------------
 #       PARAMETER LIBRARY       #
 #--------------------------------------------------------------------------------------------------
@@ -30,14 +32,21 @@ m_rg          = [1., 120.0, 5]#23
 mr_rg         = [.01, .95, .05]#18
 
 
+ft_N = 40
+bt_N = 40
+r_N  = 40
+rr_N = 40
+m_N  = 40
+mr_N = 40
+
 y = True
 n = False
 
 #choose what to run
 rebuild_binary            = n
 make_correct_answer_hist  = y
-run_regular_iteration     = y
-run_random_iteration      = n
+run_regular_iteration     = n
+run_random_iteration      = y
 
 run_forward_evole_time    = y
 run_backward_evolve_ratio = y
@@ -63,20 +72,21 @@ def make_correct():
         -z " + input_hist + " \
         -b -e " + seed + " -i "+ ft_c + " " + bt_c + " " + r_c + " " + rr_c + " " + m_c + " " + mr_c )
 
-def nbody(output_hist, ft, bt, r, rr, m, mr, file_name):
+def nbody(output_hist, ft, bt, r, rr, m, mr, file_name, sweep_name):
     os.system(" " + binary + " \
                 -f " + lua + " \
                 -h " + input_hist + " \
                 -z " + output_hist + " \
                 -b -e " + seed + " -i " + ft + " " + bt + " " + r + " " + rr + " " + m + " " + mr + " \
-                2>>" + folder + "parameter_sweeps/" + file_name + ".txt")
+                2>>" + folder + "parameter_sweeps" + sweep_name + "/" + file_name + ".txt")
     return 0
     
 def run_sweep(start, end, intv, para):
     counter = start
     name = str(counter)
-    
-    data_vals   = "hists/parameter_sweeps/" + para + "_vals.txt"
+    sweep_name = ""
+    os.system("mkdir hists/parameter_sweeps" + sweep_name)
+    data_vals   = "hists/parameter_sweeps" + sweep_name + "/" + para + "_vals.txt"
     f = open(data_vals, 'a')
     
     ft_tmp = ft_c
@@ -115,12 +125,12 @@ def run_sweep(start, end, intv, para):
                 do_correct = True
         
         output_hist += ft_tmp + "_" + bt_tmp + "_" + r_tmp + "_" + rr_tmp + "_" + m_tmp + "_" + mr_tmp + ".hist"
-        nbody(output_hist, ft_tmp, bt_tmp, r_tmp, rr_tmp, m_tmp, mr_tmp, para)
+        nbody(output_hist, ft_tmp, bt_tmp, r_tmp, rr_tmp, m_tmp, mr_tmp, para, sweep_name)
         f.write("%s \n" % name)
         
         if(do_correct == True):
             output_hist = folder + para + "_hists/" + "arg_" + ft_c + "_" + bt_c + "_" + r_c + "_" + rr_c + "_" + m_c + "_" + mr_c + ".hist"
-            nbody(output_hist, ft_c, bt_c, r_c, rr_c, m_c, mr_c, para)
+            nbody(output_hist, ft_c, bt_c, r_c, rr_c, m_c, mr_c, para, sweep_name)
             do_correct = False
             
             if(para == 'ft'):
@@ -144,7 +154,9 @@ def run_sweep(start, end, intv, para):
         
 def run_sweep_random_iter(start, end, N, para):
     counter = 0.0
-    data_vals   = "hists/parameter_sweeps/" + para + "_vals.txt"
+    sweep_name = "_rand_iter"
+    os.system("mkdir hists/parameter_sweeps" + sweep_name)
+    data_vals   = "hists/parameter_sweeps" + sweep_name + "/" + para + "_vals.txt"
     f = open(data_vals, 'a')
     
     ft_tmp = ft_c
@@ -156,7 +168,7 @@ def run_sweep_random_iter(start, end, N, para):
     
     #get the correct answer hist
     output_hist = folder + para + "_hists/" + "arg_" + ft_c + "_" + bt_c + "_" + r_c + "_" + rr_c + "_" + m_c + "_" + mr_c + ".hist"
-    #nbody(output_hist, ft_c, bt_c, r_c, rr_c, m_c, mr_c, para)
+    nbody(output_hist, ft_c, bt_c, r_c, rr_c, m_c, mr_c, para, sweep_name)
     
     while counter < N:
         output_hist = folder + para + "_hists/" + "arg_"
@@ -189,23 +201,8 @@ def run_sweep_random_iter(start, end, N, para):
                 f.write("%s \n" % mr_c)
             
         output_hist += ft_tmp + "_" + bt_tmp + "_" + r_tmp + "_" + rr_tmp + "_" + m_tmp + "_" + mr_tmp + ".hist"
-        nbody(output_hist, ft_tmp, bt_tmp, r_tmp, rr_tmp, m_tmp, mr_tmp, para)  
+        nbody(output_hist, ft_tmp, bt_tmp, r_tmp, rr_tmp, m_tmp, mr_tmp, para, sweep_name)  
         f.write("%s \n" % name)
-        
-        if(counter == 0.0):
-            if(para == 'ft'):
-                f.write("%s \n" % ft_c)
-            elif(para == 'bt'):
-                f.write("%s \n" % bt_c)
-            elif(para == 'r'):
-                f.write("%s \n" % r_c)
-            elif(para == 'rr'):
-                f.write("%s \n" % rr_c)
-            elif(para == 'm'):
-                f.write("%s \n" % m_c)
-            elif(para == 'mr'):
-                f.write("%s \n" % mr_c)
-        
         counter += 1
     f.close()    
     return 0
@@ -241,22 +238,22 @@ def main():
          
     if(run_random_iteration == True):
         if(run_forward_evole_time == True):
-            run_sweep_random_iter(ft_rg[0], ft_rg[1], ft_rg[2], 'ft')
+            run_sweep_random_iter(ft_rg[0], ft_rg[1], ft_N, 'ft')
     
         if(run_backward_evolve_ratio == True):
-            run_sweep_random_iter(bt_rg[0], bt_rg[1], bt_rg[2], 'bt')
+            run_sweep_random_iter(bt_rg[0], bt_rg[1], bt_N, 'bt')
          
         if(run_radius == True):
-            run_sweep_random_iter(r_rg[0], r_rg[1], r_rg[2], 'r')
+            run_sweep_random_iter(r_rg[0], r_rg[1], r_N, 'r')
          
         if(run_radius_ratio == True):
-            run_sweep_random_iter(rr_rg[0], rr_rg[1], rr_rg[2], 'rr')
+            run_sweep_random_iter(rr_rg[0], rr_rg[1], rr_N, 'rr')
          
         if(run_mass == True):
-            run_sweep_random_iter(m_rg[0], m_rg[1], m_rg[2], 'm')
+            run_sweep_random_iter(m_rg[0], m_rg[1], m_N, 'm')
          
         if(run_mass_ratio == True):
-            run_sweep_random_iter(mr_rg[0], mr_rg[1], mr_rg[2], 'mr')
+            run_sweep_random_iter(mr_rg[0], mr_rg[1], mr_N, 'mr')
             
     return 0
     

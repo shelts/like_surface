@@ -1,37 +1,6 @@
+"1D_plot.gnuplot", line 10: warning: Skipping unreadable file "1D_like_surface/likelihood_data/ft_sorted_data_vals.txt"
+"1D_plot.gnuplot", line 10: No data in plot
 
-plot '<paste 1D_like_surface/parameter_data/ft_vals.txt 1D_like_surface/likelihood_data/ft_data.txt' using 1:2  with lines linecolor, '1D_like_surface/parameter_data/correct.txt' using 2:1 with lines linecolor 000000
-                                                                                                                                    ^
-"multiplot_1d.gnuplot", line 12: invalid expression 
-
-
-plot '<paste 1D_like_surface/parameter_data/ft_vals.txt 1D_like_surface/likelihood_data/ft_data.txt' using 1:2  with lines linecolor 00008B, '1D_like_surface/parameter_data/correct.txt' using 2:1 with lines linecolor 000000
-                                                                                                                                         ^
-"multiplot_1d.gnuplot", line 12: ';' expected
-
-
-plot '<paste 1D_like_surface/parameter_data/ft_vals.txt 1D_like_surface/likelihood_data/ft_data.txt' using 1:2  with lines linecolor 00008B, '1D_like_surface/parameter_data/correct.txt' using 2:1 with lines linecolor 000000
-                                                                                                                                         ^
-"multiplot_1d.gnuplot", line 12: ';' expected
-
-"multiplot_1d.gnuplot", line 12: undefined variable: darkblue
-
-
-set xlabel 'Forward Evolve Time (Gyr)' size 12
-                                       ^
-"multiplot_1d.gnuplot", line 8: ';' expected
-
-
-set xlabel 'Forward Evolve Time (Gyr)' font ,12
-                                            ^
-"multiplot_1d.gnuplot", line 8: invalid expression 
-
-
-set umargin 11
-    ^
-"multiplot_1d.gnuplot", line 12: Unrecognized option.  See 'help set'.
-
-
-set umargin 0
-    ^
-"multiplot_1d.gnuplot", line 12: Unrecognized option.  See 'help set'.
+"1D_plot_rand_iter.gnuplot", line 10: warning: Skipping unreadable file "1D_like_surface/likelihood_data_rand_iter/ft_sorted_data_vals.txt"
+"1D_plot_rand_iter.gnuplot", line 10: No data in plot
 

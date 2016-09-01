@@ -1,0 +1,72 @@
+<search_likelihood>-0.000000001000000</search_likelihood>
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Likelihood was NAN. Returning worst case. 
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Likelihood was NAN. Returning worst case. 
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+<search_likelihood>-7.595342395286969</search_likelihood>
+<search_likelihood>-1106.663836234180508</search_likelihood>
+<search_likelihood>-447.496463033315081</search_likelihood>
+<search_likelihood>-337.179028995719932</search_likelihood>
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Likelihood was NAN. Returning worst case. 
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Likelihood was NAN. Returning worst case. 
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Likelihood was NAN. Returning worst case. 
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+<search_likelihood>-193.307104917153964</search_likelihood>
+<search_likelihood>-57.711567794236842</search_likelihood>
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+<search_likelihood>-415.888308335967167</search_likelihood>
+Likelihood was NAN. Returning worst case. 
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Likelihood was NAN. Returning worst case. 
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Likelihood was NAN. Returning worst case. 
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Likelihood was NAN. Returning worst case. 
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+<search_likelihood>-482.831373730230155</search_likelihood>
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+<search_likelihood>-898.719682066197038</search_likelihood>
+Likelihood was NAN. Returning worst case. 
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Likelihood was NAN. Returning worst case. 
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Likelihood was NAN. Returning worst case. 
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>

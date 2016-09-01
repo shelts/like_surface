@@ -1,0 +1,69 @@
+<search_likelihood>-0.000000001000000</search_likelihood>
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+<search_likelihood>-120.886321225022570</search_likelihood>
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+<search_likelihood>-131.738178503080348</search_likelihood>
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+<search_likelihood>-38.497259541204997</search_likelihood>
+<search_likelihood>-82.169716900934759</search_likelihood>
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+<search_likelihood>-141.885596131898097</search_likelihood>
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+<search_likelihood>-294.566828204003116</search_likelihood>
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+<search_likelihood>-142.187871551293398</search_likelihood>
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+<search_likelihood>-121.142289074237198</search_likelihood>
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+<search_likelihood>-122.112103401850916</search_likelihood>
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+<search_likelihood>-122.335939241091722</search_likelihood>
+<search_likelihood>-142.604553474087879</search_likelihood>
+<search_likelihood>-86.311812927329825</search_likelihood>
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>

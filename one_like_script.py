@@ -11,14 +11,16 @@ n = False
 
 oneD_clean = n
 twoD_clean = n
-oneD_surface = y
+
+oneD_surface_reg_iterator  = y
+oneD_surface_ran_iterator  = y
+
 twoD_surface = n
 
 oneD_multiploter = n
 plot_cost_emd = n
 
 
-random_iterator = n
 special_parser = n
 
 oneD_names   = ['ft', 'bt', 'r', 'rr', 'm', 'mr']
@@ -30,7 +32,8 @@ r          = [0.1, 1.3, 0.06]#20
 r_r        = [0.1, .95, 0.05]#17
 m          = [1., 120.0, 5]#23
 m_r        = [.01, .95, .05]#18
-N = 6
+N = 3
+M = 0
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
                 #/# # # # # # # # # # # # # # \#
                 #          Engine Room         #
@@ -40,7 +43,7 @@ N = 6
 # # # # # # # # # # # # # # # # # # # # # #
 #    One Dimensional Surface Sweep Func   #
 # # # # # # # # # # # # # # # # # # # # # #
-def combine(name_of_sweeps):
+def combine(name_of_sweeps, random_iter):
     for i in range(0, N):
         f = open('./1D_like_surface/likelihood_data'  + name_of_sweeps + '/'  + str(oneD_names[i]) + '_data.txt', 'r')
         g = open('./1D_like_surface/parameter_sweeps' + name_of_sweeps + '/'  + str(oneD_names[i]) + '_vals.txt', 'r')
@@ -48,6 +51,8 @@ def combine(name_of_sweeps):
         
         likes = []
         vals  = []
+        vals_new = []
+        likes_new = []
         
         counter_like = 0
         counter_val  = 0
@@ -64,145 +69,30 @@ def combine(name_of_sweeps):
             
         #report and break if they are not
         if( counter_like != counter_val):
-            print "value list length mismatch"
+            print "value list length mismatch", name_of_sweeps, i
             break
-
-        for j in range(0, counter_like):
-            h.write("%0.15f %0.15f\n" % (vals[j], likes[j]))
+        
+        #if the parameter sweep was using random iteration:
+        if(random_iter == True):
+            vals_new, likes_new = sort(likes, vals)
+            #sort the data values in order of least to greats with their corresponding likelihoods.
+            #make sure the likelihoods were sorted correctly with the values
+            reliability_of_sorting = reliability(likes, likes_new, vals, vals_new)
+            
+            if(reliability_of_sorting != 100.0):
+                print "HOLY FUCKING SHIT, SOMETHING IS WRONG"
+            
+            for j in range(0, counter_like):
+                h.write("%0.15f %0.15f\n" % (vals_new[j], likes_new[j]))
+        else:
+            for j in range(0, counter_like):
+                h.write("%0.15f %0.15f\n" % (vals[j], likes[j]))
+            
         
         os.system("rm ./1D_like_surface/likelihood_data" + name_of_sweeps + "/" + str(oneD_names[i]) + "_data.txt")
-    return 0
-
-def oneD_parser(name_of_sweeps):
-    for i in range(0, N):
-        g = open('./1D_like_surface/parameter_sweeps' + name_of_sweeps + '/' + str(oneD_names[i]) + '.txt', 'r')
-        f = open('./1D_like_surface/likelihood_data'  + name_of_sweeps + '/' + str(oneD_names[i]) + '_data.txt', 'w')
-
-        for line in g:
-            if (line.startswith("<")):
-                ss = line.split('<search_likelihood>')#splits the line between the two sides the delimiter
-                tt = ss[1].split('</search_likelihood>')#chooses the second of the split parts and resplits
-                f.write("%s \n" % tt[0])#writes the first of the resplit lines
-        
-    f.close()
-    g.close()
-    combine(name_of_sweeps)
-    return 0 
-
-
-def oneD_plot():
-    ft = [3.0, 5.0]#plot ranges
-    bt = [0.8, 1.2]
-    r  = [0.1, 1.3]
-    rr = [0.1, .95]
-    m  = [1., 120.0]
-    mr = [.01, .95]
-    l = -200
-    ranges_start = [ft[0], bt[0], r[0], rr[0], m[0], mr[0]]
-    ranges_end   = [ft[1], bt[1], r[1], rr[1], m[1], mr[1]]
-    
-    #ranges_start = [ft[0], r[0], rr[0], m[0], mr[0]]
-    #ranges_end   = [ft[1], r[1], rr[1], m[1], mr[1]]
-    #how many of the data sets are we plotting
-    N  = 6
-    M  = 0
-    
-    #f   = 'forward evole time'
-    #b   = 'backward evolve time'
-    #rad  = 'radius'
-    #r_r = 'radius ratio'
-    #mass  = 'mass'
-    #m_r = 'mass ratio'
-
-    titles  = ['Forward Evolve Time', 'Reverse Orbit Time Ratio', 'Baryonic Scale Radius', 'Baryonic Scale Radius Ratio', 'Baryonic Matter Mass',  'Baryonic to Mass Ratio']
-    #titles  = ['Forward Evolve Time', 'Baryonic Scale Radius', 'Dark Scale Radius', 'Baryonic Matter Mass',  'Dark Matter Mass']
-    # # # # # # # # # # # # # # # # # # # # # # # # # 
-    data_vals = "parameter_data/"
-    like_data = "likelihood_data/"
-
-
-    f = open('1D_plot.gnuplot', 'w')
-    f.write("reset\n")
-    f.write("set terminal jpeg\n")
-    f.write("set key off\n")
-
-    for i in range(M, N):
-        f.write("set xlabel '" + titles[i] + "'\n")
-        f.write("set ylabel 'likelihood'\n")
-        f.write("set yrange [" + str(l) + ":0]\n")
-        f.write("set xrange[" + str(ranges_start[i]) + ":" + str(ranges_end[i]) + "]\n")
-        
-        #p = "<paste 1D_like_surface/parameter_data/" + oneD_names[i] + "_vals.txt 1D_like_surface/likelihood_data/" + oneD_names[i] + "_data.txt"
-        p = "1D_like_surface/parameter_data/" + oneD_names[i] + "_sorted_data_vals.txt"
-        f.write("set output '1D_like_surface/plots/" + oneD_names[i] + ".jpeg' \n")
-        f.write("set title 'Likelihood Surface of " + titles[i] + "' \n")
-        f.write("plot '" + p + "' using 1:2  with lines\n\n") 
-
-        f.write("# # # # # # # # # # # # # # # # # #\n")
-
-    f.close()
-
-    os.system("gnuplot 1D_plot.gnuplot 2>>piped_output.txt")
-    os.system("rm 1D_plot.gnuplot")
-    return 0
-
-def oneD_multiplot():
-    titles  = ['Forward Evolve Time (Gyr)_{}', 'Reverse Orbit Ratio (T_{f} / T_{r})', 'Baryon Scale Radius (kpc)_{}', 'Scale Radius Ratio [R_{Stars}/(R_{Stars} + R_{Dark})]', 'Baryonic Mass_{}',  'Mass Ratio [M_{Stars}/M_{Total}]']
-    labels  = ['Forward Evolve Time (Gyr)', 'Reverse Orbit Ratio', 'Baryon Scale Radius (kpc)', 'Scale Radius Ratio', 'Baryonic Mass (Sim Mass Units)',  'Mass Ratio']
-    #titles  = ['Forward Evolve Time (Gyr)',  'Baryon Scale Radius (kpc)', 'Scale Radius Ratio (Stellar/Dark)', 'Total Mass (Simulation Mass Units)',  'Mass Ratio (Baryonic/Total)']
-    #ranges
-    ft = [3.0, 5.0]#plot ranges
-    bt = [0.8, 1.2]
-    r  = [0.1, 1.3]
-    rr = [0.1, .95]
-    m  = [1., 120.0]
-    mr = [.01, .95]
-    l = -200
-    ranges_start = [ft[0], bt[0], r[0], rr[0], m[0], mr[0]]
-    ranges_end   = [ft[1], bt[1], r[1], rr[1], m[1], mr[1]]
-    #ranges_start = [ft[0], r[0], rr[0], m[0], mr[0]]
-    #ranges_end   = [ft[1], r[1], rr[1], m[1], mr[1]]
-    N  = 6
-    M  = 0
-
-    # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
-    # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-    data_vals = "parameter_data/"
-    like_data = "likelihood_data/"
-
-
-    f = open('multiplot_1d.gnuplot', 'w')
-    f.write("reset\n")
-    f.write("set terminal png size 1800,1200 enhanced \n")
-    f.write("set key off\n")
-    f.write("set border linewidth 2\n")
-    f.write("set title font 'Times-Roman,20'\n")
-    f.write("set output '1D_like_surface/plots/like_surfaces_1d.png' \n")
-    f.write("set multiplot layout 2,3 rowsfirst\n")
-    for i in range(M, N):
-        f.write("set size ratio -1 \n")
-        f.write("set size square\n")
-        f.write("set ylabel 'Likelihood ' font ',26' offset -1,0\n")
-        f.write("set lmargin 11\n")
-        f.write("set tmargin 0\n")
-        f.write("set xlabel '" + titles[i] + "' font ',26' offset 0,-1\n")
-        #f.write("set tics scale 0.5\n")
-        f.write("set xtics font ', 20'\n")
-        f.write("set ytics font ', 20'\n")
-        f.write("set yrange [" + str(l) + ":0]\n")
-        f.write("set xrange[" + str(ranges_start[i]) + ":" + str(ranges_end[i]) + "]\n")
-        #f.write("set parametric\n")
-        p = "<paste 1D_like_surface/parameter_data/" + oneD_names[i] + "_vals.txt 1D_like_surface/likelihood_data/" + oneD_names[i] + "_data.txt"
-        #f.write("set title '" + titles[i] + "' font ',22'\n")
-        f.write("plot '" + p + "' using 1:2  with lines linecolor rgb 'blue' lw 2, '1D_like_surface/parameter_data/correct.txt' using " + str(i + 2) + ":1 with lines lc rgb 0,0,0\n\n") 
-
-        f.write("# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # \n")
-        f.write("# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # \n")
-
-    f.close()
-
-    os.system("gnuplot multiplot_1d.gnuplot 2>>piped_output.txt")
-    os.system("rm multiplot_1d.gnuplot")
+        f.close()
+        g.close()
+        h.close()
     return 0
 
 def sort(likes, vals):
@@ -256,14 +146,17 @@ def reliability(likes, likes_new, vals, vals_new):
     fraction_match = 100.0 * matches / float(N)
     return fraction_match
 
-def random_iterator_sweep():
-    N = 3
-    M = 0
-    name_of_sweeps = "random_it"
-    #parse the data
+def make_correct(name_of_sweeps):
+    f = open('1D_like_surface/likelihood_data'  + name_of_sweeps + '/correct.txt', 'w')
+    #    Correct Answers     #
+    for i in range(0, 50):
+        f.write("%f \t %f \t %f \t %f \t %f \t %f \t %f\n" % (-i, c[0], c[1], c[2], c[3], c[4], c[5]))
+    f.close()
+
+def oneD_parser(name_of_sweeps, random_iter):
     for i in range(0, N):
         g = open('./1D_like_surface/parameter_sweeps' + name_of_sweeps + '/' + str(oneD_names[i]) + '.txt', 'r')
-        f = open('./1D_like_surface/parameter_sweeps' + name_of_sweeps + '/' + str(oneD_names[i]) + '_data.txt', 'w')
+        f = open('./1D_like_surface/likelihood_data'  + name_of_sweeps + '/' + str(oneD_names[i]) + '_data.txt', 'w')
 
         for line in g:
             if (line.startswith("<")):
@@ -273,53 +166,11 @@ def random_iterator_sweep():
         
     f.close()
     g.close()
-    
-    
-    
-    for i in range(0, N):
-        likes = []
-        vals  = []
-        vals_new = []
-        likes_new = []
-        
-        f = open('./1D_like_surface/parameter_sweeps' + name_of_sweeps + '/' + str(oneD_names[i]) + '_data.txt', 'r')
-        g = open('./1D_like_surface/parameter_sweeps' + name_of_sweeps + '/' + str(oneD_names[i]) + '_vals.txt', 'r')
-        h = open('./1D_like_surface/parameter_data'   + name_of_sweeps + '/' + str(oneD_names[i]) + '_sorted_data_vals.txt', 'w')
-        counter_like = 0
-        counter_val  = 0
-        
-        #make sure lists are the same length
-        for line in f:
-            l = float(line)
-            likes.append(l)
-            counter_like += 1
-        for line in g:
-            l = float(line)
-            vals.append(l)
-            counter_val += 1
-            
-        #report and break if they are not
-        if( counter_like != counter_val):
-            print "value list length mismatch"
-            break
+    combine(name_of_sweeps, random_iter)
+    make_correct(name_of_sweeps)
+    return 0 
 
-        #sort the data values in order of least to greats with their corresponding likelihoods.
-        vals_new, likes_new = sort(likes, vals)
-        #make sure the likelihoods were sorted correctly with the values
-        reliability_of_sorting = reliability(likes, likes_new, vals, vals_new)
-        
-        if(reliability_of_sorting != 100.0):
-            print "HOLY FUCKING SHIT, SOMETHING IS WRONG"
-        
-        for j in range(0, counter_like):
-            h.write("%0.15f %0.15f\n" % (vals_new[j], likes_new[j]))
-        
-        os.system("rm ./1D_like_surface/parameter_sweeps" + name_of_sweeps + "/" + str(oneD_names[i]) + "_data.txt")
-        f.close()
-        g.close()
-        h.close()
-        
-        
+def oneD_plot(name_of_sweeps):
     ft = [3.0, 5.0]#plot ranges
     bt = [0.8, 1.2]
     r  = [0.1, 1.3]
@@ -330,14 +181,27 @@ def random_iterator_sweep():
     ranges_start = [ft[0], bt[0], r[0], rr[0], m[0], mr[0]]
     ranges_end   = [ft[1], bt[1], r[1], rr[1], m[1], mr[1]]
     
+    #ranges_start = [ft[0], r[0], rr[0], m[0], mr[0]]
+    #ranges_end   = [ft[1], r[1], rr[1], m[1], mr[1]]
+    #how many of the data sets are we plotting
+    N  = 6
+    M  = 0
+    
+    #f   = 'forward evole time'
+    #b   = 'backward evolve time'
+    #rad  = 'radius'
+    #r_r = 'radius ratio'
+    #mass  = 'mass'
+    #m_r = 'mass ratio'
 
     titles  = ['Forward Evolve Time', 'Reverse Orbit Time Ratio', 'Baryonic Scale Radius', 'Baryonic Scale Radius Ratio', 'Baryonic Matter Mass',  'Baryonic to Mass Ratio']
+    #titles  = ['Forward Evolve Time', 'Baryonic Scale Radius', 'Dark Scale Radius', 'Baryonic Matter Mass',  'Dark Matter Mass']
     # # # # # # # # # # # # # # # # # # # # # # # # # 
     data_vals = "parameter_data/"
     like_data = "likelihood_data/"
 
 
-    f = open('1D_plot_rani.gnuplot', 'w')
+    f = open('1D_plot' + name_of_sweeps + '.gnuplot', 'w')
     f.write("reset\n")
     f.write("set terminal jpeg\n")
     f.write("set key off\n")
@@ -348,7 +212,8 @@ def random_iterator_sweep():
         f.write("set yrange [" + str(l) + ":0]\n")
         f.write("set xrange[" + str(ranges_start[i]) + ":" + str(ranges_end[i]) + "]\n")
         
-        p = "1D_like_surface/parameter_data" + name_of_sweeps + "/" + oneD_names[i] + "_sorted_data_vals.txt"
+        #p = "<paste 1D_like_surface/parameter_data/" + oneD_names[i] + "_vals.txt 1D_like_surface/likelihood_data/" + oneD_names[i] + "_data.txt"
+        p = "1D_like_surface/likelihood_data" + name_of_sweeps + "/" + oneD_names[i] + "_sorted_data_vals.txt"
         f.write("set output '1D_like_surface/plots" + name_of_sweeps + "/" + oneD_names[i] + ".jpeg' \n")
         f.write("set title 'Likelihood Surface of " + titles[i] + "' \n")
         f.write("plot '" + p + "' using 1:2  with lines\n\n") 
@@ -357,8 +222,100 @@ def random_iterator_sweep():
 
     f.close()
 
-    os.system("gnuplot 1D_plot_rani.gnuplot 2>>piped_output.txt")
-    os.system("rm 1D_plot_rani.gnuplot")
+    os.system("gnuplot 1D_plot" + name_of_sweeps + ".gnuplot 2>>piped_output.txt")
+    os.system("rm 1D_plot" + name_of_sweeps + ".gnuplot")
+    return 0
+
+def oneD_multiplot(name_of_sweeps):
+    titles  = ['Forward Evolve Time (Gyr)_{}', 'Reverse Orbit Ratio (T_{f} / T_{r})', 'Baryon Scale Radius (kpc)_{}', 'Scale Radius Ratio [R_{Stars}/(R_{Stars} + R_{Dark})]', 'Baryonic Mass_{}',  'Mass Ratio [M_{Stars}/M_{Total}]']
+    labels  = ['Forward Evolve Time (Gyr)', 'Reverse Orbit Ratio', 'Baryon Scale Radius (kpc)', 'Scale Radius Ratio', 'Baryonic Mass (Sim Mass Units)',  'Mass Ratio']
+    #titles  = ['Forward Evolve Time (Gyr)',  'Baryon Scale Radius (kpc)', 'Scale Radius Ratio (Stellar/Dark)', 'Total Mass (Simulation Mass Units)',  'Mass Ratio (Baryonic/Total)']
+    #ranges
+    ft = [3.0, 5.0]#plot ranges
+    bt = [0.8, 1.2]
+    r  = [0.1, 1.3]
+    rr = [0.1, .95]
+    m  = [1., 120.0]
+    mr = [.01, .95]
+    l = -200
+    ranges_start = [ft[0], bt[0], r[0], rr[0], m[0], mr[0]]
+    ranges_end   = [ft[1], bt[1], r[1], rr[1], m[1], mr[1]]
+    #ranges_start = [ft[0], r[0], rr[0], m[0], mr[0]]
+    #ranges_end   = [ft[1], r[1], rr[1], m[1], mr[1]]
+    N  = 6
+    M  = 0
+
+    # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+    # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+    data_vals = "parameter_data/"
+    like_data = "likelihood_data/"
+
+
+    f = open('multiplot_1d' + name_of_sweeps + '.gnuplot', 'w')
+    f.write("reset\n")
+    f.write("set terminal png size 1800,1200 enhanced \n")
+    f.write("set key off\n")
+    f.write("set border linewidth 2\n")
+    f.write("set title font 'Times-Roman,20'\n")
+    f.write("set output '1D_like_surface/plots/like_surfaces_1d" + name_of_sweeps + ".png' \n")
+    f.write("set multiplot layout 2,3 rowsfirst\n")
+    for i in range(M, N):
+        f.write("set size ratio -1 \n")
+        f.write("set size square\n")
+        f.write("set ylabel 'Likelihood ' font ',26' offset -1,0\n")
+        f.write("set lmargin 11\n")
+        f.write("set tmargin 0\n")
+        f.write("set xlabel '" + titles[i] + "' font ',26' offset 0,-1\n")
+        #f.write("set tics scale 0.5\n")
+        f.write("set xtics font ', 20'\n")
+        f.write("set ytics font ', 20'\n")
+        f.write("set yrange [" + str(l) + ":0]\n")
+        f.write("set xrange[" + str(ranges_start[i]) + ":" + str(ranges_end[i]) + "]\n")
+        #f.write("set parametric\n")
+        #p = "<paste 1D_like_surface/parameter_data/" + oneD_names[i] + "_vals.txt 1D_like_surface/likelihood_data/" + oneD_names[i] + "_data.txt"
+        p = "1D_like_surface/likelihood_data" + name_of_sweeps + "/" + oneD_names[i] + "_sorted_data_vals.txt"
+        #f.write("set title '" + titles[i] + "' font ',22'\n")
+        f.write("plot '" + p + "' using 1:2  with lines linecolor rgb 'blue' lw 2, '1D_like_surface/likelihood_data" + name_of_sweeps + "/correct.txt' using " + str(i + 2) + ":1 with lines lc rgb 0,0,0\n\n") 
+
+        f.write("# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # \n")
+        f.write("# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # \n")
+
+    f.close()
+
+    os.system("gnuplot multiplot_1d" + name_of_sweeps + ".gnuplot 2>>piped_output.txt")
+    os.system("rm multiplot_1d" + name_of_sweeps + ".gnuplot")
+    return 0
+
+def reg_iterator_sweep():
+    name_of_sweeps = ""
+    oneD_cleanse(name_of_sweeps)
+    random_iter = False
+    
+    oneD_parser(name_of_sweeps, random_iter)
+    
+    oneD_plot(name_of_sweeps)
+    
+    if(oneD_multiploter == True):
+        oneD_multiplot(name_of_sweeps)
+        
+    return 0
+
+def random_iterator_sweep():
+    name_of_sweeps = "_rand_iter"
+    oneD_cleanse(name_of_sweeps)
+    random_iter = True
+    
+    #parse the data
+    #this will also put the likelihoods and data values in one file
+    #if it is a random iteration sweep it will sort the data values with their respective
+    #likelihoods from least to greatest
+    oneD_parser(name_of_sweeps, random_iter)
+    
+    oneD_plot(name_of_sweeps)
+    
+    if(oneD_multiploter == True):
+        oneD_multiplot(name_of_sweeps)
+        
     return 0
 # # # # # # # # # # # # # # # # # # # # # #
 #    Two Dimensional Surface Sweep Func   #
@@ -686,23 +643,21 @@ def twoD_plot():
 # # # # # # # # # #
 #     Cleaners    #
 # # # # # # # # # #
+def oneD_cleanse(name_of_sweeps):
+    os.system("rm -r 1D_like_surface/likelihood_data" + name_of_sweeps)
+    os.system("mkdir 1D_like_surface/likelihood_data" + name_of_sweeps)
 
+    os.system("rm -r 1D_like_surface/plots" + name_of_sweeps)
+    os.system("mkdir 1D_like_surface/plots" + name_of_sweeps)
 
-def oneD_cleanse():
-    os.system("rm -r 1D_like_surface/likelihood_data")
-    os.system("mkdir 1D_like_surface/likelihood_data")
-
-    os.system("rm -r 1D_like_surface/plots")
-    os.system("mkdir 1D_like_surface/plots")
-
-    os.system("rm -r 1D_like_surface/parameter_data")
-    os.system("mkdir 1D_like_surface/parameter_data")
+    #os.system("rm -r 1D_like_surface/parameter_data")
+    #os.system("mkdir 1D_like_surface/parameter_data")
     
-    os.system("rm -r 1D_like_surface/cost_emd_data")
-    os.system("mkdir 1D_like_surface/cost_emd_data")
+    #os.system("rm -r 1D_like_surface/cost_emd_data")
+    #os.system("mkdir 1D_like_surface/cost_emd_data")
     
-    os.system("rm -r 1D_like_surface/cost_emd_plots")
-    os.system("mkdir 1D_like_surface/cost_emd_plots")
+    #os.system("rm -r 1D_like_surface/cost_emd_plots")
+    #os.system("mkdir 1D_like_surface/cost_emd_plots")
 
 def twoD_cleanse():
     os.system("rm -r 2D_like_surface/likelihood_data")
@@ -713,7 +668,6 @@ def twoD_cleanse():
 
     os.system("rm -r 2D_like_surface/parameter_data")
     os.system("mkdir 2D_like_surface/parameter_data")
-
 # # # # # # # # # # # 
 #    Misc parsers   #
 # # # # # # # # # # # 
@@ -743,17 +697,11 @@ def main():
     if(twoD_clean == True):
         twoD_cleanse()
     
-    if(oneD_surface == True):
-        #oneD_data_vals()
-        oneD_parser()
-        oneD_plot()
-    
-    if(oneD_multiploter == True):
-        oneD_multiplot()
+    if(oneD_surface_reg_iterator == True):
+        reg_iterator_sweep()
 
-    if(plot_cost_emd == True):
-        oneD_cost_emd_parser()
-        oneD_cost_emd_plot()
+    if(oneD_surface_ran_iterator == True):
+        random_iterator_sweep()
         
         
     if(twoD_surface == True):
@@ -761,8 +709,6 @@ def main():
         twoD_parser()
         twoD_plot()
         
-    if(random_iterator == True):
-        random_iterator_sweep()
     
     if(special_parser == True):
         all_hists_in_one_file_parser()
