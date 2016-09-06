@@ -12,7 +12,7 @@ n = False
 oneD_clean = n
 twoD_clean = n
 
-oneD_surface_reg_iterator  = y
+oneD_surface_reg_iterator  = n
 oneD_surface_ran_iterator  = y
 
 twoD_surface = n
@@ -32,7 +32,7 @@ r          = [0.1, 1.3, 0.06]#20
 r_r        = [0.1, .95, 0.05]#17
 m          = [1., 120.0, 5]#23
 m_r        = [.01, .95, .05]#18
-N = 3
+N = 6
 M = 0
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
                 #/# # # # # # # # # # # # # # \#
@@ -83,10 +83,10 @@ def combine(name_of_sweeps, random_iter):
                 print "HOLY FUCKING SHIT, SOMETHING IS WRONG"
             
             for j in range(0, counter_like):
-                h.write("%0.15f %0.15f\n" % (vals_new[j], likes_new[j]))
+                h.write("%0.15f\t%0.15f\n" % (vals_new[j], likes_new[j]))
         else:
             for j in range(0, counter_like):
-                h.write("%0.15f %0.15f\n" % (vals[j], likes[j]))
+                h.write("%0.15f\t%0.15f\n" % (vals[j], likes[j]))
             
         
         os.system("rm ./1D_like_surface/likelihood_data" + name_of_sweeps + "/" + str(oneD_names[i]) + "_data.txt")
@@ -213,7 +213,7 @@ def oneD_plot(name_of_sweeps):
         f.write("set xrange[" + str(ranges_start[i]) + ":" + str(ranges_end[i]) + "]\n")
         
         #p = "<paste 1D_like_surface/parameter_data/" + oneD_names[i] + "_vals.txt 1D_like_surface/likelihood_data/" + oneD_names[i] + "_data.txt"
-        p = "1D_like_surface/likelihood_data" + name_of_sweeps + "/" + oneD_names[i] + "_sorted_data_vals.txt"
+        p = "1D_like_surface/likelihood_data" + name_of_sweeps + "/" + oneD_names[i] + "_data_vals.txt"
         f.write("set output '1D_like_surface/plots" + name_of_sweeps + "/" + oneD_names[i] + ".jpeg' \n")
         f.write("set title 'Likelihood Surface of " + titles[i] + "' \n")
         f.write("plot '" + p + "' using 1:2  with lines\n\n") 

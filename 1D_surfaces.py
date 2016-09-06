@@ -45,7 +45,7 @@ n = False
 #choose what to run
 rebuild_binary            = n
 make_correct_answer_hist  = y
-run_regular_iteration     = n
+run_regular_iteration     = y
 run_random_iteration      = y
 
 run_forward_evole_time    = y
