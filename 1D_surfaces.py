@@ -16,9 +16,14 @@ rr_c  = str(args[3])
 m_c   = str(args[4])
 mr_c  = str(args[5])
 
-folder        = "~/Desktop/research/like_surface/hists/"
-binary        = "~/Desktop/research/nbody_test/bin/milkyway_nbody"
-lua           = "~/Desktop/research/lua/EMD_v162.lua"
+lmc_dir = '~/research/'
+sid_dir = '/home/sidd/Desktop/research/'
+sgr_dir = '/Users/master/sidd_research/'
+path = lmc_dir
+
+folder        = path + "like_surface/hists/"
+binary        = path + "nbody_test/bin/milkyway_nbody"
+lua           = path + "/lua/EMD_v162.lua"
 seed          = "98213548"
 
 input_hist    = folder + "arg_" + ft_c + "_" + bt_c + "_" + r_c + "_" + rr_c + "_" + m_c + "_" + mr_c + "_correct.hist"
