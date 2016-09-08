@@ -161,7 +161,7 @@ def run_sweep_random_iter(start, end, N, para):
     sweep_name = "_rand_iter"
     os.system("mkdir hists/parameter_sweeps" + sweep_name)
     data_vals   = "hists/parameter_sweeps" + sweep_name + "/" + para + "_vals.txt"
-    f = open(data_vals, 'a')
+    f = open(data_vals, 'w')
     
     ft_tmp = ft_c
     bt_tmp = bt_c
