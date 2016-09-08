@@ -5,20 +5,31 @@ from subprocess import call
 #--------------------------------------------------------------------------------------------------
 #       PARAMETER LIBRARY       #
 #--------------------------------------------------------------------------------------------------
-args = [4, 1, 0.2, 0.2, 12, 0.2]
-sim_time      = str(args[0])
-back_time     = str(args[1])
-r0            = str(args[2])
-light_r_ratio = str(args[3])
-mass          = str(args[4])
-mass_ratio    = str(args[5])
+args = [3.95, 0.98, 0.2, 0.2, 6, 0.2]
+ft_cn  = (args[0])#cn for correct number
+bt_cn  = (args[1])
+r_cn   = (args[2])
+rr_cn  = (args[3])
+m_cn   = (args[4])
+mr_cn  = (args[5])
+
+
+
+ft_c  = str(args[0])
+bt_c  = str(args[1])
+r_c   = str(args[2])
+rr_c  = str(args[3])
+m_c   = str(args[4])
+mr_c  = str(args[5])
+
+
 
 lmc_dir = '~/research/'
 sid_dir = '/home/sidd/Desktop/research/'
 sgr_dir = '/Users/master/sidd_research/'
-path = lmc_dir
+path = sid_dir
 
-
+folder        = path + "like_surface/2d_sweep_hists/"
 binary        = path + "nbody_test/bin/milkyway_nbody"
 lua           = path + "/lua/EMD_v162.lua"
 seed          = "98213548"
@@ -29,12 +40,19 @@ input_hist    = folder + "arg_" + ft_c + "_" + bt_c + "_" + r_c + "_" + rr_c + "
 
 
 #parameter = [start, end, increment]
-ft         = [3.9, 4.2, 0.01]#30
-bt         = [0.96, 1.08, 0.005]#24
-r          = [0.1, 0.8, 0.01]#80
-r_r        = [0.1, 0.8, 0.01]#80
-m          = [1.0, 20.0, 0.25]#80
-m_r        = [0.20, 0.30, 0.001]#70
+ft         = [3.92, 4.0, 0.02]#30
+bt         = [0.97, 1.08, 0.02]#24
+r          = [0.1, 0.4, 0.2]#80
+rr         = [0.1, 0.4, 0.2]#80
+m          = [1.0, 7.0, 2.0]#80
+mr         = [0.150, 0.35, 0.1]#70
+
+ft_s, ft_e, ft_in = ft[0], ft[1], ft[2]
+bt_s, bt_e, bt_in = bt[0], bt[1], bt[2]
+r_s,  r_e,  r_in  = r[0],  r[1],  r[2]
+rr_s, rr_e, rr_in = rr[0], rr[1], rr[2]
+m_s,  m_e,  m_in  = m[0],  m[1],  m[2]
+mr_s, mr_e, mr_in = mr[0], mr[1], mr[2]
 
 ft_N = 40
 bt_N = 40
@@ -57,22 +75,22 @@ run_random_iteration      = y
 
 
 
-run_ft_v_bt = n
-run_ft_v_r  = n
-run_ft_v_rr = n
-run_ft_v_m  = n
-run_ft_v_mr = n
+run_ft_v_bt = y
+run_ft_v_r  = y
+run_ft_v_rr = y
+run_ft_v_m  = y
+run_ft_v_mr = y
 
-run_bt_v_r  = n
-run_bt_v_rr = n
-run_bt_v_m  = n
-run_bt_v_mr = n
+run_bt_v_r  = y
+run_bt_v_rr = y
+run_bt_v_m  = y
+run_bt_v_mr = y
 
-run_r_v_rr  = n
-run_r_v_m   = n
-run_r_v_mr  = n
+run_r_v_rr  = y
+run_r_v_m   = y
+run_r_v_mr  = y
 
-run_rr_v_m  = n
+run_rr_v_m  = y
 run_rr_v_mr = y
 
 run_m_v_mr  = y
@@ -105,7 +123,7 @@ def nbody(output_hist, ft, bt, r, rr, m, mr, file_name, sweep_name):
                 2>>" + folder + "parameter_sweeps" + sweep_name + "/" + file_name + ".txt")
     return 0
     
-def para_init(para, counter):
+def para_init(para1, counter1, para2, counter2):
     name = str(counter)
     do_correct == False
     ft_tmp = ft_c
@@ -116,41 +134,43 @@ def para_init(para, counter):
     mr_tmp = mr_c
     
     if(para == 'ft'):
-            ft_tmp = name
-        if(counter < args[0] and counter + intv > args[0]):
+        ft_tmp = name
+        if(counter < ft_cn and counter + intv > ft_cn):
             do_correct = True
     elif(para == 'bt'):
         bt_tmp = name
-        if(counter < args[1] and counter + intv > args[1]):
+        if(counter < bt_cn and counter + intv > bt_cn):
             do_correct = True
     elif(para == 'r'):
         r_tmp = name
-        if(counter < args[2] and counter + intv > args[2]):
+        if(counter < r_cn and counter + intv > r_cn):
             do_correct = True
     elif(para == 'rr'):
         rr_tmp = name
-        if(counter < args[3] and counter + intv > args[3]):
+        if(counter < rr_cn and counter + intv > rr_cn):
             do_correct = True
     elif(para == 'm'):
         m_tmp = name
-        if(counter < args[4] and counter + intv > args[4]):
+        if(counter < m_cn and counter + intv > m_cn):
             do_correct = True
     elif(para == 'mr'):
         mr_tmp = name
-        if(counter < args[5] and counter + intv > args[5]):
+        if(counter < mr_cn and counter + intv > mr_cn):
             do_correct = True
     
     return ft_tmp, bt_tmp, r_tmp, rr_tmp, m_tmp, mr_tmp, do_correct
             
-def run_sweep(start1, end1, intv1, start2, end2, intv2, para1, para2):
+def run_sweep(start1, end1, intv1, para1, start2, end2, intv2, para2):
     counter1 = start1
     counter2 = start2
     name1 = str(counter1)
     name2 = str(counter2)
     sweep_name = ""
-    os.system("mkdir hists/parameter_sweeps" + sweep_name)
-    data_vals   = "hists/parameter_sweeps" + sweep_name + "/" + para + "_vals.txt"
-    f = open(data_vals, 'a')
+    pipe_name = para1 + "_" + para2
+    
+    os.system("mkdir " + folder + "parameter_sweeps" + sweep_name)
+    data_vals   = folder + "parameter_sweeps" + sweep_name + "/" + pipe_name + "_vals.txt"
+    f = open(data_vals, 'w')
     
     ft_tmp = ft_c
     bt_tmp = bt_c
@@ -160,64 +180,62 @@ def run_sweep(start1, end1, intv1, start2, end2, intv2, para1, para2):
     mr_tmp = mr_c
     do_correct1 = False
     do_correct2 = False
-    pipe_name = para1 + "_" + para2
     
-    while counter1 < end1:
+    while counter1 < end1 + intv1:
         counter2 = start2
         name2 = str(counter2)
-        output_hist = folder + para + "_hists/" + "arg_"
         
         #ft_tmp, bt_tmp, r_tmp, rr_tmp, m_tmp, mr_tmp, do_correct1 = para_init(para1, counter1)
-        
         if(para1 == 'ft'):
             ft_tmp = name1
-            if(counter1 < args[0] and counter1 + intv1 > args[0]):
+            if(counter1 < ft_cn and counter1 + intv1 > ft_cn):
                 do_correct1 = True
         elif(para1 == 'bt'):
             bt_tmp = name1
-            if(counter1 < args[1] and counter1 + intv1 > args[1]):
+            if(counter1 < bt_cn and counter1 + intv1 > bt_cn):
                 do_correct1 = True
         elif(para1 == 'r'):
             r_tmp = name1
-            if(counter1 < args[2] and counter1 + intv1 > args[2]):
+            if(counter1 < r_cn and counter1 + intv1 > r_cn):
                 do_correct1 = True
         elif(para1 == 'rr'):
             rr_tmp = name1
-            if(counter1 < args[3] and counter1 + intv1 > args[3]):
+            if(counter1 < rr_cn and counter1 + intv1 > rr_cn):
                 do_correct1 = True
         elif(para1 == 'm'):
             m_tmp = name1
-            if(counter1 < args[4] and counter1 + intv1 > args[4]):
+            if(counter1 < m_cn and counter1 + intv1 > m_cn):
                 do_correct1 = True
         elif(para1 == 'mr'):
             mr_tmp = name1
-            if(counter1 < args[5] and counter1 + intv1 > args[5]):
+            if(counter1 < mr_cn and counter1 + intv1 > mr_cn):
                 do_correct1 = True
             
-        while counter2 < end2:
+        while counter2 < end2 + intv2:
+            output_hist = folder + pipe_name + "/" + "arg_"
             if(para2 == 'ft'):
                 ft_tmp = name2
-                if(counter2 < args[0] and counter2 + intv2 > args[0]):
+                if(counter2 < ft_cn and counter2 + intv2 > ft_cn):
                     do_correct2 = True
             elif(para2 == 'bt'):
                 bt_tmp = name2
-                if(counter2 < args[0] and counter2 + intv2 > args[0]):
+                if(counter2 < bt_cn and counter2 + intv2 > bt_cn):
                     do_correct2 = True
             elif(para2 == 'r'):
                 r_tmp = name2
-                if(counter2 < args[0] and counter2 + intv2 > args[0]):
+                if(counter2 < r_cn and counter2 + intv2 > r_cn):
                     do_correct2 = True
             elif(para2 == 'rr'):
                 rr_tmp = name2
-                if(counter2 < args[0] and counter2 + intv2 > args[0]):
+                if(counter2 < rr_cn and counter2 + intv2 > rr_cn):
                     do_correct2 = True
             elif(para2 == 'm'):
                 m_tmp = name2
-                if(counter2 < args[0] and counter2 + intv2 > args[0]):
+                if(counter2 < m_cn and counter2 + intv2 > m_cn):
                     do_correct2 = True
             elif(para2 == 'mr'):
                 mr_tmp = name2
-                if(counter2 < args[0] and counter2 + intv2 > args[0]):
+                if(counter2 < mr_cn and counter2 + intv2 > mr_cn):
                     do_correct2 = True
             
             
@@ -246,91 +264,151 @@ def run_sweep(start1, end1, intv1, start2, end2, intv2, para1, para2):
                     mr_tmp = mr_c
                     f.write("%s\t%s \n" % (name1, mr_c))
                     
-                output_hist = folder + para + "_hists/" + "arg_" + ft_tmp + "_" + bt_tmp + "_" + r_tmp + "_" + rr_tmp + "_" + m_tmp + "_" + mr_tmp + ".hist"
+                output_hist = folder + pipe_name + "/" + "arg_" + ft_tmp + "_" + bt_tmp + "_" + r_tmp + "_" + rr_tmp + "_" + m_tmp + "_" + mr_tmp + ".hist"
                 nbody(output_hist, ft_tmp, bt_tmp, r_tmp, rr_tmp, m_tmp, mr_tmp, pipe_name, sweep_name)
                 do_correct2 = False
                 
             counter2 += intv2
             name2 = str(counter2)
-        
+            
         if(do_correct1 == True):
+            name1_save = name1
             if(para1 == 'ft'):
                 ft_tmp = ft_c
-                name_tmp = ft_c
+                name1 = ft_c
             elif(para1 == 'bt'):
                 bt_tmp = bt_c
-                name_tmp = bt_c
+                name1 = bt_c
             elif(para1 == 'r'):
                 r_tmp  = r_c
-                name_tmp = r_c
+                name1 = r_c
             elif(para1 == 'rr'):
                 rr_tmp = rr_c
-                name_tmp = rr_c
+                name1 = rr_c
             elif(para1 == 'm'):
                 m_tmp  = m_c
-                name_tmp = m_c
+                name1 = m_c
             elif(para1 == 'mr'):
                 mr_tmp = mr_c
-                name_tmp = mr_c
+                name1 = mr_c
                 
-            while counter2 < end2:
+            counter2 = start2
+            name2 = str(counter2)
+            while counter2 < end2 + intv2:
+                output_hist = folder + pipe_name + "/" + "arg_"
                 if(para2 == 'ft'):
                     ft_tmp = name2
-                    if(counter2 < args[0] and counter2 + intv2 > args[0]):
+                    if(counter2 < ft_cn and counter2 + intv2 > ft_cn):
                         do_correct2 = True
                 elif(para2 == 'bt'):
                     bt_tmp = name2
-                    if(counter2 < args[0] and counter2 + intv2 > args[0]):
+                    if(counter2 < bt_cn and counter2 + intv2 > bt_cn):
                         do_correct2 = True
                 elif(para2 == 'r'):
                     r_tmp = name2
-                    if(counter2 < args[0] and counter2 + intv2 > args[0]):
+                    if(counter2 < r_cn and counter2 + intv2 > r_cn):
                         do_correct2 = True
                 elif(para2 == 'rr'):
                     rr_tmp = name2
-                    if(counter2 < args[0] and counter2 + intv2 > args[0]):
+                    if(counter2 < rr_cn and counter2 + intv2 > rr_cn):
                         do_correct2 = True
                 elif(para2 == 'm'):
                     m_tmp = name2
-                    if(counter2 < args[0] and counter2 + intv2 > args[0]):
+                    if(counter2 < m_cn and counter2 + intv2 > m_cn):
                         do_correct2 = True
                 elif(para2 == 'mr'):
                     mr_tmp = name2
-                    if(counter2 < args[0] and counter2 + intv2 > args[0]):
+                    if(counter2 < mr_cn and counter2 + intv2 > mr_cn):
                         do_correct2 = True
                 
                 
                 output_hist += ft_tmp + "_" + bt_tmp + "_" + r_tmp + "_" + rr_tmp + "_" + m_tmp + "_" + mr_tmp + ".hist"
                 nbody(output_hist, ft_tmp, bt_tmp, r_tmp, rr_tmp, m_tmp, mr_tmp, pipe_name, sweep_name)
-                f.write("%s\t%s  \n" % (name_tmp, name2))
+                f.write("%s\t%s  \n" % (name1, name2))
                 
                 if(do_correct2 == True):
-                    output_hist = folder + para + "_hists/" + "arg_" + ft_c + "_" + bt_c + "_" + r_c + "_" + rr_c + "_" + m_c + "_" + mr_c + ".hist"
-                    nbody(output_hist, ft_c, bt_c, r_c, rr_c, m_c, mr_c, para, sweep_name)
-                    do_correct1 = False
-                    do_correct2 = False        
+                    output_hist = folder + pipe_name + "/" + "arg_" + ft_c + "_" + bt_c + "_" + r_c + "_" + rr_c + "_" + m_c + "_" + mr_c + ".hist"
+                    nbody(output_hist, ft_c, bt_c, r_c, rr_c, m_c, mr_c, pipe_name, sweep_name)
+                    do_correct2 = False
                     
                     
                     if(para2 == 'ft'):
                         ft_tmp = ft_c
-                        f.write("%s\t%s \n" % (name_tmp, ft_c))
+                        f.write("%s\t%s \n" % (name1, ft_c))
                     elif(para2 == 'bt'):
                         bt_tmp = bt_c
-                        f.write("%s\t%s \n" % (name_tmp, bt_c))
+                        f.write("%s\t%s \n" % (name1, bt_c))
                     elif(para2 == 'r'):
                         r_tmp  = r_c
-                        f.write("%s\t%s \n" % (name_tmp, r_c))
+                        f.write("%s\t%s \n" % (name1, r_c))
                     elif(para2 == 'rr'):
                         rr_tmp = rr_c
-                        f.write("%s\t%s \n" % (name_tmp, rr_c))
+                        f.write("%s\t%s \n" % (name1, rr_c))
                     elif(para2 == 'm'):
                         m_tmp  = m_c
-                        f.write("%s\t%s \n" % (name_tmp, m_c))
+                        f.write("%s\t%s \n" % (name1, m_c))
                     elif(para2 == 'mr'):
                         mr_tmp = mr_c
-                        f.write("%s\t%s \n" % (name_tmp, mr_c))
-        
+                        f.write("%s\t%s \n" % (name1, mr_c))
+                        
+                counter2 += intv2
+                name2 = str(counter2)
+            name1 = name1_save
+            do_correct1 = False        
         counter1 += intv1
         name1 = str(counter1)
     f.close()
     return 0
+
+
+
+def main():
+    if(rebuild_binary):
+        rebuild()
+        
+    if(make_correct_answer_hist):
+        make_correct()
+    
+    
+    if(run_regular_iteration):
+        if(run_ft_v_bt):
+            run_sweep(ft_s, ft_e, ft_in, 'ft', bt_s, bt_e, bt_in, 'bt')
+        if(run_ft_v_r ):
+            run_sweep(ft_s, ft_e, ft_in, 'ft', r_s,  r_e,  r_in,  'r')
+        if(run_ft_v_rr):
+            run_sweep(ft_s, ft_e, ft_in, 'ft', rr_s, rr_e, rr_in, 'rr')
+        if(run_ft_v_m ):
+            run_sweep(ft_s, ft_e, ft_in, 'ft', m_s,  m_e,  m_in,  'm')
+        if(run_ft_v_mr):
+            run_sweep(ft_s, ft_e, ft_in, 'ft', mr_s, mr_e, mr_in, 'mr')
+            
+        if(run_bt_v_r  ):
+            run_sweep(bt_s, bt_e, bt_in, 'bt', r_s,  r_e,  r_in,  'r')
+        if(run_bt_v_rr ):
+            run_sweep(bt_s, bt_e, bt_in, 'bt', rr_s, rr_e, rr_in, 'rr')
+        if(run_bt_v_m  ):
+            run_sweep(bt_s, bt_e, bt_in, 'bt', m_s,  m_e,  m_in,  'm')
+        if(run_bt_v_mr ):
+            run_sweep(bt_s, bt_e, bt_in, 'bt', mr_s, mr_e, mr_in, 'mr')
+            
+            
+        if(run_r_v_rr  ):
+            run_sweep(r_s,  r_e,  r_in,  'r',  rr_s, rr_e, rr_in, 'rr')
+        if(run_r_v_m   ):
+            run_sweep(r_s,  r_e,  r_in,  'r',  m_s,  m_e,  m_in,  'm')
+        if(run_r_v_mr  ):
+            run_sweep(r_s,  r_e,  r_in,  'r',  mr_s, mr_e, mr_in, 'mr')
+            
+        if(run_rr_v_m  ):
+            run_sweep(rr_s, rr_e, rr_in, 'rr', m_s,  m_e,  m_in,  'm')
+        if(run_rr_v_mr ):
+            run_sweep(rr_s, rr_e, rr_in, 'rr', mr_s, mr_e, mr_in, 'mr')
+            
+        if(run_m_v_mr  ):
+            run_sweep(m_s,  m_e,  m_in,  'm',  mr_s, mr_e, mr_in, 'mr')
+            
+            
+            
+main()
+            
+        
