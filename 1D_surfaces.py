@@ -218,7 +218,7 @@ def mk_dirs():
     names   = ['ft', 'bt', 'r', 'rr', 'm', 'mr']
     os.system("mkdir hists")
     for i in range(0, len(names)):
-        os.system("mkdir hists/" + names[i])
+        os.system("mkdir hists/" + names[i] + "_hists")
     return 0
 
 
