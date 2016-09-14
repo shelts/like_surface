@@ -12,12 +12,13 @@ n = False
 oneD_clean = n
 twoD_clean = n
 
-oneD_surface_reg_iterator  = n
-oneD_surface_ran_iterator  = y
+reg_iterator  = n
+ran_iterator  = y
 
-twoD_surface = n
+oneD_sweep = y
+twoD_sweep = n
 
-oneD_multiploter = n
+oneD_multiploter = y
 plot_cost_emd = n
 
 
@@ -25,6 +26,13 @@ special_parser = n
 
 oneD_names   = ['ft', 'bt', 'r', 'rr', 'm', 'mr']
 
+twoD_names   = [ 'ft_bt', 'ft_rad', 'ft_rr', 'ft_m', 'ft_mr', 
+                 'bt_r', 'bt_rr', 'bt_m', 'bt_mr', 
+                 'r_rr', 'r_m', 'r_mr', 
+                 'rr_m', 'rr_mr', 
+                 'm_mr']
+
+#twoD_names   = ['r_rr', 'r_m', 'r_mr', 'rr_m', 'rr_mr', 'm_mr']
 c          = [3.95, 0.98, 0.2, 0.2, 12, 0.2]
 ft         = [3.0, 5.0, 0.1]#20
 bt         = [0.8, 1.2, 0.04]#10
@@ -32,8 +40,15 @@ r          = [0.1, 1.3, 0.06]#20
 r_r        = [0.1, .95, 0.05]#17
 m          = [1., 120.0, 5]#23
 m_r        = [.01, .95, .05]#18
-N = 6
-M = 0
+
+if(oneD_sweep):
+    N = 6
+    M = 0
+if(twoD_sweep):
+    N = 15
+    M = 9
+
+
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
                 #/# # # # # # # # # # # # # # \#
                 #          Engine Room         #
@@ -43,58 +58,6 @@ M = 0
 # # # # # # # # # # # # # # # # # # # # # #
 #    One Dimensional Surface Sweep Func   #
 # # # # # # # # # # # # # # # # # # # # # #
-def combine(name_of_sweeps, random_iter):
-    for i in range(0, N):
-        f = open('./1D_like_surface/likelihood_data'  + name_of_sweeps + '/'  + str(oneD_names[i]) + '_data.txt', 'r')
-        g = open('./1D_like_surface/parameter_sweeps' + name_of_sweeps + '/'  + str(oneD_names[i]) + '_vals.txt', 'r')
-        h = open('./1D_like_surface/likelihood_data'  + name_of_sweeps + '/'  + str(oneD_names[i]) + '_data_vals.txt', 'w')
-        
-        likes = []
-        vals  = []
-        vals_new = []
-        likes_new = []
-        
-        counter_like = 0
-        counter_val  = 0
-        
-        #make sure lists are the same length
-        for line in f:
-            l = float(line)
-            likes.append(l)
-            counter_like += 1
-        for line in g:
-            l = float(line)
-            vals.append(l)
-            counter_val += 1
-            
-        #report and break if they are not
-        if( counter_like != counter_val):
-            print "value list length mismatch", name_of_sweeps, i
-            break
-        
-        #if the parameter sweep was using random iteration:
-        if(random_iter == True):
-            vals_new, likes_new = sort(likes, vals)
-            #sort the data values in order of least to greats with their corresponding likelihoods.
-            #make sure the likelihoods were sorted correctly with the values
-            reliability_of_sorting = reliability(likes, likes_new, vals, vals_new)
-            
-            if(reliability_of_sorting != 100.0):
-                print "HOLY FUCKING SHIT, SOMETHING IS WRONG"
-            
-            for j in range(0, counter_like):
-                h.write("%0.15f\t%0.15f\n" % (vals_new[j], likes_new[j]))
-        else:
-            for j in range(0, counter_like):
-                h.write("%0.15f\t%0.15f\n" % (vals[j], likes[j]))
-            
-        
-        os.system("rm ./1D_like_surface/likelihood_data" + name_of_sweeps + "/" + str(oneD_names[i]) + "_data.txt")
-        f.close()
-        g.close()
-        h.close()
-    return 0
-
 def sort(likes, vals):
     N = len(likes)
     like_tmp = []
@@ -147,16 +110,102 @@ def reliability(likes, likes_new, vals, vals_new):
     return fraction_match
 
 def make_correct(name_of_sweeps):
-    f = open('1D_like_surface/likelihood_data'  + name_of_sweeps + '/correct.txt', 'w')
+    if(oneD_sweep):
+        data_folder = "1D_like_surface"
+    if(twoD_sweep):
+        data_folder = "2D_like_surface"
+        
+    f = open(data_folder + '/likelihood_data'  + name_of_sweeps + '/correct.txt', 'w')
     #    Correct Answers     #
     for i in range(0, 50):
         f.write("%f \t %f \t %f \t %f \t %f \t %f \t %f\n" % (-i, c[0], c[1], c[2], c[3], c[4], c[5]))
     f.close()
+    return 0
+    
+def combine(name_of_sweeps, random_iter, names):
+    if(oneD_sweep):
+        data_folder = "1D_like_surface"
+    if(twoD_sweep):
+        data_folder = "2D_like_surface"
+        
+        
+    for i in range(M, N):
+        file_data = open('./' + data_folder + '/likelihood_data'  + name_of_sweeps + '/'  + str(names[i]) + '_data.txt', 'r')
+        file_vals = open('./' + data_folder + '/parameter_sweeps' + name_of_sweeps + '/'  + str(names[i]) + '_vals.txt', 'r')
+        file_comb = open('./' + data_folder + '/likelihood_data'  + name_of_sweeps + '/'  + str(names[i]) + '_data_vals.txt', 'w')
+        
+        likes = []
+        vals  = []
+        vals2 = [] #for 2d sweeps. they don't need to be sorted
+        vals_new  = []
+        likes_new = []
+        
+        counter_like = 0
+        counter_val  = 0
+        
+        #make sure lists are the same length
+        for line in file_data:
+            l = float(line)
+            likes.append(l)
+            counter_like += 1
+            
+        for line in file_vals:
+            if(oneD_sweep):#if 1d sweep, then there is only one column of data
+                l = float(line)
+                vals.append(l)
+                
+            if(twoD_sweep):
+                ss = line.split('\t')
+                l1 = float(ss[0])
+                l2 = float(ss[1])
+                vals.append(l1)
+                vals2.append(l2)
+            counter_val += 1
+            
+        #report and break if they are not
+        if(counter_like != counter_val):
+            print "value list length mismatch", name_of_sweeps, i
+            break
+        
+        if(oneD_sweep):
+            if(random_iter):#if the parameter sweep was using random iteration:
+                vals_new, likes_new = sort(likes, vals)
+                #sort the data values in order of least to greats with their corresponding likelihoods.
+                #make sure the likelihoods were sorted correctly with the values
+                reliability_of_sorting = reliability(likes, likes_new, vals, vals_new)
+                
+                if(reliability_of_sorting != 100.0):
+                    print "HOLY FUCKING SHIT, SOMETHING IS WRONG"
+                
+                for j in range(0, counter_like):
+                    file_comb.write("%0.15f\t%0.15f\n" % (vals_new[j], likes_new[j]))
+            if(reg_iterator):
+                for j in range(0, counter_like):
+                    file_comb.write("%0.15f\t%0.15f\n" % (vals[j], likes[j]))
+        if(twoD_sweep):#2d doesn't need to be sorted 
+            for j in range(0, counter_like):
+                file_comb.write("%0.15f\t%0.15f\t%0.15f\n" % (vals[j], vals2[j], likes[j]))
+        
+        
+        if(oneD_sweep):
+            os.system("rm ./" + data_folder + "/likelihood_data" + name_of_sweeps + "/" + str(oneD_names[i]) + "_data.txt")
+        if(twoD_sweep):
+            os.system("rm ./" + data_folder + "/likelihood_data" + name_of_sweeps + "/" + str(twoD_names[i]) + "_data.txt")
+        
+        file_data.close()
+        file_vals.close()
+        file_comb.close()
+    return 0
 
-def oneD_parser(name_of_sweeps, random_iter):
-    for i in range(0, N):
-        g = open('./1D_like_surface/parameter_sweeps' + name_of_sweeps + '/' + str(oneD_names[i]) + '.txt', 'r')
-        f = open('./1D_like_surface/likelihood_data'  + name_of_sweeps + '/' + str(oneD_names[i]) + '_data.txt', 'w')
+def parser(name_of_sweeps, random_iter, names):
+    if(oneD_sweep):
+        data_folder = "1D_like_surface"
+    if(twoD_sweep):
+        data_folder = "2D_like_surface"
+    
+    for i in range(M, N):
+        g = open('./' + data_folder + '/parameter_sweeps' + name_of_sweeps + '/' + str(names[i]) + '.txt', 'r')
+        f = open('./' + data_folder + '/likelihood_data'  + name_of_sweeps + '/' + str(names[i]) + '_data.txt', 'w')
 
         for line in g:
             if (line.startswith("<")):
@@ -166,8 +215,8 @@ def oneD_parser(name_of_sweeps, random_iter):
         
     f.close()
     g.close()
-    combine(name_of_sweeps, random_iter)
-    make_correct(name_of_sweeps)
+    combine(name_of_sweeps, random_iter, names)
+    make_correct(name_of_sweeps)#make a file with the correct answers. 
     return 0 
 
 def oneD_plot(name_of_sweeps):
@@ -286,293 +335,9 @@ def oneD_multiplot(name_of_sweeps):
     os.system("rm multiplot_1d" + name_of_sweeps + ".gnuplot")
     return 0
 
-def reg_iterator_sweep():
-    name_of_sweeps = ""
-    oneD_cleanse(name_of_sweeps)
-    random_iter = False
-    
-    oneD_parser(name_of_sweeps, random_iter)
-    
-    oneD_plot(name_of_sweeps)
-    
-    if(oneD_multiploter == True):
-        oneD_multiplot(name_of_sweeps)
-        
-    return 0
-
-def random_iterator_sweep():
-    name_of_sweeps = "_rand_iter"
-    oneD_cleanse(name_of_sweeps)
-    random_iter = True
-    
-    #parse the data
-    #this will also put the likelihoods and data values in one file
-    #if it is a random iteration sweep it will sort the data values with their respective
-    #likelihoods from least to greatest
-    oneD_parser(name_of_sweeps, random_iter)
-    
-    oneD_plot(name_of_sweeps)
-    
-    if(oneD_multiploter == True):
-        oneD_multiplot(name_of_sweeps)
-        
-    return 0
 # # # # # # # # # # # # # # # # # # # # # #
 #    Two Dimensional Surface Sweep Func   #
 # # # # # # # # # # # # # # # # # # # # # #
-def twoD_data_vals():
-    f = open('./2D_like_surface/parameter_data/ft_vs_bt.txt', 'w')
-
-    #parameter = [start, end, increment]
-    #--------------------------------------------------------------------------------------------------
-
-    #  FORWARD TIME VS BACKTIME #
-    fwt_counter = ft[0]
-    fwt = str(fwt_counter)
-    while fwt_counter < ft[1]:
-        bwt_counter = bt[0]
-        bwt = str(bwt_counter)
-        while bwt_counter < bt[1]:
-            f.write("%s \t %s \n" % (fwt_counter, bwt_counter))
-            bwt_counter = bwt_counter + bt[2]
-            bwt = str(bwt_counter)
-        fwt_counter = fwt_counter + ft[2]
-        fwt = str(fwt_counter)
-    f.close()
-    
-    #  FORWARD TIME VS RAD #
-    f = open('./2D_like_surface/parameter_data/ft_vs_rad.txt', 'w')
-    fwt_counter = ft[0]
-    fwt = str(fwt_counter)
-    while fwt_counter < ft[1]:
-        rad_counter = r[0]
-        rad = str(rad_counter)
-        while rad_counter < r[1]:
-            f.write("%s \t %s \n" % (fwt_counter, rad_counter))
-            rad_counter = rad_counter + r[2]
-            rad = str(rad_counter)
-        fwt_counter = fwt_counter + ft[2]
-        fwt = str(fwt_counter)
-    f.close()
-
-
-    #  FORWARD TIME VS RAD RATIO #
-    f = open('./2D_like_surface/parameter_data/ft_vs_rr.txt', 'w')
-    fwt_counter = ft[0]
-    fwt = str(fwt_counter)
-    while fwt_counter < ft[1]:
-        rr_counter = r_r[0]
-        rr = str(rr_counter)
-        while rr_counter < r_r[1]:
-            f.write("%s \t %s \n" % (fwt_counter, rr_counter))
-            rr_counter = rr_counter + r_r[2]
-            rr = str(rr_counter)
-        fwt_counter = fwt_counter + ft[2]
-        fwt = str(fwt_counter)
-    f.close()
-
-    #  FORWARD TIME VS MASS #
-    f = open('./2D_like_surface/parameter_data/ft_vs_m.txt', 'w')
-    fwt_counter = ft[0]
-    fwt = str(fwt_counter)
-    while fwt_counter < ft[1]:
-        m_counter = m[0]
-        ms = str(m_counter)
-        while m_counter < m[1]:
-            f.write("%s \t %s \n" % (fwt_counter, m_counter))
-            m_counter = m_counter + m[2]
-            ms = str(m_counter) 
-        fwt_counter = fwt_counter + ft[2]
-        fwt = str(fwt_counter)
-    f.close()   
-        
-    #  FORWARD TIME VS MASS RATIO #
-    f = open('./2D_like_surface/parameter_data/ft_vs_mr.txt', 'w')
-    fwt_counter = ft[0]
-    fwt = str(fwt_counter)
-    while fwt_counter < ft[1]:
-        mr_counter = m_r[0]
-        mr = str(mr_counter)
-        while mr_counter < m_r[1]:
-            f.write("%s \t %s \n" % (fwt_counter, mr_counter))
-            mr_counter = mr_counter + m_r[2]
-            mr = str(mr_counter) 
-        fwt_counter = fwt_counter + ft[2]
-        fwt = str(fwt_counter)
-    f.close()    
-    # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
-    # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
-    #  BACKWARD TIME VS RAD #
-    f = open('./2D_like_surface/parameter_data/bt_vs_r.txt', 'w')
-    bwt_counter = bt[0]
-    bwt = str(bwt_counter)
-    while bwt_counter < bt[1]:
-        rad_counter = r[0]
-        rad = str(rad_counter)
-        while rad_counter < r[1]:
-            f.write("%s \t %s \n" % (bwt_counter, rad_counter))
-            rad_counter = rad_counter + r[2]
-            rad = str(rad_counter)
-        bwt_counter = bwt_counter + bt[2]
-        bwt = str(bwt_counter)
-    f.close()
-
-    #  BACKWARD TIME VS RAD RATIO #
-    f = open('./2D_like_surface/parameter_data/bt_vs_rr.txt', 'w')
-    bwt_counter = bt[0]
-    bwt = str(bwt_counter)
-    while bwt_counter < bt[1]:
-        rr_counter = r_r[0]
-        rr = str(rr_counter)
-        while rr_counter < r_r[1]:
-            f.write("%s \t %s \n" % (bwt_counter, rr_counter))
-            rr_counter = rr_counter + r_r[2]
-            rr = str(rr_counter)
-        bwt_counter = bwt_counter + bt[2]
-        bwt = str(bwt_counter)
-    f.close()
-
-    #  BACKWARD TIME VS MASS #
-    f = open('./2D_like_surface/parameter_data/bt_vs_m.txt', 'w')
-    bwt_counter = bt[0]
-    bwt = str(bwt_counter)
-    while bwt_counter < bt[1]:
-        m_counter = m[0]
-        ms = str(m_counter)
-        while m_counter < m[1]:
-            f.write("%s \t %s \n" % (bwt_counter, m_counter))
-            m_counter = m_counter + m[2]
-            ms = str(m_counter) 
-        bwt_counter = bwt_counter + bt[2]
-        bwt = str(bwt_counter) 
-    f.close()
-
-    #  BACKWARDS TIME VS MASS RATIO #
-    f = open('./2D_like_surface/parameter_data/bt_vs_mr.txt', 'w')
-    bwt_counter = bt[0]
-    bwt = str(bwt_counter)
-    while bwt_counter < bt[1]:
-        mr_counter = m_r[0]
-        mr = str(mr_counter)
-        while mr_counter < m_r[1]:
-            f.write("%s \t %s \n" % (bwt_counter, mr_counter))
-            mr_counter = mr_counter + m_r[2]
-            mr = str(mr_counter) 
-        bwt_counter = bwt_counter + bt[2]
-        bwt = str(bwt_counter)
-    f.close()
-    # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
-    # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
-    #  RAD VS RAD RATIO #
-    f = open('./2D_like_surface/parameter_data/r_vs_rr.txt', 'w')
-    r_counter = r[0]
-    rad = str(r_counter)
-    while r_counter < r[1]:
-        rr_counter = r_r[0]
-        rr = str(rr_counter)
-        while rr_counter < r_r[1]:
-            f.write("%s \t %s \n" % (r_counter, rr_counter))
-            rr_counter = rr_counter + r_r[2]
-            rr = str(rr_counter)
-        r_counter = r_counter + r[2]
-        rad = str(r_counter)
-    f.close()
-
-    #  RAD VS MASS #
-    f = open('./2D_like_surface/parameter_data/r_vs_m.txt', 'w')
-    r_counter = r[0]
-    rad = str(r_counter)
-    while r_counter < r[1]:
-        m_counter = m[0]
-        ms = str(m_counter)
-        while m_counter < m[1]:
-            f.write("%s \t %s \n" % (r_counter, m_counter))
-            m_counter = m_counter + m[2]
-            ms = str(m_counter) 
-        r_counter = r_counter + r[2]
-        rad = str(r_counter)
-    f.close()
-
-    #  RAD VS MASS RATIO #
-    f = open('./2D_like_surface/parameter_data/r_vs_mr.txt', 'w')
-    r_counter = r[0]
-    rad = str(r_counter)
-    while r_counter < r[1]:
-        mr_counter = m_r[0]
-        mr = str(mr_counter)
-        while mr_counter < m_r[1]:
-            f.write("%s \t %s \n" % (r_counter, mr_counter))
-            mr_counter = mr_counter + m_r[2]
-            mr = str(mr_counter) 
-        r_counter = r_counter + r[2]
-        rad = str(r_counter)
-    f.close()
-    # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
-    # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
-    #  RAD RATIO VS MASS #
-    f = open('./2D_like_surface/parameter_data/rr_vs_m.txt', 'w')
-    rr_counter = r_r[0]
-    rr = str(rr_counter)
-    while rr_counter < r_r[1]:
-        m_counter = m[0]
-        ms = str(m_counter)
-        while m_counter < m[1]:
-            f.write("%s \t %s \n" % (rr_counter, m_counter))
-            m_counter = m_counter + m[2]
-            ms = str(m_counter) 
-        rr_counter = rr_counter + r_r[2]
-        rr = str(rr_counter)
-    f.close()
-
-    #  RAD RATIO VS MASS RATIO #
-    f = open('./2D_like_surface/parameter_data/rr_vs_mr.txt', 'w')
-    rr_counter = r_r[0]
-    rr = str(rr_counter)
-    while rr_counter < r_r[1]:
-        mr_counter = m_r[0]
-        mr = str(mr_counter)
-        while mr_counter < m_r[1]:
-            f.write("%s \t %s \n" % (rr_counter, mr_counter))
-            mr_counter = mr_counter + m_r[2]
-            mr = str(mr_counter) 
-        rr_counter = rr_counter + r_r[2]
-        rr = str(rr_counter)
-    f.close()
-    # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
-    # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
-    #  MASS VS MASS RATIO #
-    f = open('./2D_like_surface/parameter_data/m_vs_mr.txt', 'w')
-    m_counter = m[0]
-    ms = str(m_counter)
-    while m_counter < m[1]:
-        mr_counter = m_r[0]
-        mr = str(mr_counter)
-        while mr_counter < m_r[1]:
-            f.write("%s \t %s \n" % (m_counter, mr_counter))
-            mr_counter = mr_counter + m_r[2]
-            mr = str(mr_counter) 
-        m_counter = m_counter + m[2]
-        ms = str(m_counter)
-    f.close()
-
-def twoD_parser():
-    names   = [ 'ft_vs_bt', 'ft_vs_rad', 'ft_vs_rr', 'ft_vs_m', 'ft_vs_mr', 'bt_vs_r', 'bt_vs_rr', 'bt_vs_m', 'bt_vs_mr', 'r_vs_rr', 'r_vs_m', 'r_vs_mr', 'rr_vs_m', 'rr_vs_mr', 'm_vs_mr']
-    N  = 15
-    M  = 0
-
-    for i in range(M,N):
-        g = open('./2D_like_surface/2d_parameter_sweeps/' + str(names[i]) + '.txt', 'r')
-        f = open('./2D_like_surface/likelihood_data/' + str(names[i]) + '_data.txt', 'w')
-
-        for line in g:
-            if (line.startswith("<")):
-                ss = line.split('<search_likelihood>')#splits the line between the two sides the delimiter
-                tt = ss[1].split('</search_likelihood>')#chooses the second of the split parts and resplits
-                f.write("%s \n" % tt[0])#writes the first of the resplit lines
-        
-    f.close()
-    g.close()
-
 def twoD_plot():
     ft  = [1.0, 3.0]
     bt  = [0.8, 1.2]
@@ -639,6 +404,50 @@ def twoD_plot():
 
     os.system("gnuplot 2D_plot.gnuplot 2>>piped_output.txt")
     os.system("rm 2D_plot.gnuplot")
+
+def reg_iterator_sweep():
+    name_of_sweeps = ""
+    random_iter = False
+    
+    if(oneD_sweep):
+        oneD_cleanse(name_of_sweeps)
+        parser(name_of_sweeps, random_iter, oneD_names)
+        oneD_plot(name_of_sweeps)
+        
+        if(oneD_multiploter):
+            oneD_multiplot(name_of_sweeps)
+    
+    if(twoD_sweep):
+        twoD_cleanse(name_of_sweeps)
+        parser(name_of_sweeps, random_iter, twoD_names)
+        twoD_plot(name_of_sweeps)
+    return 0
+
+def random_iterator_sweep():
+    name_of_sweeps = "_rand_iter_50bins"
+    random_iter = True
+    
+    #parse the data
+    #this will also put the likelihoods and data values in one file
+    #if it is a random iteration sweep it will sort the data values with their respective
+    #likelihoods from least to greatest
+    if(oneD_sweep):
+        oneD_cleanse(name_of_sweeps)
+        parser(name_of_sweeps, random_iter, oneD_names)
+        
+        oneD_plot(name_of_sweeps)
+        
+        if(oneD_multiploter):
+            oneD_multiplot(name_of_sweeps)
+            
+    if(twoD_sweep):
+        twoD_cleanse(name_of_sweeps)
+        parser(name_of_sweeps, random_iter, twoD_names)
+        #twoD_plot(name_of_sweeps)
+        
+    return 0
+
+
     
 # # # # # # # # # #
 #     Cleaners    #
@@ -658,16 +467,14 @@ def oneD_cleanse(name_of_sweeps):
     
     #os.system("rm -r 1D_like_surface/cost_emd_plots")
     #os.system("mkdir 1D_like_surface/cost_emd_plots")
+    return 0
+def twoD_cleanse(name_of_sweeps):
+    os.system("rm -r 2D_like_surface/likelihood_data" + name_of_sweeps)
+    os.system("mkdir 2D_like_surface/likelihood_data" + name_of_sweeps)
 
-def twoD_cleanse():
-    os.system("rm -r 2D_like_surface/likelihood_data")
-    os.system("mkdir 2D_like_surface/likelihood_data")
-
-    os.system("rm -r 2D_like_surface/plots")
-    os.system("mkdir 2D_like_surface/plots")
-
-    os.system("rm -r 2D_like_surface/parameter_data")
-    os.system("mkdir 2D_like_surface/parameter_data")
+    os.system("rm -r 2D_like_surface/plots" + name_of_sweeps)
+    os.system("mkdir 2D_like_surface/plots" + name_of_sweeps)
+    return 0
 # # # # # # # # # # # 
 #    Misc parsers   #
 # # # # # # # # # # # 
@@ -691,25 +498,25 @@ def all_hists_in_one_file_parser():
 #    Main   #
 # # # # # # #    
 def main():
-    if(oneD_clean == True):
+    if(oneD_clean):
         oneD_cleanse()
     
-    if(twoD_clean == True):
+    if(twoD_clean):
         twoD_cleanse()
     
-    if(oneD_surface_reg_iterator == True):
+    if(reg_iterator):
         reg_iterator_sweep()
 
-    if(oneD_surface_ran_iterator == True):
+    if(ran_iterator):
         random_iterator_sweep()
         
         
-    if(twoD_surface == True):
-        twoD_data_vals()
-        twoD_parser()
-        twoD_plot()
+    #if(twoD_surface):
+        #twoD_data_vals()
+        #twoD_parser()
+        #twoD_plot()
         
     
-    if(special_parser == True):
+    if(special_parser):
         all_hists_in_one_file_parser()
 main()    

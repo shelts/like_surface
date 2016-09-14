@@ -67,7 +67,8 @@ y = True
 n  = False
 
 
-#choose what to run
+#choose what to run.
+make_folders              = y
 rebuild_binary            = n
 make_correct_answer_hist  = y
 run_regular_iteration     = n
@@ -75,16 +76,16 @@ run_random_iteration      = y
 
 
 
-run_ft_v_bt = y
-run_ft_v_r  = y
-run_ft_v_rr = y
-run_ft_v_m  = y
-run_ft_v_mr = y
+run_ft_v_bt = n
+run_ft_v_r  = n
+run_ft_v_rr = n
+run_ft_v_m  = n
+run_ft_v_mr = n
 
-run_bt_v_r  = y
-run_bt_v_rr = y
-run_bt_v_m  = y
-run_bt_v_mr = y
+run_bt_v_r  = n
+run_bt_v_rr = n
+run_bt_v_m  = n
+run_bt_v_mr = n
 
 run_r_v_rr  = y
 run_r_v_m   = y
@@ -259,7 +260,7 @@ def run_sweep(start1, end1, intv1, para1, start2, end2, intv2, para2):
             
             nbody(output_hist, ft_tmp, bt_tmp, r_tmp, rr_tmp, m_tmp, mr_tmp, pipe_name, sweep_name)  #runs the sim with these parameters
             
-            f.write("%s\t%s  \n" % (name1, name2))  #writes the value to the value files.
+            f.write("%s\t%s\n" % (name1, name2))  #writes the value to the value files.
             
             
             if(do_correct2 == True):  #if the correct answer is between the interval for the inner loop, run the correct answer
@@ -294,7 +295,7 @@ def run_sweep(start1, end1, intv1, para1, start2, end2, intv2, para2):
                 output_hist += ft_tmp + "_" + bt_tmp + "_" + r_tmp + "_" + rr_tmp + "_" + m_tmp + "_" + mr_tmp + ".hist"  #appends the current parameters to the output hist name
                 nbody(output_hist, ft_tmp, bt_tmp, r_tmp, rr_tmp, m_tmp, mr_tmp, pipe_name, sweep_name)
                 
-                f.write("%s\t%s  \n" % (name1, name2))  #writes the correct values to the value file
+                f.write("%s\t%s\n" % (name1, name2))  #writes the correct values to the value file
                 
                 
                 if(do_correct2 == True):  #if the correct answer for the inner loop was found 
@@ -346,7 +347,7 @@ def randon_iteration_sweep(start1, end1, N1, para1, start2, end2, N2, para2):
                     ft_tmp, bt_tmp, r_tmp, rr_tmp, m_tmp, mr_tmp, name2 = correct_set(para2, ft_tmp, bt_tmp, r_tmp, rr_tmp, m_tmp, mr_tmp)  #sets the correct value for the inner loop
                     output_hist = folder + pipe_name + "/" + "arg_" + ft_c + "_" + bt_c + "_" + r_c + "_" + rr_c + "_" + m_c + "_" + mr_c + ".hist"  #sets the name of the output hist
                     nbody(output_hist, ft_c, bt_c, r_c, rr_c, m_c, mr_c, pipe_name, sweep_name)
-                    f.write("%s\t%s  \n" % (name1, name2))  #write values to value file
+                    f.write("%s\t%s\n" % (name1, name2))  #write values to value file
                 
                 output_hist = folder + pipe_name + "/" + "arg_"  #reset output file name
                 
@@ -357,7 +358,7 @@ def randon_iteration_sweep(start1, end1, N1, para1, start2, end2, N2, para2):
                 
                 output_hist += ft_tmp + "_" + bt_tmp + "_" + r_tmp + "_" + rr_tmp + "_" + m_tmp + "_" + mr_tmp + ".hist" #append the values to the hist name
                 nbody(output_hist, ft_tmp, bt_tmp, r_tmp, rr_tmp, m_tmp, mr_tmp, pipe_name, sweep_name)
-                f.write("%s\t%s  \n" % (name1, name2)) #write values to value file
+                f.write("%s\t%s\n" % (name1, name2)) #write values to value file
                 
                 counter2 += 1 #iterate counter. want a certain number of points
         
@@ -374,7 +375,7 @@ def randon_iteration_sweep(start1, end1, N1, para1, start2, end2, N2, para2):
                 output_hist = folder + pipe_name + "/" + "arg_" + ft_c + "_" + bt_c + "_" + r_c + "_" + rr_c + "_" + m_c + "_" + mr_c + ".hist" #set the hist name
                 nbody(output_hist, ft_c, bt_c, r_c, rr_c, m_c, mr_c, pipe_name, sweep_name)
                 
-                f.write("%s\t%s  \n" % (name1, name2)) #write values to value file
+                f.write("%s\t%s\n" % (name1, name2)) #write values to value file
                 
             
             output_hist = folder + pipe_name + "/" + "arg_" #reset the name of the hists
@@ -386,14 +387,25 @@ def randon_iteration_sweep(start1, end1, N1, para1, start2, end2, N2, para2):
                 
             output_hist += ft_tmp + "_" + bt_tmp + "_" + r_tmp + "_" + rr_tmp + "_" + m_tmp + "_" + mr_tmp + ".hist"
             nbody(output_hist, ft_tmp, bt_tmp, r_tmp, rr_tmp, m_tmp, mr_tmp, pipe_name, sweep_name)
-            f.write("%s\t%s  \n" % (name1, name2))
+            f.write("%s\t%s\n" % (name1, name2))
             counter2 += 1
         counter1 +=1
         
     f.close()
     return 0
     
+def mk_dirs():
+    names = [ 'ft_bt', 'ft_rad', 'ft_rr', 'ft_m', 'ft_mr', 'bt_r', 'bt_rr', 'bt_m', 'bt_mr', 'r_rr', 'r_m', 'r_mr', 'rr_m', 'rr_mr', 'm_mr']
+    os.system("mkdir 2d_sweep_hists")
+    for i in range(0, len(names)):
+        os.system("mkdir 2d_sweep_hists/" + names[i])
+    return 0
+
+
 def main():
+    if(make_folders):
+        mk_dirs()
+        
     if(rebuild_binary):
         rebuild()
         

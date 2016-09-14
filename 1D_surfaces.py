@@ -47,6 +47,7 @@ y = True
 n = False
 
 #choose what to run
+make_folders              = y
 rebuild_binary            = n
 make_correct_answer_hist  = y
 run_regular_iteration     = y
@@ -211,52 +212,64 @@ def run_sweep_random_iter(start, end, N, para):
     f.close()    
     return 0
 
-        
+
+
+def mk_dirs():
+    names   = ['ft', 'bt', 'r', 'rr', 'm', 'mr']
+    os.system("mkdir hists")
+    for i in range(0, len(names)):
+        os.system("mkdir hists/" + names[i])
+    return 0
+
+
 def main():
-    if(rebuild_binary == True):
+    if(make_folders):
+        mk_dirs()
+    
+    if(rebuild_binary):
         rebuild()
         
-    if(make_correct_answer_hist == True):
+    if(make_correct_answer_hist):
         make_correct()
     
     
-    if(run_regular_iteration == True):
-        if(run_forward_evole_time == True):
+    if(run_regular_iteration):
+        if(run_forward_evole_time):
             run_sweep(ft_rg[0], ft_rg[1], ft_rg[2], 'ft')
         
-        if(run_backward_evolve_ratio == True):
+        if(run_backward_evolve_ratio):
             run_sweep(bt_rg[0], bt_rg[1], bt_rg[2], 'bt')
             
-        if(run_radius == True):
+        if(run_radius):
             run_sweep(r_rg[0], r_rg[1], r_rg[2], 'r')
             
-        if(run_radius_ratio == True):
+        if(run_radius_ratio):
             run_sweep(rr_rg[0], rr_rg[1], rr_rg[2], 'rr')
             
-        if(run_mass == True):
+        if(run_mass):
             run_sweep(m_rg[0], m_rg[1], m_rg[2], 'm')
             
-        if(run_mass_ratio == True):
+        if(run_mass_ratio):
             run_sweep(mr_rg[0], mr_rg[1], mr_rg[2], 'mr')
          
          
-    if(run_random_iteration == True):
-        if(run_forward_evole_time == True):
+    if(run_random_iteration):
+        if(run_forward_evole_time):
             run_sweep_random_iter(ft_rg[0], ft_rg[1], ft_N, 'ft')
     
-        if(run_backward_evolve_ratio == True):
+        if(run_backward_evolve_ratio):
             run_sweep_random_iter(bt_rg[0], bt_rg[1], bt_N, 'bt')
          
-        if(run_radius == True):
+        if(run_radius):
             run_sweep_random_iter(r_rg[0], r_rg[1], r_N, 'r')
          
-        if(run_radius_ratio == True):
+        if(run_radius_ratio):
             run_sweep_random_iter(rr_rg[0], rr_rg[1], rr_N, 'rr')
          
-        if(run_mass == True):
+        if(run_mass):
             run_sweep_random_iter(m_rg[0], m_rg[1], m_N, 'm')
          
-        if(run_mass_ratio == True):
+        if(run_mass_ratio):
             run_sweep_random_iter(mr_rg[0], mr_rg[1], mr_N, 'mr')
             
     return 0
