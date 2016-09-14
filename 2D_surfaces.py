@@ -29,7 +29,7 @@ mr_c  = str(args[5])
 lmc_dir = '~/research/'
 sid_dir = '/home/sidd/Desktop/research/'
 sgr_dir = '/Users/master/sidd_research/'
-path = sid_dir
+path = lmc_dir
 
 folder        = path + "like_surface/2d_sweep_hists/"
 binary        = path + "nbody_test/bin/milkyway_nbody"
@@ -54,12 +54,12 @@ rr_s, rr_e, rr_in = rr[0], rr[1], rr[2]
 m_s,  m_e,  m_in  = m[0],  m[1],  m[2]
 mr_s, mr_e, mr_in = mr[0], mr[1], mr[2]
 
-ft_N = 4
-bt_N = 4
-r_N  = 4
-rr_N = 4
-m_N  = 4
-mr_N = 4
+ft_N = 40
+bt_N = 40
+r_N  = 40
+rr_N = 40
+m_N  = 40
+mr_N = 40
 
 
 
@@ -118,7 +118,7 @@ def nbody(output_hist, ft, bt, r, rr, m, mr, file_name, sweep_name):
                 -f " + lua + " \
                 -h " + input_hist + " \
                 -z " + output_hist + " \
-                -b -e " + seed + " -i " + ft + " " + bt + " " + r + " " + rr + " " + m + " " + mr + " \
+                -n 14 -b -e " + seed + " -i " + ft + " " + bt + " " + r + " " + rr + " " + m + " " + mr + " \
                 2>>" + folder + "parameter_sweeps" + sweep_name + "/" + file_name + ".txt")
     return 0
 
@@ -398,7 +398,7 @@ def mk_dirs():
     names = [ 'ft_bt', 'ft_rad', 'ft_rr', 'ft_m', 'ft_mr', 'bt_r', 'bt_rr', 'bt_m', 'bt_mr', 'r_rr', 'r_m', 'r_mr', 'rr_m', 'rr_mr', 'm_mr']
     os.system("mkdir 2d_sweep_hists")
     for i in range(0, len(names)):
-        os.system("mkdir 2d_sweep_hists/" + names[i])
+        os.system("mkdir 2d_sweep_hists/" + names[i] + "_hists")
     return 0
 
 
