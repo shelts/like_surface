@@ -1,0 +1,50 @@
+Using OpenMP 14 max threads on a system with 4 processors
+<search_likelihood>-0.000000001000000</search_likelihood>
+Using OpenMP 14 max threads on a system with 4 processors
+<search_likelihood>-31.608154697347885</search_likelihood>
+Using OpenMP 14 max threads on a system with 4 processors
+<search_likelihood>-31.608154697347885</search_likelihood>
+Using OpenMP 14 max threads on a system with 4 processors
+<search_likelihood>-31.608154697347885</search_likelihood>
+Using OpenMP 14 max threads on a system with 4 processors
+<search_likelihood>-31.608154697347885</search_likelihood>
+Using OpenMP 14 max threads on a system with 4 processors
+<search_likelihood>-0.000000001000000</search_likelihood>
+Using OpenMP 14 max threads on a system with 4 processors
+<search_likelihood>-31.613765876411506</search_likelihood>
+Using OpenMP 14 max threads on a system with 4 processors
+<search_likelihood>-0.005611179063620</search_likelihood>
+Using OpenMP 14 max threads on a system with 4 processors
+<search_likelihood>-31.613765876411506</search_likelihood>
+Using OpenMP 14 max threads on a system with 4 processors
+<search_likelihood>-31.613765876411506</search_likelihood>
+Using OpenMP 14 max threads on a system with 4 processors
+<search_likelihood>-0.000000001000000</search_likelihood>
+Using OpenMP 14 max threads on a system with 4 processors
+<search_likelihood>-31.933527751217596</search_likelihood>
+Using OpenMP 14 max threads on a system with 4 processors
+<search_likelihood>-0.325373053869712</search_likelihood>
+Using OpenMP 14 max threads on a system with 4 processors
+<search_likelihood>-31.933527751217596</search_likelihood>
+Using OpenMP 14 max threads on a system with 4 processors
+<search_likelihood>-0.325373053869712</search_likelihood>
+Using OpenMP 14 max threads on a system with 4 processors
+<search_likelihood>-0.000000001000000</search_likelihood>
+Using OpenMP 14 max threads on a system with 4 processors
+<search_likelihood>-31.613344842071090</search_likelihood>
+Using OpenMP 14 max threads on a system with 4 processors
+<search_likelihood>-31.613344842071090</search_likelihood>
+Using OpenMP 14 max threads on a system with 4 processors
+<search_likelihood>-31.613344842071090</search_likelihood>
+Using OpenMP 14 max threads on a system with 4 processors
+<search_likelihood>-31.613344842071090</search_likelihood>
+Using OpenMP 14 max threads on a system with 4 processors
+<search_likelihood>-0.000000001000000</search_likelihood>
+Using OpenMP 14 max threads on a system with 4 processors
+<search_likelihood>-0.119358658821189</search_likelihood>
+Using OpenMP 14 max threads on a system with 4 processors
+<search_likelihood>-0.119358658821189</search_likelihood>
+Using OpenMP 14 max threads on a system with 4 processors
+<search_likelihood>-0.119358658821189</search_likelihood>
+Using OpenMP 14 max threads on a system with 4 processors
+<search_likelihood>-31.727513356169073</search_likelihood>

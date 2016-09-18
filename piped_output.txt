@@ -1,0 +1,18 @@
+
+set output '1D_like_surface/plots/like_surfaces_1d_rand_iter.png' 
+                                                                  ^
+cannot open file; output not changed
+"multiplot_1d_rand_iter.gnuplot", line 6: util.c: No such file or directory
+
+
+set output '1D_like_surface/plots/like_surfaces_1d_rand_iter_100bins.png' 
+                                                                          ^
+cannot open file; output not changed
+"multiplot_1d_rand_iter_100bins.gnuplot", line 6: util.c: No such file or directory
+
+
+set output '1D_like_surface/plots/like_surfaces_1d_rand_iter_50bins.png' 
+                                                                         ^
+cannot open file; output not changed
+"multiplot_1d_rand_iter_50bins.gnuplot", line 6: util.c: No such file or directory
+

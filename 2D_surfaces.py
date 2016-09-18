@@ -29,7 +29,7 @@ mr_c  = str(args[5])
 lmc_dir = '~/research/'
 sid_dir = '/home/sidd/Desktop/research/'
 sgr_dir = '/Users/master/sidd_research/'
-path = lmc_dir
+path = sid_dir
 
 folder        = path + "like_surface/2d_sweep_hists/"
 binary        = path + "nbody_test/bin/milkyway_nbody"
@@ -54,12 +54,12 @@ rr_s, rr_e, rr_in = rr[0], rr[1], rr[2]
 m_s,  m_e,  m_in  = m[0],  m[1],  m[2]
 mr_s, mr_e, mr_in = mr[0], mr[1], mr[2]
 
-ft_N = 40
-bt_N = 40
-r_N  = 40
-rr_N = 40
-m_N  = 40
-mr_N = 40
+ft_N = 4
+bt_N = 4
+r_N  = 4
+rr_N = 4
+m_N  = 4
+mr_N = 4
 
 
 
@@ -138,7 +138,6 @@ def para_init_rand(para, name, ft_tmp, bt_tmp, r_tmp, rr_tmp, m_tmp, mr_tmp):
     
     return ft_tmp, bt_tmp, r_tmp, rr_tmp, m_tmp, mr_tmp
 
-    
 def para_init(para, counter, intv, ft_tmp, bt_tmp, r_tmp, rr_tmp, m_tmp, mr_tmp):
     name = str(counter)
     do_correct = False
@@ -249,7 +248,7 @@ def run_sweep(start1, end1, intv1, para1, start2, end2, intv2, para2):
         
         
         while counter2 < end2 + intv2:  #inner loop.
-            output_hist = folder + pipe_name + "/" + "arg_"  #resets the output hist name
+            output_hist = folder + pipe_name + "_hists/" + "arg_"  #resets the output hist name
            
             #checks which parameter needs to be updated for the inner loop and updates it
             #also checks if the correct answer for the inner lies between current val and next increment, if so sets do_correct2
@@ -266,7 +265,7 @@ def run_sweep(start1, end1, intv1, para1, start2, end2, intv2, para2):
             if(do_correct2 == True):  #if the correct answer is between the interval for the inner loop, run the correct answer
                 write_correct(f, para2, name1)  #writes the correct answers to the value file
                 
-                output_hist = folder + pipe_name + "/" + "arg_" + ft_tmp + "_" + bt_tmp + "_" + r_tmp + "_" + rr_tmp + "_" + m_tmp + "_" + mr_tmp + ".hist"  #sets the output hist name
+                output_hist = folder + pipe_name + "_hists/" + "arg_" + ft_tmp + "_" + bt_tmp + "_" + r_tmp + "_" + rr_tmp + "_" + m_tmp + "_" + mr_tmp + ".hist"  #sets the output hist name
                 nbody(output_hist, ft_tmp, bt_tmp, r_tmp, rr_tmp, m_tmp, mr_tmp, pipe_name, sweep_name)
                 
                 do_correct2 = False  #resets do_correct2
@@ -285,7 +284,7 @@ def run_sweep(start1, end1, intv1, para1, start2, end2, intv2, para2):
             counter2 = start2  #run the same inner loop as above
             name2 = str(counter2)
             while counter2 < end2 + intv2:
-                output_hist = folder + pipe_name + "/" + "arg_"  #resets the output hist name
+                output_hist = folder + pipe_name + "_hists/" + "arg_"  #resets the output hist name
                 
                 #checks which parameter needs to be updated for the inner loop and updates it
                 #also checks if the correct answer for the inner lies between current val and next increment, if so sets do_correct2
@@ -301,7 +300,7 @@ def run_sweep(start1, end1, intv1, para1, start2, end2, intv2, para2):
                 if(do_correct2 == True):  #if the correct answer for the inner loop was found 
                     write_correct(f, para2, name1)  #write the correct answers to the value file
                     
-                    output_hist = folder + pipe_name + "/" + "arg_" + ft_c + "_" + bt_c + "_" + r_c + "_" + rr_c + "_" + m_c + "_" + mr_c + ".hist"  #sets the output hist name
+                    output_hist = folder + pipe_name + "_hists/" + "arg_" + ft_c + "_" + bt_c + "_" + r_c + "_" + rr_c + "_" + m_c + "_" + mr_c + ".hist"  #sets the output hist name
                     nbody(output_hist, ft_c, bt_c, r_c, rr_c, m_c, mr_c, pipe_name, sweep_name)
                     do_correct2 = False  #resets do_correct2
 
@@ -345,11 +344,11 @@ def randon_iteration_sweep(start1, end1, N1, para1, start2, end2, N2, para2):
             while counter2 < N2:#runs the inner loop iteration
                 if(counter2 == 0.0):#put the correct value for the inner loop first
                     ft_tmp, bt_tmp, r_tmp, rr_tmp, m_tmp, mr_tmp, name2 = correct_set(para2, ft_tmp, bt_tmp, r_tmp, rr_tmp, m_tmp, mr_tmp)  #sets the correct value for the inner loop
-                    output_hist = folder + pipe_name + "/" + "arg_" + ft_c + "_" + bt_c + "_" + r_c + "_" + rr_c + "_" + m_c + "_" + mr_c + ".hist"  #sets the name of the output hist
+                    output_hist = folder + pipe_name + "_hists/" + "arg_" + ft_c + "_" + bt_c + "_" + r_c + "_" + rr_c + "_" + m_c + "_" + mr_c + ".hist"  #sets the name of the output hist
                     nbody(output_hist, ft_c, bt_c, r_c, rr_c, m_c, mr_c, pipe_name, sweep_name)
                     f.write("%s\t%s\n" % (name1, name2))  #write values to value file
                 
-                output_hist = folder + pipe_name + "/" + "arg_"  #reset output file name
+                output_hist = folder + pipe_name + "_hists/" + "arg_"  #reset output file name
                 
                 name2 = random.uniform(0.0, 1.0) * (end2 - start2) + start2  #randomly select a value in the sweep range of inner loop parameter
                 name2 = str(name2)
@@ -372,13 +371,13 @@ def randon_iteration_sweep(start1, end1, N1, para1, start2, end2, N2, para2):
             if(counter2 == 0.0):#put the correct value for the inner loop first
                 ft_tmp, bt_tmp, r_tmp, rr_tmp, m_tmp, mr_tmp, name2 = correct_set(para2, ft_tmp, bt_tmp, r_tmp, rr_tmp, m_tmp, mr_tmp)
                 
-                output_hist = folder + pipe_name + "/" + "arg_" + ft_c + "_" + bt_c + "_" + r_c + "_" + rr_c + "_" + m_c + "_" + mr_c + ".hist" #set the hist name
+                output_hist = folder + pipe_name + "_hists/" + "arg_" + ft_c + "_" + bt_c + "_" + r_c + "_" + rr_c + "_" + m_c + "_" + mr_c + ".hist" #set the hist name
                 nbody(output_hist, ft_c, bt_c, r_c, rr_c, m_c, mr_c, pipe_name, sweep_name)
                 
                 f.write("%s\t%s\n" % (name1, name2)) #write values to value file
                 
             
-            output_hist = folder + pipe_name + "/" + "arg_" #reset the name of the hists
+            output_hist = folder + pipe_name + "_hists/" + "arg_" #reset the name of the hists
             
             name2 = random.uniform(0.0, 1.0) * (end2 - start2) + start2 #randomly select a value within the sweep range for the inner loop
             name2 = str(name2)

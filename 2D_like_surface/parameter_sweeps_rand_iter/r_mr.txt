@@ -1,0 +1,50 @@
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Poor likelihood.  Returning worst case.
+<search_likelihood>-9999999.900000000372529</search_likelihood>
