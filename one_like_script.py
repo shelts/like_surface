@@ -21,7 +21,7 @@ twoD_sweep = n
 oneD_multiploter = y
 plot_cost_emd = n
 
-
+narrow_range = y
 special_parser = n
 
 oneD_names   = ['ft', 'bt', 'r', 'rr', 'm', 'mr']
@@ -37,9 +37,18 @@ c          = [3.95, 0.98, 0.2, 0.2, 12, 0.2]
 ft         = [3.0, 5.0, 0.1]#20
 bt         = [0.8, 1.2, 0.04]#10
 r          = [0.1, 1.3, 0.06]#20
-r_r        = [0.1, .95, 0.05]#17
+rr         = [0.1, .95, 0.05]#17
 m          = [1., 120.0, 5]#23
-m_r        = [.01, .95, .05]#18
+mr         = [.01, .95, .05]#18
+
+if(narrow_range):
+    ft         = [3.93, 3.98, 0.1]#20
+    bt         = [0.96, 1.0, 0.04]#10
+    r          = [0.15, .25, 0.06]#20
+    rr         = [0.15, .25, 0.05]#17
+    m          = [10., 14.0, 5]#23
+    mr         = [.15, .25, .05]#18
+
 
 if(oneD_sweep):
     N = 6
@@ -220,21 +229,19 @@ def parser(name_of_sweeps, random_iter, names):
     return 0 
 
 def oneD_plot(name_of_sweeps):
-    ft = [3.0, 5.0]#plot ranges
-    bt = [0.8, 1.2]
-    r  = [0.1, 1.3]
-    rr = [0.1, .95]
-    m  = [1., 120.0]
-    mr = [.01, .95]
     l = -200
+    #ft = [3.0, 5.0]#plot ranges
+    #bt = [0.8, 1.2]
+    #r  = [0.1, 1.3]
+    #rr = [0.1, .95]
+    #m  = [1., 120.0]
+    #mr = [.01, .95]
     ranges_start = [ft[0], bt[0], r[0], rr[0], m[0], mr[0]]
     ranges_end   = [ft[1], bt[1], r[1], rr[1], m[1], mr[1]]
     
     #ranges_start = [ft[0], r[0], rr[0], m[0], mr[0]]
     #ranges_end   = [ft[1], r[1], rr[1], m[1], mr[1]]
     #how many of the data sets are we plotting
-    N  = 6
-    M  = 0
     
     #f   = 'forward evole time'
     #b   = 'backward evolve time'
@@ -259,7 +266,7 @@ def oneD_plot(name_of_sweeps):
         f.write("set xlabel '" + titles[i] + "'\n")
         f.write("set ylabel 'likelihood'\n")
         f.write("set yrange [" + str(l) + ":0]\n")
-        f.write("set xrange[" + str(ranges_start[i]) + ":" + str(ranges_end[i]) + "]\n")
+        f.write("set xrange [" + str(ranges_start[i]) + ":" + str(ranges_end[i]) + "]\n")
         
         #p = "<paste 1D_like_surface/parameter_data/" + oneD_names[i] + "_vals.txt 1D_like_surface/likelihood_data/" + oneD_names[i] + "_data.txt"
         p = "1D_like_surface/likelihood_data" + name_of_sweeps + "/" + oneD_names[i] + "_data_vals.txt"
@@ -280,19 +287,12 @@ def oneD_multiplot(name_of_sweeps):
     labels  = ['Forward Evolve Time (Gyr)', 'Reverse Orbit Ratio', 'Baryon Scale Radius (kpc)', 'Scale Radius Ratio', 'Baryonic Mass (Sim Mass Units)',  'Mass Ratio']
     #titles  = ['Forward Evolve Time (Gyr)',  'Baryon Scale Radius (kpc)', 'Scale Radius Ratio (Stellar/Dark)', 'Total Mass (Simulation Mass Units)',  'Mass Ratio (Baryonic/Total)']
     #ranges
-    ft = [3.0, 5.0]#plot ranges
-    bt = [0.8, 1.2]
-    r  = [0.1, 1.3]
-    rr = [0.1, .95]
-    m  = [1., 120.0]
-    mr = [.01, .95]
+
     l = -200
     ranges_start = [ft[0], bt[0], r[0], rr[0], m[0], mr[0]]
     ranges_end   = [ft[1], bt[1], r[1], rr[1], m[1], mr[1]]
     #ranges_start = [ft[0], r[0], rr[0], m[0], mr[0]]
     #ranges_end   = [ft[1], r[1], rr[1], m[1], mr[1]]
-    N  = 6
-    M  = 0
 
     # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
     # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
@@ -302,11 +302,11 @@ def oneD_multiplot(name_of_sweeps):
 
     f = open('multiplot_1d' + name_of_sweeps + '.gnuplot', 'w')
     f.write("reset\n")
-    f.write("set terminal png size 1800,1200 enhanced \n")
+    f.write("set terminal jpeg size 1800,1200 enhanced \n")
     f.write("set key off\n")
     f.write("set border linewidth 2\n")
     f.write("set title font 'Times-Roman,20'\n")
-    f.write("set output '1D_like_surface/plots/like_surfaces_1d" + name_of_sweeps + ".png' \n")
+    f.write("set output '1D_like_surface/plots" + name_of_sweeps + "/multiplot.jpeg' \n")
     f.write("set multiplot layout 2,3 rowsfirst\n")
     for i in range(M, N):
         f.write("set size ratio -1 \n")
@@ -316,13 +316,15 @@ def oneD_multiplot(name_of_sweeps):
         f.write("set tmargin 0\n")
         f.write("set xlabel '" + titles[i] + "' font ',26' offset 0,-1\n")
         #f.write("set tics scale 0.5\n")
-        f.write("set xtics font ', 20'\n")
+        if(i <= 1):
+            f.write("set xtics font ', 13'\n")
+        else:
+            f.write("set xtics font ', 20'\n")
         f.write("set ytics font ', 20'\n")
         f.write("set yrange [" + str(l) + ":0]\n")
         f.write("set xrange[" + str(ranges_start[i]) + ":" + str(ranges_end[i]) + "]\n")
         #f.write("set parametric\n")
-        #p = "<paste 1D_like_surface/parameter_data/" + oneD_names[i] + "_vals.txt 1D_like_surface/likelihood_data/" + oneD_names[i] + "_data.txt"
-        p = "1D_like_surface/likelihood_data" + name_of_sweeps + "/" + oneD_names[i] + "_sorted_data_vals.txt"
+        p = "1D_like_surface/likelihood_data" + name_of_sweeps + "/" + oneD_names[i] + "_data_vals.txt"
         #f.write("set title '" + titles[i] + "' font ',22'\n")
         f.write("plot '" + p + "' using 1:2  with lines linecolor rgb 'blue' lw 2, '1D_like_surface/likelihood_data" + name_of_sweeps + "/correct.txt' using " + str(i + 2) + ":1 with lines lc rgb 0,0,0\n\n") 
 
@@ -332,7 +334,7 @@ def oneD_multiplot(name_of_sweeps):
     f.close()
 
     os.system("gnuplot multiplot_1d" + name_of_sweeps + ".gnuplot 2>>piped_output.txt")
-    os.system("rm multiplot_1d" + name_of_sweeps + ".gnuplot")
+    #os.system("rm multiplot_1d" + name_of_sweeps + ".gnuplot")
     return 0
 
 # # # # # # # # # # # # # # # # # # # # # #
@@ -424,7 +426,7 @@ def reg_iterator_sweep():
     return 0
 
 def random_iterator_sweep():
-    name_of_sweeps = "_rand_iter_50bins"
+    name_of_sweeps = "_rand_iter_100bins"
     random_iter = True
     
     #parse the data
@@ -434,7 +436,6 @@ def random_iterator_sweep():
     if(oneD_sweep):
         oneD_cleanse(name_of_sweeps)
         parser(name_of_sweeps, random_iter, oneD_names)
-        
         oneD_plot(name_of_sweeps)
         
         if(oneD_multiploter):
@@ -447,8 +448,6 @@ def random_iterator_sweep():
         
     return 0
 
-
-    
 # # # # # # # # # #
 #     Cleaners    #
 # # # # # # # # # #
@@ -468,6 +467,7 @@ def oneD_cleanse(name_of_sweeps):
     #os.system("rm -r 1D_like_surface/cost_emd_plots")
     #os.system("mkdir 1D_like_surface/cost_emd_plots")
     return 0
+
 def twoD_cleanse(name_of_sweeps):
     os.system("rm -r 2D_like_surface/likelihood_data" + name_of_sweeps)
     os.system("mkdir 2D_like_surface/likelihood_data" + name_of_sweeps)
@@ -519,4 +519,5 @@ def main():
     
     if(special_parser):
         all_hists_in_one_file_parser()
+
 main()    

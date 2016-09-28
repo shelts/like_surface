@@ -156,7 +156,6 @@ def run_sweep(start, end, intv, para):
     f.close()   
     return 0
         
-        
 def run_sweep_random_iter(start, end, N, para):
     counter = 0.0
     sweep_name = "_rand_iter"
@@ -212,15 +211,12 @@ def run_sweep_random_iter(start, end, N, para):
     f.close()    
     return 0
 
-
-
 def mk_dirs():
     names   = ['ft', 'bt', 'r', 'rr', 'm', 'mr']
     os.system("mkdir hists")
     for i in range(0, len(names)):
         os.system("mkdir hists/" + names[i] + "_hists")
     return 0
-
 
 def main():
     if(make_folders):
