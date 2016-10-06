@@ -1,0 +1,17 @@
+<search_likelihood>-0.000000001000000</search_likelihood>
+<search_likelihood>-76.122741744534608</search_likelihood>
+<search_likelihood>-107.668044754361063</search_likelihood>
+<search_likelihood>-37.920506255701213</search_likelihood>
+<search_likelihood>-59.579454366569472</search_likelihood>
+<search_likelihood>-28.871129127879342</search_likelihood>
+<search_likelihood>-35.339496276530078</search_likelihood>
+<search_likelihood>-21.236782319157065</search_likelihood>
+<search_likelihood>-205.297831437598234</search_likelihood>
+<search_likelihood>-24.235278933505114</search_likelihood>
+<search_likelihood>-10.781680552598166</search_likelihood>
+<search_likelihood>-109.873958642938732</search_likelihood>
+<search_likelihood>-90.824405942281004</search_likelihood>
+<search_likelihood>-61.478265473575647</search_likelihood>
+<search_likelihood>-53.494242831739840</search_likelihood>
+<search_likelihood>-52.009400929265908</search_likelihood>
+<search_likelihood>-32.842113822114328</search_likelihood>

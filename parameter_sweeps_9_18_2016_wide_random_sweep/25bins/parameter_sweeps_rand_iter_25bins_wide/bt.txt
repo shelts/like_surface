@@ -1,0 +1,46 @@
+<search_likelihood>-0.000000001000000</search_likelihood>
+<search_likelihood>-627.741796395196388</search_likelihood>
+<search_likelihood>-1869.923280169801728</search_likelihood>
+<search_likelihood>-2851.048905757004832</search_likelihood>
+<search_likelihood>-2176.724569474955842</search_likelihood>
+<search_likelihood>-2774.430756856869266</search_likelihood>
+<search_likelihood>-738.906097143862212</search_likelihood>
+<search_likelihood>-3149.011481178662507</search_likelihood>
+<search_likelihood>-33.678325739855467</search_likelihood>
+<search_likelihood>-1527.260143965084808</search_likelihood>
+<search_likelihood>-1406.412347083271925</search_likelihood>
+<search_likelihood>-1327.368210545029342</search_likelihood>
+<search_likelihood>-576.864517428694512</search_likelihood>
+<search_likelihood>-1067.456331202561387</search_likelihood>
+<search_likelihood>-1574.491379300076460</search_likelihood>
+<search_likelihood>-1581.301741972353966</search_likelihood>
+<search_likelihood>-1996.093082267442014</search_likelihood>
+Likelihood was NAN. Returning worst case. 
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+<search_likelihood>-2930.445137520410753</search_likelihood>
+<search_likelihood>-442.593796494571791</search_likelihood>
+<search_likelihood>-549.375122014973272</search_likelihood>
+<search_likelihood>-1844.596217133480877</search_likelihood>
+Number of particles in bins is very small compared to total. (1 << 20000). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+<search_likelihood>-3028.453826272095739</search_likelihood>
+<search_likelihood>-1383.971163397271084</search_likelihood>
+<search_likelihood>-1817.481734513384026</search_likelihood>
+<search_likelihood>-1927.059534234708053</search_likelihood>
+Likelihood was NAN. Returning worst case. 
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Number of particles in bins is very small compared to total. (1 << 20000). Skipping distance calculation
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+<search_likelihood>-1488.383589526278911</search_likelihood>
+<search_likelihood>-1959.734450218984193</search_likelihood>
+<search_likelihood>-290.653472302383648</search_likelihood>
+<search_likelihood>-703.865269277293464</search_likelihood>
+<search_likelihood>-2900.390616780287019</search_likelihood>
+<search_likelihood>-2201.792157291134117</search_likelihood>
+<search_likelihood>-2672.470961866950802</search_likelihood>
+<search_likelihood>-1508.436451203954221</search_likelihood>
+<search_likelihood>-1599.128048613757755</search_likelihood>
+<search_likelihood>-1590.298195314350778</search_likelihood>
+Likelihood was NAN. Returning worst case. 
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+<search_likelihood>-1763.207652967957074</search_likelihood>

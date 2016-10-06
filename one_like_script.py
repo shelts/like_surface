@@ -23,7 +23,7 @@ plot_cost_emd = n
 
 narrow_range = y
 special_parser = n
-
+name_of_sweeps = "_rand_iter_25bins"
 oneD_names   = ['ft', 'bt', 'r', 'rr', 'm', 'mr']
 
 twoD_names   = [ 'ft_bt', 'ft_rad', 'ft_rr', 'ft_m', 'ft_mr', 
@@ -51,7 +51,7 @@ if(narrow_range):
 
 
 if(oneD_sweep):
-    N = 6
+    N = 1
     M = 0
 if(twoD_sweep):
     N = 15
@@ -407,8 +407,7 @@ def twoD_plot():
     os.system("gnuplot 2D_plot.gnuplot 2>>piped_output.txt")
     os.system("rm 2D_plot.gnuplot")
 
-def reg_iterator_sweep():
-    name_of_sweeps = ""
+def reg_iterator_sweep(name_of_sweeps):
     random_iter = False
     
     if(oneD_sweep):
@@ -425,8 +424,7 @@ def reg_iterator_sweep():
         twoD_plot(name_of_sweeps)
     return 0
 
-def random_iterator_sweep():
-    name_of_sweeps = "_rand_iter_100bins"
+def random_iterator_sweep(name_of_sweeps):
     random_iter = True
     
     #parse the data
@@ -505,10 +503,10 @@ def main():
         twoD_cleanse()
     
     if(reg_iterator):
-        reg_iterator_sweep()
+        reg_iterator_sweep(name_of_sweeps)
 
     if(ran_iterator):
-        random_iterator_sweep()
+        random_iterator_sweep(name_of_sweeps)
         
         
     #if(twoD_surface):

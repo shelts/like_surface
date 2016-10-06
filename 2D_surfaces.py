@@ -40,12 +40,13 @@ input_hist    = folder + "arg_" + ft_c + "_" + bt_c + "_" + r_c + "_" + rr_c + "
 
 
 #parameter = [start, end, increment]
-ft         = [3.92, 4.0, 0.02]#30
-bt         = [0.97, 1.08, 0.02]#24
-r          = [0.1, 0.4, 0.2]#80
-rr         = [0.1, 0.4, 0.2]#80
-m          = [1.0, 7.0, 2.0]#80
-mr         = [0.150, 0.35, 0.1]#70
+ft         = [3.0, 4.0, 0.001]#
+#bt         = [0.97, 1.08, 0.02]#
+bt         = [0.97, 1.08, 0.02]#
+r          = [0.1, 0.4, 0.2]#
+rr         = [0.1, 0.4, 0.2]#
+m          = [1.0, 7.0, 2.0]#
+mr         = [0.150, 0.35, 0.1]#
 
 ft_s, ft_e, ft_in = ft[0], ft[1], ft[2]
 bt_s, bt_e, bt_in = bt[0], bt[1], bt[2]
@@ -54,8 +55,8 @@ rr_s, rr_e, rr_in = rr[0], rr[1], rr[2]
 m_s,  m_e,  m_in  = m[0],  m[1],  m[2]
 mr_s, mr_e, mr_in = mr[0], mr[1], mr[2]
 
-ft_N = 4
-bt_N = 4
+ft_N = 25
+bt_N = 25
 r_N  = 4
 rr_N = 4
 m_N  = 4
@@ -76,7 +77,7 @@ run_random_iteration      = y
 
 
 
-run_ft_v_bt = n
+run_ft_v_bt = y
 run_ft_v_r  = n
 run_ft_v_rr = n
 run_ft_v_m  = n
@@ -87,14 +88,14 @@ run_bt_v_rr = n
 run_bt_v_m  = n
 run_bt_v_mr = n
 
-run_r_v_rr  = y
-run_r_v_m   = y
-run_r_v_mr  = y
+run_r_v_rr  = n
+run_r_v_m   = n
+run_r_v_mr  = n
 
-run_rr_v_m  = y
-run_rr_v_mr = y
+run_rr_v_m  = n
+run_rr_v_mr = n
 
-run_m_v_mr  = y
+run_m_v_mr  = n
 #--------------------------------------------------------------------------------------------------
 
 
