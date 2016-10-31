@@ -1,0 +1,1 @@
+these are sweeps over ft. They are done by setting the forward and backtime equal. these take the best likelihood reported every timestep after .95 of the sim is complete. they use random iteration in a narrow range around peak

@@ -23,7 +23,7 @@ plot_cost_emd = n
 
 narrow_range = y
 special_parser = n
-name_of_sweeps = "_rand_iter_25bins"
+name_of_sweeps = "_rand_iter"
 oneD_names   = ['ft', 'bt', 'r', 'rr', 'm', 'mr']
 
 twoD_names   = [ 'ft_bt', 'ft_rad', 'ft_rr', 'ft_m', 'ft_mr', 
@@ -217,7 +217,7 @@ def parser(name_of_sweeps, random_iter, names):
         f = open('./' + data_folder + '/likelihood_data'  + name_of_sweeps + '/' + str(names[i]) + '_data.txt', 'w')
 
         for line in g:
-            if (line.startswith("<")):
+            if (line.startswith("<search_likelihood")):
                 ss = line.split('<search_likelihood>')#splits the line between the two sides the delimiter
                 tt = ss[1].split('</search_likelihood>')#chooses the second of the split parts and resplits
                 f.write("%s \n" % tt[0])#writes the first of the resplit lines
