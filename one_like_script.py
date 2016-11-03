@@ -21,10 +21,10 @@ twoD_sweep = n
 oneD_multiploter = y
 plot_cost_emd = n
 
-narrow_range = y
+narrow_range = n
 special_parser = n
 name_of_sweeps = "_rand_iter"
-oneD_names   = ['ft', 'bt', 'r', 'rr', 'm', 'mr']
+oneD_names   = ['ft', 'r', 'rr', 'm', 'mr']
 
 twoD_names   = [ 'ft_bt', 'ft_rad', 'ft_rr', 'ft_m', 'ft_mr', 
                  'bt_r', 'bt_rr', 'bt_m', 'bt_mr', 
@@ -39,7 +39,7 @@ bt         = [0.8, 1.2, 0.04]#10
 r          = [0.1, 1.3, 0.06]#20
 rr         = [0.1, .95, 0.05]#17
 m          = [1., 120.0, 5]#23
-mr         = [.01, .95, .05]#18
+mr         = [.1, .95, .05]#18
 
 if(narrow_range):
     ft         = [3.93, 3.98, 0.1]#20
@@ -51,7 +51,7 @@ if(narrow_range):
 
 
 if(oneD_sweep):
-    N = 1
+    N = 3
     M = 0
 if(twoD_sweep):
     N = 15
@@ -236,11 +236,11 @@ def oneD_plot(name_of_sweeps):
     #rr = [0.1, .95]
     #m  = [1., 120.0]
     #mr = [.01, .95]
-    ranges_start = [ft[0], bt[0], r[0], rr[0], m[0], mr[0]]
-    ranges_end   = [ft[1], bt[1], r[1], rr[1], m[1], mr[1]]
+    #ranges_start = [ft[0], bt[0], r[0], rr[0], m[0], mr[0]]
+    #ranges_end   = [ft[1], bt[1], r[1], rr[1], m[1], mr[1]]
     
-    #ranges_start = [ft[0], r[0], rr[0], m[0], mr[0]]
-    #ranges_end   = [ft[1], r[1], rr[1], m[1], mr[1]]
+    ranges_start = [ft[0], r[0], rr[0], m[0], mr[0]]
+    ranges_end   = [ft[1], r[1], rr[1], m[1], mr[1]]
     #how many of the data sets are we plotting
     
     #f   = 'forward evole time'
@@ -250,8 +250,8 @@ def oneD_plot(name_of_sweeps):
     #mass  = 'mass'
     #m_r = 'mass ratio'
 
-    titles  = ['Forward Evolve Time', 'Reverse Orbit Time Ratio', 'Baryonic Scale Radius', 'Baryonic Scale Radius Ratio', 'Baryonic Matter Mass',  'Baryonic to Mass Ratio']
-    #titles  = ['Forward Evolve Time', 'Baryonic Scale Radius', 'Dark Scale Radius', 'Baryonic Matter Mass',  'Dark Matter Mass']
+    #titles  = ['Forward Evolve Time', 'Reverse Orbit Time Ratio', 'Baryonic Scale Radius', 'Baryonic Scale Radius Ratio', 'Baryonic Matter Mass',  'Baryonic to Mass Ratio']
+    titles  = ['Forward Evolve Time', 'Baryonic Scale Radius', 'Scale Radius Ratio', 'Baryonic Matter Mass',  'Mass Ratio']
     # # # # # # # # # # # # # # # # # # # # # # # # # 
     data_vals = "parameter_data/"
     like_data = "likelihood_data/"
@@ -283,16 +283,17 @@ def oneD_plot(name_of_sweeps):
     return 0
 
 def oneD_multiplot(name_of_sweeps):
-    titles  = ['Forward Evolve Time (Gyr)_{}', 'Reverse Orbit Ratio (T_{f} / T_{r})', 'Baryon Scale Radius (kpc)_{}', 'Scale Radius Ratio [R_{Stars}/(R_{Stars} + R_{Dark})]', 'Baryonic Mass_{}',  'Mass Ratio [M_{Stars}/M_{Total}]']
-    labels  = ['Forward Evolve Time (Gyr)', 'Reverse Orbit Ratio', 'Baryon Scale Radius (kpc)', 'Scale Radius Ratio', 'Baryonic Mass (Sim Mass Units)',  'Mass Ratio']
-    #titles  = ['Forward Evolve Time (Gyr)',  'Baryon Scale Radius (kpc)', 'Scale Radius Ratio (Stellar/Dark)', 'Total Mass (Simulation Mass Units)',  'Mass Ratio (Baryonic/Total)']
+    l = -200
+    titles  = ['Forward Evolve Time (Gyr)',  'Baryon Scale Radius (kpc)', 'Scale Radius Ratio (Stellar/Dark)', 'Baryonic Mass (Simulation Mass Units)',  'Mass Ratio (Baryonic/Total)']
+    #labels  = ['Forward Evolve Time (Gyr)', 'Baryon Scale Radius (kpc)', 'Scale Radius Ratio', 'Baryonic Mass (Sim Mass Units)',  'Mass Ratio']
+    #titles  = ['Forward Evolve Time (Gyr)_{}', 'Reverse Orbit Ratio (T_{f} / T_{r})', 'Baryon Scale Radius (kpc)_{}', 'Scale Radius Ratio [R_{Stars}/(R_{Stars} + R_{Dark})]', 'Baryonic Mass_{}',  'Mass Ratio [M_{Stars}/M_{Total}]']
+    #labels  = ['Forward Evolve Time (Gyr)', 'Reverse Orbit Ratio', 'Baryon Scale Radius (kpc)', 'Scale Radius Ratio', 'Baryonic Mass (Sim Mass Units)',  'Mass Ratio']
     #ranges
 
-    l = -200
-    ranges_start = [ft[0], bt[0], r[0], rr[0], m[0], mr[0]]
-    ranges_end   = [ft[1], bt[1], r[1], rr[1], m[1], mr[1]]
-    #ranges_start = [ft[0], r[0], rr[0], m[0], mr[0]]
-    #ranges_end   = [ft[1], r[1], rr[1], m[1], mr[1]]
+    #ranges_start = [ft[0], bt[0], r[0], rr[0], m[0], mr[0]]
+    #ranges_end   = [ft[1], bt[1], r[1], rr[1], m[1], mr[1]]
+    ranges_start = [ft[0], r[0], rr[0], m[0], mr[0]]
+    ranges_end   = [ft[1], r[1], rr[1], m[1], mr[1]]
 
     # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
     # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
@@ -334,7 +335,7 @@ def oneD_multiplot(name_of_sweeps):
     f.close()
 
     os.system("gnuplot multiplot_1d" + name_of_sweeps + ".gnuplot 2>>piped_output.txt")
-    #os.system("rm multiplot_1d" + name_of_sweeps + ".gnuplot")
+    os.system("rm multiplot_1d" + name_of_sweeps + ".gnuplot")
     return 0
 
 # # # # # # # # # # # # # # # # # # # # # #

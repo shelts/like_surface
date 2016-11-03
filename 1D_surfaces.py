@@ -3,7 +3,8 @@
 import os
 from subprocess import call
 import random
-random.seed(a = 12345678)
+#random.seed(a = 12345678)#lmc
+random.seed(a = 687651463)#teletraan
 #--------------------------------------------------------------------------------------------------
 #       PARAMETER LIBRARY       #
 #--------------------------------------------------------------------------------------------------
@@ -22,7 +23,7 @@ path = lmc_dir
 
 folder        = path + "like_surface/hists/"
 binary        = path + "nbody_test/bin/milkyway_nbody"
-lua           = path + "/lua/EMD_v162.lua"
+lua           = path + "/lua/EMD_v162_bestlike.lua"
 seed          = "98213548"
 
 input_hist    = folder + "arg_" + ft_c + "_" + bt_c + "_" + r_c + "_" + rr_c + "_" + m_c + "_" + mr_c + "_correct.hist"
@@ -36,12 +37,12 @@ m_rg          = [1., 120.0, 5]#23
 mr_rg         = [.01, .95, .05]#18
 
 
-ft_N = 40
-bt_N = 40
-r_N  = 40
-rr_N = 40
-m_N  = 40
-mr_N = 40
+ft_N = 50
+bt_N = 50
+r_N  = 50
+rr_N = 50
+m_N  = 50
+mr_N = 50
 
 y = True
 n = False
@@ -49,16 +50,16 @@ n = False
 #choose what to run
 make_folders              = y
 rebuild_binary            = n
-make_correct_answer_hist  = y
-run_regular_iteration     = y
+make_correct_answer_hist  = n
+run_regular_iteration     = n
 run_random_iteration      = y
 
 run_forward_evole_time    = y
-run_backward_evolve_ratio = y
+run_backward_evolve_ratio = n
 run_radius                = y
 run_radius_ratio          = y
-run_mass                  = y
-run_mass_ratio            = y
+run_mass                  = n
+run_mass_ratio            = n
 #--------------------------------------------------------------------------------------------------
 
 def rebuild():
@@ -205,7 +206,7 @@ def run_sweep_random_iter(start, end, N, para):
                 f.write("%s \n" % mr_c)
             
         output_hist += ft_tmp + "_" + bt_tmp + "_" + r_tmp + "_" + rr_tmp + "_" + m_tmp + "_" + mr_tmp + ".hist"
-        nbody(output_hist, ft_tmp, bt_tmp, r_tmp, rr_tmp, m_tmp, mr_tmp, para, sweep_name)  
+        #nbody(output_hist, ft_tmp, bt_tmp, r_tmp, rr_tmp, m_tmp, mr_tmp, para, sweep_name)  
         f.write("%s \n" % name)
         counter += 1
     f.close()    
