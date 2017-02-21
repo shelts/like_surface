@@ -24,7 +24,7 @@ path = lmc_dir
 folder        = path + "like_surface/hists/"
 binary        = path + "nbody_test/bin/milkyway_nbody"
 #lua           = path + "lua/EMD_v162_bestlike.lua"
-lua           = path + "lua/mixeddwarf  .lua"
+lua           = path + "lua/mixeddwarf.lua"
 seed          = "98213548"
 
 input_hist    = folder + "arg_" + ft_c + "_" + bt_c + "_" + r_c + "_" + rr_c + "_" + m_c + "_" + mr_c + "_correct.hist"
@@ -50,12 +50,12 @@ n = False
 
 #choose what to run
 make_folders              = y
-rebuild_binary            = n
-make_correct_answer_hist  = n
+rebuild_binary            = y
+make_correct_answer_hist  = y
 run_regular_iteration     = n
 run_random_iteration      = y
 
-run_forward_evole_time    = y
+run_forward_evole_time    = n
 run_backward_evolve_ratio = n
 run_radius                = n
 run_radius_ratio          = n
@@ -77,14 +77,14 @@ def make_correct():
     os.system(" " + binary + " \
         -f " + lua + " \
         -z " + input_hist + " \
-        -b -e " + seed + " -i "+ ft_c + " " + bt_c + " " + r_c + " " + rr_c + " " + m_c + " " + mr_c )
+        -n 10 -b -e " + seed + " -i "+ ft_c + " " + bt_c + " " + r_c + " " + rr_c + " " + m_c + " " + mr_c )
 
 def nbody(output_hist, ft, bt, r, rr, m, mr, file_name, sweep_name):
     os.system(" " + binary + " \
                 -f " + lua + " \
                 -h " + input_hist + " \
                 -z " + output_hist + " \
-                -b -e " + seed + " -i " + ft + " " + bt + " " + r + " " + rr + " " + m + " " + mr + " \
+                -n 10 -b -e " + seed + " -i " + ft + " " + bt + " " + r + " " + rr + " " + m + " " + mr + " \
                 2>>" + folder + "parameter_sweeps" + sweep_name + "/" + file_name + ".txt")
     return 0
     
