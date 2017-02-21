@@ -23,7 +23,6 @@ path = lmc_dir
 
 folder        = path + "like_surface/hists/"
 binary        = path + "nbody_test/bin/milkyway_nbody"
-binary_path   = path + "nbody_test/bin/"
 lua           = path + "lua/EMD_v162_bestlike.lua"
 seed          = "98213548"
 
@@ -80,15 +79,12 @@ def make_correct():
         -b -e " + seed + " -i "+ ft_c + " " + bt_c + " " + r_c + " " + rr_c + " " + m_c + " " + mr_c )
 
 def nbody(output_hist, ft, bt, r, rr, m, mr, file_name, sweep_name):
-    os.chdir("../" + binary_path)
-    os.system(" ./" + binary + " \
+    os.system(" " + binary + " \
                 -f " + lua + " \
                 -h " + input_hist + " \
                 -z " + output_hist + " \
                 -b -e " + seed + " -i " + ft + " " + bt + " " + r + " " + rr + " " + m + " " + mr + " \
-                2>>" path + folder + "parameter_sweeps" + sweep_name + "/" + file_name + ".txt")
-    os.chdir("../")
-    os.chdir("../like_surface")    
+                2>>" + folder + "parameter_sweeps" + sweep_name + "/" + file_name + ".txt")
     return 0
     
 def run_sweep(start, end, intv, para):
@@ -164,8 +160,8 @@ def run_sweep(start, end, intv, para):
 def run_sweep_random_iter(start, end, N, para):
     counter = 0.0
     sweep_name = "_rand_iter"
-    os.system("mkdir hists/parameter_sweeps" + sweep_name)
-    data_vals   = "hists/parameter_sweeps" + sweep_name + "/" + para + "_vals.txt"
+    os.system("mkdir" path + "like_surface/hists/parameter_sweeps" + sweep_name)
+    data_vals   = path + "like_surface/hists/parameter_sweeps" + sweep_name + "/" + para + "_vals.txt"
     f = open(data_vals, 'w')
     
     ft_tmp = ft_c
@@ -218,6 +214,7 @@ def run_sweep_random_iter(start, end, N, para):
 
 def mk_dirs():
     names   = ['ft', 'bt', 'r', 'rr', 'm', 'mr']
+    os.chdir(path + "like_surface")
     os.system("mkdir hists")
     for i in range(0, len(names)):
         os.system("mkdir hists/" + names[i] + "_hists")
