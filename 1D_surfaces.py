@@ -37,7 +37,7 @@ m_rg          = [1., 120.0, 5]#23
 mr_rg         = [.01, .95, .05]#18
 
 
-ft_N = 50
+ft_N = 1
 bt_N = 50
 r_N  = 50
 rr_N = 50
@@ -56,8 +56,8 @@ run_random_iteration      = y
 
 run_forward_evole_time    = y
 run_backward_evolve_ratio = n
-run_radius                = y
-run_radius_ratio          = y
+run_radius                = n
+run_radius_ratio          = n
 run_mass                  = n
 run_mass_ratio            = n
 #--------------------------------------------------------------------------------------------------
@@ -160,7 +160,7 @@ def run_sweep(start, end, intv, para):
 def run_sweep_random_iter(start, end, N, para):
     counter = 0.0
     sweep_name = "_rand_iter"
-    os.system("mkdir" path + "like_surface/hists/parameter_sweeps" + sweep_name)
+    os.system("mkdir" + path + "like_surface/hists/parameter_sweeps" + sweep_name)
     data_vals   = path + "like_surface/hists/parameter_sweeps" + sweep_name + "/" + para + "_vals.txt"
     f = open(data_vals, 'w')
     
