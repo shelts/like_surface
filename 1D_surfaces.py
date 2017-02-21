@@ -160,7 +160,7 @@ def run_sweep(start, end, intv, para):
 def run_sweep_random_iter(start, end, N, para):
     counter = 0.0
     sweep_name = "_rand_iter"
-    os.system("mkdir" + path + "like_surface/hists/parameter_sweeps" + sweep_name)
+    os.system("mkdir " + path + "like_surface/hists/parameter_sweeps" + sweep_name)
     data_vals   = path + "like_surface/hists/parameter_sweeps" + sweep_name + "/" + para + "_vals.txt"
     f = open(data_vals, 'w')
     
