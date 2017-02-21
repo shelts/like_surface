@@ -33,7 +33,7 @@ twoD_names   = [ 'ft_bt', 'ft_rad', 'ft_rr', 'ft_m', 'ft_mr',
                  'm_mr']
 
 #twoD_names   = ['r_rr', 'r_m', 'r_mr', 'rr_m', 'rr_mr', 'm_mr']
-c          = [3.95, 0.98, 0.2, 0.2, 12, 0.2]
+c          = [3.95, 0.2, 0.2, 12, 0.2]
 ft         = [3.0, 5.0, 0.1]#20
 bt         = [0.8, 1.2, 0.04]#10
 r          = [0.1, 1.3, 0.06]#20
@@ -51,7 +51,7 @@ if(narrow_range):
 
 
 if(oneD_sweep):
-    N = 3
+    N = 5
     M = 0
 if(twoD_sweep):
     N = 15
@@ -126,8 +126,8 @@ def make_correct(name_of_sweeps):
         
     f = open(data_folder + '/likelihood_data'  + name_of_sweeps + '/correct.txt', 'w')
     #    Correct Answers     #
-    for i in range(0, 50):
-        f.write("%f \t %f \t %f \t %f \t %f \t %f \t %f\n" % (-i, c[0], c[1], c[2], c[3], c[4], c[5]))
+    for i in range(0, 200):
+        f.write("%f \t %f \t %f \t %f \t %f \t %f \n" % (-i, c[0], c[1], c[2], c[3], c[4]))
     f.close()
     return 0
     
@@ -284,7 +284,7 @@ def oneD_plot(name_of_sweeps):
 
 def oneD_multiplot(name_of_sweeps):
     l = -200
-    titles  = ['Forward Evolve Time (Gyr)',  'Baryon Scale Radius (kpc)', 'Scale Radius Ratio (Stellar/Dark)', 'Baryonic Mass (Simulation Mass Units)',  'Mass Ratio (Baryonic/Total)']
+    titles  = ['Forward Evolve Time (Gyr)',  'Baryon Scale Radius (kpc)', 'Scale Radius Ratio (Stellar/Dark)', 'Baryonic Mass (SMU)',  'Mass Ratio (Baryonic/Total)']
     #labels  = ['Forward Evolve Time (Gyr)', 'Baryon Scale Radius (kpc)', 'Scale Radius Ratio', 'Baryonic Mass (Sim Mass Units)',  'Mass Ratio']
     #titles  = ['Forward Evolve Time (Gyr)_{}', 'Reverse Orbit Ratio (T_{f} / T_{r})', 'Baryon Scale Radius (kpc)_{}', 'Scale Radius Ratio [R_{Stars}/(R_{Stars} + R_{Dark})]', 'Baryonic Mass_{}',  'Mass Ratio [M_{Stars}/M_{Total}]']
     #labels  = ['Forward Evolve Time (Gyr)', 'Reverse Orbit Ratio', 'Baryon Scale Radius (kpc)', 'Scale Radius Ratio', 'Baryonic Mass (Sim Mass Units)',  'Mass Ratio']
@@ -303,25 +303,31 @@ def oneD_multiplot(name_of_sweeps):
 
     f = open('multiplot_1d' + name_of_sweeps + '.gnuplot', 'w')
     f.write("reset\n")
-    f.write("set terminal jpeg size 1800,1200 enhanced \n")
+    f.write("set terminal png size 1800,1200 enhanced \n")
     f.write("set key off\n")
     f.write("set border linewidth 2\n")
     f.write("set title font 'Times-Roman,20'\n")
-    f.write("set output '1D_like_surface/plots" + name_of_sweeps + "/multiplot.jpeg' \n")
+    f.write("set output '1D_like_surface/plots" + name_of_sweeps + "/multiplot.png' \n")
     f.write("set multiplot layout 2,3 rowsfirst\n")
     for i in range(M, N):
         f.write("set size ratio -1 \n")
         f.write("set size square\n")
-        f.write("set ylabel 'Likelihood ' font ',26' offset -1,0\n")
+        if(i == 0 or i == 3):
+            f.write("set ylabel 'Likelihood ' font ',26' offset -1,0\n")
+        else:
+            f.write("set ylabel '' font ',26' offset -1,0\n")
+            
         f.write("set lmargin 11\n")
         f.write("set tmargin 0\n")
         f.write("set xlabel '" + titles[i] + "' font ',26' offset 0,-1\n")
         #f.write("set tics scale 0.5\n")
         if(i <= 1):
-            f.write("set xtics font ', 13'\n")
-        else:
-            f.write("set xtics font ', 20'\n")
-        f.write("set ytics font ', 20'\n")
+            f.write("set xtics font ', 24' offset 0,-0.5\n")
+        elif(i == 2 or i == 4):
+            f.write("set xtics 0.1, 0.2, 0.9 font ', 24' offset 0,-0.5\n")
+        elif(i == 3):
+            f.write("set xtics 0, 20, 120 font ', 24' offset 0,-0.5\n")
+        f.write("set ytics font ', 24'\n")
         f.write("set yrange [" + str(l) + ":0]\n")
         f.write("set xrange[" + str(ranges_start[i]) + ":" + str(ranges_end[i]) + "]\n")
         #f.write("set parametric\n")
@@ -454,8 +460,8 @@ def oneD_cleanse(name_of_sweeps):
     os.system("rm -r 1D_like_surface/likelihood_data" + name_of_sweeps)
     os.system("mkdir 1D_like_surface/likelihood_data" + name_of_sweeps)
 
-    os.system("rm -r 1D_like_surface/plots" + name_of_sweeps)
-    os.system("mkdir 1D_like_surface/plots" + name_of_sweeps)
+    #os.system("rm -r 1D_like_surface/plots" + name_of_sweeps)
+    #os.system("mkdir 1D_like_surface/plots" + name_of_sweeps)
 
     #os.system("rm -r 1D_like_surface/parameter_data")
     #os.system("mkdir 1D_like_surface/parameter_data")

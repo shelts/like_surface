@@ -1,6 +1,8 @@
-"multiplot_1d_rand_iter_100bins.gnuplot", line 18: warning: Skipping unreadable file "1D_like_surface/likelihood_data_rand_iter_100bins/ft_sorted_data_vals.txt"
-"multiplot_1d_rand_iter_100bins.gnuplot", line 32: warning: Skipping unreadable file "1D_like_surface/likelihood_data_rand_iter_100bins/bt_sorted_data_vals.txt"
-"multiplot_1d_rand_iter_100bins.gnuplot", line 46: warning: Skipping unreadable file "1D_like_surface/likelihood_data_rand_iter_100bins/r_sorted_data_vals.txt"
-"multiplot_1d_rand_iter_100bins.gnuplot", line 60: warning: Skipping unreadable file "1D_like_surface/likelihood_data_rand_iter_100bins/rr_sorted_data_vals.txt"
-"multiplot_1d_rand_iter_100bins.gnuplot", line 74: warning: Skipping unreadable file "1D_like_surface/likelihood_data_rand_iter_100bins/m_sorted_data_vals.txt"
-"multiplot_1d_rand_iter_100bins.gnuplot", line 88: warning: Skipping unreadable file "1D_like_surface/likelihood_data_rand_iter_100bins/mr_sorted_data_vals.txt"
+"1D_plot_rand_iter.gnuplot", line 28: warning: Skipping data file with no valid points
+"multiplot_1d_rand_iter.gnuplot", line 46: warning: Skipping data file with no valid points
+"1D_plot_rand_iter.gnuplot", line 10: warning: Skipping data file with no valid points
+"1D_plot_rand_iter.gnuplot", line 19: warning: Skipping unreadable file "1D_like_surface/likelihood_data_rand_iter/r_data_vals.txt"
+"1D_plot_rand_iter.gnuplot", line 19: No data in plot
+
+"multiplot_1d_rand_iter.gnuplot", line 18: warning: Skipping data file with no valid points
+"multiplot_1d_rand_iter.gnuplot", line 32: warning: Skipping unreadable file "1D_like_surface/likelihood_data_rand_iter/r_data_vals.txt"
