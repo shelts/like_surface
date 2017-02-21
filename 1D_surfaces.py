@@ -23,7 +23,8 @@ path = lmc_dir
 
 folder        = path + "like_surface/hists/"
 binary        = path + "nbody_test/bin/milkyway_nbody"
-lua           = path + "lua/EMD_v162_bestlike.lua"
+#lua           = path + "lua/EMD_v162_bestlike.lua"
+lua           = path + "lua/mixeddwarf  .lua"
 seed          = "98213548"
 
 input_hist    = folder + "arg_" + ft_c + "_" + bt_c + "_" + r_c + "_" + rr_c + "_" + m_c + "_" + mr_c + "_correct.hist"
