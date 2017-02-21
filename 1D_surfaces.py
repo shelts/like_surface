@@ -16,7 +16,7 @@ rr_c  = str(args[3])
 m_c   = str(args[4])
 mr_c  = str(args[5])
 
-lmc_dir = '~/research/'
+lmc_dir = '/home/shelts/research/'
 sid_dir = '/home/sidd/Desktop/research/'
 sgr_dir = '/Users/master/sidd_research/'
 path = lmc_dir
