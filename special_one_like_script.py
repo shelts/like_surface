@@ -37,11 +37,10 @@ twoD_names   = [ 'ft_bt', 'ft_rad', 'ft_rr', 'ft_m', 'ft_mr',
 c          = [3.95, 0.2, 0.2, 12, 0.2]
 ft         = [3.0, 5.0, 0.1]#20
 bt         = [0.8, 1.2, 0.04]#10
-r          = [0.1, 1.3, 0.06]#20
-rr         = [0.1, .95, 0.05]#17
+r          = [0.05, 0.5, 0.06]#20
+rr         = [0.05, .5, 0.05]#17
 m          = [1., 120.0, 5]#23
-mr         = [.1, .95, .05]#18
-
+mr         = [.01, .95, .05]#18
 if(narrow_range):
     ft         = [3.93, 3.98, 0.1]#20
     bt         = [0.96, 1.0, 0.04]#10
@@ -68,37 +67,80 @@ if(twoD_sweep):
 # # # # # # # # # # # # # # # # # # # # # #
 #    One Dimensional Surface Sweep Func   #
 # # # # # # # # # # # # # # # # # # # # # #
-def sort(likes, vals):
+def sort(likes, geom, cost, veld, vals):
     N = len(likes)
     #this sorts the random iteration sweep values from least to greatest. 
     #along with their respective likelihoods
     like_tmp = []
+    geom_tmp = []
+    cost_tmp = []
+    veld_tmp = []
     val_tmp  = []
+    
     like_new = []
+    geom_new = []
+    cost_new = []
+    veld_new = []
     val_new  = []
+    sort_c = 0
     for i in range(0, N):
-        like_new.append(likes[i])
-        val_new.append(vals[i])
-        like_tmp.append(likes[i])
-        val_tmp.append(vals[i])
+        like_new.append( likes[i] )
+        geom_new.append( geom[i]  )
+        cost_new.append( cost[i]  )
+        veld_new.append( veld[i]  )
+        val_new.append(  vals[i]  )
         
+        like_tmp.append(likes[i])
+        geom_tmp.append( geom[i]  )
+        cost_tmp.append( cost[i]  )
+        veld_tmp.append( veld[i]  )
+        val_tmp.append(  vals[i]  )
+
     while(1):
+        sort_c += 1
+        #print sort_c
         for i in range(0, N - 1):
             if(val_new[i] < val_new[i + 1]):
                 val_tmp[i] = val_new[i]
                 val_tmp[i + 1] = val_new[i + 1]
+                
                 like_tmp[i] = like_new[i]
                 like_tmp[i + 1] = like_new[i + 1]
+                
+                geom_tmp[i] = geom_new[i]
+                geom_tmp[i + 1] = geom_new[i + 1]
+                
+                cost_tmp[i] = cost_new[i]
+                cost_tmp[i + 1] = cost_new[i + 1]
+                
+                veld_tmp[i] = veld_new[i]
+                veld_tmp[i + 1] = veld_new[i + 1]
                 
             elif(val_new[i] >= val_new[i + 1]):
                 val_tmp[i] = val_new[i + 1]
                 val_tmp[i + 1] = val_new[i]
+                
                 like_tmp[i] = like_new[i + 1]
                 like_tmp[i + 1] = like_new[i]
+                
+                geom_tmp[i] = geom_new[i + 1]
+                geom_tmp[i + 1] = geom_new[i]
+                
+                cost_tmp[i] = cost_new[i + 1]
+                cost_tmp[i + 1] = cost_new[i]
+                
+                veld_tmp[i] = veld_new[i + 1]
+                veld_tmp[i + 1] = veld_new[i]
+                
             for j in range(0, N):
                 val_new[j] = val_tmp[j]
+                
                 like_new[j] = like_tmp[j]
-        
+                
+                geom_new[j] = geom_tmp[j]
+                cost_new[j] = cost_tmp[j]
+                veld_new[j] = veld_tmp[j]
+
         for i in range(0, N - 1):
             in_order = True
             diff = (val_new[i + 1]) - (val_new[i])
@@ -109,7 +151,7 @@ def sort(likes, vals):
                 break
         if(in_order == True):
             break
-    return val_new, like_new
+    return val_new, like_new, geom_new, cost_new, veld_new
 
 def reliability(likes, likes_new, vals, vals_new):
     N = len(likes)
@@ -149,41 +191,51 @@ def combine(name_of_sweeps, random_iter, names):
         file_vals = open('./' + data_folder + '/parameter_sweeps' + name_of_sweeps + '/'  + str(names[i]) + '_vals.txt', 'r')
         file_comb = open('./' + data_folder + '/likelihood_data'  + name_of_sweeps + '/'  + str(names[i]) + '_data_vals.txt', 'w')
         likes = []
+        geom = []
+        cost = []
+        veld = []
         vals  = []
-        vals2 = [] #for 2d sweeps. they don't need to be sorted
+        
         vals_new  = []
         likes_new = []
+        geom_new = []
+        cost_new = []
+        veld_new = []
         
         counter_like = 0
         counter_val  = 0
         
         #make sure lists are the same length
         for line in file_data:
-            l = float(line)
+            ss = line.split(' ')
+            g = float(ss[0])
+            c = float(ss[1])
+            v = float(ss[3])
+            l = g + c + v
+            
+            geom.append(g)
+            cost.append(c)
+            veld.append(v)
             likes.append(l)
+            
             counter_like += 1
             
         for line in file_vals:
             if(oneD_sweep):#if 1d sweep, then there is only one column of data
                 l = float(line)
                 vals.append(l)
-                
-            if(twoD_sweep):
-                ss = line.split('\t')
-                l1 = float(ss[0])
-                l2 = float(ss[1])
-                vals.append(l1)
-                vals2.append(l2)
-            counter_val += 1
+            counter_val += 1    
+            
             
         #report and break if they are not
         if(counter_like != counter_val):
             print "value list length mismatch", name_of_sweeps, i
             break
-
+        
+        #print vals
         if(oneD_sweep):
             if(random_iter):#if the parameter sweep was using random iteration:
-                vals_new, likes_new = sort(likes, vals)
+                vals_new, likes_new, geom_new, cost_new, veld_new = sort(likes, geom, cost, veld, vals)
                 #sort the data values in order of least to greats with their corresponding likelihoods.
                 #make sure the likelihoods were sorted correctly with the values
                 reliability_of_sorting = reliability(likes, likes_new, vals, vals_new)
@@ -192,13 +244,11 @@ def combine(name_of_sweeps, random_iter, names):
                     print "HOLY FUCKING SHIT, SOMETHING IS WRONG"
                 
                 for j in range(0, counter_like):
-                    file_comb.write("%0.15f\t%0.15f\n" % (vals_new[j], likes_new[j]))
+                    file_comb.write("%0.15f\t%0.15f\t%0.15f\t%0.15f\t%0.15f\n" % (vals_new[j], -likes_new[j], -geom_new[j], -cost_new[j], -veld_new[j]))
+            
             if(reg_iterator):
                 for j in range(0, counter_like):
-                    file_comb.write("%0.15f\t%0.15f\n" % (vals[j], likes[j]))
-        if(twoD_sweep):#2d doesn't need to be sorted 
-            for j in range(0, counter_like):
-                file_comb.write("%0.15f\t%0.15f\t%0.15f\n" % (vals[j], vals2[j], likes[j]))
+                    file_comb.write("%0.15f\t%0.15f\t%0.15f\t%0.15f\t%0.15f\n" % (vals[j], -likes[j], -geom[j], -cost[j], -veld[j]))
         
         
         if(oneD_sweep):
@@ -222,10 +272,9 @@ def parser(name_of_sweeps, random_iter, names):
         f = open('./' + data_folder + '/likelihood_data'  + name_of_sweeps + '/' + str(names[i]) + '_data.txt', 'w')
 
         for line in g:
-            if (line.startswith("<search_likelihood")):
-                ss = line.split('<search_likelihood>')#splits the line between the two sides the delimiter
-                tt = ss[1].split('</search_likelihood>')#chooses the second of the split parts and resplits
-                f.write("%s \n" % tt[0])#writes the first of the resplit lines
+            if (line.startswith("<search_likelihood") or line.startswith("Using OpenMP")):
+                continue
+            f.write("%s" % line)#writes the first of the resplit lines
         
     f.close()
     g.close()
@@ -257,7 +306,7 @@ def oneD_plot(name_of_sweeps):
     f = open('1D_plot' + name_of_sweeps + '.gnuplot', 'w')
     f.write("reset\n")
     f.write("set terminal jpeg\n")
-    f.write("set key off\n")
+    f.write("set key on\n")
 
     for i in range(M, N):
         f.write("set xlabel '" + titles[i] + "'\n")
@@ -269,7 +318,7 @@ def oneD_plot(name_of_sweeps):
         p = "1D_like_surface/likelihood_data" + name_of_sweeps + "/" + oneD_names[i] + "_data_vals.txt"
         f.write("set output '1D_like_surface/plots" + name_of_sweeps + "/" + oneD_names[i] + ".jpeg' \n")
         f.write("set title 'Likelihood Surface of " + titles[i] + "' \n")
-        f.write("plot '" + p + "' using 1:2  with lines\n\n") 
+        f.write("plot '" + p + "' using 1:2  with lines title 'L', '" + p + "' using 1:3  with lines title 'emd', '" + p + "' using 1:4  with lines title 'cost', '" + p + "' using 1:5  with lines title 'velD'\n\n") 
 
         f.write("# # # # # # # # # # # # # # # # # #\n")
 
@@ -342,75 +391,6 @@ def oneD_multiplot(name_of_sweeps):
     os.system("rm multiplot_1d" + name_of_sweeps + ".gnuplot")
     return 0
 
-# # # # # # # # # # # # # # # # # # # # # #
-#    Two Dimensional Surface Sweep Func   #
-# # # # # # # # # # # # # # # # # # # # # #
-def twoD_plot():
-    ft  = [1.0, 3.0]
-    bt  = [0.8, 1.2]
-    r   = [0.1, 0.9]
-    rr  = [0.1, 0.7]
-    m   = [2.0, 45]
-    mr  = [0.1, 0.55]
-    #starts, ends
-    
-    f   = 'Forward Evolve Time'
-    b   = 'Reverse Orbit Ratio'
-    rad  = 'Radius'
-    r_r = 'Radius Ratio'
-    mass  = 'Mass'
-    m_r = 'Mass Ratio'
-
-
-    names = [ 'ft_vs_bt', 'ft_vs_rad', 'ft_vs_rr', 'ft_vs_m', 'ft_vs_mr', 'bt_vs_r', 'bt_vs_rr', 'bt_vs_m', 'bt_vs_mr', 'r_vs_rr', 'r_vs_m', 'r_vs_mr', 'rr_vs_m', 'rr_vs_mr', 'm_vs_mr']
-    xlabels = [f, f, f, f, f, b, b, b, b, rad, rad ,rad, r_r, r_r, mass]  
-    ylabels = [b, rad, r_r, mass, m_r, rad, r_r, mass, m_r, r_r, mass, m_r, mass, m_r, m_r]
-
-    xranges_start = [ft[0], ft[0], ft[0], ft[0], ft[0], bt[0], bt[0], bt[0], bt[0], r[0], r[0], r[0], rr[0], rr[0], m[0]]
-    yranges_start = [bt[0], r[0], rr[0], m[0], mr[0], r[0], rr[0], m [0], mr[0], rr[0], m[0], mr[0], m[0], mr[0], mr[0]]
-
-    xranges = [ft[1], ft[1], ft[1], ft[1], ft[1], bt[1], bt[1], bt[1], bt[1], r[1], r[1], r[1], rr[1], rr[1], m[1]]
-    yranges = [bt[1], r[1], rr[1], m[1], mr[1], r[1], rr[1], m [1], mr[1], rr[1], m[1], mr[1], m[1], mr[1], mr[1]]
-
-    color_cutoff = -200
-
-    N  = 15
-    M  = 0
-
-    # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
-    # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-    data_vals = "parameter_data/"
-    like_data = "likelihood_data/"
-
-
-    f = open('2D_plot.gnuplot', 'w')
-    f.write("reset\n")
-    f.write("set terminal png\n")
-    f.write("set key off\n")
-    f.write("set pm3d interpolate 50,50\n")
-    for i in range(M, N):
-        f.write("set xlabel '" + xlabels[i] + "'\n")
-        f.write("set ylabel '" + ylabels[i] + "'\n")
-        f.write("set zlabel 'likelihood'\n")
-        #f.write("set palette  maxcolors 1000\n")
-        #f.write("set palette rgbformulae \n")
-        #f.write("set palette gray \n")
-        f.write("set cbrange[" + str(color_cutoff) + ":0]\n")
-        f.write("set xrange[" + str(xranges_start[i]) + ":" + str(xranges[i]) + "]\n")
-        f.write("set yrange[" + str(yranges_start[i]) + ":" + str(yranges[i]) + "]\n\n\n")
-
-        p = "<paste 2D_like_surface/parameter_data/" + names[i] + ".txt 2D_like_surface/likelihood_data/" + names[i] + "_data.txt"
-        f.write("set output '2D_like_surface/plots/" + names[i] + ".png' \n")
-        f.write("set title 'Likelihood Surface of " + str(xlabels[i]) + " vs " + str(ylabels[i]) + "' \n")
-        f.write("plot '" + p + "' using 1:2:3  with image \n\n") 
-
-        f.write("# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # \n")
-        f.write("# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # \n")
-
-    f.close()
-
-    os.system("gnuplot 2D_plot.gnuplot 2>>piped_output.txt")
-    os.system("rm 2D_plot.gnuplot")
 
 def reg_iterator_sweep(name_of_sweeps):
     random_iter = False
@@ -470,33 +450,6 @@ def oneD_cleanse(name_of_sweeps):
     #os.system("rm -r 1D_like_surface/cost_emd_plots")
     #os.system("mkdir 1D_like_surface/cost_emd_plots")
     return 0
-
-def twoD_cleanse(name_of_sweeps):
-    os.system("rm -r 2D_like_surface/likelihood_data" + name_of_sweeps)
-    os.system("mkdir 2D_like_surface/likelihood_data" + name_of_sweeps)
-
-    os.system("rm -r 2D_like_surface/plots" + name_of_sweeps)
-    os.system("mkdir 2D_like_surface/plots" + name_of_sweeps)
-    return 0
-# # # # # # # # # # # 
-#    Misc parsers   #
-# # # # # # # # # # # 
-
-def all_hists_in_one_file_parser():
-    g = open('./all_in_one_mr.txt', 'r')
-    l = open('./like_data', 'w')
-    #this function is for parsing a file which has all the histograms and likelihood_data dumped one after the other. 
-    #which happens if you mess up the output file directory
-    for line in g:
-        if(line.startswith("Error opening")):
-            ss = line.split("Error opening histogram 'mr_hists/~/research/like_surface/hists/")
-            tt = ss[1].split("'. Using default output instead. (2): No such file or directory")
-            f = open('./parsed_hists/' + tt[0], 'w')
-            continue
-        if(line.startswith("nSim:") or line.startswith("log") or line.startswith("<search_likelihood") or line.startswith("Using OpenMP")):
-            l.write(line)
-        else:
-            f.write(line)
 # # # # # # # 
 #    Main   #
 # # # # # # #    

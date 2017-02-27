@@ -1,0 +1,303 @@
+Using OpenMP 10 max threads on a system with 8 processors
+-0.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000
+<search_likelihood>-0.000000000000000</search_likelihood>
+Using OpenMP 10 max threads on a system with 8 processors
+32.416127701851813 2.141724571597121 34.557852273448937 52.117798262907975
+<search_likelihood>-86.675650536356912</search_likelihood>
+Using OpenMP 10 max threads on a system with 8 processors
+35.164637677810113 1.794613666833025 36.959251344643135 52.719394220706747
+<search_likelihood>-89.678645565349882</search_likelihood>
+Using OpenMP 10 max threads on a system with 8 processors
+19.985875524540312 1.241340300653706 21.227215825194016 35.261434824372138
+<search_likelihood>-56.488650649566154</search_likelihood>
+Using OpenMP 10 max threads on a system with 8 processors
+36.882938642190176 1.660697185902789 38.543635828092967 51.422048263711780
+<search_likelihood>-89.965684091804746</search_likelihood>
+Using OpenMP 10 max threads on a system with 8 processors
+25.310143273667741 1.496226593765826 26.806369867433567 35.279187120223057
+<search_likelihood>-62.085556987656624</search_likelihood>
+Using OpenMP 10 max threads on a system with 8 processors
+33.654275102015205 0.506217706623729 34.160492808638935 335.875763775054509
+<search_likelihood>-370.036256583693444</search_likelihood>
+Using OpenMP 10 max threads on a system with 8 processors
+39.285523170365884 1.641994687392227 40.927517857758112 53.280690183007856
+<search_likelihood>-94.208208040765967</search_likelihood>
+Using OpenMP 10 max threads on a system with 8 processors
+38.960437093948009 1.496226593765826 40.456663687713835 56.624416112814060
+<search_likelihood>-97.081079800527903</search_likelihood>
+Using OpenMP 10 max threads on a system with 8 processors
+27.166645001966465 1.177423416056952 28.344068418023419 31.182935729141104
+<search_likelihood>-59.527004147164519</search_likelihood>
+Using OpenMP 10 max threads on a system with 8 processors
+18.101576715811923 0.180143933230785 18.281720649042708 76.289379592911800
+<search_likelihood>-94.571100241954511</search_likelihood>
+Using OpenMP 10 max threads on a system with 8 processors
+29.939491130400143 1.340413395316601 31.279904525716745 49.578045085881179
+<search_likelihood>-80.857949611597917</search_likelihood>
+Using OpenMP 10 max threads on a system with 8 processors
+20.524135723983424 1.146104049058628 21.670239773042052 33.659793529667866
+<search_likelihood>-55.330033302709921</search_likelihood>
+Using OpenMP 10 max threads on a system with 8 processors
+31.202060748566922 1.755816074203178 32.957876822770103 50.976808526776658
+<search_likelihood>-83.934685349546754</search_likelihood>
+Using OpenMP 10 max threads on a system with 8 processors
+34.266563787723939 1.323634582219966 35.590198369943906 52.883722810463880
+<search_likelihood>-88.473921180407785</search_likelihood>
+Using OpenMP 10 max threads on a system with 8 processors
+37.286018018478316 1.775161275700267 39.061179294178586 52.926190364450612
+<search_likelihood>-91.987369658629206</search_likelihood>
+Using OpenMP 10 max threads on a system with 8 processors
+8.657400364007447 0.317100216206175 8.974500580213622 26.973221342992829
+<search_likelihood>-35.947721923206451</search_likelihood>
+Using OpenMP 10 max threads on a system with 8 processors
+38.616656817449069 0.275588803808739 38.892245621257807 330.946929431387332
+<search_likelihood>-369.839175052645146</search_likelihood>
+Using OpenMP 10 max threads on a system with 8 processors
+38.759637859320044 0.845058009086181 39.604695868406225 351.230912602941487
+<search_likelihood>-390.835608471347712</search_likelihood>
+Using OpenMP 10 max threads on a system with 8 processors
+20.959180938317651 1.532026921565574 22.491207859883225 49.245063775140196
+<search_likelihood>-71.736271635023428</search_likelihood>
+Using OpenMP 10 max threads on a system with 8 processors
+29.343684834259729 1.736578041590095 31.080262875849826 51.659104856491041
+<search_likelihood>-82.739367732340867</search_likelihood>
+Using OpenMP 10 max threads on a system with 8 processors
+15.199279930662662 0.040753168894117 15.240033099556779 22.945293354885585
+<search_likelihood>-38.185326454442361</search_likelihood>
+Using OpenMP 10 max threads on a system with 8 processors
+35.172686081198684 1.794613666833025 36.967299748031706 50.787207385025347
+<search_likelihood>-87.754507133057047</search_likelihood>
+Using OpenMP 10 max threads on a system with 8 processors
+15.997097138120512 0.752274593033934 16.749371731154447 27.787221550171044
+<search_likelihood>-44.536593281325494</search_likelihood>
+Using OpenMP 10 max threads on a system with 8 processors
+29.631751096195895 1.496226593765826 31.127977689961721 51.627918515701829
+<search_likelihood>-82.755896205663547</search_likelihood>
+Using OpenMP 10 max threads on a system with 8 processors
+43.456972018217833 1.913580161519255 45.370552179737089 53.208242783067725
+<search_likelihood>-98.578794962804807</search_likelihood>
+Using OpenMP 10 max threads on a system with 8 processors
+26.281572108201281 1.323634582219966 27.605206690421248 49.490990226666547
+<search_likelihood>-77.096196917087795</search_likelihood>
+Using OpenMP 10 max threads on a system with 8 processors
+3.999273026379897 0.071195910353103 4.070468936733000 0.074759964117113
+<search_likelihood>-4.145228900850112</search_likelihood>
+Using OpenMP 10 max threads on a system with 8 processors
+31.806744699494853 1.623399233829647 33.430143933324501 50.732536919730236
+<search_likelihood>-84.162680853054738</search_likelihood>
+Using OpenMP 10 max threads on a system with 8 processors
+96.874163975579577 7.757488684529376 104.631652660108955 296.463850204969162
+<search_likelihood>-401.095502865078117</search_likelihood>
+Using OpenMP 10 max threads on a system with 8 processors
+29.317859050936825 1.755816074203178 31.073675125140003 51.723099669339057
+<search_likelihood>-82.796774794479063</search_likelihood>
+Using OpenMP 10 max threads on a system with 8 processors
+19.726417375174709 1.604910804654371 21.331328179829079 49.331887185583547
+<search_likelihood>-70.663215365412626</search_likelihood>
+Using OpenMP 10 max threads on a system with 8 processors
+19.145818673504685 0.678700375142756 19.824519048647442 26.089475349864500
+<search_likelihood>-45.913994398511946</search_likelihood>
+Using OpenMP 10 max threads on a system with 8 processors
+21.646487734061438 1.460853790886098 23.107341524947536 49.350383140287150
+<search_likelihood>-72.457724665234679</search_likelihood>
+Using OpenMP 10 max threads on a system with 8 processors
+36.562799940906523 1.391390109754020 37.954190050660543 50.879361185354654
+<search_likelihood>-88.833551236015197</search_likelihood>
+Using OpenMP 10 max threads on a system with 8 processors
+34.470804673475499 1.873495543710933 36.344300217186429 52.203985918106333
+<search_likelihood>-88.548286135292756</search_likelihood>
+Using OpenMP 10 max threads on a system with 8 processors
+28.639286665955847 1.478486761886166 30.117773427842014 35.084987878021003
+<search_likelihood>-65.202761305863021</search_likelihood>
+Using OpenMP 10 max threads on a system with 8 processors
+3.565686008518251 0.029934811667188 3.595620820185439 0.053127146215642
+<search_likelihood>-3.648747966401081</search_likelihood>
+Using OpenMP 10 max threads on a system with 8 processors
+20.437161218252381 1.698423400146359 22.135584618398738 31.102635730076649
+<search_likelihood>-53.238220348475387</search_likelihood>
+Using OpenMP 10 max threads on a system with 8 processors
+145.109924481400611 18.164788835219486 163.274713316620108 211.406178023869387
+<search_likelihood>-374.680891340489495</search_likelihood>
+Using OpenMP 10 max threads on a system with 8 processors
+69.464411922654776 2.599639370631968 72.064051293286738 286.696748554355054
+<search_likelihood>-358.760799847641806</search_likelihood>
+Using OpenMP 10 max threads on a system with 8 processors
+18.914434886857023 0.981455166102474 19.895890052959498 35.846157046730347
+<search_likelihood>-55.742047099689842</search_likelihood>
+Using OpenMP 10 max threads on a system with 8 processors
+41.415627694583378 1.814173268380371 43.229800962963751 56.719997192514256
+<search_likelihood>-99.949798155478007</search_likelihood>
+Using OpenMP 10 max threads on a system with 8 processors
+22.483387831931122 1.408595840132145 23.891983672063269 35.338300720744584
+<search_likelihood>-59.230284392807853</search_likelihood>
+Using OpenMP 10 max threads on a system with 8 processors
+15.320885770884384 0.301014407832638 15.621900178717022 27.292923180999587
+<search_likelihood>-42.914823359716607</search_likelihood>
+Using OpenMP 10 max threads on a system with 8 processors
+13.849475075543062 0.032399327020047 13.881874402563108 73.196632390215711
+<search_likelihood>-87.078506792778825</search_likelihood>
+Using OpenMP 10 max threads on a system with 8 processors
+36.109035553784437 1.623399233829647 37.732434787614082 52.850730222279935
+<search_likelihood>-90.583165009894017</search_likelihood>
+Using OpenMP 10 max threads on a system with 8 processors
+76.637608696457775 2.669073890533265 79.306682586991045 287.694577217331300
+<search_likelihood>-367.001259804322331</search_likelihood>
+Using OpenMP 10 max threads on a system with 8 processors
+27.423399884728063 1.425908350285229 28.849308235013293 31.149324529699310
+<search_likelihood>-59.998632764712603</search_likelihood>
+Using OpenMP 10 max threads on a system with 8 processors
+22.885055674725368 0.437309976743666 23.322365651469035 80.385768532142279
+<search_likelihood>-103.708134183611321</search_likelihood>
+Using OpenMP 10 max threads on a system with 8 processors
+82.527577779148459 2.763063405775487 85.290641184923942 293.037841818107324
+<search_likelihood>-378.328483003031238</search_likelihood>
+Using OpenMP 10 max threads on a system with 4 processors
+38.339427673752560 1.623399233829647 39.962826907582205 56.609437608528879
+<search_likelihood>-96.572264516111090</search_likelihood>
+Using OpenMP 10 max threads on a system with 4 processors
+77.572902078418267 2.858663879019304 80.431565957437570 287.438613072730107
+<search_likelihood>-367.870179030167662</search_likelihood>
+Using OpenMP 10 max threads on a system with 4 processors
+82.100774009117870 7.876382060255358 89.977156069373223 284.451201281720159
+<search_likelihood>-374.428357351093382</search_likelihood>
+Using OpenMP 10 max threads on a system with 4 processors
+34.557247193862636 1.586529379332999 36.143776573195638 52.704317064363316
+<search_likelihood>-88.848093637558947</search_likelihood>
+Using OpenMP 10 max threads on a system with 4 processors
+31.294483017719269 1.873495543710933 33.167978561430203 52.218570800301883
+<search_likelihood>-85.386549361732079</search_likelihood>
+Using OpenMP 10 max threads on a system with 4 processors
+96.487099387687223 18.587634041042506 115.074733428729729 312.826887425751352
+<search_likelihood>-427.901620854481052</search_likelihood>
+Using OpenMP 10 max threads on a system with 4 processors
+18.709105319117928 1.660697185902789 20.369802505020719 35.401304604196540
+<search_likelihood>-55.771107109217255</search_likelihood>
+Using OpenMP 10 max threads on a system with 4 processors
+30.431654165139040 1.679506749949121 32.111160915088163 51.626355588271466
+<search_likelihood>-83.737516503359629</search_likelihood>
+Using OpenMP 10 max threads on a system with 4 processors
+14.061061418609590 0.376713341288020 14.437774759897611 25.082925524005969
+<search_likelihood>-39.520700283903579</search_likelihood>
+Using OpenMP 10 max threads on a system with 4 processors
+27.787798598049893 1.568254937359305 29.356053535409199 51.507096164580652
+<search_likelihood>-80.863149699989847</search_likelihood>
+Using OpenMP 10 max threads on a system with 4 processors
+41.016216167057401 1.641994687392227 42.658210854449628 56.528306386908440
+<search_likelihood>-99.186517241358075</search_likelihood>
+Using OpenMP 10 max threads on a system with 4 processors
+25.124778480589832 1.357298907514648 26.482077388104479 49.515391092886340
+<search_likelihood>-75.997468480990818</search_likelihood>
+Using OpenMP 10 max threads on a system with 4 processors
+29.260714742825318 1.069668329795398 30.330383072620716 35.435014311387469
+<search_likelihood>-65.765397384008182</search_likelihood>
+Using OpenMP 10 max threads on a system with 4 processors
+28.312873343316692 0.506217706623729 28.819091049940422 82.304954527966231
+<search_likelihood>-111.124045577906656</search_likelihood>
+Using OpenMP 10 max threads on a system with 4 processors
+98.920062907085750 19.759523335781825 118.679586242867572 249.303546292422908
+<search_likelihood>-367.983132535290451</search_likelihood>
+Using OpenMP 10 max threads on a system with 4 processors
+67.286466367173446 4.515691438427972 71.802157805601411 283.781514215321920
+<search_likelihood>-355.583672020923359</search_likelihood>
+Using OpenMP 10 max threads on a system with 4 processors
+32.314658624341611 1.974512158212077 34.289170782553690 52.013048743564987
+<search_likelihood>-86.302219526118677</search_likelihood>
+Using OpenMP 10 max threads on a system with 4 processors
+8.265630901353308 0.091762518351233 8.357393419704541 33.256070975269438
+<search_likelihood>-41.613464394973981</search_likelihood>
+Using OpenMP 10 max threads on a system with 4 processors
+29.430423076250108 1.514073306868710 30.944496383118818 49.759728969223389
+<search_likelihood>-80.704225352342206</search_likelihood>
+Using OpenMP 10 max threads on a system with 4 processors
+21.169071502985009 1.115210520699151 22.284282023684160 30.747724085802151
+<search_likelihood>-53.032006109486311</search_likelihood>
+Using OpenMP 10 max threads on a system with 4 processors
+37.452615156109815 1.641994687392227 39.094609843502042 53.217359054110609
+<search_likelihood>-92.311968897612644</search_likelihood>
+Using OpenMP 10 max threads on a system with 4 processors
+22.871535395473163 1.443327660449013 24.314863055922178 49.366487795206361
+<search_likelihood>-73.681350851128542</search_likelihood>
+Using OpenMP 10 max threads on a system with 4 processors
+19.442300467119679 1.775161275700267 21.217461742819946 49.306195713335448
+<search_likelihood>-70.523657456155391</search_likelihood>
+Using OpenMP 10 max threads on a system with 4 processors
+56.230588885363126 1.685615545548882 57.916204430912011 331.675959592248603
+<search_likelihood>-389.592164023160592</search_likelihood>
+Using OpenMP 10 max threads on a system with 4 processors
+7.291560794188568 0.240873830308039 7.532434624496607 31.759216614867274
+<search_likelihood>-39.291651239363880</search_likelihood>
+Using OpenMP 10 max threads on a system with 4 processors
+69.460009842486727 2.485930568736057 71.945940411222779 291.002319875584249
+<search_likelihood>-362.948260286806999</search_likelihood>
+Using OpenMP 10 max threads on a system with 4 processors
+30.275807463974935 0.743007925369481 31.018815389344415 333.423759490214877
+<search_likelihood>-364.442574879559288</search_likelihood>
+Using OpenMP 10 max threads on a system with 4 processors
+21.621012654387389 0.437309976743666 22.058322631131055 79.516145753983906
+<search_likelihood>-101.574468385114955</search_likelihood>
+Using OpenMP 10 max threads on a system with 4 processors
+31.947401278804307 1.755816074203178 33.703217353007489 50.255274181838452
+<search_likelihood>-83.958491534845933</search_likelihood>
+Using OpenMP 10 max threads on a system with 4 processors
+55.108631395396380 2.266075764904345 57.374707160300723 72.669357589821971
+<search_likelihood>-130.044064750122686</search_likelihood>
+Using OpenMP 10 max threads on a system with 4 processors
+45.087013374673447 1.775161275700267 46.862174650373717 53.046846778281093
+<search_likelihood>-99.909021428654810</search_likelihood>
+Using OpenMP 10 max threads on a system with 4 processors
+42.519569035149502 1.641994687392227 44.161563722541729 57.116833316549013
+<search_likelihood>-101.278397039090748</search_likelihood>
+Using OpenMP 10 max threads on a system with 4 processors
+10.714634177701882 0.010166122501343 10.724800300203224 75.342033084244065
+<search_likelihood>-86.066833384447293</search_likelihood>
+Using OpenMP 10 max threads on a system with 4 processors
+36.594105433463618 1.290396972952808 37.884502406416424 51.492864283233587
+<search_likelihood>-89.377366689650017</search_likelihood>
+Using OpenMP 10 max threads on a system with 4 processors
+21.946641477317900 1.550087458254135 23.496728935572037 49.289614825577843
+<search_likelihood>-72.786343761149880</search_likelihood>
+Using OpenMP 10 max threads on a system with 4 processors
+39.017059002385309 1.717447157136790 40.734506159522098 53.304816588576124
+<search_likelihood>-94.039322748098215</search_likelihood>
+Using OpenMP 10 max threads on a system with 4 processors
+26.333167054023232 1.374291138942149 27.707458192965380 31.234106406644493
+<search_likelihood>-58.941564599609876</search_likelihood>
+Using OpenMP 10 max threads on a system with 4 processors
+32.922905362217953 1.478486761886166 34.401392124104120 52.148496567538174
+<search_likelihood>-86.549888691642295</search_likelihood>
+Using OpenMP 10 max threads on a system with 4 processors
+17.110348282782613 0.952900934903587 18.063249217686199 26.736873562277079
+<search_likelihood>-44.800122779963274</search_likelihood>
+Using OpenMP 10 max threads on a system with 4 processors
+33.618042334056298 1.357298907514648 34.975341241570945 50.210116635985550
+<search_likelihood>-85.185457877556502</search_likelihood>
+Using OpenMP 10 max threads on a system with 4 processors
+124.879920103106869 13.569094339129805 138.449014442236660 563.079266786570201
+<search_likelihood>-701.528281228806918</search_likelihood>
+Using OpenMP 10 max threads on a system with 4 processors
+27.690071191069659 1.532026921565574 29.222098112635233 50.838793023025076
+<search_likelihood>-80.060891135660313</search_likelihood>
+Using OpenMP 10 max threads on a system with 4 processors
+30.490074872280001 1.913580161519255 32.403655033799254 51.957220676573840
+<search_likelihood>-84.360875710373094</search_likelihood>
+Using OpenMP 10 max threads on a system with 4 processors
+32.348270479328171 1.893484195254701 34.241754674582872 52.336680339055327
+<search_likelihood>-86.578435013638199</search_likelihood>
+Using OpenMP 10 max threads on a system with 4 processors
+95.017584493000612 8.484231608495849 103.501816101496459 294.959689804728669
+<search_likelihood>-398.461505906225113</search_likelihood>
+Using OpenMP 10 max threads on a system with 4 processors
+24.854679603153969 1.514073306868710 26.368752910022678 51.402753365438919
+<search_likelihood>-77.771506275461604</search_likelihood>
+Using OpenMP 10 max threads on a system with 4 processors
+112.309805789935041 14.683192650450447 126.992998440385492 251.315660862908800
+<search_likelihood>-378.308659303294291</search_likelihood>
+Using OpenMP 10 max threads on a system with 4 processors
+25.433405004020521 1.478486761886166 26.911891765906688 50.454248030548349
+<search_likelihood>-77.366139796455030</search_likelihood>
+Using OpenMP 10 max threads on a system with 4 processors
+36.431214588377870 1.532026921565574 37.963241509943444 53.196585288660827
+<search_likelihood>-91.159826798604271</search_likelihood>
+Using OpenMP 10 max threads on a system with 4 processors
+26.674814299671024 1.736578041590095 28.411392341261120 51.636128183205891
+<search_likelihood>-80.047520524467018</search_likelihood>
