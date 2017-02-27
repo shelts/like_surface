@@ -3,6 +3,6 @@
 
 # cd like_surface
 git status
-git add --all
+git add *.py *.sh
 git commit -m "update"
 git push
