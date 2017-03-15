@@ -38,7 +38,7 @@ m_rg          = [1., 120.0, 5]#23
 mr_rg         = [.01, .95, .05]#18
 
 
-ft_N = 1
+ft_N = 50
 bt_N = 50
 r_N  = 50
 rr_N = 50
@@ -55,12 +55,12 @@ make_correct_answer_hist  = y
 run_regular_iteration     = n
 run_random_iteration      = y
 
-run_forward_evole_time    = n
-run_backward_evolve_ratio = n
-run_radius                = n
-run_radius_ratio          = n
-run_mass                  = n
-run_mass_ratio            = n
+run_forward_evole_time    = y
+run_backward_evolve_ratio = y
+run_radius                = y
+run_radius_ratio          = y
+run_mass                  = y
+run_mass_ratio            = y
 #--------------------------------------------------------------------------------------------------
 
 def rebuild():
