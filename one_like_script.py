@@ -52,7 +52,7 @@ if(narrow_range):
 
 
 if(oneD_sweep):
-    N = 5
+    N = 1
     M = 0
 if(twoD_sweep):
     N = 15
