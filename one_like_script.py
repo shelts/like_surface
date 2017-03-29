@@ -23,7 +23,8 @@ plot_cost_emd = n
 
 narrow_range = n
 special_parser = n
-name_of_sweeps = "_rand_iter"
+name_of_sweeps = "_rand_iter_outlier_rejection"
+#name_of_sweeps = "_rand_iter_vel_disp"
 oneD_names   = ['ft', 'r', 'rr', 'm', 'mr']
 #oneD_names   = ['ft', 'm', 'mr']
 
@@ -52,7 +53,7 @@ if(narrow_range):
 
 
 if(oneD_sweep):
-    N = 1
+    N = 5
     M = 0
 if(twoD_sweep):
     N = 15
@@ -180,9 +181,12 @@ def combine(name_of_sweeps, random_iter, names):
         if(counter_like != counter_val):
             print "value list length mismatch", name_of_sweeps, i
             break
+        else:
+            print "lists match, proceeding"
 
         if(oneD_sweep):
             if(random_iter):#if the parameter sweep was using random iteration:
+                print "sorting"
                 vals_new, likes_new = sort(likes, vals)
                 #sort the data values in order of least to greats with their corresponding likelihoods.
                 #make sure the likelihoods were sorted correctly with the values
@@ -229,7 +233,9 @@ def parser(name_of_sweeps, random_iter, names):
         
     f.close()
     g.close()
+    print "combining"
     combine(name_of_sweeps, random_iter, names)
+    print "making correct\n"
     make_correct(name_of_sweeps)#make a file with the correct answers. 
     return 0 
 
@@ -438,7 +444,9 @@ def random_iterator_sweep(name_of_sweeps):
     #likelihoods from least to greatest
     if(oneD_sweep):
         oneD_cleanse(name_of_sweeps)
+        print "parsing"
         parser(name_of_sweeps, random_iter, oneD_names)
+        print "plotting"
         oneD_plot(name_of_sweeps)
         
         if(oneD_multiploter):
@@ -458,8 +466,8 @@ def oneD_cleanse(name_of_sweeps):
     os.system("rm -r 1D_like_surface/likelihood_data" + name_of_sweeps)
     os.system("mkdir 1D_like_surface/likelihood_data" + name_of_sweeps)
 
-    #os.system("rm -r 1D_like_surface/plots" + name_of_sweeps)
-    #os.system("mkdir 1D_like_surface/plots" + name_of_sweeps)
+    os.system("rm -r 1D_like_surface/plots" + name_of_sweeps)
+    os.system("mkdir 1D_like_surface/plots" + name_of_sweeps)
 
     #os.system("rm -r 1D_like_surface/parameter_data")
     #os.system("mkdir 1D_like_surface/parameter_data")
