@@ -7,7 +7,7 @@ random.seed(a = 12345678)
 #--------------------------------------------------------------------------------------------------
 #       PARAMETER LIBRARY       #
 #--------------------------------------------------------------------------------------------------
-args = [3.95, 0.98, 0.2, 0.2, 6, 0.2]
+args = [3.95, 0.98, 0.2, 0.2, 12, 0.2]
 ft_cn  = (args[0])#cn for correct number
 bt_cn  = (args[1])
 r_cn   = (args[2])
@@ -33,7 +33,7 @@ path = sid_dir
 
 folder        = path + "like_surface/2d_sweep_hists/"
 binary        = path + "nbody_test/bin/milkyway_nbody"
-lua           = path + "/lua/EMD_v162.lua"
+lua           = path + "/lua/full_control.lua"
 seed          = "98213548"
 
 input_hist    = folder + "arg_" + ft_c + "_" + bt_c + "_" + r_c + "_" + rr_c + "_" + m_c + "_" + mr_c + "_correct.hist"
@@ -58,9 +58,9 @@ mr_s, mr_e, mr_in = mr[0], mr[1], mr[2]
 ft_N = 25
 bt_N = 25
 r_N  = 4
-rr_N = 4
+rr_N = 25
 m_N  = 4
-mr_N = 4
+mr_N = 25
 
 
 
@@ -77,7 +77,7 @@ run_random_iteration      = y
 
 
 
-run_ft_v_bt = y
+run_ft_v_bt = n
 run_ft_v_r  = n
 run_ft_v_rr = n
 run_ft_v_m  = n
@@ -93,7 +93,7 @@ run_r_v_m   = n
 run_r_v_mr  = n
 
 run_rr_v_m  = n
-run_rr_v_mr = n
+run_rr_v_mr = y
 
 run_m_v_mr  = n
 #--------------------------------------------------------------------------------------------------
@@ -317,7 +317,7 @@ def run_sweep(start1, end1, intv1, para1, start2, end2, intv2, para2):
     f.close()#close the files
     return 0
 
-def randon_iteration_sweep(start1, end1, N1, para1, start2, end2, N2, para2):
+def random_iteration_sweep(start1, end1, N1, para1, start2, end2, N2, para2):
     counter1 = 0.0
     counter2 = 0.0
     #sweep name
@@ -452,40 +452,40 @@ def main():
     
     if(run_random_iteration):
         if(run_ft_v_bt):
-            randon_iteration_sweep(ft_s, ft_e, ft_N, 'ft', bt_s, bt_e, bt_N, 'bt')
+            random_iteration_sweep(ft_s, ft_e, ft_N, 'ft', bt_s, bt_e, bt_N, 'bt')
         if(run_ft_v_r ):
-            randon_iteration_sweep(ft_s, ft_e, ft_N, 'ft', r_s,  r_e,  r_N,  'r')
+            random_iteration_sweep(ft_s, ft_e, ft_N, 'ft', r_s,  r_e,  r_N,  'r')
         if(run_ft_v_rr):
-            randon_iteration_sweep(ft_s, ft_e, ft_N, 'ft', rr_s, rr_e, rr_N, 'rr')
+            random_iteration_sweep(ft_s, ft_e, ft_N, 'ft', rr_s, rr_e, rr_N, 'rr')
         if(run_ft_v_m ):
-            randon_iteration_sweep(ft_s, ft_e, ft_N, 'ft', m_s,  m_e,  m_N,  'm')
+            random_iteration_sweep(ft_s, ft_e, ft_N, 'ft', m_s,  m_e,  m_N,  'm')
         if(run_ft_v_mr):
-            randon_iteration_sweep(ft_s, ft_e, ft_N, 'ft', mr_s, mr_e, mr_N, 'mr')
+            random_iteration_sweep(ft_s, ft_e, ft_N, 'ft', mr_s, mr_e, mr_N, 'mr')
             
         if(run_bt_v_r  ):
-            randon_iteration_sweep(bt_s, bt_e, bt_N, 'bt', r_s,  r_e,  r_N,  'r')
+            random_iteration_sweep(bt_s, bt_e, bt_N, 'bt', r_s,  r_e,  r_N,  'r')
         if(run_bt_v_rr ):
-            randon_iteration_sweep(bt_s, bt_e, bt_N, 'bt', rr_s, rr_e, rr_N, 'rr')
+            random_iteration_sweep(bt_s, bt_e, bt_N, 'bt', rr_s, rr_e, rr_N, 'rr')
         if(run_bt_v_m  ):
-            randon_iteration_sweep(bt_s, bt_e, bt_N, 'bt', m_s,  m_e,  m_N,  'm')
+            random_iteration_sweep(bt_s, bt_e, bt_N, 'bt', m_s,  m_e,  m_N,  'm')
         if(run_bt_v_mr ):
-            randon_iteration_sweep(bt_s, bt_e, bt_N, 'bt', mr_s, mr_e, mr_N, 'mr')
+            random_iteration_sweep(bt_s, bt_e, bt_N, 'bt', mr_s, mr_e, mr_N, 'mr')
             
             
         if(run_r_v_rr  ):
-            randon_iteration_sweep(r_s,  r_e,  r_N,  'r',  rr_s, rr_e, rr_N, 'rr')
+            random_iteration_sweep(r_s,  r_e,  r_N,  'r',  rr_s, rr_e, rr_N, 'rr')
         if(run_r_v_m   ):
-            randon_iteration_sweep(r_s,  r_e,  r_N,  'r',  m_s,  m_e,  m_N,  'm')
+            random_iteration_sweep(r_s,  r_e,  r_N,  'r',  m_s,  m_e,  m_N,  'm')
         if(run_r_v_mr  ):
-            randon_iteration_sweep(r_s,  r_e,  r_N,  'r',  mr_s, mr_e, mr_N, 'mr')
+            random_iteration_sweep(r_s,  r_e,  r_N,  'r',  mr_s, mr_e, mr_N, 'mr')
             
         if(run_rr_v_m  ):
-            randon_iteration_sweep(rr_s, rr_e, rr_N, 'rr', m_s,  m_e,  m_N,  'm')
+            random_iteration_sweep(rr_s, rr_e, rr_N, 'rr', m_s,  m_e,  m_N,  'm')
         if(run_rr_v_mr ):
-            randon_iteration_sweep(rr_s, rr_e, rr_N, 'rr', mr_s, mr_e, mr_N, 'mr')
+            random_iteration_sweep(rr_s, rr_e, rr_N, 'rr', mr_s, mr_e, mr_N, 'mr')
             
         if(run_m_v_mr  ):
-            randon_iteration_sweep(m_s,  m_e,  m_N,  'm',  mr_s, mr_e, mr_N, 'mr')
+            random_iteration_sweep(m_s,  m_e,  m_N,  'm',  mr_s, mr_e, mr_N, 'mr')
             
             
 main()

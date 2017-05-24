@@ -23,8 +23,10 @@ plot_cost_emd = n
 
 narrow_range = n
 special_parser = n
-name_of_sweeps = "_rand_iter_outlier_rejection"
+#name_of_sweeps = "_rand_iter_outlier_rejection"
 #name_of_sweeps = "_rand_iter_vel_disp"
+name_of_sweeps = "_rand_iter_recursive_outlier_30bin_vel_disp_best_like_98per_6recur"
+
 oneD_names   = ['ft', 'r', 'rr', 'm', 'mr']
 #oneD_names   = ['ft', 'm', 'mr']
 
@@ -96,6 +98,7 @@ def sort(likes, vals):
                 val_tmp[i + 1] = val_new[i]
                 like_tmp[i] = like_new[i + 1]
                 like_tmp[i + 1] = like_new[i]
+
             for j in range(0, N):
                 val_new[j] = val_tmp[j]
                 like_new[j] = like_tmp[j]
@@ -103,12 +106,13 @@ def sort(likes, vals):
         for i in range(0, N - 1):
             in_order = True
             diff = (val_new[i + 1]) - (val_new[i])
-            if(diff > 0):
+            if(diff >= 0):
                 continue
+            
             else:
                 in_order = False
                 break
-        if(in_order == True):
+        if(in_order):
             break
     return val_new, like_new
 
@@ -121,6 +125,7 @@ def reliability(likes, likes_new, vals, vals_new):
         for j in range(0, N):
             if(vals[i] == vals_new[j] and likes[i] == likes_new[j]):
                 matches += 1.0
+                break
     fraction_match = 100.0 * matches / float(N)
     return fraction_match
 
@@ -191,7 +196,7 @@ def combine(name_of_sweeps, random_iter, names):
                 #sort the data values in order of least to greats with their corresponding likelihoods.
                 #make sure the likelihoods were sorted correctly with the values
                 reliability_of_sorting = reliability(likes, likes_new, vals, vals_new)
-                
+                print reliability_of_sorting
                 if(reliability_of_sorting != 100.0):
                     print "HOLY FUCKING SHIT, SOMETHING IS WRONG"
                 
