@@ -372,8 +372,8 @@ def random_iteration_sweep(start1, end1, N1, para1, start2, end2, N2, para2):
             if(counter2 == 0.0):#put the correct value for the inner loop first
                 ft_tmp, bt_tmp, r_tmp, rr_tmp, m_tmp, mr_tmp, name2 = correct_set(para2, ft_tmp, bt_tmp, r_tmp, rr_tmp, m_tmp, mr_tmp)
                 
-                output_hist = folder + pipe_name + "_hists/" + "arg_" + ft_c + "_" + bt_c + "_" + r_c + "_" + rr_c + "_" + m_c + "_" + mr_c + ".hist" #set the hist name
-                nbody(output_hist, ft_c, bt_c, r_c, rr_c, m_c, mr_c, pipe_name, sweep_name)
+                output_hist = folder + pipe_name + "_hists/" + "arg_" + ft_tmp + "_" + bt_tmp + "_" + r_tmp + "_" + rr_tmp + "_" + m_tmp + "_" + mr_tmp + ".hist" #set the hist name
+                nbody(output_hist, ft_tmp, bt_tmp, r_tmp, rr_tmp, m_tmp, mr_tmp, pipe_name, sweep_name)
                 
                 f.write("%s\t%s\n" % (name1, name2)) #write values to value file
                 

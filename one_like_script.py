@@ -15,8 +15,8 @@ twoD_clean = n
 reg_iterator  = n
 ran_iterator  = y
 
-oneD_sweep = y
-twoD_sweep = n
+oneD_sweep = n
+twoD_sweep = y
 
 oneD_multiploter = y
 plot_cost_emd = n
@@ -26,6 +26,7 @@ special_parser = n
 #name_of_sweeps = "_rand_iter_outlier_rejection"
 #name_of_sweeps = "_rand_iter_vel_disp"
 name_of_sweeps = "_rand_iter_recursive_outlier_30bin_vel_disp_best_like_98per_6recur"
+name_of_sweeps = '_2d_rand_iter'
 
 oneD_names   = ['ft', 'r', 'rr', 'm', 'mr']
 #oneD_names   = ['ft', 'm', 'mr']
@@ -35,6 +36,8 @@ twoD_names   = [ 'ft_bt', 'ft_rad', 'ft_rr', 'ft_m', 'ft_mr',
                  'r_rr', 'r_m', 'r_mr', 
                  'rr_m', 'rr_mr', 
                  'm_mr']
+
+twoD_names   = ['rr_mr']
 
 #twoD_names   = ['r_rr', 'r_m', 'r_mr', 'rr_m', 'rr_mr', 'm_mr']
 c          = [3.95, 0.2, 0.2, 12, 0.2]
@@ -58,8 +61,8 @@ if(oneD_sweep):
     N = 5
     M = 0
 if(twoD_sweep):
-    N = 15
-    M = 9
+    N = 1
+    M = 0
 
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
@@ -413,7 +416,7 @@ def twoD_plot():
         p = "<paste 2D_like_surface/parameter_data/" + names[i] + ".txt 2D_like_surface/likelihood_data/" + names[i] + "_data.txt"
         f.write("set output '2D_like_surface/plots/" + names[i] + ".png' \n")
         f.write("set title 'Likelihood Surface of " + str(xlabels[i]) + " vs " + str(ylabels[i]) + "' \n")
-        f.write("plot '" + p + "' using 1:2:3  with image \n\n") 
+        f.write("plot '" + p + "' using 1:2:3  with dots \n\n") 
 
         f.write("# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # \n")
         f.write("# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # \n")
@@ -460,7 +463,7 @@ def random_iterator_sweep(name_of_sweeps):
     if(twoD_sweep):
         twoD_cleanse(name_of_sweeps)
         parser(name_of_sweeps, random_iter, twoD_names)
-        #twoD_plot(name_of_sweeps)
+        twoD_plot(name_of_sweeps)
         
     return 0
 
