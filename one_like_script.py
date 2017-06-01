@@ -359,7 +359,7 @@ def oneD_multiplot(name_of_sweeps):
 # # # # # # # # # # # # # # # # # # # # # #
 #    Two Dimensional Surface Sweep Func   #
 # # # # # # # # # # # # # # # # # # # # # #
-def twoD_plot():
+def twoD_plot(name_of_sweeps):
     ft  = [1.0, 3.0]
     bt  = [0.8, 1.2]
     r   = [0.1, 0.9]
@@ -376,19 +376,30 @@ def twoD_plot():
     m_r = 'Mass Ratio'
 
 
-    names = [ 'ft_vs_bt', 'ft_vs_rad', 'ft_vs_rr', 'ft_vs_m', 'ft_vs_mr', 'bt_vs_r', 'bt_vs_rr', 'bt_vs_m', 'bt_vs_mr', 'r_vs_rr', 'r_vs_m', 'r_vs_mr', 'rr_vs_m', 'rr_vs_mr', 'm_vs_mr']
-    xlabels = [f, f, f, f, f, b, b, b, b, rad, rad ,rad, r_r, r_r, mass]  
-    ylabels = [b, rad, r_r, mass, m_r, rad, r_r, mass, m_r, r_r, mass, m_r, mass, m_r, m_r]
+    #names = [ 'ft_vs_bt', 'ft_vs_rad', 'ft_vs_rr', 'ft_vs_m', 'ft_vs_mr', 'bt_vs_r', 'bt_vs_rr', 'bt_vs_m', 'bt_vs_mr', 'r_vs_rr', 'r_vs_m', 'r_vs_mr', 'rr_vs_m', 'rr_vs_mr', 'm_vs_mr']
+    names = [ 'rr_mr']
+    xlabels = ['rr']
+    ylabels = ['mr']
+    
+    #xlabels = [f, f, f, f, f, b, b, b, b, rad, rad ,rad, r_r, r_r, mass]  
+    #ylabels = [b, rad, r_r, mass, m_r, rad, r_r, mass, m_r, r_r, mass, m_r, mass, m_r, m_r]
 
-    xranges_start = [ft[0], ft[0], ft[0], ft[0], ft[0], bt[0], bt[0], bt[0], bt[0], r[0], r[0], r[0], rr[0], rr[0], m[0]]
-    yranges_start = [bt[0], r[0], rr[0], m[0], mr[0], r[0], rr[0], m [0], mr[0], rr[0], m[0], mr[0], m[0], mr[0], mr[0]]
+    #xranges_start = [ft[0], ft[0], ft[0], ft[0], ft[0], bt[0], bt[0], bt[0], bt[0], r[0], r[0], r[0], rr[0], rr[0], m[0]]
+    #yranges_start = [bt[0], r[0], rr[0], m[0], mr[0], r[0], rr[0], m [0], mr[0], rr[0], m[0], mr[0], m[0], mr[0], mr[0]]
 
-    xranges = [ft[1], ft[1], ft[1], ft[1], ft[1], bt[1], bt[1], bt[1], bt[1], r[1], r[1], r[1], rr[1], rr[1], m[1]]
-    yranges = [bt[1], r[1], rr[1], m[1], mr[1], r[1], rr[1], m [1], mr[1], rr[1], m[1], mr[1], m[1], mr[1], mr[1]]
+    #xranges_end = [ft[1], ft[1], ft[1], ft[1], ft[1], bt[1], bt[1], bt[1], bt[1], r[1], r[1], r[1], rr[1], rr[1], m[1]]
+    #yranges_end = [bt[1], r[1], rr[1], m[1], mr[1], r[1], rr[1], m [1], mr[1], rr[1], m[1], mr[1], m[1], mr[1], mr[1]]
 
-    color_cutoff = -200
+    xranges_start = [rr[0]]
+    yranges_start = [mr[0]]
+    
+    xranges_end = [rr[1]]
+    yranges_end = [rr[1]]
+    
 
-    N  = 15
+    color_cutoff = -50
+
+    N  = 1
     M  = 0
 
     # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
@@ -399,9 +410,9 @@ def twoD_plot():
 
     f = open('2D_plot.gnuplot', 'w')
     f.write("reset\n")
-    f.write("set terminal png\n")
+    f.write("set terminal wxt persist\n")
     f.write("set key off\n")
-    f.write("set pm3d interpolate 50,50\n")
+    #f.write("set pm3d interpolate 50,50\n")
     for i in range(M, N):
         f.write("set xlabel '" + xlabels[i] + "'\n")
         f.write("set ylabel '" + ylabels[i] + "'\n")
@@ -409,14 +420,14 @@ def twoD_plot():
         #f.write("set palette  maxcolors 1000\n")
         #f.write("set palette rgbformulae \n")
         #f.write("set palette gray \n")
-        f.write("set cbrange[" + str(color_cutoff) + ":0]\n")
-        f.write("set xrange[" + str(xranges_start[i]) + ":" + str(xranges[i]) + "]\n")
-        f.write("set yrange[" + str(yranges_start[i]) + ":" + str(yranges[i]) + "]\n\n\n")
-
-        p = "<paste 2D_like_surface/parameter_data/" + names[i] + ".txt 2D_like_surface/likelihood_data/" + names[i] + "_data.txt"
-        f.write("set output '2D_like_surface/plots/" + names[i] + ".png' \n")
+        f.write("set zrange[" + str(color_cutoff) + ":0]\n")
+        f.write("set xrange[" + str(xranges_start[i]) + ":" + str(xranges_end[i]) + "]\n")
+        f.write("set yrange[" + str(yranges_start[i]) + ":" + str(yranges_end[i]) + "]\n\n\n")
+        #f.write("set podint
+        p = "<paste 2D_like_surface/likelihood_data" + name_of_sweeps + "/" + names[i] + "_data_vals.txt"
+        f.write("set output '2D_like_surface/plots" + name_of_sweeps + "/" + names[i] + ".png' \n")
         f.write("set title 'Likelihood Surface of " + str(xlabels[i]) + " vs " + str(ylabels[i]) + "' \n")
-        f.write("plot '" + p + "' using 1:2:3  with dots \n\n") 
+        f.write("splot '" + p + "' using 1:2:3  with points pointtype 5 ps 0.5 \n\n") 
 
         f.write("# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # \n")
         f.write("# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # \n")

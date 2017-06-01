@@ -69,11 +69,11 @@ n  = False
 
 
 #choose what to run.
-make_folders              = y
+make_folders              = n
 rebuild_binary            = n
-make_correct_answer_hist  = y
+make_correct_answer_hist  = n
 run_regular_iteration     = n
-run_random_iteration      = y
+run_random_iteration      = n
 
 
 
@@ -317,6 +317,52 @@ def run_sweep(start1, end1, intv1, para1, start2, end2, intv2, para2):
     f.close()#close the files
     return 0
 
+def tmp_sweep_correction(start1, end1, N1, para1, start2, end2, N2, para2):
+    counter = 0
+    rrs = [0.4170584501, 
+           0.2107946813, 
+           0.3575861589, 
+           0.3758760553, 
+           0.0230560377, 
+           0.1799287515,
+           0.1314197617,
+           0.4534621829,
+           0.2953949994,
+           0.4302072331,
+           0.084536664,
+           0.303708456,
+           0.040928522,
+           0.2885632999,
+           0.2928602405,
+           0.497721423,
+           0.2935240269,
+           0.2482222544,
+           0.286666601,
+           0.2877686545,
+           0.2803815874,
+           0.0482648795,
+           0.078455945,
+           0.4939880484,
+           0.3552749709]
+
+    sweep_name = "_2d_rand_iter"
+    pipe_name = para1 + "_" + para2 + "_correction"
+    data_vals   = folder + "parameter_sweeps" + sweep_name + "/" + pipe_name + "_vals.txt"
+    f = open(data_vals, 'w')
+    
+    output_hist = 'tmp.hist'
+    nbody(output_hist, ft_c, bt_c, r_c, str(0.41705845006 ), m_c,  str(0.935116486918), pipe_name, sweep_name)
+    f.write("%s\t%s\n" % (str(0.41705845006 ), str(0.935116486918)))  #write values to value file
+    
+    
+    
+    for i in range(0, len(rrs)):
+        name1 = str(rrs[i])
+        nbody(output_hist, ft_c, bt_c, r_c, name1, m_c, mr_c, pipe_name, sweep_name)
+    
+    f.close()
+    
+    
 def random_iteration_sweep(start1, end1, N1, para1, start2, end2, N2, para2):
     counter1 = 0.0
     counter2 = 0.0
@@ -487,7 +533,7 @@ def main():
         if(run_m_v_mr  ):
             random_iteration_sweep(m_s,  m_e,  m_N,  'm',  mr_s, mr_e, mr_N, 'mr')
             
-            
+    tmp_sweep_correction(r_s,  r_e,  r_N,  'r',  mr_s, mr_e, mr_N, 'mr')
 main()
             
         
