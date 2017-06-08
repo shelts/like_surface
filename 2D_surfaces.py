@@ -26,7 +26,7 @@ mr_c  = str(args[5])
 
 
 
-lmc_dir = '~/research/'
+lmc_dir = '/home/research/'
 sid_dir = '/home/sidd/Desktop/research/'
 sgr_dir = '/Users/master/sidd_research/'
 path = sid_dir
@@ -97,7 +97,137 @@ run_rr_v_mr = y
 
 run_m_v_mr  = n
 #--------------------------------------------------------------------------------------------------
+class paramaters:
+    def _init_(self, ft_c, bt_c, r_c, rr_c, m_c, mr_c, hist_path, sweep_name, pipe_name):
+    self.ft_c       = ft_c 
+    self.bt_c       = bt_c
+    self.r_c        = r_c
+    self.rr_c       = rr_c
+    self.m_c        = m_c
+    self.mr_c       = mr_c
+    self.hist_path  = hist_path
+    self.sweep_name = sweep_name
+    self.pipe_name  = pipe_name
+    
+    self.ft_tmp       = ft_c 
+    self.bt_tmp       = bt_c
+    self.r_tmp        = r_c
+    self.rr_tmp       = rr_c
+    self.m_tmp        = m_c
+    self.mr_tmp       = mr_c
+    self.hist_tmp     = hist_path
+    
+    def set_parameter(self, parameter, value):
+        if(parameter == 'ft'):#initializes the needed parameter to the value
+            self.ft_tmp = str(value)
+        
+        elif(parameter == 'bt'):
+            self.bt_tmp = str(value)
+        
+        elif(parameter == 'r'):
+            self.r_tmp = str(value)
+        
+        elif(parameter == 'rr'):
+            self.rr_tmp = str(value)
+        
+        elif(parameter == 'm'):
+            self.m_tmp = str(value)
+        
+        elif(parameter == 'mr'):
+            self.mr_tmp = str(value)
+            
+            
+    def parameter_reset(self):
+        self.ft_tmp       = self.ft_c 
+        self.bt_tmp       = self.bt_c
+        self.r_tmp        = self.r_c
+        self.rr_tmp       = self.rr_c
+        self.m_tmp        = self.m_c
+        self.mr_tmp       = self.mr_c
+        self.hist_tmp     = self.hist_path
 
+
+    def set_correct(self, parameter):
+        if(parameter == 'ft'):#initializes the needed parameter to the value
+            self.ft_tmp = self.ft_c 
+
+        elif(parameter == 'bt'):
+            self.bt_tmp = self.bt_c
+        
+        elif(parameter == 'r'):
+            self.r_tmp  = self.r_c
+        
+        elif(parameter == 'rr'):
+            self.rr_tmp = self.rr_c
+        
+        elif(parameter == 'm'):
+            self.m_tmp  = self.m_c
+        
+        elif(parameter == 'mr'):
+            self.mr_tmp = self.mr_c
+            
+
+    def set_hist(self):
+        self.hist_tmp = self.hist_path + ft_tmp + "_" + bt_tmp + "_" + r_tmp + "_" + rr_tmp + "_" + m_tmp + "_" + mr_tmp + ".hist"
+        
+    def run_nbody(self):
+        output_hist = self.hist_tmp
+        ft          = self.ft_tmp
+        bt          = self.bt_tmp
+        r           = self.r_tmp
+        rr          = self.rr_tmp
+        m           = self.m_tmp
+        mr          = self.mr_tmp
+        sweep_name  = self.sweep_name
+        file_name   = self.pipe_name
+        
+        os.system(" " + binary + " \
+                -f " + lua + " \
+                -h " + input_hist + " \
+                -z " + output_hist + " \
+                -n 14 -b -e " + seed + " -i " + ft + " " + bt + " " + r + " " + rr + " " + m + " " + mr + " \
+                2>>" + folder + "parameter_sweeps" + sweep_name + "/" + file_name + ".txt")
+
+    def write_parameters(self, f, paramater1, parameter2):
+        if(parameter1 == 'ft'):#initializes the needed parameter to the value
+            name1 = self.ft_tmp
+        
+        elif(parameter1 == 'bt'):
+            name1 = self.bt_tmp
+        
+        elif(parameter1 == 'r'):
+            name1 = self.r_tmp 
+        
+        elif(parameter1 == 'rr'):
+            name1 = self.rr_tmp
+        
+        elif(parameter1 == 'm'):
+            name1 = self.m_tmp 
+        
+        elif(parameter1 == 'mr'):
+            name1 = self.mr_tmp
+            
+            
+        if(parameter2 == 'ft'):#initializes the needed parameter to the value
+            name2 = self.ft_tmp
+        
+        elif(parameter2 == 'bt'):
+            name2 = self.bt_tmp
+        
+        elif(parameter2 == 'r'):
+            name2 = self.r_tmp 
+        
+        elif(parameter2 == 'rr'):
+            name2 = self.rr_tmp
+        
+        elif(parameter2 == 'm'):
+            name2 = self.m_tmp 
+        
+        elif(parameter2 == 'mr'):
+            name2 = self.mr_tmp
+            
+        
+        f.write("%s\t%s \n" % (name1, name2))
 
 def rebuild():#rebuilds nbody
     os.chdir(".")
@@ -402,12 +532,11 @@ def tmp_sweep_correction(start1, end1, N1, para1, start2, end2, N2, para2):
     pipe_name = para1 + "_" + para2 + "_correction"
     data_vals   = folder + "parameter_sweeps" + sweep_name + "/" + pipe_name + "_vals.txt"
     f = open(data_vals, 'w')
-    	
+
     output_hist = 'tmp.hist'
     nbody(output_hist, ft_c, bt_c, r_c, str(0.41705845006 ), m_c,  str(0.935116486918), pipe_name, sweep_name)
     f.write("%s\t%s\n" % (str(0.248689923413 ), str(0.207698339875)))  #write values to value file tel
     f.write("%s\t%s\n" % (str(0.486679872738 ), str(0.661017083692)))
-    	
     
     for i in range(0, len(rrs)):
         name1 = str(rrs[i])
@@ -492,6 +621,71 @@ def random_iteration_sweep(start1, end1, N1, para1, start2, end2, N2, para2):
         
     f.close()
     return 0
+
+
+def truly_random_sweep(start1, end1, N1, para1, start2, end2, N2, para2):
+    counter1 = 0.0
+    counter2 = 0.0
+    #sweep name
+    sweep_name = "_2d_rand_iter"
+    #name of the files
+    pipe_name = para1 + "_" + para2
+    hist_path = folder + pipe_name + "_hists/" + "arg_"
+    
+    os.system("mkdir " + folder + "parameter_sweeps" + sweep_name)
+    data_vals   = folder + "parameter_sweeps" + sweep_name + "/" + pipe_name + "_vals.txt"
+    f = open(data_vals, 'w')
+    
+    ft_tmp = ft_c
+    bt_tmp = bt_c
+    r_tmp  = r_c
+    rr_tmp = rr_c
+    m_tmp  = m_c
+    mr_tmp = mr_c
+    
+    N = (N1 * N2) / 3
+    para = parameter(ft_c, bt_c, r_c, rr_c, m_c, mr_c, hist_path, sweep_name, pipe_name)
+    #run the correct answer first
+    para.set_hist()
+    para.run_nbody()
+    para.write_parameters(f, para1, para1)
+    
+    #this iterates over one parameter on the outside and another on the inside
+    while counter < N:
+        
+        value1 = random.uniform(0.0, 1.0) * (end1 - start1) + start1 #randomly select a value within the sweep range for parameter1
+        value2 = random.uniform(0.0, 1.0) * (end2 - start2) + start2 #randomly select a value within the sweep range for parameter2
+        
+        #set both parameters to correct answer
+        para.parameter_reset()
+        
+        
+        #set first parameter to random value keeping second as correct
+        para.set_parameter(para1, value1)
+        para.set_hist()
+        para.run_nbody()
+        para.write_parameters(f, para1, para2)
+        
+        
+        #set both parameters to random numbers
+        para.set_parameter(para2, value2)
+        para.set_hist()
+        para.run_nbody()
+        para.write_parameters(f, para1, para2)
+        
+        
+        #set the first to correct and the second to the random number
+        para.set_correct(para1)
+        para.set_hist()
+        para.run_nbody()
+        para.write_parameters(f, para1, para2)
+        
+        counter += 1
+        
+    f.close()
+    return 0
+
+
     
 def mk_dirs():
     names = [ 'ft_bt', 'ft_rad', 'ft_rr', 'ft_m', 'ft_mr', 'bt_r', 'bt_rr', 'bt_m', 'bt_mr', 'r_rr', 'r_m', 'r_mr', 'rr_m', 'rr_mr', 'm_mr']

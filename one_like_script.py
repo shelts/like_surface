@@ -269,23 +269,29 @@ def oneD_plot(name_of_sweeps):
 
 
     f = open('1D_plot' + name_of_sweeps + '.gnuplot', 'w')
-    f.write("reset\n")
-    f.write("set terminal jpeg\n")
-    f.write("set key off\n")
 
+    gnu_header = ["reset",
+                  "set terminal jpeg", 
+                  "set key off"]
+    for j in range(0, len(gnu_header)):
+        f.writelines(gnu_header[j] + "\n")
+            
     for i in range(M, N):
-        f.write("set xlabel '" + titles[i] + "'\n")
-        f.write("set ylabel 'likelihood'\n")
-        f.write("set yrange [" + str(l) + ":0]\n")
-        f.write("set xrange [" + str(ranges_start[i]) + ":" + str(ranges_end[i]) + "]\n")
-        
-        #p = "<paste 1D_like_surface/parameter_data/" + oneD_names[i] + "_vals.txt 1D_like_surface/likelihood_data/" + oneD_names[i] + "_data.txt"
         p = "1D_like_surface/likelihood_data" + name_of_sweeps + "/" + oneD_names[i] + "_data_vals.txt"
-        f.write("set output '1D_like_surface/plots" + name_of_sweeps + "/" + oneD_names[i] + ".jpeg' \n")
-        f.write("set title 'Likelihood Surface of " + titles[i] + "' \n")
-        f.write("plot '" + p + "' using 1:2  with lines\n\n") 
+        
+        gnu_args = ["set xlabel '" + titles[i] + "'",
+                    "set ylabel 'likelihood'",
+                    "set yrange [" + str(l) + ":0]",
+                    "set xrange [" + str(ranges_start[i]) + ":" + str(ranges_end[i]) + "]",
+                    "set output '1D_like_surface/plots" + name_of_sweeps + "/" + oneD_names[i] + ".jpeg' ",
+                    "set title 'Likelihood Surface of " + titles[i] + "' ",
+                    "plot '" + p + "' using 1:2  with lines\n"
+                    ]
+        for j in range(0, len(gnu_header)):
+            f.writelines(gnu_args[j] + "\n")
+            
+        #p = "<paste 1D_like_surface/parameter_data/" + oneD_names[i] + "_vals.txt 1D_like_surface/likelihood_data/" + oneD_names[i] + "_data.txt"
 
-        f.write("# # # # # # # # # # # # # # # # # #\n")
 
     f.close()
 
@@ -409,29 +415,63 @@ def twoD_plot(name_of_sweeps):
 
 
     f = open('2D_plot.gnuplot', 'w')
-    f.write("reset\n")
-    f.write("set terminal wxt persist\n")
-    f.write("set key off\n")
-    #f.write("set pm3d interpolate 50,50\n")
+    gnu_header = ["reset",
+                  "set terminal wxt persist", 
+                  "set key off"]
+    for j in range(0, len(gnu_header)):
+            f.writelines(gnu_header[j] + "\n")
+            
     for i in range(M, N):
-        f.write("set xlabel '" + xlabels[i] + "'\n")
-        f.write("set ylabel '" + ylabels[i] + "'\n")
-        f.write("set zlabel 'likelihood'\n")
-        #f.write("set palette  maxcolors 1000\n")
-        #f.write("set palette rgbformulae \n")
-        #f.write("set palette gray \n")
-        f.write("set zrange[" + str(color_cutoff) + ":0]\n")
-        f.write("set xrange[" + str(xranges_start[i]) + ":" + str(xranges_end[i]) + "]\n")
-        f.write("set yrange[" + str(yranges_start[i]) + ":" + str(yranges_end[i]) + "]\n\n\n")
-        #f.write("set podint
-        p = "<paste 2D_like_surface/likelihood_data" + name_of_sweeps + "/" + names[i] + "_data_vals.txt"
-        f.write("set output '2D_like_surface/plots" + name_of_sweeps + "/" + names[i] + ".png' \n")
-        f.write("set title 'Likelihood Surface of " + str(xlabels[i]) + " vs " + str(ylabels[i]) + "' \n")
-        f.write("splot '" + p + "' using 1:2:3  with points pointtype 5 ps 0.5 \n\n") 
+        p = "./2D_like_surface/likelihood_data" + name_of_sweeps + "/" + names[i] + "_data_vals.txt"
+        gnu_args = ["set xlabel '" + xlabels[i] + "'", 
+                    "set ylabel '" + ylabels[i] + "' ",
+                    "set zlabel 'likelihood' ",
+                    "set cbrange[" + str(color_cutoff) + ":0]", 
+                    "set zrange[" + str(color_cutoff) + ":0]", 
+                    "set xrange[" + str(xranges_start[i]) + ":" + str(xranges_end[i]) + "]",
+                    "set yrange[" + str(yranges_start[i]) + ":" + str(yranges_end[i]) + "]",
+                    #"set palette  maxcolors 1000\n",
+                    #"set palette rgbformulae \n",
+                    #"set palette gray \n",
+                    "set output '2D_like_surface/plots" + name_of_sweeps + "/" + names[i] + ".png' ",
+                    "set title 'Likelihood Surface of " + str(xlabels[i]) + " vs " + str(ylabels[i]) + "' ",
+                    "splot '" + p + "' using 1:2:3  with points palette pointtype 5 ps 0.5 \n\n",
+                    #"plot '" + p + "' using 1:2:3  with points palette  ps 0.5 \n\n"
+                    ]
+        
+        for j in range(0, len(gnu_args)):
+            f.writelines(gnu_args[j] + "\n")
 
-        f.write("# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # \n")
-        f.write("# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # \n")
+    gnu_header = ["reset",
+                  "set terminal wxt persist", 
+                  "set key off",
+                  "set pm3d interpolate 50,50",
+                  "set isosample 40",
+                  "set hidden3d",
+                  ]
+    for j in range(0, len(gnu_header)):
+            #f.writelines(gnu_header[j] + "\n")
 
+    for i in range(M, N):
+        gnu_args = ["set xlabel '" + xlabels[i] + "'", 
+                    "set ylabel '" + ylabels[i] + "' ",
+                    "set zlabel 'likelihood' ",
+                    "set cbrange[" + str(color_cutoff) + ":0]", 
+                    "set zrange[" + str(color_cutoff) + ":0]", 
+                    "set xrange[" + str(xranges_start[i]) + ":" + str(xranges_end[i]) + "]",
+                    "set yrange[" + str(yranges_start[i]) + ":" + str(yranges_end[i]) + "]",
+                    #"set palette  maxcolors 1000\n",
+                    #"set palette rgbformulae \n",
+                    #"set palette gray \n",
+                    "set output '2D_like_surface/plots" + name_of_sweeps + "/" + names[i] + ".png' ",
+                    "set title 'Likelihood Surface of " + str(xlabels[i]) + " vs " + str(ylabels[i]) + "' ",
+                    "splot '" + p + "' using 1:2:3 with pm3d   \n\n"
+                    #"plot '" + p + "' using 1:2:3  with points palette  ps 0.5 \n\n"
+                    ]
+        
+        for j in range(0, len(gnu_args)):
+            #f.writelines(gnu_args[j] + "\n")
+            
     f.close()
 
     os.system("gnuplot 2D_plot.gnuplot 2>>piped_output.txt")
