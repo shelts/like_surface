@@ -3,8 +3,8 @@
 import os
 from subprocess import call
 import random
-#random.seed(a = 12345678)#lmc
-random.seed(a = 687651463)#teletraan
+random.seed(a = 12345678)#lmc
+#random.seed(a = 687651463)#teletraan
 #--------------------------------------------------------------------------------------------------
 #       PARAMETER LIBRARY       #
 #--------------------------------------------------------------------------------------------------
@@ -24,7 +24,7 @@ path = lmc_dir
 folder        = path + "like_surface/hists/"
 binary        = path + "nbody_test/bin/milkyway_nbody"
 #lua           = path + "lua/EMD_v162_bestlike.lua"
-lua           = path + "lua/mixeddwarf.lua"
+lua           = path + "lua/full_control.lua"
 seed          = "98213548"
 
 input_hist    = folder + "arg_" + ft_c + "_" + bt_c + "_" + r_c + "_" + rr_c + "_" + m_c + "_" + mr_c + "_correct.hist"
