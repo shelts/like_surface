@@ -15,8 +15,8 @@ twoD_clean = n
 reg_iterator  = n
 ran_iterator  = y
 
-oneD_sweep = n
-twoD_sweep = y
+oneD_sweep = y
+twoD_sweep = n
 
 oneD_multiploter = y
 plot_cost_emd = n
@@ -26,7 +26,7 @@ special_parser = n
 #name_of_sweeps = "_rand_iter_outlier_rejection"
 #name_of_sweeps = "_rand_iter_vel_disp"
 name_of_sweeps = "_rand_iter_recursive_outlier_30bin_vel_disp_best_like_98per_6recur"
-name_of_sweeps = '_2d_rand_iter'
+#name_of_sweeps = '_2d_rand_iter'
 
 oneD_names   = ['ft', 'r', 'rr', 'm', 'mr']
 #oneD_names   = ['ft', 'm', 'mr']
@@ -287,7 +287,7 @@ def oneD_plot(name_of_sweeps):
                     "set title 'Likelihood Surface of " + titles[i] + "' ",
                     "plot '" + p + "' using 1:2  with lines\n"
                     ]
-        for j in range(0, len(gnu_header)):
+        for j in range(0, len(gnu_args)):
             f.writelines(gnu_args[j] + "\n")
             
         #p = "<paste 1D_like_surface/parameter_data/" + oneD_names[i] + "_vals.txt 1D_like_surface/likelihood_data/" + oneD_names[i] + "_data.txt"
@@ -320,41 +320,52 @@ def oneD_multiplot(name_of_sweeps):
 
 
     f = open('multiplot_1d' + name_of_sweeps + '.gnuplot', 'w')
-    f.write("reset\n")
-    f.write("set terminal png size 1800,1200 enhanced \n")
-    f.write("set key off\n")
-    f.write("set border linewidth 2\n")
-    f.write("set title font 'Times-Roman,20'\n")
-    f.write("set output '1D_like_surface/plots" + name_of_sweeps + "/multiplot.png' \n")
-    f.write("set multiplot layout 2,3 rowsfirst\n")
+    gnu_header = ["reset",
+                  "set terminal png size 1800,1200 enhanced ",
+                  "set key off",
+                  "set border linewidth 2",
+                  "set title font 'Times-Roman,20'",
+                  "set output '1D_like_surface/plots" + name_of_sweeps + "/multiplot.png' ",
+                  "set multiplot layout 2,3 rowsfirst"]
+    for j in range(0, len(gnu_header)):
+        f.writelines(gnu_header[j] + "\n")
+        
+        
     for i in range(M, N):
-        f.write("set size ratio -1 \n")
-        f.write("set size square\n")
-        if(i == 0 or i == 3):
-            f.write("set ylabel 'Likelihood ' font ',26' offset -1,0\n")
-        else:
-            f.write("set ylabel '' font ',26' offset -1,0\n")
-            
-        f.write("set lmargin 11\n")
-        f.write("set tmargin 0\n")
-        f.write("set xlabel '" + titles[i] + "' font ',26' offset 0,-1\n")
-        #f.write("set tics scale 0.5\n")
-        if(i <= 1):
-            f.write("set xtics font ', 24' offset 0,-0.5\n")
-        elif(i == 2 or i == 4):
-            f.write("set xtics 0.1, 0.2, 0.9 font ', 24' offset 0,-0.5\n")
-        elif(i == 3):
-            f.write("set xtics 0, 20, 120 font ', 24' offset 0,-0.5\n")
-        f.write("set ytics font ', 24'\n")
-        f.write("set yrange [" + str(l) + ":0]\n")
-        f.write("set xrange[" + str(ranges_start[i]) + ":" + str(ranges_end[i]) + "]\n")
-        #f.write("set parametric\n")
         p = "1D_like_surface/likelihood_data" + name_of_sweeps + "/" + oneD_names[i] + "_data_vals.txt"
-        #f.write("set title '" + titles[i] + "' font ',22'\n")
-        f.write("plot '" + p + "' using 1:2  with lines linecolor rgb 'blue' lw 2, '1D_like_surface/likelihood_data" + name_of_sweeps + "/correct.txt' using " + str(i + 2) + ":1 with lines lc rgb 0,0,0\n\n") 
+        if(i == 0 or i == 3):
+            gnu_option1 = "set ylabel 'Likelihood ' font ',26' offset -1,0"
+        else:
+            gnu_option1 = "set ylabel '' font ',26' offset -1,0"
+        
+        if(i <= 1):
+            gnu_option2 = "set xtics font ', 24' offset 0,-0.5"
+        elif(i == 2 or i == 4):
+            gnu_option2 = "set xtics 0.1, 0.2, 0.9 font ', 24' offset 0,-0.5"
+        elif(i == 3):
+            gnu_option2 = "set xtics 0, 20, 120 font ', 24' offset 0,-0.5"
 
-        f.write("# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # \n")
-        f.write("# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # \n")
+        
+        gnu_args = ["set size ratio -1 ",
+                    "set size square",
+                    "set lmargin 11",
+                    "set tmargin 0",
+                    "set xlabel '" + titles[i] + "' font ',26' offset 0,-1",
+                    "set ytics font ', 24'",
+                    "set yrange [" + str(l) + ":0]",
+                    #"set tics scale 0.5",
+                    #"set title '" + titles[i] + "' font ',22'",
+                    "set xrange[" + str(ranges_start[i]) + ":" + str(ranges_end[i]) + "]\n",
+                    ]
+        gnu_plot = "plot '" + p + "' using 1:2  with lines linecolor rgb 'blue' lw 2, '" + p + "' using 1:2  with points pointtype 7 ps .5 lc rgb 'black', '1D_like_surface/likelihood_data" + name_of_sweeps + "/correct.txt' using " + str(i + 2) + ":1 with lines lc rgb 0,0,0 \n"
+        
+        gnu_args.append(gnu_option1)
+        gnu_args.append(gnu_option2)
+        gnu_args.append(gnu_plot)
+        
+        for j in range(0, len(gnu_args)):
+            f.writelines(gnu_args[j] + "\n")
+        
 
     f.close()
 
@@ -450,7 +461,7 @@ def twoD_plot(name_of_sweeps):
                   "set hidden3d",
                   ]
     for j in range(0, len(gnu_header)):
-            #f.writelines(gnu_header[j] + "\n")
+            f.writelines(gnu_header[j] + "\n")
 
     for i in range(M, N):
         gnu_args = ["set xlabel '" + xlabels[i] + "'", 
@@ -470,7 +481,7 @@ def twoD_plot(name_of_sweeps):
                     ]
         
         for j in range(0, len(gnu_args)):
-            #f.writelines(gnu_args[j] + "\n")
+            f.writelines(gnu_args[j] + "\n")
             
     f.close()
 
