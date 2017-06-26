@@ -106,12 +106,13 @@ class run:#class for doing stats on each individual run
 class all_runs:#class for doing stats on all the best fit from all the runs
     def __init__(self):
         self.fts = []; self.rls = []; self.rrs = []; self.mls = []; self.mrs = []
+        self.ft_r = []; self.rl_r = []; self.rr_r = []; self.ml_r = []; self.mr_r = []
         
     def add_run(self, run):#stores the parameters associated with the best likelihood 
         self.fts.append(run.best_ft)
         self.rls.append(run.best_rl)
         self.rrs.append(run.best_rr)
-        self.mls.append(run.best_rl)
+        self.mls.append(run.best_ml)
         self.mrs.append(run.best_mr)
         
     def print_runs(self):#prints out the parameters associated with the best likelihood for all the runs. for debugging
@@ -132,7 +133,21 @@ class all_runs:#class for doing stats on all the best fit from all the runs
         file_name.write("\t BARYON MASS  \n \t\t MEAN:\t %f \n \t\t STDEV\t %f \n \t\t MEDIAN\t %f\n \t\t MAX\t %f \n \t\t MIN\t %f \n" % (self.ml.mean, self.ml.std, self.ml.median, self.ml.maximum, self.ml.minimum))
         file_name.write("\t MASS RATIO   \n \t\t MEAN:\t %f \n \t\t STDEV\t %f \n \t\t MEDIAN\t %f\n \t\t MAX\t %f \n \t\t MIN\t %f \n" % (self.mr.mean, self.mr.std, self.mr.median, self.mr.maximum, self.mr.minimum))
         file_name.write("\n\n")
-   
+        
+        file_name.write("BEST SEARCH RANGE:\n")
+        file_name.write("\t FORWARD TIME \n \t\t LOWER:\t %f \n \t\t UPPER:\t %f \n" % (self.ft_r[0], self.ft_r[1]))
+        file_name.write("\t BARYON RADIUS\n \t\t LOWER:\t %f \n \t\t UPPER\t %f  \n" % (self.rl_r[0], self.rl_r[1]))
+        file_name.write("\t RADIUS RATIO \n \t\t LOWER:\t %f \n \t\t UPPER\t %f  \n" % (self.rr_r[0], self.rr_r[1]))
+        file_name.write("\t BARYON MASS  \n \t\t LOWER:\t %f \n \t\t UPPER\t %f  \n" % (self.ml_r[0], self.ml_r[1]))
+        file_name.write("\t MASS RATIO   \n \t\t LOWER:\t %f \n \t\t UPPER\t %f  \n" % (self.mr_r[0], self.mr_r[1]))
+        file_name.write("\n\n")
+    def best_search_range(self):
+        self.ft_r = [self.ft.mean - self.ft.std, self.ft.mean + self.ft.std]
+        self.rl_r = [self.rl.mean - self.rl.std, self.rl.mean + self.rl.std]
+        self.rr_r = [self.rr.mean - self.rr.std, self.rr.mean + self.rr.std]
+        self.ml_r = [self.ml.mean - self.ml.std, self.ml.mean + self.ml.std]
+        self.mr_r = [self.mr.mean - self.mr.std, self.mr.mean + self.mr.std]
+       
 def main():
     g = open('run_statistics.txt', 'w')
     
@@ -148,6 +163,7 @@ def main():
         all_run_stats.add_run(runs[i])
         
     all_run_stats.do_stats()    
+    all_run_stats.best_search_range()
     #all_run_stats.print_runs()
         
     g.close()
