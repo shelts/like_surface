@@ -27,6 +27,7 @@ special_parser = n
 #name_of_sweeps = "_rand_iter_vel_disp"
 #name_of_sweeps = "_rand_iter_recursive_outlier_30bin_vel_disp_best_like_98per_6recur"
 name_of_sweeps = "_rand_iter_6_22_2017_new_vel_disp_comparison"
+name_of_sweeps = "_rand_iter_6_26_2017_new_vel_disp_comparison_singularity_removed"
 #name_of_sweeps = '_2d_rand_iter'
 
 oneD_names   = ['ft', 'r', 'rr', 'm', 'mr']
