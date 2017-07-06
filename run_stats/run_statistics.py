@@ -3,7 +3,7 @@
 import os
 import statistics 
 import math as mt
-folder = 'runs_5_23_17/'
+folder = 'runs_5_23_17_pulled_7_6_17/'
 run_names = ['de_nbody_5_23_17_v164_20k_1', 'de_nbody_5_23_17_v164_20k_2', 'de_nbody_5_23_17_v164_20k_3', 'ps_nbody_5_23_17_v164_20k__1', 'ps_nbody_5_23_17_v164_20k__2']
 
 class stats:#for doing the stats on an input list of numbers. 
