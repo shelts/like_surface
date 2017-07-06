@@ -51,17 +51,13 @@ class run:#class for doing stats on each individual run
         likes = []; fts = []; rls = []; rrs = []; mls = []; mrs = []
     
         f = open(folder + self.run_name, 'r')
-        starting_line = 1
-        for line in f:
-            if(line.startswith("The best")):
-                break
-            else:
-                starting_line += 1
+        read_data = False
 
-        f.seek(0)
-        line_number = 1
         for line in f:
-            if(line_number > starting_line):
+            if (line.startswith("The best")):
+                read_data = True
+                continue
+            if(read_data):
                 line = line.replace('[', '')
                 line = line.replace(']', '')
                 line = line.replace('\t', '')
@@ -74,7 +70,6 @@ class run:#class for doing stats on each individual run
                 rrs.append(float(ss[5]))
                 mls.append(float(ss[6]))
                 mrs.append(float(ss[7]))
-            line_number += 1
         
         self.ls = stats(likes)
         self.ft = stats(fts)

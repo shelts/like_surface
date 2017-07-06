@@ -26,8 +26,8 @@ special_parser = n
 #name_of_sweeps = "_rand_iter_outlier_rejection"
 #name_of_sweeps = "_rand_iter_vel_disp"
 #name_of_sweeps = "_rand_iter_recursive_outlier_30bin_vel_disp_best_like_98per_6recur"
-name_of_sweeps = "_rand_iter_6_22_2017_new_vel_disp_comparison"
-name_of_sweeps = "_rand_iter_6_26_2017_new_vel_disp_comparison_singularity_removed"
+#name_of_sweeps = "_rand_iter_6_22_2017_new_vel_disp_comparison"
+name_of_sweeps  = "_6_29_2017_new_vel_disp_comparison_singularity_limit_removed_updated"
 #name_of_sweeps = '_2d_rand_iter'
 
 oneD_names   = ['ft', 'r', 'rr', 'm', 'mr']
@@ -448,42 +448,42 @@ def twoD_plot(name_of_sweeps):
                     #"set palette gray \n",
                     "set output '2D_like_surface/plots" + name_of_sweeps + "/" + names[i] + ".png' ",
                     "set title 'Likelihood Surface of " + str(xlabels[i]) + " vs " + str(ylabels[i]) + "' ",
-                    "splot '" + p + "' using 1:2:3  with points palette pointtype 5 ps 0.5 \n\n",
+                    "splot '" + p + "' using 1:2:3  with points palette  ps 0.5 \n\n",
                     #"plot '" + p + "' using 1:2:3  with points palette  ps 0.5 \n\n"
                     ]
         
         for j in range(0, len(gnu_args)):
             f.writelines(gnu_args[j] + "\n")
 
-    gnu_header = ["reset",
-                  "set terminal wxt persist", 
-                  "set key off",
-                  "set pm3d interpolate 50,50",
-                  "set isosample 40",
-                  "set hidden3d",
-                  ]
-    for j in range(0, len(gnu_header)):
-            f.writelines(gnu_header[j] + "\n")
+    #gnu_header = ["reset",
+                  #"set terminal wxt persist", 
+                  #"set key off",
+                  #"set pm3d interpolate 50,50",
+                  #"set isosample 40",
+                  #"set hidden3d",
+                  #]
+    #for j in range(0, len(gnu_header)):
+            #f.writelines(gnu_header[j] + "\n")
 
-    for i in range(M, N):
-        gnu_args = ["set xlabel '" + xlabels[i] + "'", 
-                    "set ylabel '" + ylabels[i] + "' ",
-                    "set zlabel 'likelihood' ",
-                    "set cbrange[" + str(color_cutoff) + ":0]", 
-                    "set zrange[" + str(color_cutoff) + ":0]", 
-                    "set xrange[" + str(xranges_start[i]) + ":" + str(xranges_end[i]) + "]",
-                    "set yrange[" + str(yranges_start[i]) + ":" + str(yranges_end[i]) + "]",
-                    #"set palette  maxcolors 1000\n",
-                    #"set palette rgbformulae \n",
-                    #"set palette gray \n",
-                    "set output '2D_like_surface/plots" + name_of_sweeps + "/" + names[i] + ".png' ",
-                    "set title 'Likelihood Surface of " + str(xlabels[i]) + " vs " + str(ylabels[i]) + "' ",
-                    "splot '" + p + "' using 1:2:3 with pm3d   \n\n"
-                    #"plot '" + p + "' using 1:2:3  with points palette  ps 0.5 \n\n"
-                    ]
+    #for i in range(M, N):
+        #gnu_args = ["set xlabel '" + xlabels[i] + "'", 
+                    #"set ylabel '" + ylabels[i] + "' ",
+                    #"set zlabel 'likelihood' ",
+                    #"set cbrange[" + str(color_cutoff) + ":0]", 
+                    #"set zrange[" + str(color_cutoff) + ":0]", 
+                    #"set xrange[" + str(xranges_start[i]) + ":" + str(xranges_end[i]) + "]",
+                    #"set yrange[" + str(yranges_start[i]) + ":" + str(yranges_end[i]) + "]",
+                    ##"set palette  maxcolors 1000\n",
+                    ##"set palette rgbformulae \n",
+                    ##"set palette gray \n",
+                    #"set output '2D_like_surface/plots" + name_of_sweeps + "/" + names[i] + ".png' ",
+                    #"set title 'Likelihood Surface of " + str(xlabels[i]) + " vs " + str(ylabels[i]) + "' ",
+                    #"splot '" + p + "' using 1:2:3 with pm3d   \n\n"
+                    ##"plot '" + p + "' using 1:2:3  with points palette  ps 0.5 \n\n"
+                    #]
         
-        for j in range(0, len(gnu_args)):
-            f.writelines(gnu_args[j] + "\n")
+        #for j in range(0, len(gnu_args)):
+            #f.writelines(gnu_args[j] + "\n")
             
     f.close()
 
