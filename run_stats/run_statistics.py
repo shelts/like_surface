@@ -3,7 +3,7 @@
 import os
 import statistics 
 import math as mt
-folder = 'runs_5_23_17_pulled_7_6_17/'
+folder = 'runs_5_23_17_pulled_7_10_17/'
 run_names = ['de_nbody_5_23_17_v164_20k_1', 'de_nbody_5_23_17_v164_20k_2', 'de_nbody_5_23_17_v164_20k_3', 'ps_nbody_5_23_17_v164_20k__1', 'ps_nbody_5_23_17_v164_20k__2']
 
 class stats:#for doing the stats on an input list of numbers. 
@@ -143,6 +143,75 @@ class all_runs:#class for doing stats on all the best fit from all the runs
         self.ml_r = [self.ml.mean - self.ml.std, self.ml.mean + self.ml.std]
         self.mr_r = [self.mr.mean - self.mr.std, self.mr.mean + self.mr.std]
        
+def get_global(runs):
+    ft_max = runs[0].ft.maximum
+    ft_min = runs[0].ft.minimum
+    
+    rl_max = runs[0].rl.maximum
+    rl_min = runs[0].rl.minimum
+    
+    rr_max = runs[0].rr.maximum
+    rr_min = runs[0].rr.minimum
+    
+    ml_max = runs[0].ml.maximum
+    ml_min = runs[0].ml.minimum
+    
+    mr_max = runs[0].mr.maximum
+    mr_min = runs[0].mr.minimum
+    
+    for i in range(0, len(runs)):
+        ft_max_tmp = runs[i].ft.maximum
+        ft_min_tmp = runs[i].ft.minimum
+    
+        rl_max_tmp = runs[i].rl.maximum
+        rl_min_tmp = runs[i].rl.minimum
+        
+        rr_max_tmp = runs[i].rr.maximum
+        rr_min_tmp = runs[i].rr.minimum
+        
+        ml_max_tmp = runs[i].ml.maximum
+        ml_min_tmp = runs[i].ml.minimum
+        
+        mr_max_tmp = runs[i].mr.maximum
+        mr_min_tmp = runs[i].mr.minimum
+        
+        if(ft_max_tmp > ft_max):
+            ft_max = ft_max_tmp
+        
+        if(rl_max_tmp > rl_max):
+            rl_max = rl_max_tmp
+            
+        if(rr_max_tmp > rr_max):
+            rr_max = rr_max_tmp
+            
+        if(ml_max_tmp > ml_max):
+            ml_max = ml_max_tmp
+            
+        if(mr_max_tmp > mr_max):
+            mr_max = mr_max_tmp
+        
+        if(ft_min_tmp < ft_min):
+            ft_min = ft_min_tmp
+            
+        if(rl_min_tmp < rl_min):
+           rl_min = rl_min_tmp
+           
+        if(rr_min_tmp < rr_min):
+           rr_min = rr_min_tmp
+           
+        if(ml_min_tmp < ml_min):
+           ml_min = ml_min_tmp
+           
+        if(mr_min_tmp < mr_min):
+           mr_min = mr_min_tmp
+           
+        
+    print 'global fts: ', ft_max, ft_min
+    print 'global rls: ', rl_max, rl_min
+    print 'global rrs: ', rr_max, rr_min
+    print 'global mls: ', ml_max, ml_min
+    print 'global mrs: ', mr_max, mr_min
+           
 def main():
     g = open('run_statistics.txt', 'w')
     
@@ -156,6 +225,7 @@ def main():
         #runs[i].print_bests()
         
         all_run_stats.add_run(runs[i])
+    
         
     all_run_stats.do_stats()    
     all_run_stats.best_search_range()
@@ -165,5 +235,7 @@ def main():
     
     g = open('search_stats', 'w')
     all_run_stats.write_search_stats(g)
+    
+    get_global(runs)
     g.close()
 main()

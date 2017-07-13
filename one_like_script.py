@@ -1,6 +1,11 @@
 #! /usr/bin/python
 #/* Copyright (c) 2016 Siddhartha Shelton */
 import os
+import numpy as np
+import matplotlib.pyplot as plt
+from matplotlib import cm
+import numpy.random
+from mpl_toolkits.mplot3d import Axes3D
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
                 #/# # # # # # # # # # # # # # \#
                 #          Control Panel       #
@@ -27,8 +32,9 @@ special_parser = n
 #name_of_sweeps = "_rand_iter_vel_disp"
 #name_of_sweeps = "_rand_iter_recursive_outlier_30bin_vel_disp_best_like_98per_6recur"
 #name_of_sweeps = "_rand_iter_6_22_2017_new_vel_disp_comparison"
-name_of_sweeps  = "_6_29_2017_new_vel_disp_comparison_singularity_limit_removed_updated"
+#name_of_sweeps  = "_6_29_2017_new_vel_disp_comparison_singularity_limit_removed_updated"
 #name_of_sweeps = '_2d_rand_iter'
+name_of_sweeps  = "_7_13_2017_new_vel_disp_comparison_singularity_limit_removed_rescaled"
 
 oneD_names   = ['ft', 'r', 'rr', 'm', 'mr']
 #oneD_names   = ['ft', 'm', 'mr']
@@ -382,9 +388,9 @@ def twoD_plot(name_of_sweeps):
     ft  = [1.0, 3.0]
     bt  = [0.8, 1.2]
     r   = [0.1, 0.9]
-    rr  = [0.1, 0.7]
+    rr  = [0.1, 0.4]
     m   = [2.0, 45]
-    mr  = [0.1, 0.55]
+    mr  = [0.1, 0.95]
     #starts, ends
     
     f   = 'Forward Evolve Time'
@@ -397,8 +403,8 @@ def twoD_plot(name_of_sweeps):
 
     #names = [ 'ft_vs_bt', 'ft_vs_rad', 'ft_vs_rr', 'ft_vs_m', 'ft_vs_mr', 'bt_vs_r', 'bt_vs_rr', 'bt_vs_m', 'bt_vs_mr', 'r_vs_rr', 'r_vs_m', 'r_vs_mr', 'rr_vs_m', 'rr_vs_mr', 'm_vs_mr']
     names = [ 'rr_mr']
-    xlabels = ['rr']
-    ylabels = ['mr']
+    xlabels = ['Scale Radius Ratio (Stellar/Dark)']
+    ylabels = ['Mass Ratio (Baryonic/Total)']
     
     #xlabels = [f, f, f, f, f, b, b, b, b, rad, rad ,rad, r_r, r_r, mass]  
     #ylabels = [b, rad, r_r, mass, m_r, rad, r_r, mass, m_r, r_r, mass, m_r, mass, m_r, m_r]
@@ -429,13 +435,15 @@ def twoD_plot(name_of_sweeps):
 
     f = open('2D_plot.gnuplot', 'w')
     gnu_header = ["reset",
-                  "set terminal wxt persist", 
+                  "set terminal png enhanced size 2600,1400",
+                  'set palette defined ( 20 "#101010", 30 "#ff0000", 40 "#00ff00", 50 "#e0e0e0" ) ',
                   "set key off"]
     for j in range(0, len(gnu_header)):
             f.writelines(gnu_header[j] + "\n")
             
     for i in range(M, N):
         p = "./2D_like_surface/likelihood_data" + name_of_sweeps + "/" + names[i] + "_data_vals.txt"
+        p2 = "./2D_like_surface/likelihood_data" + name_of_sweeps + "/best_fit2.txt"
         gnu_args = ["set xlabel '" + xlabels[i] + "'", 
                     "set ylabel '" + ylabels[i] + "' ",
                     "set zlabel 'likelihood' ",
@@ -443,53 +451,138 @@ def twoD_plot(name_of_sweeps):
                     "set zrange[" + str(color_cutoff) + ":0]", 
                     "set xrange[" + str(xranges_start[i]) + ":" + str(xranges_end[i]) + "]",
                     "set yrange[" + str(yranges_start[i]) + ":" + str(yranges_end[i]) + "]",
-                    #"set palette  maxcolors 1000\n",
-                    #"set palette rgbformulae \n",
-                    #"set palette gray \n",
-                    "set output '2D_like_surface/plots" + name_of_sweeps + "/" + names[i] + ".png' ",
+                    "set output '2D_like_surface/plots" + name_of_sweeps + "/" + names[i] + "_1.png' ",
                     "set title 'Likelihood Surface of " + str(xlabels[i]) + " vs " + str(ylabels[i]) + "' ",
-                    "splot '" + p + "' using 1:2:3  with points palette  ps 0.5 \n\n",
-                    #"plot '" + p + "' using 1:2:3  with points palette  ps 0.5 \n\n"
+                    #"splot '" + p + "' using 1:2:3  with points palette  ps 0.75 pt 7\n\n",
+                    "plot '" + p + "' using 1:2:3  with points palette  ps 5 pt 7, '" + p2 + "' using 2:3 with points ps 5 pt 11 \n\n"
                     ]
         
         for j in range(0, len(gnu_args)):
             f.writelines(gnu_args[j] + "\n")
-
-    #gnu_header = ["reset",
-                  #"set terminal wxt persist", 
-                  #"set key off",
-                  #"set pm3d interpolate 50,50",
-                  #"set isosample 40",
-                  #"set hidden3d",
-                  #]
-    #for j in range(0, len(gnu_header)):
-            #f.writelines(gnu_header[j] + "\n")
-
-    #for i in range(M, N):
-        #gnu_args = ["set xlabel '" + xlabels[i] + "'", 
-                    #"set ylabel '" + ylabels[i] + "' ",
-                    #"set zlabel 'likelihood' ",
-                    #"set cbrange[" + str(color_cutoff) + ":0]", 
-                    #"set zrange[" + str(color_cutoff) + ":0]", 
-                    #"set xrange[" + str(xranges_start[i]) + ":" + str(xranges_end[i]) + "]",
-                    #"set yrange[" + str(yranges_start[i]) + ":" + str(yranges_end[i]) + "]",
-                    ##"set palette  maxcolors 1000\n",
-                    ##"set palette rgbformulae \n",
-                    ##"set palette gray \n",
-                    #"set output '2D_like_surface/plots" + name_of_sweeps + "/" + names[i] + ".png' ",
-                    #"set title 'Likelihood Surface of " + str(xlabels[i]) + " vs " + str(ylabels[i]) + "' ",
-                    #"splot '" + p + "' using 1:2:3 with pm3d   \n\n"
-                    ##"plot '" + p + "' using 1:2:3  with points palette  ps 0.5 \n\n"
-                    #]
+# # # # # # # # # # # 
+    gnu_header = ["reset",
+                  "set terminal wxt persist",
+                  #'set palette defined ( 20 "#101010", 30 "#ff0000", 40 "#00ff00", 50 "#e0e0e0" ) ',
+                  "set key off"]
+    for j in range(0, len(gnu_header)):
+            f.writelines(gnu_header[j] + "\n")
+            
+    for i in range(M, N):
+        p = "./2D_like_surface/likelihood_data" + name_of_sweeps + "/" + names[i] + "_data_vals.txt"
+        p2 = "./2D_like_surface/likelihood_data" + name_of_sweeps + "/best_fit.txt"
+        gnu_args = ["set xlabel '" + xlabels[i] + "'", 
+                    "set ylabel '" + ylabels[i] + "' ",
+                    "set zlabel 'likelihood' ",
+                    "set cbrange[" + str(color_cutoff) + ":0]", 
+                    "set zrange[" + str(color_cutoff) + ":0]", 
+                    "set xrange[" + str(xranges_start[i]) + ":" + str(xranges_end[i]) + "]",
+                    "set yrange[" + str(yranges_start[i]) + ":" + str(yranges_end[i]) + "]",
+                    "set output '2D_like_surface/plots" + name_of_sweeps + "/" + names[i] + "_1.png' ",
+                    "set title 'Likelihood Surface of " + str(xlabels[i]) + " vs " + str(ylabels[i]) + "' ",
+                    "splot '" + p + "' using 1:2:3  with points palette  ps 0.75 pt 7\n\n, '" + p2 + "' using 2:3 with points ps 10 pt 5 lc rgb 'black'\n\n"
+                    #"plot '" + p + "' using 1:2:3  with points palette  ps 3 pt 7, '" + p2 + "' using 2:3 with points ps 5 pt 11 \n\n"
+                    ]
         
         #for j in range(0, len(gnu_args)):
             #f.writelines(gnu_args[j] + "\n")
+
+# # # # # # # # # # # 
+    gnu_header = ["reset",
+                  "set terminal png enhanced size 1300,700", 
+                  "set key off",
+                  "set output '2D_like_surface/plots" + name_of_sweeps + "/" + names[0] + ".png' ",
+                #"set lmargin at 1 ",
+                #"set rmargin 1",
+                #"set tmargin 0",
+                #"set bmargin 0",
+                  
+                  "set multiplot layout 1,2 margins 0.05,0.9,.1,.99 spacing 0.01,0",
+                  "set dgrid3d 50,50, 10",
+                  "set pm3d at t map",
+                  #'set palette defined ( 20 "#101010", 30 "#ff0000", 40 "#00ff00", 50 "#e0e0e0" ) ',
+                  "set pm3d interpolate 50,50",
+                  'set palette model CMY rgbformulae 7,5,15',
+                #"set title 'Likelihood Surface of " + str(xlabels[i]) + " vs " + str(ylabels[i]) + "' ",
+                  ##"set rmargin at screen XMAX",
+                  #"set tmargin at screen YMAX",
+                  #"set bmargin at screen YMIN",
+                  ]
+    for j in range(0, len(gnu_header)):
+            f.writelines(gnu_header[j] + "\n")
+
+    for i in range(M, N):
+        gnu_args = [
+                    #"set xlabel '" + xlabels[i] + "'", 
+                    #"set ylabel '" + ylabels[i] + "' ",
+                    "set zlabel 'likelihood' ",
+                    #"set cbrange[" + str(color_cutoff) + ":0]", 
+                    "set zrange[" + str(color_cutoff) + ":0]", 
+                    "set xrange[" + str(xranges_start[i]) + ":" + str(xranges_end[i]) + "]",
+                    "set yrange[" + str(yranges_start[i]) + ":" + str(yranges_end[i]) + "]",
+                    
+        
+                    "set size square",
+                    "set origin 0,0",
+                    "splot '" + p + "' using 1:2:3 with image", 
+                    "set size square",
+                    "plot '" + p2 + "' using 2:3:(0.0) with points ps 1 pt 5 lc rgb 'black'"
+                    ]
+        
+        for j in range(0, len(gnu_args)):
+            f.writelines(gnu_args[j] + "\n")
             
     f.close()
 
     os.system("gnuplot 2D_plot.gnuplot 2>>piped_output.txt")
-    os.system("rm 2D_plot.gnuplot")
+    #os.system("rm 2D_plot.gnuplot")
+    
+    #f = open(p, 'r')
+    #x = []
+    #y = []
+    #z = []
+    #for line in f:
+        #ss = line.split('\t')
+        #x.append(float(ss[0]))
+        #y.append(float(ss[1]))
+        #z.append(float(ss[2]))
+        
+        
+    #data = np.genfromtxt(p, delimiter='\t')
+    #x = data[:,0]
+    #y = data[:,1]
+    #z = data[:,2]
+    
+    #X,Y = np.meshgrid(x,y)
+    ##Z = griddata(x,y,z,X,Y, interp='linear')
+    ##Z = np.diag(z)
+    ##for i in range(len(z)):
+        ##for j in range(len(z)):
+            ##if(i != j):
+                ##Z[i][j] = Z[i][i]
+    ##print Z
+    ##Z = z.reshape(len(y),len(x))
+    ##Z = []
+    ##for i in range(0, len(z)):
+        ###Z.append(z)
+    ##Z  = np.array(Z)
+    ##print X
+    ##X = x.reshape(len(x), len(x)).T
+    ##Y = y.reshape(len(x), len(x)).T
+    ##Z = z.reshape(len(x), len(x)).T
+    ##Z = np.random.randint(1,11, size=(len(y), len(x)))
+    ###print Z
+    ##plt.pcolormesh(X,Y,Z, vmin=-50, vmax =0)
+    ##plt.contour(x,y,z)
+    #fig = plt.figure()
+    #ax = Axes3D(fig)
+    #ax.set_zlim3d(-50,0)
+    #ax.scatter(x,y,z, c=z, cmap='RdGy')
 
+    ##plt.colorbar()
+    #plt.savefig('test.png', format='png')
+
+    #plt.show()
+    
 def reg_iterator_sweep(name_of_sweeps):
     random_iter = False
     
@@ -502,8 +595,8 @@ def reg_iterator_sweep(name_of_sweeps):
             oneD_multiplot(name_of_sweeps)
     
     if(twoD_sweep):
-        twoD_cleanse(name_of_sweeps)
-        parser(name_of_sweeps, random_iter, twoD_names)
+        #twoD_cleanse(name_of_sweeps)
+        #parser(name_of_sweeps, random_iter, twoD_names)
         twoD_plot(name_of_sweeps)
     return 0
 
@@ -525,8 +618,8 @@ def random_iterator_sweep(name_of_sweeps):
             oneD_multiplot(name_of_sweeps)
             
     if(twoD_sweep):
-        twoD_cleanse(name_of_sweeps)
-        parser(name_of_sweeps, random_iter, twoD_names)
+        #twoD_cleanse(name_of_sweeps)
+        #parser(name_of_sweeps, random_iter, twoD_names)
         twoD_plot(name_of_sweeps)
         
     return 0

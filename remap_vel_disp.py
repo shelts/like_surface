@@ -2,9 +2,11 @@
 #/* Copyright (c) 2016 Siddhartha Shelton */
 import os
 import math as mt
+import matplotlib.pyplot as plt
 
 data_file = 'likelihood_data_rand_iter_6_29_2017_new_vel_disp_comparison_singularity_limit_removed/'
-sweep_file = 'parameter_sweeps_6_29_2017_new_vel_disp_comparison_singularity_limit_removed/'
+#sweep_file = 'parameter_sweeps_6_29_2017_new_vel_disp_comparison_singularity_limit_removed/'
+sweep_file = 'parameter_sweeps_7_13_2017_new_vel_disp_comparison_singularity_limit_removed_rescaled/'
 updated = 'updated/'
 parameters = ['ft', 'r', 'rr', 'm', 'mr']
 
@@ -43,26 +45,31 @@ class like_group:
                 
         sigma_sq = x
         #print (24.0) * mt.log(sigma_sq) - (sigma_sq / 2.0)
-        
-        new_func = self.new_func(sigma_sq)
-        return new_func
+        #print old_val, func, old_val - func
+        new_func_val = self.new_func(sigma_sq)
+        return new_func_val
     
     def new_func(self, x):
         cutoff = 48.0
         #print x
         if(x <= cutoff):
             func = 0.0
-        else:
-            func = - (24.0 * mt.log(x) - ( x / 2.0 )  - (24.0) * (mt.log(2.0) + mt.log(24.0) - 1.0))
-                
+        else:#this is a negative value function. The negative sign negates that and returns a positive val
+            func =  (24.0 * mt.log(x) - ( x / 2.0 )  - (24.0) * (mt.log(2.0) + mt.log(24.0) - 1.0))
+            #func =  ((24.0) * mt.log(x) - (x / 2.0)- (24.0) * (mt.log(2.0) + mt.log(24.0) - 1.0))
         return func
     
     
     def fix_vel_disps(self):
         for i in range(0, len(self.vdss)):
             self.vdss[i] = self.get_new_nsgma_sq(self.vdss[i])
-            self.liks[i] = self.emds[i] + self.coss[i] + self.vdss[i]
-        
+            self.liks[i] = self.emds[i] + self.coss[i] + self.vdss[i]#positive valued likihoods
+            
+    def vel_disp_sign_switch(self):
+        for i in range(0, len(self.vdss)):
+            self.vdss[i] *= -1.0
+            self.liks[i] = self.emds[i] + self.coss[i] + self.vdss[i]#positive valued likihoods
+            
     def write(self, file_name):
         file_name.write('Using OpenMP 10 max threads on a system with 8 processors\n')
         
@@ -80,6 +87,7 @@ class like_group:
                 best_like = self.liks[i]
                 
         self.best_like = best_like
+    
         
 def read_and_fix(para):
     f = open(sweep_file + sweep_file + para + '.txt', 'r')
@@ -95,7 +103,8 @@ def read_and_fix(para):
         if line.startswith('<search_likelihood>'):
             #paras.print_vals()
             print 'doing set ', counter
-            paras.fix_vel_disps()
+            #paras.fix_vel_disps()
+            paras.vel_disp_sign_switch()
             paras.get_best_like()
             paras.write(g)
             counter += 1
@@ -110,12 +119,25 @@ def read_and_fix(para):
     f.close()
     g.close()
             
+def plot_funcs():
+    paras = like_group()
+    x = 0.05
+    xs = []
+    funcs = []
+    for i in range(0, 10000):
+        funcs.append(paras.new_func(x))
+        xs.append(x)
+        x += 0.05
+        
+    plt.plot(xs, funcs, '.', markersize = 1.5, color = 'purple', alpha = 1.0, marker = '.')
+    plt.show()
+    
 
 def main():
-    
-    #read_and_fix('ft')
-    #read_and_fix('r')
-    #read_and_fix('rr')
+    #plot_funcs()
+    read_and_fix('ft')
+    read_and_fix('r')
+    read_and_fix('rr')
     read_and_fix('m')
     read_and_fix('mr')
     
