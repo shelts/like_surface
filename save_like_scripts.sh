@@ -11,6 +11,9 @@ ls */*.py */*.sh
 git add *.py *.sh
 git add */*.py */*.sh
 
+git add *.gnuplot 
+git add */*.gnuplot 
+
 git commit -m "update"
 
 

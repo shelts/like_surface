@@ -3,9 +3,10 @@
 import os
 import statistics 
 import math as mt
-folder = 'runs_5_23_17_pulled_7_10_17/'
+folder = 'runs_5_23_17_pulled_7_25_17/'
+#folder = 'runs_7_11_17_pulled_7_25_17/'
 run_names = ['de_nbody_5_23_17_v164_20k_1', 'de_nbody_5_23_17_v164_20k_2', 'de_nbody_5_23_17_v164_20k_3', 'ps_nbody_5_23_17_v164_20k__1', 'ps_nbody_5_23_17_v164_20k__2']
-
+#run_names = ['ps_nbody_7_11_17_v164_20k_1', 'ps_nbody_7_11_17_v164_20k_2', 'ps_nbody_7_11_17_v164_20k_3']
 class stats:#for doing the stats on an input list of numbers. 
     def __init__(self, vals):
         self.median                = self.get_median(vals)
