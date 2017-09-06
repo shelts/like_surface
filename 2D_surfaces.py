@@ -469,7 +469,7 @@ def tmp_sweep_correction():
                     0.460280725,
                     0.0172277936]
 
-    rrs = [rrs_tel_set1, rrs_tel_set2,rrs_lmc_set1]
+    rrs = rrs_tel_set1 + rrs_tel_set2 + rrs_lmc_set1
     pipe_name = para1 + "_" + para2 + "_correction"
     sweep_name = "_2d_rand_iter"
     hist_path = folder + pipe_name + "_hists/" + "arg_"
