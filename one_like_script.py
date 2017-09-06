@@ -34,9 +34,11 @@ special_parser = n
 #name_of_sweeps = "_rand_iter_6_22_2017_new_vel_disp_comparison"
 #name_of_sweeps  = "_6_29_2017_new_vel_disp_comparison_singularity_limit_removed_updated"
 #name_of_sweeps = '_2d_rand_iter'
-name_of_sweeps  = "_7_13_2017_new_vel_disp_comparison_singularity_limit_removed_rescaled"
+#name_of_sweeps  = "_7_13_2017_new_vel_disp_comparison_singularity_limit_removed_rescaled"
 #name_of_sweeps = '_7_20_2017_new_fitting_functions_lmc'
-name_of_sweeps = '_7_20_2017_new_fitting_functions_tel'
+#name_of_sweeps = '_7_20_2017_new_fitting_functions_tel'
+name_of_sweeps = '_7_31_2017_complete_function_correct_hist_w_diff_seed'
+name_of_sweeps = '_8_1_2017_new_fitting_functions_corrected'
 
 oneD_names   = ['ft', 'r', 'rr', 'm', 'mr']
 #oneD_names   = ['ft', 'm', 'mr']
@@ -312,7 +314,7 @@ def oneD_plot(name_of_sweeps):
 
 def oneD_multiplot(name_of_sweeps):
     l = -200
-    titles  = ['Backward Evolve Time (Gyr)',  'Baryon Scale Radius (kpc)', 'Scale Radius Ratio (Stellar/Dark)', 'Baryonic Mass (SMU)',  'Mass Ratio (Baryonic/Total)']
+    titles  = ['Backward Evolve Time (Gyr)',  'Baryon Scale Radius (kpc)', 'Scale Radius Ratio (R_{B}/(R_{B}+R_{D}))', 'Baryonic Mass (SMU)',  'Mass Ratio (Baryonic/Total)']
     #titles  = ['Forward Evolve Time (Gyr)', 'Baryonic Mass (SMU)',  'Mass Ratio (Baryonic/Total)']
     #labels  = ['Forward Evolve Time (Gyr)', 'Baryon Scale Radius (kpc)', 'Scale Radius Ratio', 'Baryonic Mass (Sim Mass Units)',  'Mass Ratio']
     #titles  = ['Forward Evolve Time (Gyr)_{}', 'Reverse Orbit Ratio (T_{f} / T_{r})', 'Baryon Scale Radius (kpc)_{}', 'Scale Radius Ratio [R_{Stars}/(R_{Stars} + R_{Dark})]', 'Baryonic Mass_{}',  'Mass Ratio [M_{Stars}/M_{Total}]']
@@ -344,7 +346,7 @@ def oneD_multiplot(name_of_sweeps):
         
     for i in range(M, N):
         if(i > 3):
-            l = -50
+            l = -200
         p = "1D_like_surface/likelihood_data" + name_of_sweeps + "/" + oneD_names[i] + "_data_vals.txt"
         if(i == 0 or i == 3):
             gnu_option1 = "set ylabel 'Likelihood ' font ',26' offset -1,0"
@@ -358,8 +360,8 @@ def oneD_multiplot(name_of_sweeps):
         elif(i == 3):
             gnu_option2 = "set xtics 0, 20, 120 font ', 24' offset 0,-0.5"
         elif(i == 4):
-            gnu_option2 = "set xtics 0, 5, 20 font ', 24' offset 0,-0.5"
-        
+            gnu_option2 = "set xtics .1, .2, .9 font ', 24' offset 0,-0.5"
+            gnu_option2 = "set xtics 0, 4, 24 font ', 24' offset 0,-0.5"
         gnu_args = ["set size ratio -1 ",
                     "set size square",
                     "set lmargin 11",

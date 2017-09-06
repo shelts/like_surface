@@ -4,6 +4,9 @@ import os
 import math as mt
 import matplotlib.pyplot as plt
 
+#this is code that will take the output from the parameter sweeps, reverse engineer the components of the likelihood used to calculate it and 
+#recalculate the components using new functions, specifically for the velocity dispersion component.
+
 data_file = 'likelihood_data_rand_iter_6_29_2017_new_vel_disp_comparison_singularity_limit_removed/'
 #sweep_file = 'parameter_sweeps_6_29_2017_new_vel_disp_comparison_singularity_limit_removed/'
 sweep_file = 'parameter_sweeps_7_13_2017_new_vel_disp_comparison_singularity_limit_removed_rescaled/'
