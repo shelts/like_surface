@@ -20,8 +20,8 @@ twoD_clean = n
 reg_iterator  = n
 ran_iterator  = y
 
-oneD_sweep = y
-twoD_sweep = n
+oneD_sweep = n
+twoD_sweep = y
 
 oneD_multiploter = y
 plot_cost_emd = n
@@ -33,12 +33,12 @@ special_parser = n
 #name_of_sweeps = "_rand_iter_recursive_outlier_30bin_vel_disp_best_like_98per_6recur"
 #name_of_sweeps = "_rand_iter_6_22_2017_new_vel_disp_comparison"
 #name_of_sweeps  = "_6_29_2017_new_vel_disp_comparison_singularity_limit_removed_updated"
-#name_of_sweeps = '_2d_rand_iter'
+name_of_sweeps = '_2d_rand_iter'
 #name_of_sweeps  = "_7_13_2017_new_vel_disp_comparison_singularity_limit_removed_rescaled"
 #name_of_sweeps = '_7_20_2017_new_fitting_functions_lmc'
 #name_of_sweeps = '_7_20_2017_new_fitting_functions_tel'
-name_of_sweeps = '_7_31_2017_complete_function_correct_hist_w_diff_seed'
-name_of_sweeps = '_8_1_2017_new_fitting_functions_corrected'
+#name_of_sweeps = '_7_31_2017_complete_function_correct_hist_w_diff_seed'
+#name_of_sweeps = '_8_1_2017_new_fitting_functions_corrected'
 
 oneD_names   = ['ft', 'r', 'rr', 'm', 'mr']
 #oneD_names   = ['ft', 'm', 'mr']
@@ -50,6 +50,9 @@ twoD_names   = [ 'ft_bt', 'ft_rad', 'ft_rr', 'ft_m', 'ft_mr',
                  'm_mr']
 
 twoD_names   = ['rr_mr']
+
+
+misc_ext = '_corrected'
 
 #twoD_names   = ['r_rr', 'r_m', 'r_mr', 'rr_m', 'rr_mr', 'm_mr']
 c          = [3.95, 0.2, 0.2, 12, 0.2]
@@ -167,9 +170,9 @@ def combine(name_of_sweeps, random_iter, names):
     #this combines the likelihood and data values into one file. checks for reliability
         
     for i in range(M, N):
-        file_data = open('./' + data_folder + '/likelihood_data'  + name_of_sweeps + '/'  + str(names[i]) + '_data.txt', 'r')
-        file_vals = open('./' + data_folder + '/parameter_sweeps' + name_of_sweeps + '/'  + str(names[i]) + '_vals.txt', 'r')
-        file_comb = open('./' + data_folder + '/likelihood_data'  + name_of_sweeps + '/'  + str(names[i]) + '_data_vals.txt', 'w')
+        file_data = open('./' + data_folder + '/likelihood_data'  + name_of_sweeps + '/'  + str(names[i]) + '_data' + misc_ext + '.txt', 'r')
+        file_vals = open('./' + data_folder + '/parameter_sweeps' + name_of_sweeps + '/'  + str(names[i]) + '_vals' + misc_ext + '.txt', 'r')
+        file_comb = open('./' + data_folder + '/likelihood_data'  + name_of_sweeps + '/'  + str(names[i]) + '_data_vals' + misc_ext + '.txt', 'w')
         likes = []
         vals  = []
         vals2 = [] #for 2d sweeps. they don't need to be sorted
@@ -227,9 +230,9 @@ def combine(name_of_sweeps, random_iter, names):
         
         
         if(oneD_sweep):
-            os.system("rm ./" + data_folder + "/likelihood_data" + name_of_sweeps + "/" + str(oneD_names[i]) + "_data.txt")
+            os.system("rm ./" + data_folder + "/likelihood_data" + name_of_sweeps + "/" + str(oneD_names[i]) + "_data" + misc_ext + ".txt")
         if(twoD_sweep):
-            os.system("rm ./" + data_folder + "/likelihood_data" + name_of_sweeps + "/" + str(twoD_names[i]) + "_data.txt")
+            os.system("rm ./" + data_folder + "/likelihood_data" + name_of_sweeps + "/" + str(twoD_names[i]) + "_data" + misc_ext + ".txt")
         
         file_data.close()
         file_vals.close()
@@ -243,8 +246,8 @@ def parser(name_of_sweeps, random_iter, names):
         data_folder = "2D_like_surface"
     
     for i in range(M, N):
-        g = open('./' + data_folder + '/parameter_sweeps' + name_of_sweeps + '/' + str(names[i]) + '.txt', 'r')
-        f = open('./' + data_folder + '/likelihood_data'  + name_of_sweeps + '/' + str(names[i]) + '_data.txt', 'w')
+        g = open('./' + data_folder + '/parameter_sweeps' + name_of_sweeps + '/' + str(names[i]) + misc_ext + '.txt', 'r')
+        f = open('./' + data_folder + '/likelihood_data'  + name_of_sweeps + '/' + str(names[i]) + '_data' + misc_ext + '.txt', 'w')
 
         for line in g:
             if (line.startswith("<search_likelihood")):
@@ -627,8 +630,8 @@ def random_iterator_sweep(name_of_sweeps):
             
     if(twoD_sweep):
         #twoD_cleanse(name_of_sweeps)
-        #parser(name_of_sweeps, random_iter, twoD_names)
-        twoD_plot(name_of_sweeps)
+        parser(name_of_sweeps, random_iter, twoD_names)
+        #twoD_plot(name_of_sweeps)
         
     return 0
 

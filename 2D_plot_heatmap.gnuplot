@@ -2,7 +2,7 @@ reset
 reset
 set terminal png enhanced size 1300,700
 set key off
-set output '2D_like_surface/plots_2d_rand_iter/rr_mr.png' 
+set output '2D_like_surface/plots_2d_rand_iter/rr_mr_corrected_diff_seed.png' 
 
 # set multiplot layout 1,2  spacing 0.01,0
 set multiplot layout 1,2 margins 0.1,0.9,.1,.95 spacing 0,0 
@@ -13,7 +13,7 @@ set pm3d at t map
 set pm3d interpolate 50,50
 set palette model CMY rgbformulae 7,5,15
 set cbrange[-50:0]
-set zrange[-50:0]
+set zrange[-100:0]
 set xrange[0.1:0.4]
 set yrange[0.1:0.7]
 set xlabel 'Scale Radius Ratio (Stellar/Dark)'
@@ -25,7 +25,7 @@ set ylabel font "Times-Roman, 20" offset -1,0
 set cblabel font "Times-Roman, 20" offset 3,0
 set xtics autofreq .1, .05, .35
 unset colorbox
-splot './2D_like_surface/likelihood_data_2d_rand_iter/rr_mr_data_vals.txt' using 1:2:3 with image
+splot './2D_like_surface/likelihood_data_2d_rand_iter/rr_mr_data_vals_corrected.txt' using 1:2:3 with image
 
 unset ytics
 set colorbox

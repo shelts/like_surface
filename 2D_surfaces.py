@@ -1,5 +1,5 @@
 #! /usr/bin/python
-#/* Copyright (c) 2016 Siddhartha Shelton */
+#/* Copyright (c) 2017 Siddhartha Shelton */
 import os
 from subprocess import call
 import random
@@ -26,10 +26,10 @@ mr_c  = str(args[5])
 
 
 
-lmc_dir = '/home/research/'
+lmc_dir = '/home/shelts/research/'
 sid_dir = '/home/sidd/Desktop/research/'
 sgr_dir = '/Users/master/sidd_research/'
-path = sid_dir
+path = lmc_dir
 
 folder        = path + "like_surface/2d_sweep_hists/"
 binary        = path + "nbody_test/bin/milkyway_nbody"
@@ -69,10 +69,10 @@ n  = False
 
 
 #choose what to run.
-make_folders              = n
-rebuild_binary            = n
-make_correct_answer_hist  = n
-run_regular_iteration     = y
+make_folders              = y
+rebuild_binary            = y
+make_correct_answer_hist  = y
+run_regular_iteration     = n
 run_random_iteration      = n
 run_truly_random_iter     = n
 
