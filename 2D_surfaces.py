@@ -29,7 +29,7 @@ mr_c  = str(args[5])
 lmc_dir = '/home/shelts/research/'
 sid_dir = '/home/sidd/Desktop/research/'
 sgr_dir = '/Users/master/sidd_research/'
-path = lmc_dir
+path = sid_dir
 
 folder        = path + "like_surface/2d_sweep_hists/"
 binary        = path + "nbody_test/bin/milkyway_nbody"
@@ -58,9 +58,9 @@ mr_s, mr_e, mr_in = mr[0], mr[1], mr[2]
 ft_N = 25
 bt_N = 25
 r_N  = 4
-rr_N = 2
+rr_N = 50
 m_N  = 4
-mr_N = 2
+mr_N = 50
 
 
 
@@ -70,11 +70,11 @@ n  = False
 
 #choose what to run.
 make_folders              = y
-rebuild_binary            = y
-make_correct_answer_hist  = y
+rebuild_binary            = n
+make_correct_answer_hist  = n
 run_regular_iteration     = n
 run_random_iteration      = n
-run_truly_random_iter     = n
+run_truly_random_iter     = y
 
 
 run_ft_v_bt = n
@@ -98,7 +98,7 @@ run_rr_v_mr = n
 run_m_v_mr  = n
 #--------------------------------------------------------------------------------------------------
 class parameters:
-    def __init__(self, ft_c, bt_c, r_c, rr_c, m_c, mr_c, hist_path, sweep_name, pipe_name, file_name, parameter1, parameter2):
+    def __init__(self, ft_c, bt_c, r_c, rr_c, m_c, mr_c, hist_path, sweep_type, sweep_variables, data_val_file_name, parameter1, parameter2):
         self.ft_c       = ft_c 
         self.bt_c       = bt_c
         self.r_c        = r_c
@@ -106,9 +106,9 @@ class parameters:
         self.m_c        = m_c
         self.mr_c       = mr_c
         self.hist_path  = hist_path     #used for naming the histograms and placing them in the correct folder
-        self.sweep_name = sweep_name    #extension for the sweep folder name describing the type of sweep
-        self.pipe_name  = pipe_name     #parameters over which you are sweeping.
-        self.file_name  = file_name     #name of the file where data is written to.
+        self.sweep_type = sweep_type    #extension for the sweep folder name describing the type of sweep (2D, random iteration etc)
+        self.sweep_variables  = sweep_variables     #parameters over which you are sweeping.
+        self.data_val_file_name  = data_val_file_name     #name of the file where data is written to.
         self.parameter1 = parameter1    #first sweep parameter
         self.parameter2 = parameter2    #second sweep parameter. 
         
@@ -181,15 +181,15 @@ class parameters:
         rr          = self.rr_tmp
         m           = self.m_tmp
         mr          = self.mr_tmp
-        sweep_name  = self.sweep_name
-        file_name   = self.pipe_name
+        sweep_type  = self.sweep_type
+        data_val_file_name   = self.sweep_variables
         
         os.system(" " + binary + " \
                 -f " + lua + " \
                 -h " + input_hist + " \
                 -z " + output_hist + " \
                 -n 14 -b -e " + seed + " -i " + ft + " " + bt + " " + r + " " + rr + " " + m + " " + mr + " \
-                2>>" + folder + "parameter_sweeps" + sweep_name + "/" + file_name + ".txt")
+                2>>" + folder + "parameter_sweeps" + sweep_type + "/" + data_val_file_name + ".txt")
 
     def write_parameters(self, f, parameter1, parameter2):
         if(parameter1 == 'ft'):#initializes the needed parameter to the value
@@ -255,8 +255,8 @@ class parameters:
             
     def run_system(self):
         self.set_hist()
-        self.run_nbody()
-        self.write_parameters(self.file_name, self.parameter1, self.parameter2)
+        #self.run_nbody()
+        self.write_parameters(self.data_val_file_name, self.parameter1, self.parameter2)
 
 def rebuild():#rebuilds nbody
     os.chdir(".")
@@ -273,23 +273,23 @@ def make_correct(): #makes the correct answer histogram
         -z " + input_hist + " \
         -b -e " + seed + " -i "+ ft_c + " " + bt_c + " " + r_c + " " + rr_c + " " + m_c + " " + mr_c )
 
-def run_sweep(start1, end1, intv1, para1, start2, end2, intv2, para2):
+def run_sweep(start1, end1, intv1, para1, start2, end2, intv2, para2):#this is a parameter sweep with a regular interval
     counter1 = start1
     counter2 = start2
     name1 = str(counter1)
     name2 = str(counter2)
    
-    sweep_name = ""  #sweep name
-    os.system("mkdir " + folder + "parameter_sweeps" + sweep_name)
-    pipe_name = para1 + "_" + para2  #name of the files
-    hist_path = folder + pipe_name + "_hists/" + "arg_"
-    data_vals   = folder + "parameter_sweeps" + sweep_name + "/" + pipe_name + "_vals.txt"
+    sweep_type = ""  #sweep name
+    os.system("mkdir " + folder + "parameter_sweeps" + sweep_type)
+    sweep_variables = para1 + "_" + para2  #name of the files
+    hist_path = folder + sweep_variables + "_hists/" + "arg_"
+    data_vals   = folder + "parameter_sweeps" + sweep_type + "/" + sweep_variables + "_vals.txt"
     f = open(data_vals, 'w')
     
     do_correct1 = False
     do_correct2 = False
     
-    para = parameters(ft_c, bt_c, r_c, rr_c, m_c, mr_c, hist_path, sweep_name, pipe_name, f, para1, para2)
+    para = parameters(ft_c, bt_c, r_c, rr_c, m_c, mr_c, hist_path, sweep_type, sweep_variables, f, para1, para2)
     
     while counter1 < end1 + intv1:  #this iterates over one parameter on the outside and another on the inside
         para.set_parameter(para1, counter1)
@@ -334,16 +334,16 @@ def random_iteration_sweep(start1, end1, N1, para1, start2, end2, N2, para2):
     counter1 = 0.0
     counter2 = 0.0
     #sweep name
-    sweep_name = "_2d_rand_iter"
-    os.system("mkdir " + folder + "parameter_sweeps" + sweep_name)
+    sweep_type = "_2d_rand_iter"
+    os.system("mkdir " + folder + "parameter_sweeps" + sweep_type)
     #name of the files
-    pipe_name = para1 + "_" + para2
-    hist_path = folder + pipe_name + "_hists/" + "arg_"
-    data_vals   = folder + "parameter_sweeps" + sweep_name + "/" + pipe_name + "_vals.txt"
+    sweep_variables = para1 + "_" + para2
+    hist_path = folder + sweep_variables + "_hists/" + "arg_"
+    data_vals   = folder + "parameter_sweeps" + sweep_type + "/" + sweep_variables + "_vals.txt"
     f = open(data_vals, 'w')
     
     #initialize the parameter class with the correct values
-    para = parameters(ft_c, bt_c, r_c, rr_c, m_c, mr_c, hist_path, sweep_name, pipe_name, f, para1, para2)
+    para = parameters(ft_c, bt_c, r_c, rr_c, m_c, mr_c, hist_path, sweep_type, sweep_variables, f, para1, para2)
     
      #this iterates over one parameter on the outside and another on the inside
     while counter1 < N1:
@@ -386,119 +386,23 @@ def random_iteration_sweep(start1, end1, N1, para1, start2, end2, N2, para2):
     f.close()
     return 0
 
-def tmp_sweep_correction():
-    para1 = 'rr'
-    para2 = 'mr'
-    counter = 0
-    rrs_tel_set1 = [0.4170584501, 
-                    0.2107946813, 
-                    0.3575861589, 
-                    0.3758760553, 
-                    0.0230560377, 
-                    0.1799287515,
-                    0.1314197617,
-                    0.4534621829,
-                    0.2953949994,
-                    0.4302072331,
-                    0.084536664,
-                    0.303708456,
-                    0.040928522,
-                    0.2885632999,
-                    0.2928602405,
-                    0.497721423,
-                    0.2935240269,
-                    0.2482222544,
-                    0.286666601,
-                    0.2877686545,
-                    0.2803815874,
-                    0.0482648795,
-                    0.078455945,
-                    0.4939880484,
-                    0.3552749709]
-
-    rrs_tel_set2 = [0.2486899234,
-                    0.302142901,
-                    0.1229132381,
-                    0.1059554621,
-                    0.0768653425,
-                    0.3743554055,
-                    0.4292937724,
-                    0.3162886867,
-                    0.2296098887,
-                    0.4286248495,
-                    0.0713907341,
-                    0.4684727204,
-                    0.1713619355,
-                    0.2253184205,
-                    0.4624293963,
-                    0.0781987962,
-                    0.1276714415,
-                    0.1949363174,
-                    0.3304812167,
-                    0.4869144956,
-                    0.0186753615,
-                    0.2410878198,
-                    0.1652578331,
-                    0.0981350793,
-                    0.0536257172]
-
-    
-    rrs_lmc_set1 = [0.4866798727,
-                    0.4887047937,
-                    0.3157393535,
-                    0.4300511611,
-                    0.1700538174,
-                    0.310603087,
-                    0.2982850331,
-                    0.2990545039,
-                    0.3337108507,
-                    0.0455040067,
-                    0.0870287034,
-                    0.2459707813,
-                    0.4831067701,
-                    0.0945649764,
-                    0.3327271597,
-                    0.3279560437,
-                    0.1265632437,
-                    0.333662136,
-                    0.058487708,
-                    0.1010306214,
-                    0.0388558429,
-                    0.3075142135,
-                    0.1735313938,
-                    0.460280725,
-                    0.0172277936]
-
-    rrs = rrs_tel_set1 + rrs_tel_set2 + rrs_lmc_set1
-    pipe_name = para1 + "_" + para2 + "_correction"
-    sweep_name = "_2d_rand_iter"
-    hist_path = folder + pipe_name + "_hists/" + "arg_"
-    data_vals   = folder + "parameter_sweeps" + sweep_name + "/" + pipe_name + "_vals.txt"
-    f = open(data_vals, 'w')
-    para = parameters(ft_c, bt_c, r_c, rr_c, m_c, mr_c, hist_path, sweep_name, pipe_name, f, para1, para2)
-
-    for i in range(0, len(rrs)):
-        name1 = str(rrs[i])
-        para.set_parameter(para1, name1)
-        para.run_system()
-    f.close()
 
 
 def truly_random_sweep(start1, end1, N1, para1, start2, end2, N2, para2):
     counter = 0.0
     #sweep name
-    sweep_name = "_2d_rand_iter"
-    os.system("mkdir " + folder + "parameter_sweeps" + sweep_name)
+    sweep_type = "_2d_rand_iter"
+    os.system("mkdir " + folder + "parameter_sweeps" + sweep_type)
     #name of the files
-    pipe_name = para1 + "_" + para2
-    hist_path = folder + pipe_name + "_hists/" + "arg_"
+    sweep_variables = para1 + "_" + para2
+    hist_path = folder + sweep_variables + "_hists/" + "arg_"
     
-    os.system("mkdir " + folder + "parameter_sweeps" + sweep_name)
-    data_vals   = folder + "parameter_sweeps" + sweep_name + "/" + pipe_name + "_vals.txt"
+    os.system("mkdir " + folder + "parameter_sweeps" + sweep_type)
+    data_vals   = folder + "parameter_sweeps" + sweep_type + "/" + sweep_variables + "_vals.txt"
     f = open(data_vals, 'w')
     
     N = (N1 * N2) 
-    para = parameters(ft_c, bt_c, r_c, rr_c, m_c, mr_c, hist_path, sweep_name, pipe_name, f, para1, para2)
+    para = parameters(ft_c, bt_c, r_c, rr_c, m_c, mr_c, hist_path, sweep_type, sweep_variables, f, para1, para2)
     #run the correct answer first
     para.run_system()
     

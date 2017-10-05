@@ -33,7 +33,7 @@ special_parser = n
 #name_of_sweeps = "_rand_iter_recursive_outlier_30bin_vel_disp_best_like_98per_6recur"
 #name_of_sweeps = "_rand_iter_6_22_2017_new_vel_disp_comparison"
 #name_of_sweeps  = "_6_29_2017_new_vel_disp_comparison_singularity_limit_removed_updated"
-name_of_sweeps = '_2d_rand_iter'
+name_of_sweeps = '_2d'
 #name_of_sweeps  = "_7_13_2017_new_vel_disp_comparison_singularity_limit_removed_rescaled"
 #name_of_sweeps = '_7_20_2017_new_fitting_functions_lmc'
 #name_of_sweeps = '_7_20_2017_new_fitting_functions_tel'
@@ -52,7 +52,7 @@ twoD_names   = [ 'ft_bt', 'ft_rad', 'ft_rr', 'ft_m', 'ft_mr',
 twoD_names   = ['rr_mr']
 
 
-misc_ext = '_corrected'
+misc_ext = ''
 
 #twoD_names   = ['r_rr', 'r_m', 'r_mr', 'rr_m', 'rr_mr', 'm_mr']
 c          = [3.95, 0.2, 0.2, 12, 0.2]
