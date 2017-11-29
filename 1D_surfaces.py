@@ -34,7 +34,7 @@ ft_rg         = [3.0, 5.0, 0.1]#20
 bt_rg         = [0.8, 1.2, 0.04]#10
 r_rg          = [0.05, 0.5, 0.06]#20
 rr_rg         = [0.05, 0.5, 0.05]#17
-m_rg          = [1., 120.0, 5]#23
+m_rg          = [1., 60.0, 5]#23
 mr_rg         = [.01, .95, .05]#18
 
 
@@ -50,13 +50,13 @@ n = False
 
 #choose what to run
 make_folders              = y
-rebuild_binary            = y
+rebuild_binary            = n
 make_correct_answer_hist  = y
 run_regular_iteration     = n
 run_random_iteration      = y
 
 run_forward_evole_time    = y
-run_backward_evolve_ratio = y
+run_backward_evolve_ratio = n
 run_radius                = y
 run_radius_ratio          = y
 run_mass                  = y
