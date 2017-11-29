@@ -1,0 +1,1623 @@
+[DifferentialEvolutionDB 
+    id = 575
+    name = 'de_nbody_5_23_17_v164_20k_3'
+    parent_selection = 0    number_pairs = 1    recombination_selection = 0    parent_scaling_factor = 1    differential_scaling_factor = 1    crossover_rate = 0.5    directional = 0    current_individual = 163
+    initialized_individuals = 200
+    current_iteration = 133
+    maximum_iterations = 0
+    individuals_created = 240163
+    maximum_created = 0
+    individuals_reported = 168934
+    maximum_reported = 0
+    population_size = 200
+    min_bound = '[3, 1, 0.05, 0.1, 1, 0.01]'
+    max_bound = '[5, 1, 0.5, 0.5, 50, 0.95]'
+    app_id = 7
+]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 0
+        fitness = -2.482475159
+        parameters = '[3.94408850697773, 1, 0.207037075911641, 0.23339937301353, 12.0609950169454, 0.29945763951631]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 1
+        fitness = -2.853892927
+        parameters = '[3.94016812182963, 1, 0.209095359628553, 0.251697008404882, 12.0683463963211, 0.349627726702026]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 2
+        fitness = -2.04720076
+        parameters = '[3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 3
+        fitness = -2.128633377
+        parameters = '[3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 4
+        fitness = -2.721543472
+        parameters = '[3.92822272703036, 1, 0.208638686093049, 0.237466924637556, 12.0465930600193, 0.251717809410766]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 5
+        fitness = -3.368588024
+        parameters = '[3.93053489830343, 1, 0.203913047036617, 0.156124435923991, 12.2328102902975, 0.103992038806887]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 6
+        fitness = -2.04720076
+        parameters = '[3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 7
+        fitness = -3.281061267
+        parameters = '[3.92584931105375, 1, 0.209637261927124, 0.258624036610122, 12.0234772623531, 0.347592500899918]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 8
+        fitness = -2.338015439
+        parameters = '[3.93027454754338, 1, 0.207448508858221, 0.25846958663315, 12.0055674149201, 0.329042159342195]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 9
+        fitness = -2.04720076
+        parameters = '[3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 10
+        fitness = -2.04720076
+        parameters = '[3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 11
+        fitness = -2.128633377
+        parameters = '[3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 12
+        fitness = -2.45629482
+        parameters = '[3.93364595575261, 1, 0.21011871425435, 0.165783714689314, 12.0512654366902, 0.160306352009063]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 13
+        fitness = -2.552688555
+        parameters = '[3.93364595575261, 1, 0.210847179277348, 0.257113318052147, 12.0825304242301, 0.354874945580949]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 14
+        fitness = -2.128633377
+        parameters = '[3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 15
+        fitness = -2.04720076
+        parameters = '[3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 16
+        fitness = -2.731144165
+        parameters = '[3.93446253426346, 1, 0.202988771116365, 0.157628751918677, 12.037975793937, 0.10810876787174]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 17
+        fitness = -2.22243556
+        parameters = '[3.9478448508307, 1, 0.208355406578651, 0.237782505527138, 12.1726197835514, 0.334613008568996]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 18
+        fitness = -2.128633377
+        parameters = '[3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 19
+        fitness = -2.883815692
+        parameters = '[3.94686067849389, 1, 0.204111442388967, 0.156791973207149, 12.0558586711996, 0.110134789044968]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 20
+        fitness = -2.128633377
+        parameters = '[3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 21
+        fitness = -2.950417216
+        parameters = '[3.9387602503411, 1, 0.209656545962221, 0.250209013652062, 12.0795362789655, 0.346361084957597]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 22
+        fitness = -3.674807673
+        parameters = '[3.92760257283232, 1, 0.211833006970121, 0.241018297988923, 12.1722706088322, 0.262976403171204]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 23
+        fitness = -2.74787672
+        parameters = '[3.93200803780932, 1, 0.209440058167098, 0.255776204634458, 12.0769450091752, 0.341859264397065]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 24
+        fitness = -2.04720076
+        parameters = '[3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 25
+        fitness = -2.475389818
+        parameters = '[3.93687676684918, 1, 0.208626585453759, 0.246769777499141, 12.0805916523101, 0.329042159342195]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 26
+        fitness = -2.128633377
+        parameters = '[3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 27
+        fitness = -2.04720076
+        parameters = '[3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 28
+        fitness = -2.209321484
+        parameters = '[3.94014787022025, 1, 0.210116400639532, 0.247673891670996, 12.1159069798884, 0.372155927298601]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 29
+        fitness = -2.45629482
+        parameters = '[3.93364595575261, 1, 0.21011871425435, 0.165783714689314, 12.0512654366902, 0.160306352009063]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 30
+        fitness = -2.796882831
+        parameters = '[3.93556518666428, 1, 0.202890485024556, 0.156791973207149, 12.0881426383279, 0.110134789044968]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 31
+        fitness = -2.905851523
+        parameters = '[3.94686067849389, 1, 0.208498955366667, 0.234755641594533, 12.07856113161, 0.309985135979931]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 32
+        fitness = -3.019810446
+        parameters = '[3.93491947464656, 1, 0.209095359628553, 0.240981547068808, 12.1452331955083, 0.289158394080586]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 33
+        fitness = -2.04720076
+        parameters = '[3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 34
+        fitness = -3.338763298
+        parameters = '[3.94406621763481, 1, 0.21402953687357, 0.165783714689314, 12.0150822605948, 0.160306352009063]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 35
+        fitness = -2.128633377
+        parameters = '[3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 36
+        fitness = -2.04720076
+        parameters = '[3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 37
+        fitness = -2.128633377
+        parameters = '[3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 38
+        fitness = -2.04720076
+        parameters = '[3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 39
+        fitness = -2.894974666
+        parameters = '[3.93859187606721, 1, 0.205132174317295, 0.246469686646018, 11.9377808349671, 0.292771517867214]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 40
+        fitness = -2.128633377
+        parameters = '[3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 41
+        fitness = -3.367039396
+        parameters = '[3.93725511804223, 1, 0.209418598609036, 0.246769777499141, 11.9542923634896, 0.32793632288462]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 42
+        fitness = -2.04720076
+        parameters = '[3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 43
+        fitness = -2.45629482
+        parameters = '[3.93364595575261, 1, 0.21011871425435, 0.165783714689314, 12.0512654366902, 0.160306352009063]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 44
+        fitness = -2.199804816
+        parameters = '[3.93862846679984, 1, 0.212927179038527, 0.252158263884485, 12.102769038639, 0.365020289411766]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 45
+        fitness = -2.04720076
+        parameters = '[3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 46
+        fitness = -2.867477211
+        parameters = '[3.93764528399315, 1, 0.210376184317292, 0.235839077644054, 12.0708355582319, 0.306629570215]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 47
+        fitness = -2.128633377
+        parameters = '[3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 48
+        fitness = -2.04720076
+        parameters = '[3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 49
+        fitness = -2.04720076
+        parameters = '[3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 50
+        fitness = -3.605977875
+        parameters = '[3.93326760455956, 1, 0.214737786003389, 0.165783714689314, 12.1242910064755, 0.149778855545442]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 51
+        fitness = -2.65074593
+        parameters = '[3.93859187606721, 1, 0.207658618548914, 0.248371235840026, 12.0297372168855, 0.311112213316357]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 52
+        fitness = -2.45629482
+        parameters = '[3.93364595575261, 1, 0.21011871425435, 0.165783714689314, 12.0512654366902, 0.160306352009063]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 53
+        fitness = -2.04720076
+        parameters = '[3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 54
+        fitness = -2.128633377
+        parameters = '[3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 55
+        fitness = -2.128633377
+        parameters = '[3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 56
+        fitness = -2.284730634
+        parameters = '[3.93887690920376, 1, 0.209126913512594, 0.25196127733216, 12.0355431165082, 0.319103357736025]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 57
+        fitness = -2.45629482
+        parameters = '[3.93364595575261, 1, 0.21011871425435, 0.165783714689314, 12.0512654366902, 0.160306352009063]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 58
+        fitness = -2.128633377
+        parameters = '[3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 59
+        fitness = -2.45629482
+        parameters = '[3.93364595575261, 1, 0.21011871425435, 0.165783714689314, 12.0512654366902, 0.160306352009063]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 60
+        fitness = -2.458125553
+        parameters = '[3.92462736880415, 1, 0.209154732839671, 0.24235877487809, 11.9635837583326, 0.282609808500859]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 61
+        fitness = -2.04720076
+        parameters = '[3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 62
+        fitness = -2.714489741
+        parameters = '[3.93687676684918, 1, 0.208400669274858, 0.252167314477266, 12.0170469302693, 0.339569655805816]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 63
+        fitness = -2.415925629
+        parameters = '[3.94270738027974, 1, 0.209047333209321, 0.232626071292915, 12.0952640296891, 0.286077430560254]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 64
+        fitness = -2.128633377
+        parameters = '[3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 65
+        fitness = -2.690610944
+        parameters = '[3.94446685817078, 1, 0.207989236328278, 0.234755641594533, 12.1053246334206, 0.309985135979931]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 66
+        fitness = -2.809887573
+        parameters = '[3.94038422266017, 1, 0.205220731848387, 0.155546804983171, 12.1415533986868, 0.112839563451716]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 67
+        fitness = -2.128633377
+        parameters = '[3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 68
+        fitness = -2.494455459
+        parameters = '[3.9373069023713, 1, 0.208626585453759, 0.246853354666382, 12.0291212839077, 0.345539935631664]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 69
+        fitness = -4.139772525
+        parameters = '[3.94519007392235, 1, 0.213358231715386, 0.202755004819481, 11.9417621181335, 0.243832528181375]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 70
+        fitness = -2.128633377
+        parameters = '[3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 71
+        fitness = -3.007757028
+        parameters = '[3.94154787156728, 1, 0.212360236223333, 0.252826007269329, 12.1786148280377, 0.346399510349137]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 72
+        fitness = -2.04720076
+        parameters = '[3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 73
+        fitness = -2.670098568
+        parameters = '[3.9373069023713, 1, 0.208626585453759, 0.246853354666382, 12.0291212839077, 0.329042159342195]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 74
+        fitness = -2.128633377
+        parameters = '[3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 75
+        fitness = -2.45629482
+        parameters = '[3.93364595575261, 1, 0.21011871425435, 0.165783714689314, 12.0512654366902, 0.160306352009063]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 76
+        fitness = -3.019144599
+        parameters = '[3.92447862261875, 1, 0.207277998002256, 0.2442481293343, 12.0627087750475, 0.287361730276601]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 77
+        fitness = -2.120355152
+        parameters = '[3.93681771261608, 1, 0.20858694512864, 0.235776225477459, 12.0464640732391, 0.267437398312615]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 78
+        fitness = -3.281061267
+        parameters = '[3.92584931105375, 1, 0.209637261927124, 0.258624036610122, 12.0234772623531, 0.347592500899918]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 79
+        fitness = -2.04720076
+        parameters = '[3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 80
+        fitness = -2.782204939
+        parameters = '[3.92371433321389, 1, 0.211248804035135, 0.255638684518636, 12.0861471081147, 0.341859264397065]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 81
+        fitness = -2.128633377
+        parameters = '[3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 82
+        fitness = -2.04720076
+        parameters = '[3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 83
+        fitness = -2.04720076
+        parameters = '[3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 84
+        fitness = -2.04720076
+        parameters = '[3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 85
+        fitness = -2.128633377
+        parameters = '[3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 86
+        fitness = -3.307314113
+        parameters = '[3.92584931105375, 1, 0.213308072416118, 0.200315594673156, 12.0871835544242, 0.277435250752601]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 87
+        fitness = -2.04720076
+        parameters = '[3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 88
+        fitness = -2.708061187
+        parameters = '[3.94446685817078, 1, 0.209452185418937, 0.236426236946135, 12.1216172974093, 0.330671976362352]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 89
+        fitness = -2.984363278
+        parameters = '[3.92865838436395, 1, 0.209578745870396, 0.256661658361557, 12.1572831801605, 0.356067432095285]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 90
+        fitness = -2.04720076
+        parameters = '[3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 91
+        fitness = -2.04720076
+        parameters = '[3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 92
+        fitness = -2.04720076
+        parameters = '[3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 93
+        fitness = -2.128633377
+        parameters = '[3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 94
+        fitness = -3.249992499
+        parameters = '[3.94349957350645, 1, 0.209922242548782, 0.232181226834657, 12.0318651108543, 0.297585917180389]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 95
+        fitness = -3.160680216
+        parameters = '[3.93027454754338, 1, 0.21197501862189, 0.25846958663315, 12.0529249464166, 0.354492792948145]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 96
+        fitness = -2.782056927
+        parameters = '[3.92822272703036, 1, 0.209590846509686, 0.237466924637556, 12.1216172974093, 0.273878638795583]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 97
+        fitness = -2.74787672
+        parameters = '[3.93200803780932, 1, 0.209440058167098, 0.255776204634458, 12.0769450091752, 0.341859264397065]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 98
+        fitness = -2.811572636
+        parameters = '[3.92860107822341, 1, 0.209590846509686, 0.238823193218559, 12.1216172974093, 0.262245305874387]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 99
+        fitness = -2.209321484
+        parameters = '[3.94014787022025, 1, 0.210116400639532, 0.247673891670996, 12.1159069798884, 0.372155927298601]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 100
+        fitness = -2.883815692
+        parameters = '[3.94686067849389, 1, 0.204111442388967, 0.156791973207149, 12.0558586711996, 0.110134789044968]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 101
+        fitness = -2.128633377
+        parameters = '[3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 102
+        fitness = -2.04720076
+        parameters = '[3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 103
+        fitness = -2.128633377
+        parameters = '[3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 104
+        fitness = -2.474605392
+        parameters = '[3.92875561909747, 1, 0.209305214928462, 0.258519595395774, 12.020515917102, 0.348987934193573]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 105
+        fitness = -2.516226999
+        parameters = '[3.93485894519824, 1, 0.208202572423034, 0.241002506297087, 12.0147337019444, 0.266411036341452]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 106
+        fitness = -2.128633377
+        parameters = '[3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 107
+        fitness = -2.695622617
+        parameters = '[3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.0708355582319, 0.350097152269437]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 108
+        fitness = -2.256250606
+        parameters = '[3.94106691936019, 1, 0.208106165344378, 0.236268817633391, 12.10580754094, 0.298816371229478]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 109
+        fitness = -2.04720076
+        parameters = '[3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 110
+        fitness = -2.99216759
+        parameters = '[3.93675769446421, 1, 0.210756105813217, 0.248430736456065, 12.0512654366902, 0.360767741897149]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 111
+        fitness = -2.128633377
+        parameters = '[3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 112
+        fitness = -2.851101453
+        parameters = '[3.93272717250504, 1, 0.21019344531233, 0.243269493337724, 12.0426540118649, 0.301163292461992]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 113
+        fitness = -2.39157565
+        parameters = '[3.94423568854108, 1, 0.209154986916102, 0.237782505527138, 12.0995942137661, 0.318709134273232]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 114
+        fitness = -2.765957346
+        parameters = '[3.94212152436374, 1, 0.208091458247507, 0.255776204634458, 12.0609950169454, 0.386668217624528]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 115
+        fitness = -2.65806978
+        parameters = '[3.93390267714863, 1, 0.207728021650117, 0.246769777499141, 12.0805916523101, 0.296942528351208]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 116
+        fitness = -3.676148885
+        parameters = '[3.94728080322962, 1, 0.203192791144831, 0.151840784866365, 11.9480466356032, 0.120567696057259]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 117
+        fitness = -2.284730634
+        parameters = '[3.93887690920376, 1, 0.209126913512594, 0.25196127733216, 12.0355431165082, 0.319103357736025]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 118
+        fitness = -2.669659089
+        parameters = '[3.93765496695416, 1, 0.202683233667635, 0.156743972096592, 12.0166934430601, 0.118737267940305]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 119
+        fitness = -2.128633377
+        parameters = '[3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 120
+        fitness = -2.45629482
+        parameters = '[3.93364595575261, 1, 0.21011871425435, 0.165783714689314, 12.0512654366902, 0.160306352009063]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 121
+        fitness = -2.765957346
+        parameters = '[3.94212152436374, 1, 0.208091458247507, 0.255776204634458, 12.0609950169454, 0.386668217624528]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 122
+        fitness = -2.625451165
+        parameters = '[3.93857457721607, 1, 0.210874402965419, 0.246401638071985, 12.1068893482443, 0.33991107472217]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 123
+        fitness = -2.556046089
+        parameters = '[3.94343124469715, 1, 0.202660243783631, 0.155144660919911, 12.1500796233289, 0.102896897858011]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 124
+        fitness = -2.04720076
+        parameters = '[3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 125
+        fitness = -2.128633377
+        parameters = '[3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 126
+        fitness = -2.128633377
+        parameters = '[3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 127
+        fitness = -2.793654562
+        parameters = '[3.94083344936375, 1, 0.208270354673743, 0.240613407641652, 12.1448359102934, 0.28949981299694]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 128
+        fitness = -2.04720076
+        parameters = '[3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 129
+        fitness = -2.128633377
+        parameters = '[3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 130
+        fitness = -2.128633377
+        parameters = '[3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 131
+        fitness = -2.488259329
+        parameters = '[3.93819950381285, 1, 0.209144417231447, 0.250340739823879, 11.9933221589311, 0.339100230238405]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 132
+        fitness = -2.04720076
+        parameters = '[3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 133
+        fitness = -2.45629482
+        parameters = '[3.93364595575261, 1, 0.21011871425435, 0.165783714689314, 12.0512654366902, 0.160306352009063]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 134
+        fitness = -2.45629482
+        parameters = '[3.93364595575261, 1, 0.21011871425435, 0.165783714689314, 12.0512654366902, 0.160306352009063]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 135
+        fitness = -2.45629482
+        parameters = '[3.93364595575261, 1, 0.21011871425435, 0.165783714689314, 12.0512654366902, 0.160306352009063]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 136
+        fitness = -2.128633377
+        parameters = '[3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 137
+        fitness = -2.04720076
+        parameters = '[3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 138
+        fitness = -2.580449824
+        parameters = '[3.93859187606721, 1, 0.207448508858221, 0.248371235840026, 12.0297372168855, 0.311112213316357]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 139
+        fitness = -2.04720076
+        parameters = '[3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 140
+        fitness = -3.289581294
+        parameters = '[3.93763346923528, 1, 0.211981853644823, 0.249482314661147, 12.0532959573903, 0.345140505032617]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 141
+        fitness = -2.128633377
+        parameters = '[3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 142
+        fitness = -2.04720076
+        parameters = '[3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 143
+        fitness = -2.04720076
+        parameters = '[3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 144
+        fitness = -2.04720076
+        parameters = '[3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 145
+        fitness = -3.231661915
+        parameters = '[3.92917978623873, 1, 0.210161663335739, 0.258624036610122, 12.0507204430179, 0.347592500899918]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 146
+        fitness = -2.128633377
+        parameters = '[3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 147
+        fitness = -2.186084354
+        parameters = '[3.94170256238445, 1, 0.208372119674464, 0.235151860862976, 12.1334385033712, 0.306476628533526]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 148
+        fitness = -2.128633377
+        parameters = '[3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 149
+        fitness = -2.04720076
+        parameters = '[3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 150
+        fitness = -2.04720076
+        parameters = '[3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 151
+        fitness = -2.04720076
+        parameters = '[3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 152
+        fitness = -2.45629482
+        parameters = '[3.93364595575261, 1, 0.21011871425435, 0.165783714689314, 12.0512654366902, 0.160306352009063]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 153
+        fitness = -2.04720076
+        parameters = '[3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 154
+        fitness = -2.04720076
+        parameters = '[3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 155
+        fitness = -2.877967275
+        parameters = '[3.94061763863998, 1, 0.207634784712003, 0.204050800483679, 12.0398287838323, 0.238883576747022]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 156
+        fitness = -2.120355152
+        parameters = '[3.93681771261608, 1, 0.20858694512864, 0.235776225477459, 12.0464640732391, 0.267437398312615]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 157
+        fitness = -2.45629482
+        parameters = '[3.93364595575261, 1, 0.21011871425435, 0.165783714689314, 12.0512654366902, 0.160306352009063]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 158
+        fitness = -2.936824823
+        parameters = '[3.92832548357535, 1, 0.209079298749561, 0.258436018228533, 12.0719862855044, 0.343017654367725]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 159
+        fitness = -2.919984927
+        parameters = '[3.94258247502146, 1, 0.208697575039699, 0.238150644954294, 12.0245699763761, 0.303258430096283]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 160
+        fitness = -2.818697864
+        parameters = '[3.92961083399117, 1, 0.211302757717218, 0.241632498428232, 12.1556158897001, 0.288957003839318]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 161
+        fitness = -2.883815692
+        parameters = '[3.94686067849389, 1, 0.204111442388967, 0.156791973207149, 12.0558586711996, 0.110134789044968]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 162
+        fitness = -2.04720076
+        parameters = '[3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 163
+        fitness = -2.04720076
+        parameters = '[3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 164
+        fitness = -3.630562469
+        parameters = '[3.93681771261608, 1, 0.210505056078546, 0.155285724159336, 12.1358355628324, 0.121551331365479]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 165
+        fitness = -2.04720076
+        parameters = '[3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 166
+        fitness = -2.04720076
+        parameters = '[3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 167
+        fitness = -2.04720076
+        parameters = '[3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 168
+        fitness = -2.128633377
+        parameters = '[3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 169
+        fitness = -2.133351625
+        parameters = '[3.94210516242287, 1, 0.21011871425435, 0.235472114011656, 12.0512654366902, 0.306275675138461]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 170
+        fitness = -2.128633377
+        parameters = '[3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 171
+        fitness = -2.618361711
+        parameters = '[3.93819622602302, 1, 0.209922242548782, 0.232181226834657, 12.0318651108543, 0.297585917180389]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 172
+        fitness = -2.128633377
+        parameters = '[3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 173
+        fitness = -2.883815692
+        parameters = '[3.94686067849389, 1, 0.204111442388967, 0.156791973207149, 12.0558586711996, 0.110134789044968]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 174
+        fitness = -2.796882831
+        parameters = '[3.93556518666428, 1, 0.202890485024556, 0.156791973207149, 12.0881426383279, 0.110134789044968]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 175
+        fitness = -2.128633377
+        parameters = '[3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 176
+        fitness = -2.04720076
+        parameters = '[3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 177
+        fitness = -2.45629482
+        parameters = '[3.93364595575261, 1, 0.21011871425435, 0.165783714689314, 12.0512654366902, 0.160306352009063]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 178
+        fitness = -2.04720076
+        parameters = '[3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 179
+        fitness = -2.128633377
+        parameters = '[3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 180
+        fitness = -3.240284044
+        parameters = '[3.92751329950984, 1, 0.208706165757032, 0.258624036610122, 12.0507204430179, 0.347592500899918]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 181
+        fitness = -2.128633377
+        parameters = '[3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 182
+        fitness = -2.04720076
+        parameters = '[3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 183
+        fitness = -2.128633377
+        parameters = '[3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 184
+        fitness = -2.128633377
+        parameters = '[3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 185
+        fitness = -2.128633377
+        parameters = '[3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 186
+        fitness = -2.04720076
+        parameters = '[3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 187
+        fitness = -3.061311471
+        parameters = '[3.94443163787925, 1, 0.19918022322236, 0.156791973207149, 12.2051764528731, 0.101868164311161]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 188
+        fitness = -2.190528035
+        parameters = '[3.94258247502146, 1, 0.208697575039699, 0.235314644407489, 12.0952122113667, 0.303258430096283]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 189
+        fitness = -2.04720076
+        parameters = '[3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 190
+        fitness = -2.45629482
+        parameters = '[3.93364595575261, 1, 0.21011871425435, 0.165783714689314, 12.0512654366902, 0.160306352009063]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 191
+        fitness = -2.128633377
+        parameters = '[3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 192
+        fitness = -2.965859709
+        parameters = '[3.94449635315693, 1, 0.207322848518371, 0.236213444638998, 12.044814181048, 0.312509054322718]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 193
+        fitness = -2.609586116
+        parameters = '[3.92722422163927, 1, 0.208400669274858, 0.236213444638998, 12.0972463714422, 0.271971337134006]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 194
+        fitness = -3.350334076
+        parameters = '[3.91640898631892, 1, 0.211171363212628, 0.252250655740506, 12.0144457919523, 0.328196511394344]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 195
+        fitness = -2.128633377
+        parameters = '[3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 196
+        fitness = -2.965859709
+        parameters = '[3.94449635315693, 1, 0.207322848518371, 0.236213444638998, 12.044814181048, 0.312509054322718]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 197
+        fitness = -2.04720076
+        parameters = '[3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 198
+        fitness = -2.400594081
+        parameters = '[3.94172681122982, 1, 0.209166553837713, 0.234115845430653, 11.9762411993002, 0.29574817867484]'
+        seed = 0
+    ]
+    [DEIndividual
+        differential_evolution_id = 575
+        position = 199
+        fitness = -2.883815692
+        parameters = '[3.94686067849389, 1, 0.204111442388967, 0.156791973207149, 12.0558586711996, 0.110134789044968]'
+        seed = 0
+    ]
+
+best fitness: -2.04720076
+median fitness: -2.190528035
+average fitness: -2.4341203
+worst fitness: -4.139772525
+
+The best 200 of 200 individuals are (position, fitness, parameters, metadata):
+	69, -4.139772525, [3.94519007392235, 1, 0.213358231715386, 0.202755004819481, 11.9417621181335, 0.243832528181375], ''
+	116, -3.676148885, [3.94728080322962, 1, 0.203192791144831, 0.151840784866365, 11.9480466356032, 0.120567696057259], ''
+	22, -3.674807673, [3.92760257283232, 1, 0.211833006970121, 0.241018297988923, 12.1722706088322, 0.262976403171204], ''
+	164, -3.630562469, [3.93681771261608, 1, 0.210505056078546, 0.155285724159336, 12.1358355628324, 0.121551331365479], ''
+	50, -3.605977875, [3.93326760455956, 1, 0.214737786003389, 0.165783714689314, 12.1242910064755, 0.149778855545442], ''
+	5, -3.368588024, [3.93053489830343, 1, 0.203913047036617, 0.156124435923991, 12.2328102902975, 0.103992038806887], ''
+	41, -3.367039396, [3.93725511804223, 1, 0.209418598609036, 0.246769777499141, 11.9542923634896, 0.32793632288462], ''
+	194, -3.350334076, [3.91640898631892, 1, 0.211171363212628, 0.252250655740506, 12.0144457919523, 0.328196511394344], ''
+	34, -3.338763298, [3.94406621763481, 1, 0.21402953687357, 0.165783714689314, 12.0150822605948, 0.160306352009063], ''
+	86, -3.307314113, [3.92584931105375, 1, 0.213308072416118, 0.200315594673156, 12.0871835544242, 0.277435250752601], ''
+	140, -3.289581294, [3.93763346923528, 1, 0.211981853644823, 0.249482314661147, 12.0532959573903, 0.345140505032617], ''
+	7, -3.281061267, [3.92584931105375, 1, 0.209637261927124, 0.258624036610122, 12.0234772623531, 0.347592500899918], ''
+	78, -3.281061267, [3.92584931105375, 1, 0.209637261927124, 0.258624036610122, 12.0234772623531, 0.347592500899918], ''
+	94, -3.249992499, [3.94349957350645, 1, 0.209922242548782, 0.232181226834657, 12.0318651108543, 0.297585917180389], ''
+	180, -3.240284044, [3.92751329950984, 1, 0.208706165757032, 0.258624036610122, 12.0507204430179, 0.347592500899918], ''
+	145, -3.231661915, [3.92917978623873, 1, 0.210161663335739, 0.258624036610122, 12.0507204430179, 0.347592500899918], ''
+	95, -3.160680216, [3.93027454754338, 1, 0.21197501862189, 0.25846958663315, 12.0529249464166, 0.354492792948145], ''
+	187, -3.061311471, [3.94443163787925, 1, 0.19918022322236, 0.156791973207149, 12.2051764528731, 0.101868164311161], ''
+	32, -3.019810446, [3.93491947464656, 1, 0.209095359628553, 0.240981547068808, 12.1452331955083, 0.289158394080586], ''
+	76, -3.019144599, [3.92447862261875, 1, 0.207277998002256, 0.2442481293343, 12.0627087750475, 0.287361730276601], ''
+	71, -3.007757028, [3.94154787156728, 1, 0.212360236223333, 0.252826007269329, 12.1786148280377, 0.346399510349137], ''
+	110, -2.99216759, [3.93675769446421, 1, 0.210756105813217, 0.248430736456065, 12.0512654366902, 0.360767741897149], ''
+	89, -2.984363278, [3.92865838436395, 1, 0.209578745870396, 0.256661658361557, 12.1572831801605, 0.356067432095285], ''
+	192, -2.965859709, [3.94449635315693, 1, 0.207322848518371, 0.236213444638998, 12.044814181048, 0.312509054322718], ''
+	196, -2.965859709, [3.94449635315693, 1, 0.207322848518371, 0.236213444638998, 12.044814181048, 0.312509054322718], ''
+	21, -2.950417216, [3.9387602503411, 1, 0.209656545962221, 0.250209013652062, 12.0795362789655, 0.346361084957597], ''
+	158, -2.936824823, [3.92832548357535, 1, 0.209079298749561, 0.258436018228533, 12.0719862855044, 0.343017654367725], ''
+	159, -2.919984927, [3.94258247502146, 1, 0.208697575039699, 0.238150644954294, 12.0245699763761, 0.303258430096283], ''
+	31, -2.905851523, [3.94686067849389, 1, 0.208498955366667, 0.234755641594533, 12.07856113161, 0.309985135979931], ''
+	39, -2.894974666, [3.93859187606721, 1, 0.205132174317295, 0.246469686646018, 11.9377808349671, 0.292771517867214], ''
+	100, -2.883815692, [3.94686067849389, 1, 0.204111442388967, 0.156791973207149, 12.0558586711996, 0.110134789044968], ''
+	161, -2.883815692, [3.94686067849389, 1, 0.204111442388967, 0.156791973207149, 12.0558586711996, 0.110134789044968], ''
+	173, -2.883815692, [3.94686067849389, 1, 0.204111442388967, 0.156791973207149, 12.0558586711996, 0.110134789044968], ''
+	199, -2.883815692, [3.94686067849389, 1, 0.204111442388967, 0.156791973207149, 12.0558586711996, 0.110134789044968], ''
+	19, -2.883815692, [3.94686067849389, 1, 0.204111442388967, 0.156791973207149, 12.0558586711996, 0.110134789044968], ''
+	155, -2.877967275, [3.94061763863998, 1, 0.207634784712003, 0.204050800483679, 12.0398287838323, 0.238883576747022], ''
+	46, -2.867477211, [3.93764528399315, 1, 0.210376184317292, 0.235839077644054, 12.0708355582319, 0.306629570215], ''
+	1, -2.853892927, [3.94016812182963, 1, 0.209095359628553, 0.251697008404882, 12.0683463963211, 0.349627726702026], ''
+	112, -2.851101453, [3.93272717250504, 1, 0.21019344531233, 0.243269493337724, 12.0426540118649, 0.301163292461992], ''
+	160, -2.818697864, [3.92961083399117, 1, 0.211302757717218, 0.241632498428232, 12.1556158897001, 0.288957003839318], ''
+	98, -2.811572636, [3.92860107822341, 1, 0.209590846509686, 0.238823193218559, 12.1216172974093, 0.262245305874387], ''
+	66, -2.809887573, [3.94038422266017, 1, 0.205220731848387, 0.155546804983171, 12.1415533986868, 0.112839563451716], ''
+	30, -2.796882831, [3.93556518666428, 1, 0.202890485024556, 0.156791973207149, 12.0881426383279, 0.110134789044968], ''
+	174, -2.796882831, [3.93556518666428, 1, 0.202890485024556, 0.156791973207149, 12.0881426383279, 0.110134789044968], ''
+	127, -2.793654562, [3.94083344936375, 1, 0.208270354673743, 0.240613407641652, 12.1448359102934, 0.28949981299694], ''
+	80, -2.782204939, [3.92371433321389, 1, 0.211248804035135, 0.255638684518636, 12.0861471081147, 0.341859264397065], ''
+	96, -2.782056927, [3.92822272703036, 1, 0.209590846509686, 0.237466924637556, 12.1216172974093, 0.273878638795583], ''
+	114, -2.765957346, [3.94212152436374, 1, 0.208091458247507, 0.255776204634458, 12.0609950169454, 0.386668217624528], ''
+	121, -2.765957346, [3.94212152436374, 1, 0.208091458247507, 0.255776204634458, 12.0609950169454, 0.386668217624528], ''
+	97, -2.74787672, [3.93200803780932, 1, 0.209440058167098, 0.255776204634458, 12.0769450091752, 0.341859264397065], ''
+	23, -2.74787672, [3.93200803780932, 1, 0.209440058167098, 0.255776204634458, 12.0769450091752, 0.341859264397065], ''
+	16, -2.731144165, [3.93446253426346, 1, 0.202988771116365, 0.157628751918677, 12.037975793937, 0.10810876787174], ''
+	4, -2.721543472, [3.92822272703036, 1, 0.208638686093049, 0.237466924637556, 12.0465930600193, 0.251717809410766], ''
+	62, -2.714489741, [3.93687676684918, 1, 0.208400669274858, 0.252167314477266, 12.0170469302693, 0.339569655805816], ''
+	88, -2.708061187, [3.94446685817078, 1, 0.209452185418937, 0.236426236946135, 12.1216172974093, 0.330671976362352], ''
+	107, -2.695622617, [3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.0708355582319, 0.350097152269437], ''
+	65, -2.690610944, [3.94446685817078, 1, 0.207989236328278, 0.234755641594533, 12.1053246334206, 0.309985135979931], ''
+	73, -2.670098568, [3.9373069023713, 1, 0.208626585453759, 0.246853354666382, 12.0291212839077, 0.329042159342195], ''
+	118, -2.669659089, [3.93765496695416, 1, 0.202683233667635, 0.156743972096592, 12.0166934430601, 0.118737267940305], ''
+	115, -2.65806978, [3.93390267714863, 1, 0.207728021650117, 0.246769777499141, 12.0805916523101, 0.296942528351208], ''
+	51, -2.65074593, [3.93859187606721, 1, 0.207658618548914, 0.248371235840026, 12.0297372168855, 0.311112213316357], ''
+	122, -2.625451165, [3.93857457721607, 1, 0.210874402965419, 0.246401638071985, 12.1068893482443, 0.33991107472217], ''
+	171, -2.618361711, [3.93819622602302, 1, 0.209922242548782, 0.232181226834657, 12.0318651108543, 0.297585917180389], ''
+	193, -2.609586116, [3.92722422163927, 1, 0.208400669274858, 0.236213444638998, 12.0972463714422, 0.271971337134006], ''
+	138, -2.580449824, [3.93859187606721, 1, 0.207448508858221, 0.248371235840026, 12.0297372168855, 0.311112213316357], ''
+	123, -2.556046089, [3.94343124469715, 1, 0.202660243783631, 0.155144660919911, 12.1500796233289, 0.102896897858011], ''
+	13, -2.552688555, [3.93364595575261, 1, 0.210847179277348, 0.257113318052147, 12.0825304242301, 0.354874945580949], ''
+	105, -2.516226999, [3.93485894519824, 1, 0.208202572423034, 0.241002506297087, 12.0147337019444, 0.266411036341452], ''
+	68, -2.494455459, [3.9373069023713, 1, 0.208626585453759, 0.246853354666382, 12.0291212839077, 0.345539935631664], ''
+	131, -2.488259329, [3.93819950381285, 1, 0.209144417231447, 0.250340739823879, 11.9933221589311, 0.339100230238405], ''
+	0, -2.482475159, [3.94408850697773, 1, 0.207037075911641, 0.23339937301353, 12.0609950169454, 0.29945763951631], ''
+	25, -2.475389818, [3.93687676684918, 1, 0.208626585453759, 0.246769777499141, 12.0805916523101, 0.329042159342195], ''
+	104, -2.474605392, [3.92875561909747, 1, 0.209305214928462, 0.258519595395774, 12.020515917102, 0.348987934193573], ''
+	60, -2.458125553, [3.92462736880415, 1, 0.209154732839671, 0.24235877487809, 11.9635837583326, 0.282609808500859], ''
+	190, -2.45629482, [3.93364595575261, 1, 0.21011871425435, 0.165783714689314, 12.0512654366902, 0.160306352009063], ''
+	43, -2.45629482, [3.93364595575261, 1, 0.21011871425435, 0.165783714689314, 12.0512654366902, 0.160306352009063], ''
+	120, -2.45629482, [3.93364595575261, 1, 0.21011871425435, 0.165783714689314, 12.0512654366902, 0.160306352009063], ''
+	177, -2.45629482, [3.93364595575261, 1, 0.21011871425435, 0.165783714689314, 12.0512654366902, 0.160306352009063], ''
+	12, -2.45629482, [3.93364595575261, 1, 0.21011871425435, 0.165783714689314, 12.0512654366902, 0.160306352009063], ''
+	52, -2.45629482, [3.93364595575261, 1, 0.21011871425435, 0.165783714689314, 12.0512654366902, 0.160306352009063], ''
+	157, -2.45629482, [3.93364595575261, 1, 0.21011871425435, 0.165783714689314, 12.0512654366902, 0.160306352009063], ''
+	152, -2.45629482, [3.93364595575261, 1, 0.21011871425435, 0.165783714689314, 12.0512654366902, 0.160306352009063], ''
+	57, -2.45629482, [3.93364595575261, 1, 0.21011871425435, 0.165783714689314, 12.0512654366902, 0.160306352009063], ''
+	135, -2.45629482, [3.93364595575261, 1, 0.21011871425435, 0.165783714689314, 12.0512654366902, 0.160306352009063], ''
+	59, -2.45629482, [3.93364595575261, 1, 0.21011871425435, 0.165783714689314, 12.0512654366902, 0.160306352009063], ''
+	134, -2.45629482, [3.93364595575261, 1, 0.21011871425435, 0.165783714689314, 12.0512654366902, 0.160306352009063], ''
+	133, -2.45629482, [3.93364595575261, 1, 0.21011871425435, 0.165783714689314, 12.0512654366902, 0.160306352009063], ''
+	29, -2.45629482, [3.93364595575261, 1, 0.21011871425435, 0.165783714689314, 12.0512654366902, 0.160306352009063], ''
+	75, -2.45629482, [3.93364595575261, 1, 0.21011871425435, 0.165783714689314, 12.0512654366902, 0.160306352009063], ''
+	63, -2.415925629, [3.94270738027974, 1, 0.209047333209321, 0.232626071292915, 12.0952640296891, 0.286077430560254], ''
+	198, -2.400594081, [3.94172681122982, 1, 0.209166553837713, 0.234115845430653, 11.9762411993002, 0.29574817867484], ''
+	113, -2.39157565, [3.94423568854108, 1, 0.209154986916102, 0.237782505527138, 12.0995942137661, 0.318709134273232], ''
+	8, -2.338015439, [3.93027454754338, 1, 0.207448508858221, 0.25846958663315, 12.0055674149201, 0.329042159342195], ''
+	117, -2.284730634, [3.93887690920376, 1, 0.209126913512594, 0.25196127733216, 12.0355431165082, 0.319103357736025], ''
+	56, -2.284730634, [3.93887690920376, 1, 0.209126913512594, 0.25196127733216, 12.0355431165082, 0.319103357736025], ''
+	108, -2.256250606, [3.94106691936019, 1, 0.208106165344378, 0.236268817633391, 12.10580754094, 0.298816371229478], ''
+	17, -2.22243556, [3.9478448508307, 1, 0.208355406578651, 0.237782505527138, 12.1726197835514, 0.334613008568996], ''
+	28, -2.209321484, [3.94014787022025, 1, 0.210116400639532, 0.247673891670996, 12.1159069798884, 0.372155927298601], ''
+	99, -2.209321484, [3.94014787022025, 1, 0.210116400639532, 0.247673891670996, 12.1159069798884, 0.372155927298601], ''
+	44, -2.199804816, [3.93862846679984, 1, 0.212927179038527, 0.252158263884485, 12.102769038639, 0.365020289411766], ''
+	188, -2.190528035, [3.94258247502146, 1, 0.208697575039699, 0.235314644407489, 12.0952122113667, 0.303258430096283], ''
+	147, -2.186084354, [3.94170256238445, 1, 0.208372119674464, 0.235151860862976, 12.1334385033712, 0.306476628533526], ''
+	169, -2.133351625, [3.94210516242287, 1, 0.21011871425435, 0.235472114011656, 12.0512654366902, 0.306275675138461], ''
+	14, -2.128633377, [3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437], ''
+	146, -2.128633377, [3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437], ''
+	141, -2.128633377, [3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437], ''
+	148, -2.128633377, [3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437], ''
+	55, -2.128633377, [3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437], ''
+	136, -2.128633377, [3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437], ''
+	58, -2.128633377, [3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437], ''
+	64, -2.128633377, [3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437], ''
+	54, -2.128633377, [3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437], ''
+	67, -2.128633377, [3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437], ''
+	11, -2.128633377, [3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437], ''
+	168, -2.128633377, [3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437], ''
+	172, -2.128633377, [3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437], ''
+	170, -2.128633377, [3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437], ''
+	47, -2.128633377, [3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437], ''
+	35, -2.128633377, [3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437], ''
+	175, -2.128633377, [3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437], ''
+	179, -2.128633377, [3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437], ''
+	181, -2.128633377, [3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437], ''
+	183, -2.128633377, [3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437], ''
+	184, -2.128633377, [3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437], ''
+	185, -2.128633377, [3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437], ''
+	40, -2.128633377, [3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437], ''
+	191, -2.128633377, [3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437], ''
+	37, -2.128633377, [3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437], ''
+	3, -2.128633377, [3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437], ''
+	195, -2.128633377, [3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437], ''
+	93, -2.128633377, [3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437], ''
+	103, -2.128633377, [3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437], ''
+	81, -2.128633377, [3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437], ''
+	111, -2.128633377, [3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437], ''
+	130, -2.128633377, [3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437], ''
+	106, -2.128633377, [3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437], ''
+	119, -2.128633377, [3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437], ''
+	85, -2.128633377, [3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437], ''
+	74, -2.128633377, [3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437], ''
+	26, -2.128633377, [3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437], ''
+	70, -2.128633377, [3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437], ''
+	101, -2.128633377, [3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437], ''
+	20, -2.128633377, [3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437], ''
+	125, -2.128633377, [3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437], ''
+	18, -2.128633377, [3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437], ''
+	129, -2.128633377, [3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437], ''
+	126, -2.128633377, [3.93725511804223, 1, 0.209352829691495, 0.248126046080144, 12.1556158897001, 0.350097152269437], ''
+	156, -2.120355152, [3.93681771261608, 1, 0.20858694512864, 0.235776225477459, 12.0464640732391, 0.267437398312615], ''
+	77, -2.120355152, [3.93681771261608, 1, 0.20858694512864, 0.235776225477459, 12.0464640732391, 0.267437398312615], ''
+	197, -2.04720076, [3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816], ''
+	38, -2.04720076, [3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816], ''
+	83, -2.04720076, [3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816], ''
+	9, -2.04720076, [3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816], ''
+	45, -2.04720076, [3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816], ''
+	189, -2.04720076, [3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816], ''
+	36, -2.04720076, [3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816], ''
+	176, -2.04720076, [3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816], ''
+	109, -2.04720076, [3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816], ''
+	178, -2.04720076, [3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816], ''
+	84, -2.04720076, [3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816], ''
+	42, -2.04720076, [3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816], ''
+	91, -2.04720076, [3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816], ''
+	182, -2.04720076, [3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816], ''
+	2, -2.04720076, [3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816], ''
+	92, -2.04720076, [3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816], ''
+	87, -2.04720076, [3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816], ''
+	90, -2.04720076, [3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816], ''
+	165, -2.04720076, [3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816], ''
+	186, -2.04720076, [3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816], ''
+	6, -2.04720076, [3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816], ''
+	102, -2.04720076, [3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816], ''
+	151, -2.04720076, [3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816], ''
+	132, -2.04720076, [3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816], ''
+	61, -2.04720076, [3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816], ''
+	128, -2.04720076, [3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816], ''
+	27, -2.04720076, [3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816], ''
+	137, -2.04720076, [3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816], ''
+	139, -2.04720076, [3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816], ''
+	15, -2.04720076, [3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816], ''
+	142, -2.04720076, [3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816], ''
+	143, -2.04720076, [3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816], ''
+	144, -2.04720076, [3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816], ''
+	124, -2.04720076, [3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816], ''
+	72, -2.04720076, [3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816], ''
+	149, -2.04720076, [3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816], ''
+	150, -2.04720076, [3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816], ''
+	82, -2.04720076, [3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816], ''
+	153, -2.04720076, [3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816], ''
+	154, -2.04720076, [3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816], ''
+	53, -2.04720076, [3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816], ''
+	49, -2.04720076, [3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816], ''
+	48, -2.04720076, [3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816], ''
+	33, -2.04720076, [3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816], ''
+	162, -2.04720076, [3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816], ''
+	163, -2.04720076, [3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816], ''
+	10, -2.04720076, [3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816], ''
+	166, -2.04720076, [3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816], ''
+	167, -2.04720076, [3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816], ''
+	24, -2.04720076, [3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816], ''
+	79, -2.04720076, [3.93687676684918, 1, 0.208400669274858, 0.246769777499141, 12.0805916523101, 0.339569655805816], ''
