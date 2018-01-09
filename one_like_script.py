@@ -20,8 +20,8 @@ twoD_clean = n
 reg_iterator  = n
 ran_iterator  = y
 
-oneD_sweep = n
-twoD_sweep = y
+oneD_sweep = y
+twoD_sweep = n
 
 oneD_multiploter = y
 plot_cost_emd = n
@@ -33,12 +33,17 @@ special_parser = n
 #name_of_sweeps = "_rand_iter_recursive_outlier_30bin_vel_disp_best_like_98per_6recur"
 #name_of_sweeps = "_rand_iter_6_22_2017_new_vel_disp_comparison"
 #name_of_sweeps  = "_6_29_2017_new_vel_disp_comparison_singularity_limit_removed_updated"
-name_of_sweeps = '_2d'
+#name_of_sweeps = '_2d'
 #name_of_sweeps  = "_7_13_2017_new_vel_disp_comparison_singularity_limit_removed_rescaled"
 #name_of_sweeps = '_7_20_2017_new_fitting_functions_lmc'
 #name_of_sweeps = '_7_20_2017_new_fitting_functions_tel'
 #name_of_sweeps = '_7_31_2017_complete_function_correct_hist_w_diff_seed'
 #name_of_sweeps = '_8_1_2017_new_fitting_functions_corrected'
+
+#name_of_sweeps = '_data_hists_1dec2017_nbody_version166_sameSeedasCorrectans'
+#name_of_sweeps = '_data_hists_1dec2017_nbody_version166_diffSeedasCorrectans'
+name_of_sweeps = '_actual_data_hists_24dec2017_nbody_version166'
+name_of_sweeps = '_actual_data_hists_24dec2017_nbody_version166_theoretical_vel_error_2'
 
 oneD_names   = ['ft', 'r', 'rr', 'm', 'mr']
 #oneD_names   = ['ft', 'm', 'mr']
@@ -56,13 +61,13 @@ misc_ext = ''
 
 #twoD_names   = ['r_rr', 'r_m', 'r_mr', 'rr_m', 'rr_mr', 'm_mr']
 c          = [3.95, 0.2, 0.2, 12, 0.2]
-ft         = [3.0, 5.0, 0.1]#20
+ft         = [2.0, 6.0, 0.1]#20
 bt         = [0.8, 1.2, 0.04]#10
 r          = [0.1, 1.3, 0.06]#20
 rr         = [0.1, .95, 0.05]#17
 m          = [1., 120.0, 5]#23
 mr         = [.1, .95, .05]#18
-mr         = [1, 25, 1]
+#mr         = [1, 25, 1]
 
 if(narrow_range):
     ft         = [3.93, 3.98, 0.1]#20
@@ -316,7 +321,7 @@ def oneD_plot(name_of_sweeps):
     return 0
 
 def oneD_multiplot(name_of_sweeps):
-    l = -200
+    l = -20000
     titles  = ['Backward Evolve Time (Gyr)',  'Baryon Scale Radius (kpc)', 'Scale Radius Ratio (R_{B}/(R_{B}+R_{D}))', 'Baryonic Mass (SMU)',  'Mass Ratio (Baryonic/Total)']
     #titles  = ['Forward Evolve Time (Gyr)', 'Baryonic Mass (SMU)',  'Mass Ratio (Baryonic/Total)']
     #labels  = ['Forward Evolve Time (Gyr)', 'Baryon Scale Radius (kpc)', 'Scale Radius Ratio', 'Baryonic Mass (Sim Mass Units)',  'Mass Ratio']
@@ -349,7 +354,7 @@ def oneD_multiplot(name_of_sweeps):
         
     for i in range(M, N):
         if(i > 3):
-            l = -200
+            l = -20000
         p = "1D_like_surface/likelihood_data" + name_of_sweeps + "/" + oneD_names[i] + "_data_vals.txt"
         if(i == 0 or i == 3):
             gnu_option1 = "set ylabel 'Likelihood ' font ',26' offset -1,0"
@@ -364,7 +369,7 @@ def oneD_multiplot(name_of_sweeps):
             gnu_option2 = "set xtics 0, 20, 120 font ', 24' offset 0,-0.5"
         elif(i == 4):
             gnu_option2 = "set xtics .1, .2, .9 font ', 24' offset 0,-0.5"
-            gnu_option2 = "set xtics 0, 4, 24 font ', 24' offset 0,-0.5"
+            #gnu_option2 = "set xtics 0, 4, 24 font ', 24' offset 0,-0.5"
         gnu_args = ["set size ratio -1 ",
                     "set size square",
                     "set lmargin 11",
