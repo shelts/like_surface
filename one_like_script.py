@@ -15,7 +15,7 @@ plot_1D = y
 plot_2D = n
 
 name_of_sweeps = '_beta_dispersions'
-name_of_sweeps = '_2d'
+#name_of_sweeps = '_2d'
 
 oneD_names   = ['ft', 'r', 'rr', 'm', 'mr']
 
@@ -61,7 +61,7 @@ def oneD_plot():
         plt.plot(sweep.vals, sweep.liks, linestyle = '-', linewidth = 2, color ='b')
         plt.scatter(sweep.vals, sweep.liks, marker = 'o', s = 4, color ='r')
         plt.plot(sweep.corr, sweep.cor2, linestyle = '-', linewidth = 1, color ='k', alpha = 1)
-    plt.savefig('1D_like_surface/parameter_sweeps' + name_of_sweeps + '/multiplot.png', format = 'png')
+    plt.savefig('./parameter_sweeps' + name_of_sweeps + '/multiplot.png', format = 'png')
 
 # # # # # # # # # # # # # # # # # # # # # #
 #    Two Dimensional Surface Sweep Func   #
@@ -89,9 +89,8 @@ def twoD_plot():
             ax.set_zlim(l, 0)
             ax.scatter(sweep.vals, sweep.liks, marker = 'o', s = 4, color ='r')
             plt.plot(sweep.corr, sweep.cor2, linestyle = '-', linewidth = 1, color ='k', alpha = 1)
-            plt.savefig('2D_like_surface/parameter_sweeps' + name_of_sweeps + '/multiplot.png', format = 'png')
+            plt.savefig('./parameter_sweeps' + name_of_sweeps + '/multiplot.png', format = 'png')
     return 0
-
 
 def main():
     if(plot_1D):

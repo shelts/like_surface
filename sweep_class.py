@@ -14,16 +14,14 @@ class sweep_data:
         self.sweep_parameter = sweep_parameter
         self.dim = dim
         self.values = []
-        self.data_folder = '1D_like_surface'
-        if(self.dim > 1):
-            self.data_folder = '2D_like_surface'
-        
+
         self.parse()
         self.sort()
         
     def parse(self):
-        likelihood_file = open('./' + self.data_folder + '/parameter_sweeps' + self.sweep_name + '/' + self.sweep_parameter + '' + '.txt', 'r')
-        data_file = open('./' + self.data_folder + '/parameter_sweeps'  + self.sweep_name + '/' + self.sweep_parameter + '_vals' + '.txt', 'r')
+        location = './parameter_sweeps' + self.sweep_name + '/' + 'parameter_sweeps' + self.sweep_name
+        likelihood_file = open(location + '/' + self.sweep_parameter + '' + '.txt', 'r')
+        data_file = open(location + '/' + self.sweep_parameter + '_vals' + '.txt', 'r')
         parameter_vals = []
         if(self.dim == 2):
             parameter_vals2 = []
@@ -83,10 +81,8 @@ class sweep_data:
                 if(self.values[i].val > self.values[i + 1].val):
                     val_tmp  = self.values[i]
                     val_tmp2 = self.values[i + 1]
-                    #print self.values[i].val, self.values[i +1].val
                     self.values[i] = val_tmp2
                     self.values[i + 1] = val_tmp
-                    #print self.values[i].val, self.values[i +1].val
                     
             unsorted = False
             for i in range(0, self.dataN - 1):
@@ -96,8 +92,6 @@ class sweep_data:
                 else:
                     
                     unsorted = True
-                    
-                    
         return 0
     
     def plottable_list(self, correct_value):
@@ -115,6 +109,3 @@ class sweep_data:
             self.cor2.append(-10.0 * i)
             if(self.dim > 1):
                 self.vals2.append(self.values[i].val2)
-    
-    
-    
