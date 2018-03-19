@@ -1,0 +1,54 @@
+Using OpenMP 10 max threads on a system with 4 processors
+<search_likelihood>-0.000000001000000</search_likelihood>
+Using OpenMP 10 max threads on a system with 4 processors
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+Number of particles in bins is very small compared to total. (0 << 2). Skipping distance calculation
+Likelihood was NAN. Returning worst case. 
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 10 max threads on a system with 4 processors
+<search_likelihood>-133.886130788525833</search_likelihood>
+Using OpenMP 10 max threads on a system with 4 processors
+<search_likelihood>-196.177940221999194</search_likelihood>
+Using OpenMP 10 max threads on a system with 4 processors
+<search_likelihood>-82.331053710528096</search_likelihood>
+Using OpenMP 10 max threads on a system with 4 processors
+Using OpenMP 10 max threads on a system with 4 processors
+Using OpenMP 10 max threads on a system with 4 processors
+Using OpenMP 10 max threads on a system with 4 processors
+Using OpenMP 10 max threads on a system with 4 processors

@@ -1,0 +1,16 @@
+Using OpenMP 10 max threads on a system with 4 processors
+<search_likelihood>-0.000000001000000</search_likelihood>
+Using OpenMP 10 max threads on a system with 4 processors
+<search_likelihood>-196.177940221999194</search_likelihood>
+Using OpenMP 10 max threads on a system with 4 processors
+<search_likelihood>-38.350011452965468</search_likelihood>
+Using OpenMP 10 max threads on a system with 4 processors
+<search_likelihood>-38.350011452965468</search_likelihood>
+Using OpenMP 10 max threads on a system with 4 processors
+Likelihood was NAN. Returning worst case. 
+<search_likelihood>-9999999.900000000372529</search_likelihood>
+Using OpenMP 10 max threads on a system with 4 processors
+Using OpenMP 10 max threads on a system with 4 processors
+Using OpenMP 10 max threads on a system with 4 processors
+Using OpenMP 10 max threads on a system with 4 processors
+Using OpenMP 10 max threads on a system with 4 processors

@@ -1,0 +1,1519 @@
+09:37:24: Process 12718 created scene instance 0
+09:39:25: Making final checkpoint
+09:39:25: Removing checkpoint file 'nbody_checkpoint'
+09:39:41: Process 12765 created scene instance 0
+09:42:42: Making final checkpoint
+09:42:42: Removing checkpoint file 'nbody_checkpoint'
+09:42:58: Process 12813 created scene instance 0
+09:44:11: Making final checkpoint
+09:44:11: Removing checkpoint file 'nbody_checkpoint'
+09:44:27: Process 12847 created scene instance 0
+09:45:36: Making final checkpoint
+09:45:36: Removing checkpoint file 'nbody_checkpoint'
+09:45:52: Process 12894 created scene instance 0
+09:48:30: Making final checkpoint
+09:48:30: Removing checkpoint file 'nbody_checkpoint'
+09:48:46: Process 12931 created scene instance 0
+09:51:15: Making final checkpoint
+09:51:15: Removing checkpoint file 'nbody_checkpoint'
+09:51:31: Process 12976 created scene instance 0
+09:52:40: Making final checkpoint
+09:52:40: Removing checkpoint file 'nbody_checkpoint'
+09:52:56: Process 13036 created scene instance 0
+09:54:54: Making final checkpoint
+09:54:54: Removing checkpoint file 'nbody_checkpoint'
+09:55:10: Process 13083 created scene instance 0
+09:57:28: Making final checkpoint
+09:57:28: Removing checkpoint file 'nbody_checkpoint'
+09:57:44: Process 13121 created scene instance 0
+09:59:19: Making final checkpoint
+09:59:19: Removing checkpoint file 'nbody_checkpoint'
+09:59:35: Process 13163 created scene instance 0
+10:01:47: Making final checkpoint
+10:01:47: Removing checkpoint file 'nbody_checkpoint'
+10:02:04: Process 13208 created scene instance 0
+10:04:59: Making final checkpoint
+10:04:59: Removing checkpoint file 'nbody_checkpoint'
+10:05:15: Process 13266 created scene instance 0
+10:07:19: Making final checkpoint
+10:07:19: Removing checkpoint file 'nbody_checkpoint'
+10:07:35: Process 13307 created scene instance 0
+10:09:28: Making final checkpoint
+10:09:28: Removing checkpoint file 'nbody_checkpoint'
+10:09:45: Process 13348 created scene instance 0
+10:11:06: Making final checkpoint
+10:11:06: Removing checkpoint file 'nbody_checkpoint'
+10:11:22: Process 13391 created scene instance 0
+10:12:30: Making final checkpoint
+10:12:30: Removing checkpoint file 'nbody_checkpoint'
+10:12:46: Process 13420 created scene instance 0
+10:13:57: Making final checkpoint
+10:13:57: Removing checkpoint file 'nbody_checkpoint'
+10:14:13: Process 13455 created scene instance 0
+10:16:36: Making final checkpoint
+10:16:36: Removing checkpoint file 'nbody_checkpoint'
+10:16:52: Process 13501 created scene instance 0
+10:18:25: Making final checkpoint
+10:18:25: Removing checkpoint file 'nbody_checkpoint'
+10:18:41: Process 13538 created scene instance 0
+10:20:48: Making final checkpoint
+10:20:48: Removing checkpoint file 'nbody_checkpoint'
+10:21:04: Process 13579 created scene instance 0
+10:23:09: Making final checkpoint
+10:23:09: Removing checkpoint file 'nbody_checkpoint'
+10:23:25: Process 13622 created scene instance 0
+10:26:09: Making final checkpoint
+10:26:09: Removing checkpoint file 'nbody_checkpoint'
+10:26:25: Process 13662 created scene instance 0
+10:28:28: Making final checkpoint
+10:28:28: Removing checkpoint file 'nbody_checkpoint'
+10:28:44: Process 13710 created scene instance 0
+10:30:50: Making final checkpoint
+10:30:50: Removing checkpoint file 'nbody_checkpoint'
+10:31:06: Process 13756 created scene instance 0
+10:32:23: Making final checkpoint
+10:32:23: Removing checkpoint file 'nbody_checkpoint'
+10:32:39: Process 13797 created scene instance 0
+10:34:10: Making final checkpoint
+10:34:10: Removing checkpoint file 'nbody_checkpoint'
+10:34:26: Process 13832 created scene instance 0
+10:35:41: Making final checkpoint
+10:35:41: Removing checkpoint file 'nbody_checkpoint'
+10:35:57: Process 13867 created scene instance 0
+10:37:16: Making final checkpoint
+10:37:16: Removing checkpoint file 'nbody_checkpoint'
+10:37:32: Process 13897 created scene instance 0
+10:38:53: Making final checkpoint
+10:38:53: Removing checkpoint file 'nbody_checkpoint'
+10:39:09: Process 13934 created scene instance 0
+10:41:22: Making final checkpoint
+10:41:22: Removing checkpoint file 'nbody_checkpoint'
+10:41:38: Process 14007 created scene instance 0
+10:42:55: Making final checkpoint
+10:42:55: Removing checkpoint file 'nbody_checkpoint'
+10:43:11: Process 14036 created scene instance 0
+10:46:06: Making final checkpoint
+10:46:06: Removing checkpoint file 'nbody_checkpoint'
+10:46:22: Process 14090 created scene instance 0
+10:49:21: Making final checkpoint
+10:49:21: Removing checkpoint file 'nbody_checkpoint'
+10:49:37: Process 14142 created scene instance 0
+10:51:01: Making final checkpoint
+10:51:01: Removing checkpoint file 'nbody_checkpoint'
+10:51:17: Process 14190 created scene instance 0
+10:53:55: Making final checkpoint
+10:53:55: Removing checkpoint file 'nbody_checkpoint'
+10:54:11: Process 14248 created scene instance 0
+10:56:16: Making final checkpoint
+10:56:16: Removing checkpoint file 'nbody_checkpoint'
+10:56:32: Process 14282 created scene instance 0
+10:59:29: Making final checkpoint
+10:59:29: Removing checkpoint file 'nbody_checkpoint'
+10:59:45: Process 14357 created scene instance 0
+11:01:51: Making final checkpoint
+11:01:51: Removing checkpoint file 'nbody_checkpoint'
+11:02:08: Process 14495 created scene instance 0
+11:04:33: Making final checkpoint
+11:04:33: Removing checkpoint file 'nbody_checkpoint'
+11:04:50: Process 14538 created scene instance 0
+11:06:30: Making final checkpoint
+11:06:30: Removing checkpoint file 'nbody_checkpoint'
+11:06:46: Process 14579 created scene instance 0
+11:08:55: Making final checkpoint
+11:08:55: Removing checkpoint file 'nbody_checkpoint'
+11:09:12: Process 14644 created scene instance 0
+11:10:21: Making final checkpoint
+11:10:21: Removing checkpoint file 'nbody_checkpoint'
+11:10:38: Process 14696 created scene instance 0
+11:12:51: Making final checkpoint
+11:12:51: Removing checkpoint file 'nbody_checkpoint'
+11:13:08: Process 14740 created scene instance 0
+11:15:31: Making final checkpoint
+11:15:31: Removing checkpoint file 'nbody_checkpoint'
+11:15:47: Process 14808 created scene instance 0
+11:18:14: Making final checkpoint
+11:18:15: Removing checkpoint file 'nbody_checkpoint'
+11:18:31: Process 14863 created scene instance 0
+11:19:42: Making final checkpoint
+11:19:42: Removing checkpoint file 'nbody_checkpoint'
+11:19:58: Process 14899 created scene instance 0
+11:22:10: Making final checkpoint
+11:22:10: Removing checkpoint file 'nbody_checkpoint'
+11:22:26: Process 14951 created scene instance 0
+11:23:35: Making final checkpoint
+11:23:35: Removing checkpoint file 'nbody_checkpoint'
+11:23:51: Process 14987 created scene instance 0
+11:26:01: Making final checkpoint
+11:26:01: Removing checkpoint file 'nbody_checkpoint'
+11:26:18: Process 15033 created scene instance 0
+11:29:20: Making final checkpoint
+11:29:20: Removing checkpoint file 'nbody_checkpoint'
+11:29:36: Process 15097 created scene instance 0
+11:31:51: Making final checkpoint
+11:31:51: Removing checkpoint file 'nbody_checkpoint'
+11:32:07: Process 15150 created scene instance 0
+11:34:31: Making final checkpoint
+11:34:31: Removing checkpoint file 'nbody_checkpoint'
+11:34:47: Process 15187 created scene instance 0
+11:37:23: Making final checkpoint
+11:37:23: Removing checkpoint file 'nbody_checkpoint'
+11:37:39: Process 15241 created scene instance 0
+11:39:26: Making final checkpoint
+11:39:26: Removing checkpoint file 'nbody_checkpoint'
+11:39:42: Process 15283 created scene instance 0
+11:42:26: Making final checkpoint
+11:42:26: Removing checkpoint file 'nbody_checkpoint'
+11:42:42: Process 15354 created scene instance 0
+11:44:35: Making final checkpoint
+11:44:35: Removing checkpoint file 'nbody_checkpoint'
+11:44:51: Process 15402 created scene instance 0
+11:46:11: Making final checkpoint
+11:46:11: Removing checkpoint file 'nbody_checkpoint'
+11:46:28: Process 15447 created scene instance 0
+11:49:31: Making final checkpoint
+11:49:31: Removing checkpoint file 'nbody_checkpoint'
+11:49:47: Process 15538 created scene instance 0
+11:52:55: Making final checkpoint
+11:52:55: Removing checkpoint file 'nbody_checkpoint'
+11:53:12: Process 15874 created scene instance 0
+11:55:20: Making final checkpoint
+11:55:20: Removing checkpoint file 'nbody_checkpoint'
+11:55:37: Process 16062 created scene instance 0
+11:57:07: Making final checkpoint
+11:57:07: Removing checkpoint file 'nbody_checkpoint'
+11:57:24: Process 16244 created scene instance 0
+11:59:40: Making final checkpoint
+11:59:40: Removing checkpoint file 'nbody_checkpoint'
+11:59:57: Process 16441 created scene instance 0
+12:01:50: Making final checkpoint
+12:01:50: Removing checkpoint file 'nbody_checkpoint'
+12:02:07: Process 16618 created scene instance 0
+12:04:45: Making final checkpoint
+12:04:45: Removing checkpoint file 'nbody_checkpoint'
+12:05:02: Process 16861 created scene instance 0
+12:08:04: Making final checkpoint
+12:08:04: Removing checkpoint file 'nbody_checkpoint'
+12:08:21: Process 17138 created scene instance 0
+12:11:19: Making final checkpoint
+12:11:19: Removing checkpoint file 'nbody_checkpoint'
+12:11:36: Process 17423 created scene instance 0
+12:13:15: Making final checkpoint
+12:13:15: Removing checkpoint file 'nbody_checkpoint'
+12:13:33: Process 17550 created scene instance 0
+12:14:57: Making final checkpoint
+12:14:57: Removing checkpoint file 'nbody_checkpoint'
+12:15:14: Process 17700 created scene instance 0
+12:16:37: Making final checkpoint
+12:16:37: Removing checkpoint file 'nbody_checkpoint'
+12:16:55: Process 17844 created scene instance 0
+12:19:10: Making final checkpoint
+12:19:10: Removing checkpoint file 'nbody_checkpoint'
+12:19:28: Process 18042 created scene instance 0
+12:21:56: Making final checkpoint
+12:21:56: Removing checkpoint file 'nbody_checkpoint'
+12:22:14: Process 18337 created scene instance 0
+12:23:51: Making final checkpoint
+12:23:51: Removing checkpoint file 'nbody_checkpoint'
+12:24:08: Process 18560 created scene instance 0
+12:26:41: Making final checkpoint
+12:26:41: Removing checkpoint file 'nbody_checkpoint'
+12:26:59: Process 18795 created scene instance 0
+12:28:47: Making final checkpoint
+12:28:47: Removing checkpoint file 'nbody_checkpoint'
+12:29:04: Process 18955 created scene instance 0
+12:31:24: Making final checkpoint
+12:31:24: Removing checkpoint file 'nbody_checkpoint'
+12:31:41: Process 19160 created scene instance 0
+12:34:48: Making final checkpoint
+12:34:48: Removing checkpoint file 'nbody_checkpoint'
+12:35:06: Process 19471 created scene instance 0
+12:37:20: Making final checkpoint
+12:37:20: Removing checkpoint file 'nbody_checkpoint'
+12:37:37: Process 19702 created scene instance 0
+12:39:12: Making final checkpoint
+12:39:12: Removing checkpoint file 'nbody_checkpoint'
+12:39:29: Process 19883 created scene instance 0
+12:41:51: Making final checkpoint
+12:41:51: Removing checkpoint file 'nbody_checkpoint'
+12:42:09: Process 20068 created scene instance 0
+12:43:25: Making final checkpoint
+12:43:25: Removing checkpoint file 'nbody_checkpoint'
+12:43:42: Process 20225 created scene instance 0
+12:46:09: Making final checkpoint
+12:46:09: Removing checkpoint file 'nbody_checkpoint'
+12:46:26: Process 20456 created scene instance 0
+12:48:37: Making final checkpoint
+12:48:37: Removing checkpoint file 'nbody_checkpoint'
+12:48:54: Process 20677 created scene instance 0
+12:50:39: Making final checkpoint
+12:50:39: Removing checkpoint file 'nbody_checkpoint'
+12:50:57: Process 20830 created scene instance 0
+12:53:11: Making final checkpoint
+12:53:11: Removing checkpoint file 'nbody_checkpoint'
+12:53:28: Process 21031 created scene instance 0
+12:55:56: Making final checkpoint
+12:55:56: Removing checkpoint file 'nbody_checkpoint'
+12:56:13: Process 21264 created scene instance 0
+12:58:55: Making final checkpoint
+12:58:55: Removing checkpoint file 'nbody_checkpoint'
+12:59:12: Process 21474 created scene instance 0
+13:01:12: Making final checkpoint
+13:01:12: Removing checkpoint file 'nbody_checkpoint'
+13:01:29: Process 21695 created scene instance 0
+13:03:03: Making final checkpoint
+13:03:03: Removing checkpoint file 'nbody_checkpoint'
+13:03:20: Process 21865 created scene instance 0
+13:05:36: Making final checkpoint
+13:05:36: Removing checkpoint file 'nbody_checkpoint'
+13:05:53: Process 22071 created scene instance 0
+13:07:08: Making final checkpoint
+13:07:08: Removing checkpoint file 'nbody_checkpoint'
+13:07:25: Process 22199 created scene instance 0
+13:08:45: Making final checkpoint
+13:08:45: Removing checkpoint file 'nbody_checkpoint'
+13:09:02: Process 22358 created scene instance 0
+13:11:02: Making final checkpoint
+13:11:02: Removing checkpoint file 'nbody_checkpoint'
+13:11:20: Process 22537 created scene instance 0
+13:14:36: Making final checkpoint
+13:14:36: Removing checkpoint file 'nbody_checkpoint'
+13:14:54: Process 22817 created scene instance 0
+13:17:01: Making final checkpoint
+13:17:01: Removing checkpoint file 'nbody_checkpoint'
+13:17:18: Process 23015 created scene instance 0
+13:18:58: Making final checkpoint
+13:18:58: Removing checkpoint file 'nbody_checkpoint'
+13:19:15: Process 23205 created scene instance 0
+13:20:46: Making final checkpoint
+13:20:46: Removing checkpoint file 'nbody_checkpoint'
+13:21:04: Process 23376 created scene instance 0
+13:23:55: Making final checkpoint
+13:23:55: Removing checkpoint file 'nbody_checkpoint'
+13:24:13: Process 23610 created scene instance 0
+13:25:34: Making final checkpoint
+13:25:34: Removing checkpoint file 'nbody_checkpoint'
+13:25:51: Process 23781 created scene instance 0
+13:28:06: Making final checkpoint
+13:28:06: Removing checkpoint file 'nbody_checkpoint'
+13:28:23: Process 23983 created scene instance 0
+13:29:48: Making final checkpoint
+13:29:48: Removing checkpoint file 'nbody_checkpoint'
+13:30:06: Process 24125 created scene instance 0
+13:31:25: Making final checkpoint
+13:31:25: Removing checkpoint file 'nbody_checkpoint'
+mkdir: cannot create directory ‘/home/shelts/research/like_surface/hists/parameter_sweeps_rand_iter’: File exists
+13:31:43: Process 24283 created scene instance 0
+13:33:54: Making final checkpoint
+13:33:54: Removing checkpoint file 'nbody_checkpoint'
+13:34:12: Process 24480 created scene instance 0
+13:35:01: Making final checkpoint
+13:35:01: Removing checkpoint file 'nbody_checkpoint'
+13:35:18: Process 24586 created scene instance 0
+13:37:19: Making final checkpoint
+13:37:19: Removing checkpoint file 'nbody_checkpoint'
+13:37:35: Process 24787 created scene instance 0
+13:40:16: Making final checkpoint
+13:40:16: Removing checkpoint file 'nbody_checkpoint'
+13:40:33: Process 25022 created scene instance 0
+13:41:09: Making final checkpoint
+13:41:09: Removing checkpoint file 'nbody_checkpoint'
+13:41:27: Process 25126 created scene instance 0
+13:42:43: Making final checkpoint
+13:42:43: Removing checkpoint file 'nbody_checkpoint'
+13:43:00: Process 25249 created scene instance 0
+13:47:57: Making final checkpoint
+13:47:57: Removing checkpoint file 'nbody_checkpoint'
+13:48:14: Process 25693 created scene instance 0
+13:50:05: Making final checkpoint
+13:50:05: Removing checkpoint file 'nbody_checkpoint'
+13:50:23: Process 25878 created scene instance 0
+13:51:22: Making final checkpoint
+13:51:22: Removing checkpoint file 'nbody_checkpoint'
+13:51:39: Process 25958 created scene instance 0
+13:58:10: Making final checkpoint
+13:58:10: Removing checkpoint file 'nbody_checkpoint'
+13:58:26: Process 26017 created scene instance 0
+13:58:59: Making final checkpoint
+13:58:59: Removing checkpoint file 'nbody_checkpoint'
+13:59:15: Process 26046 created scene instance 0
+13:59:59: Making final checkpoint
+13:59:59: Removing checkpoint file 'nbody_checkpoint'
+14:00:16: Process 26076 created scene instance 0
+14:00:55: Making final checkpoint
+14:00:55: Removing checkpoint file 'nbody_checkpoint'
+14:01:11: Process 26112 created scene instance 0
+14:17:29: Making final checkpoint
+14:17:29: Removing checkpoint file 'nbody_checkpoint'
+14:17:45: Process 26237 created scene instance 0
+14:18:25: Making final checkpoint
+14:18:25: Removing checkpoint file 'nbody_checkpoint'
+14:18:41: Process 26272 created scene instance 0
+14:19:16: Making final checkpoint
+14:19:16: Removing checkpoint file 'nbody_checkpoint'
+14:19:32: Process 26309 created scene instance 0
+14:22:06: Making final checkpoint
+14:22:06: Removing checkpoint file 'nbody_checkpoint'
+14:22:22: Process 26351 created scene instance 0
+14:23:15: Making final checkpoint
+14:23:15: Removing checkpoint file 'nbody_checkpoint'
+14:23:31: Process 26391 created scene instance 0
+14:24:25: Making final checkpoint
+14:24:25: Removing checkpoint file 'nbody_checkpoint'
+14:24:41: Process 26421 created scene instance 0
+14:25:37: Making final checkpoint
+14:25:37: Removing checkpoint file 'nbody_checkpoint'
+14:25:53: Process 26462 created scene instance 0
+14:27:46: Making final checkpoint
+14:27:47: Removing checkpoint file 'nbody_checkpoint'
+14:28:03: Process 26497 created scene instance 0
+14:29:13: Making final checkpoint
+14:29:13: Removing checkpoint file 'nbody_checkpoint'
+14:29:30: Process 26532 created scene instance 0
+14:36:10: Making final checkpoint
+14:36:10: Removing checkpoint file 'nbody_checkpoint'
+14:36:26: Process 26613 created scene instance 0
+14:37:18: Making final checkpoint
+14:37:18: Removing checkpoint file 'nbody_checkpoint'
+14:37:34: Process 26647 created scene instance 0
+14:39:24: Making final checkpoint
+14:39:24: Removing checkpoint file 'nbody_checkpoint'
+14:39:41: Process 26699 created scene instance 0
+14:42:11: Making final checkpoint
+14:42:11: Removing checkpoint file 'nbody_checkpoint'
+14:42:27: Process 26754 created scene instance 0
+14:45:51: Making final checkpoint
+14:45:51: Removing checkpoint file 'nbody_checkpoint'
+14:46:07: Process 26800 created scene instance 0
+14:46:43: Making final checkpoint
+14:46:43: Removing checkpoint file 'nbody_checkpoint'
+14:47:00: Process 26838 created scene instance 0
+14:47:36: Making final checkpoint
+14:47:36: Removing checkpoint file 'nbody_checkpoint'
+14:47:53: Process 26868 created scene instance 0
+14:51:58: Making final checkpoint
+14:51:58: Removing checkpoint file 'nbody_checkpoint'
+14:52:14: Process 26938 created scene instance 0
+14:53:13: Making final checkpoint
+14:53:13: Removing checkpoint file 'nbody_checkpoint'
+14:53:29: Process 26967 created scene instance 0
+15:04:51: Making final checkpoint
+15:04:51: Removing checkpoint file 'nbody_checkpoint'
+15:05:07: Process 27128 created scene instance 0
+15:06:23: Making final checkpoint
+15:06:23: Removing checkpoint file 'nbody_checkpoint'
+15:06:40: Process 27190 created scene instance 0
+15:09:54: Making final checkpoint
+15:09:54: Removing checkpoint file 'nbody_checkpoint'
+15:10:10: Process 27243 created scene instance 0
+15:11:20: Making final checkpoint
+15:11:20: Removing checkpoint file 'nbody_checkpoint'
+15:11:36: Process 27273 created scene instance 0
+15:12:09: Making final checkpoint
+15:12:09: Removing checkpoint file 'nbody_checkpoint'
+15:12:26: Process 27314 created scene instance 0
+15:13:09: Making final checkpoint
+15:13:09: Removing checkpoint file 'nbody_checkpoint'
+15:13:26: Process 27348 created scene instance 0
+15:14:15: Making final checkpoint
+15:14:15: Removing checkpoint file 'nbody_checkpoint'
+15:14:32: Process 27395 created scene instance 0
+15:18:30: Making final checkpoint
+15:18:30: Removing checkpoint file 'nbody_checkpoint'
+15:18:47: Process 27456 created scene instance 0
+15:19:21: Making final checkpoint
+15:19:21: Removing checkpoint file 'nbody_checkpoint'
+15:19:37: Process 27485 created scene instance 0
+15:20:32: Making final checkpoint
+15:20:32: Removing checkpoint file 'nbody_checkpoint'
+15:20:48: Process 27516 created scene instance 0
+15:21:26: Making final checkpoint
+15:21:26: Removing checkpoint file 'nbody_checkpoint'
+15:21:42: Process 27558 created scene instance 0
+15:22:48: Making final checkpoint
+15:22:48: Removing checkpoint file 'nbody_checkpoint'
+15:23:05: Process 27599 created scene instance 0
+15:24:39: Making final checkpoint
+15:24:39: Removing checkpoint file 'nbody_checkpoint'
+15:24:56: Process 27644 created scene instance 0
+15:26:54: Making final checkpoint
+15:26:54: Removing checkpoint file 'nbody_checkpoint'
+15:27:11: Process 27690 created scene instance 0
+15:29:11: Making final checkpoint
+15:29:11: Removing checkpoint file 'nbody_checkpoint'
+15:29:27: Process 27742 created scene instance 0
+15:30:07: Making final checkpoint
+15:30:07: Removing checkpoint file 'nbody_checkpoint'
+15:30:23: Process 27771 created scene instance 0
+15:31:18: Making final checkpoint
+15:31:18: Removing checkpoint file 'nbody_checkpoint'
+15:31:34: Process 27806 created scene instance 0
+15:32:55: Making final checkpoint
+15:32:55: Removing checkpoint file 'nbody_checkpoint'
+15:33:12: Process 27841 created scene instance 0
+15:33:54: Making final checkpoint
+15:33:54: Removing checkpoint file 'nbody_checkpoint'
+15:34:10: Process 27877 created scene instance 0
+15:35:51: Making final checkpoint
+15:35:51: Removing checkpoint file 'nbody_checkpoint'
+15:36:07: Process 27915 created scene instance 0
+15:41:48: Making final checkpoint
+15:41:48: Removing checkpoint file 'nbody_checkpoint'
+15:42:05: Process 27975 created scene instance 0
+15:44:17: Making final checkpoint
+15:44:17: Removing checkpoint file 'nbody_checkpoint'
+15:44:33: Process 28031 created scene instance 0
+15:45:16: Making final checkpoint
+15:45:16: Removing checkpoint file 'nbody_checkpoint'
+15:45:33: Process 28076 created scene instance 0
+15:46:17: Making final checkpoint
+15:46:17: Removing checkpoint file 'nbody_checkpoint'
+15:46:33: Process 28105 created scene instance 0
+15:49:03: Making final checkpoint
+15:49:03: Removing checkpoint file 'nbody_checkpoint'
+15:49:20: Process 28148 created scene instance 0
+15:50:37: Making final checkpoint
+15:50:37: Removing checkpoint file 'nbody_checkpoint'
+15:50:53: Process 28183 created scene instance 0
+15:54:36: Making final checkpoint
+15:54:36: Removing checkpoint file 'nbody_checkpoint'
+15:54:52: Process 28248 created scene instance 0
+15:55:47: Making final checkpoint
+15:55:47: Removing checkpoint file 'nbody_checkpoint'
+15:56:03: Process 28277 created scene instance 0
+15:57:52: Making final checkpoint
+15:57:52: Removing checkpoint file 'nbody_checkpoint'
+15:58:08: Process 28313 created scene instance 0
+15:58:42: Making final checkpoint
+15:58:42: Removing checkpoint file 'nbody_checkpoint'
+15:58:58: Process 28343 created scene instance 0
+16:00:05: Making final checkpoint
+16:00:05: Removing checkpoint file 'nbody_checkpoint'
+16:00:21: Process 28390 created scene instance 0
+16:01:23: Making final checkpoint
+16:01:23: Removing checkpoint file 'nbody_checkpoint'
+16:01:39: Process 28425 created scene instance 0
+16:04:57: Making final checkpoint
+16:04:57: Removing checkpoint file 'nbody_checkpoint'
+16:05:13: Process 28478 created scene instance 0
+16:07:36: Making final checkpoint
+16:07:37: Removing checkpoint file 'nbody_checkpoint'
+16:07:53: Process 28521 created scene instance 0
+16:09:40: Making final checkpoint
+16:09:40: Removing checkpoint file 'nbody_checkpoint'
+16:09:56: Process 28573 created scene instance 0
+16:18:36: Making final checkpoint
+16:18:36: Removing checkpoint file 'nbody_checkpoint'
+16:18:53: Process 28644 created scene instance 0
+16:19:28: Making final checkpoint
+16:19:28: Removing checkpoint file 'nbody_checkpoint'
+16:19:44: Process 28678 created scene instance 0
+16:20:20: Making final checkpoint
+16:20:20: Removing checkpoint file 'nbody_checkpoint'
+16:20:37: Process 28718 created scene instance 0
+16:21:36: Making final checkpoint
+16:21:36: Removing checkpoint file 'nbody_checkpoint'
+16:21:52: Process 28759 created scene instance 0
+16:22:43: Making final checkpoint
+16:22:43: Removing checkpoint file 'nbody_checkpoint'
+16:23:00: Process 28789 created scene instance 0
+16:25:09: Making final checkpoint
+16:25:09: Removing checkpoint file 'nbody_checkpoint'
+16:25:25: Process 28830 created scene instance 0
+16:26:58: Making final checkpoint
+16:26:58: Removing checkpoint file 'nbody_checkpoint'
+16:27:14: Process 28866 created scene instance 0
+16:28:08: Making final checkpoint
+16:28:08: Removing checkpoint file 'nbody_checkpoint'
+16:28:24: Process 28906 created scene instance 0
+16:32:46: Making final checkpoint
+16:32:46: Removing checkpoint file 'nbody_checkpoint'
+16:33:02: Process 28960 created scene instance 0
+16:51:44: Making final checkpoint
+16:51:44: Removing checkpoint file 'nbody_checkpoint'
+16:52:00: Process 29108 created scene instance 0
+16:52:37: Making final checkpoint
+16:52:37: Removing checkpoint file 'nbody_checkpoint'
+16:52:54: Process 29145 created scene instance 0
+16:57:53: Making final checkpoint
+16:57:53: Removing checkpoint file 'nbody_checkpoint'
+16:58:09: Process 29190 created scene instance 0
+17:00:16: Making final checkpoint
+17:00:16: Removing checkpoint file 'nbody_checkpoint'
+17:00:33: Process 29246 created scene instance 0
+17:01:16: Making final checkpoint
+17:01:16: Removing checkpoint file 'nbody_checkpoint'
+17:01:32: Process 29286 created scene instance 0
+17:08:58: Making final checkpoint
+17:08:58: Removing checkpoint file 'nbody_checkpoint'
+17:09:15: Process 29364 created scene instance 0
+17:09:46: Making final checkpoint
+17:09:46: Removing checkpoint file 'nbody_checkpoint'
+17:10:02: Process 29400 created scene instance 0
+17:11:58: Making final checkpoint
+17:11:58: Removing checkpoint file 'nbody_checkpoint'
+17:12:14: Process 29435 created scene instance 0
+17:13:35: Making final checkpoint
+17:13:35: Removing checkpoint file 'nbody_checkpoint'
+17:13:52: Process 29472 created scene instance 0
+17:23:42: Making final checkpoint
+17:23:42: Removing checkpoint file 'nbody_checkpoint'
+17:23:59: Process 29549 created scene instance 0
+17:24:46: Making final checkpoint
+17:24:46: Removing checkpoint file 'nbody_checkpoint'
+17:25:03: Process 29584 created scene instance 0
+17:25:35: Making final checkpoint
+17:25:35: Removing checkpoint file 'nbody_checkpoint'
+17:25:51: Process 29614 created scene instance 0
+17:35:06: Making final checkpoint
+17:35:06: Removing checkpoint file 'nbody_checkpoint'
+17:35:22: Process 29708 created scene instance 0
+17:36:08: Making final checkpoint
+17:36:08: Removing checkpoint file 'nbody_checkpoint'
+17:36:24: Process 29743 created scene instance 0
+17:36:58: Making final checkpoint
+17:36:58: Removing checkpoint file 'nbody_checkpoint'
+17:37:14: Process 29772 created scene instance 0
+17:39:20: Making final checkpoint
+17:39:20: Removing checkpoint file 'nbody_checkpoint'
+17:39:36: Process 29820 created scene instance 0
+17:40:11: Making final checkpoint
+17:40:11: Removing checkpoint file 'nbody_checkpoint'
+17:40:27: Process 29850 created scene instance 0
+17:41:12: Making final checkpoint
+17:41:12: Removing checkpoint file 'nbody_checkpoint'
+17:41:28: Process 29886 created scene instance 0
+17:43:27: Making final checkpoint
+17:43:27: Removing checkpoint file 'nbody_checkpoint'
+17:43:43: Process 29926 created scene instance 0
+17:46:23: Making final checkpoint
+17:46:23: Removing checkpoint file 'nbody_checkpoint'
+17:46:39: Process 29975 created scene instance 0
+17:49:27: Making final checkpoint
+17:49:27: Removing checkpoint file 'nbody_checkpoint'
+17:49:43: Process 30016 created scene instance 0
+17:50:21: Making final checkpoint
+17:50:21: Removing checkpoint file 'nbody_checkpoint'
+17:50:38: Process 30046 created scene instance 0
+17:57:25: Making final checkpoint
+17:57:25: Removing checkpoint file 'nbody_checkpoint'
+17:57:42: Process 30124 created scene instance 0
+17:58:45: Making final checkpoint
+17:58:45: Removing checkpoint file 'nbody_checkpoint'
+17:59:01: Process 30170 created scene instance 0
+17:59:33: Making final checkpoint
+17:59:33: Removing checkpoint file 'nbody_checkpoint'
+17:59:49: Process 30199 created scene instance 0
+18:01:08: Making final checkpoint
+18:01:08: Removing checkpoint file 'nbody_checkpoint'
+mkdir: cannot create directory ‘/home/shelts/research/like_surface/hists/parameter_sweeps_rand_iter’: File exists
+18:01:24: Process 30239 created scene instance 0
+18:03:25: Making final checkpoint
+18:03:25: Removing checkpoint file 'nbody_checkpoint'
+18:03:41: Process 30268 created scene instance 0
+18:05:49: Making final checkpoint
+18:05:49: Removing checkpoint file 'nbody_checkpoint'
+18:06:05: Process 30306 created scene instance 0
+18:09:06: Making final checkpoint
+18:09:06: Removing checkpoint file 'nbody_checkpoint'
+18:09:22: Process 30358 created scene instance 0
+18:11:27: Making final checkpoint
+18:11:27: Removing checkpoint file 'nbody_checkpoint'
+18:11:43: Process 30393 created scene instance 0
+18:13:45: Making final checkpoint
+18:13:45: Removing checkpoint file 'nbody_checkpoint'
+18:14:01: Process 30436 created scene instance 0
+18:17:54: Making final checkpoint
+18:17:54: Removing checkpoint file 'nbody_checkpoint'
+18:18:10: Process 30492 created scene instance 0
+18:20:13: Making final checkpoint
+18:20:13: Removing checkpoint file 'nbody_checkpoint'
+18:20:30: Process 30539 created scene instance 0
+18:23:05: Making final checkpoint
+18:23:05: Removing checkpoint file 'nbody_checkpoint'
+18:23:21: Process 30595 created scene instance 0
+18:25:57: Making final checkpoint
+18:25:57: Removing checkpoint file 'nbody_checkpoint'
+18:26:13: Process 30638 created scene instance 0
+18:28:15: Making final checkpoint
+18:28:15: Removing checkpoint file 'nbody_checkpoint'
+18:28:31: Process 30679 created scene instance 0
+18:30:35: Making final checkpoint
+18:30:35: Removing checkpoint file 'nbody_checkpoint'
+18:30:51: Process 30723 created scene instance 0
+18:32:55: Making final checkpoint
+18:32:55: Removing checkpoint file 'nbody_checkpoint'
+18:33:11: Process 30759 created scene instance 0
+18:37:54: Making final checkpoint
+18:37:54: Removing checkpoint file 'nbody_checkpoint'
+18:38:10: Process 30814 created scene instance 0
+18:40:26: Making final checkpoint
+18:40:26: Removing checkpoint file 'nbody_checkpoint'
+18:40:42: Process 30867 created scene instance 0
+18:42:44: Making final checkpoint
+18:42:44: Removing checkpoint file 'nbody_checkpoint'
+18:43:00: Process 30913 created scene instance 0
+18:45:04: Making final checkpoint
+18:45:04: Removing checkpoint file 'nbody_checkpoint'
+18:45:20: Process 30957 created scene instance 0
+18:50:07: Making final checkpoint
+18:50:07: Removing checkpoint file 'nbody_checkpoint'
+18:50:23: Process 31017 created scene instance 0
+18:52:28: Making final checkpoint
+18:52:28: Removing checkpoint file 'nbody_checkpoint'
+18:52:44: Process 31059 created scene instance 0
+18:55:24: Making final checkpoint
+18:55:24: Removing checkpoint file 'nbody_checkpoint'
+18:55:40: Process 31095 created scene instance 0
+18:58:02: Making final checkpoint
+18:58:02: Removing checkpoint file 'nbody_checkpoint'
+18:58:18: Process 31138 created scene instance 0
+19:00:29: Making final checkpoint
+19:00:29: Removing checkpoint file 'nbody_checkpoint'
+19:00:45: Process 31189 created scene instance 0
+19:02:47: Making final checkpoint
+19:02:47: Removing checkpoint file 'nbody_checkpoint'
+19:03:03: Process 31225 created scene instance 0
+19:05:13: Making final checkpoint
+19:05:13: Removing checkpoint file 'nbody_checkpoint'
+19:05:29: Process 31262 created scene instance 0
+19:07:32: Making final checkpoint
+19:07:32: Removing checkpoint file 'nbody_checkpoint'
+19:07:48: Process 31302 created scene instance 0
+19:11:38: Making final checkpoint
+19:11:38: Removing checkpoint file 'nbody_checkpoint'
+19:11:54: Process 31346 created scene instance 0
+19:13:57: Making final checkpoint
+19:13:57: Removing checkpoint file 'nbody_checkpoint'
+19:14:13: Process 31394 created scene instance 0
+19:16:16: Making final checkpoint
+19:16:16: Removing checkpoint file 'nbody_checkpoint'
+19:16:32: Process 31440 created scene instance 0
+19:18:33: Making final checkpoint
+19:18:33: Removing checkpoint file 'nbody_checkpoint'
+19:18:49: Process 31480 created scene instance 0
+19:21:48: Making final checkpoint
+19:21:48: Removing checkpoint file 'nbody_checkpoint'
+19:22:03: Process 31543 created scene instance 0
+19:24:22: Making final checkpoint
+19:24:22: Removing checkpoint file 'nbody_checkpoint'
+19:24:38: Process 31585 created scene instance 0
+19:27:48: Making final checkpoint
+19:27:48: Removing checkpoint file 'nbody_checkpoint'
+19:28:04: Process 31631 created scene instance 0
+19:30:10: Making final checkpoint
+19:30:10: Removing checkpoint file 'nbody_checkpoint'
+19:30:27: Process 31683 created scene instance 0
+19:32:29: Making final checkpoint
+19:32:29: Removing checkpoint file 'nbody_checkpoint'
+19:32:45: Process 31720 created scene instance 0
+19:36:03: Making final checkpoint
+19:36:03: Removing checkpoint file 'nbody_checkpoint'
+19:36:20: Process 31778 created scene instance 0
+19:38:24: Making final checkpoint
+19:38:24: Removing checkpoint file 'nbody_checkpoint'
+19:38:40: Process 31824 created scene instance 0
+19:40:51: Making final checkpoint
+19:40:51: Removing checkpoint file 'nbody_checkpoint'
+19:41:08: Process 31863 created scene instance 0
+19:43:20: Making final checkpoint
+19:43:20: Removing checkpoint file 'nbody_checkpoint'
+19:43:36: Process 31910 created scene instance 0
+19:45:41: Making final checkpoint
+19:45:41: Removing checkpoint file 'nbody_checkpoint'
+19:45:58: Process 31947 created scene instance 0
+19:48:02: Making final checkpoint
+19:48:02: Removing checkpoint file 'nbody_checkpoint'
+19:48:18: Process 31988 created scene instance 0
+19:52:12: Making final checkpoint
+19:52:12: Removing checkpoint file 'nbody_checkpoint'
+19:52:28: Process 32041 created scene instance 0
+19:55:46: Making final checkpoint
+19:55:46: Removing checkpoint file 'nbody_checkpoint'
+19:56:02: Process 32088 created scene instance 0
+19:58:59: Making final checkpoint
+19:58:59: Removing checkpoint file 'nbody_checkpoint'
+19:59:15: Process 32126 created scene instance 0
+20:01:34: Making final checkpoint
+20:01:34: Removing checkpoint file 'nbody_checkpoint'
+20:01:50: Process 32172 created scene instance 0
+20:04:38: Making final checkpoint
+20:04:38: Removing checkpoint file 'nbody_checkpoint'
+20:04:54: Process 32225 created scene instance 0
+20:08:41: Making final checkpoint
+20:08:41: Removing checkpoint file 'nbody_checkpoint'
+20:08:57: Process 32272 created scene instance 0
+20:11:59: Making final checkpoint
+20:11:59: Removing checkpoint file 'nbody_checkpoint'
+20:12:15: Process 32310 created scene instance 0
+20:15:15: Making final checkpoint
+20:15:15: Removing checkpoint file 'nbody_checkpoint'
+20:15:31: Process 32359 created scene instance 0
+20:17:36: Making final checkpoint
+20:17:36: Removing checkpoint file 'nbody_checkpoint'
+20:17:52: Process 32408 created scene instance 0
+20:19:58: Making final checkpoint
+20:19:58: Removing checkpoint file 'nbody_checkpoint'
+20:20:14: Process 32450 created scene instance 0
+20:23:09: Making final checkpoint
+20:23:09: Removing checkpoint file 'nbody_checkpoint'
+20:23:24: Process 32499 created scene instance 0
+20:25:50: Making final checkpoint
+20:25:50: Removing checkpoint file 'nbody_checkpoint'
+20:26:06: Process 32540 created scene instance 0
+20:30:20: Making final checkpoint
+20:30:20: Removing checkpoint file 'nbody_checkpoint'
+20:30:36: Process 32599 created scene instance 0
+20:32:57: Making final checkpoint
+20:32:57: Removing checkpoint file 'nbody_checkpoint'
+20:33:14: Process 32636 created scene instance 0
+20:35:20: Making final checkpoint
+20:35:20: Removing checkpoint file 'nbody_checkpoint'
+20:35:36: Process 32671 created scene instance 0
+20:38:26: Making final checkpoint
+20:38:26: Removing checkpoint file 'nbody_checkpoint'
+20:38:42: Process 32714 created scene instance 0
+20:40:44: Making final checkpoint
+20:40:44: Removing checkpoint file 'nbody_checkpoint'
+20:41:01: Process 32764 created scene instance 0
+20:43:10: Making final checkpoint
+20:43:10: Removing checkpoint file 'nbody_checkpoint'
+20:43:26: Process 32813 created scene instance 0
+20:45:29: Making final checkpoint
+20:45:29: Removing checkpoint file 'nbody_checkpoint'
+20:45:45: Process 32863 created scene instance 0
+20:50:06: Making final checkpoint
+20:50:06: Removing checkpoint file 'nbody_checkpoint'
+20:50:22: Process 32912 created scene instance 0
+20:52:25: Making final checkpoint
+20:52:25: Removing checkpoint file 'nbody_checkpoint'
+20:52:41: Process 32952 created scene instance 0
+20:54:44: Making final checkpoint
+20:54:44: Removing checkpoint file 'nbody_checkpoint'
+20:55:01: Process 33000 created scene instance 0
+20:57:08: Making final checkpoint
+20:57:08: Removing checkpoint file 'nbody_checkpoint'
+20:57:24: Process 33048 created scene instance 0
+20:59:33: Making final checkpoint
+20:59:33: Removing checkpoint file 'nbody_checkpoint'
+20:59:49: Process 33093 created scene instance 0
+21:02:50: Making final checkpoint
+21:02:50: Removing checkpoint file 'nbody_checkpoint'
+21:03:06: Process 33131 created scene instance 0
+21:07:49: Making final checkpoint
+21:07:49: Removing checkpoint file 'nbody_checkpoint'
+21:08:05: Process 33176 created scene instance 0
+21:11:01: Making final checkpoint
+21:11:01: Removing checkpoint file 'nbody_checkpoint'
+21:11:18: Process 33216 created scene instance 0
+21:13:29: Making final checkpoint
+21:13:29: Removing checkpoint file 'nbody_checkpoint'
+21:13:45: Process 33255 created scene instance 0
+21:16:56: Making final checkpoint
+21:16:56: Removing checkpoint file 'nbody_checkpoint'
+21:17:13: Process 33312 created scene instance 0
+21:19:21: Making final checkpoint
+21:19:21: Removing checkpoint file 'nbody_checkpoint'
+21:19:38: Process 33361 created scene instance 0
+21:21:40: Making final checkpoint
+21:21:40: Removing checkpoint file 'nbody_checkpoint'
+21:21:57: Process 33397 created scene instance 0
+21:24:00: Making final checkpoint
+21:24:00: Removing checkpoint file 'nbody_checkpoint'
+21:24:15: Process 33429 created scene instance 0
+21:26:51: Making final checkpoint
+21:26:51: Removing checkpoint file 'nbody_checkpoint'
+21:27:07: Process 33475 created scene instance 0
+21:29:40: Making final checkpoint
+21:29:40: Removing checkpoint file 'nbody_checkpoint'
+21:29:56: Process 33523 created scene instance 0
+21:32:04: Making final checkpoint
+21:32:04: Removing checkpoint file 'nbody_checkpoint'
+21:32:20: Process 33563 created scene instance 0
+21:35:39: Making final checkpoint
+21:35:39: Removing checkpoint file 'nbody_checkpoint'
+21:35:55: Process 33617 created scene instance 0
+21:39:00: Making final checkpoint
+21:39:00: Removing checkpoint file 'nbody_checkpoint'
+21:39:16: Process 33664 created scene instance 0
+21:41:18: Making final checkpoint
+21:41:18: Removing checkpoint file 'nbody_checkpoint'
+21:41:34: Process 33711 created scene instance 0
+21:46:15: Making final checkpoint
+21:46:15: Removing checkpoint file 'nbody_checkpoint'
+21:46:31: Process 33760 created scene instance 0
+21:49:00: Making final checkpoint
+21:49:00: Removing checkpoint file 'nbody_checkpoint'
+21:49:16: Process 33807 created scene instance 0
+21:51:30: Making final checkpoint
+21:51:30: Removing checkpoint file 'nbody_checkpoint'
+21:51:46: Process 33869 created scene instance 0
+21:53:50: Making final checkpoint
+21:53:50: Removing checkpoint file 'nbody_checkpoint'
+21:54:07: Process 33899 created scene instance 0
+21:58:53: Making final checkpoint
+21:58:53: Removing checkpoint file 'nbody_checkpoint'
+21:59:09: Process 33954 created scene instance 0
+22:01:49: Making final checkpoint
+22:01:49: Removing checkpoint file 'nbody_checkpoint'
+22:02:05: Process 33999 created scene instance 0
+22:04:07: Making final checkpoint
+22:04:07: Removing checkpoint file 'nbody_checkpoint'
+22:04:23: Process 34054 created scene instance 0
+22:06:26: Making final checkpoint
+22:06:26: Removing checkpoint file 'nbody_checkpoint'
+22:06:42: Process 34092 created scene instance 0
+22:09:18: Making final checkpoint
+22:09:18: Removing checkpoint file 'nbody_checkpoint'
+22:09:34: Process 34138 created scene instance 0
+22:12:31: Making final checkpoint
+22:12:31: Removing checkpoint file 'nbody_checkpoint'
+22:12:47: Process 34183 created scene instance 0
+22:15:12: Making final checkpoint
+22:15:12: Removing checkpoint file 'nbody_checkpoint'
+22:15:28: Process 34219 created scene instance 0
+22:17:32: Making final checkpoint
+22:17:32: Removing checkpoint file 'nbody_checkpoint'
+22:17:48: Process 34253 created scene instance 0
+22:19:55: Making final checkpoint
+22:19:55: Removing checkpoint file 'nbody_checkpoint'
+22:20:11: Process 34299 created scene instance 0
+22:22:14: Making final checkpoint
+22:22:14: Removing checkpoint file 'nbody_checkpoint'
+22:22:31: Process 34341 created scene instance 0
+22:24:34: Making final checkpoint
+22:24:34: Removing checkpoint file 'nbody_checkpoint'
+22:24:50: Process 34385 created scene instance 0
+22:26:55: Making final checkpoint
+22:26:55: Removing checkpoint file 'nbody_checkpoint'
+22:27:11: Process 34441 created scene instance 0
+22:30:45: Making final checkpoint
+22:30:45: Removing checkpoint file 'nbody_checkpoint'
+22:31:01: Process 34495 created scene instance 0
+22:33:06: Making final checkpoint
+22:33:06: Removing checkpoint file 'nbody_checkpoint'
+22:33:22: Process 34531 created scene instance 0
+22:37:57: Making final checkpoint
+22:37:57: Removing checkpoint file 'nbody_checkpoint'
+22:38:14: Process 34585 created scene instance 0
+22:40:19: Making final checkpoint
+22:40:19: Removing checkpoint file 'nbody_checkpoint'
+22:40:35: Process 34625 created scene instance 0
+22:42:45: Making final checkpoint
+22:42:45: Removing checkpoint file 'nbody_checkpoint'
+22:43:01: Process 34670 created scene instance 0
+22:47:22: Making final checkpoint
+22:47:22: Removing checkpoint file 'nbody_checkpoint'
+22:47:38: Process 34722 created scene instance 0
+22:50:20: Making final checkpoint
+22:50:20: Removing checkpoint file 'nbody_checkpoint'
+22:50:36: Process 34759 created scene instance 0
+22:53:01: Making final checkpoint
+22:53:01: Removing checkpoint file 'nbody_checkpoint'
+mkdir: cannot create directory ‘/home/shelts/research/like_surface/hists/parameter_sweeps_rand_iter’: File exists
+22:53:17: Process 34819 created scene instance 0
+22:55:18: Making final checkpoint
+22:55:18: Removing checkpoint file 'nbody_checkpoint'
+22:55:34: Process 34853 created scene instance 0
+22:59:22: Making final checkpoint
+22:59:22: Removing checkpoint file 'nbody_checkpoint'
+22:59:38: Process 34913 created scene instance 0
+23:06:34: Making final checkpoint
+23:06:34: Removing checkpoint file 'nbody_checkpoint'
+23:06:50: Process 34969 created scene instance 0
+23:11:58: Making final checkpoint
+23:11:58: Removing checkpoint file 'nbody_checkpoint'
+23:12:14: Process 35029 created scene instance 0
+23:17:20: Making final checkpoint
+23:17:20: Removing checkpoint file 'nbody_checkpoint'
+23:17:37: Process 35095 created scene instance 0
+23:24:08: Making final checkpoint
+23:24:08: Removing checkpoint file 'nbody_checkpoint'
+23:24:24: Process 35145 created scene instance 0
+23:28:26: Making final checkpoint
+23:28:26: Removing checkpoint file 'nbody_checkpoint'
+23:28:43: Process 35210 created scene instance 0
+23:34:18: Making final checkpoint
+23:34:18: Removing checkpoint file 'nbody_checkpoint'
+23:34:35: Process 35271 created scene instance 0
+23:37:16: Making final checkpoint
+23:37:16: Removing checkpoint file 'nbody_checkpoint'
+23:37:32: Process 35314 created scene instance 0
+23:40:26: Making final checkpoint
+23:40:26: Removing checkpoint file 'nbody_checkpoint'
+23:40:42: Process 35356 created scene instance 0
+23:47:34: Making final checkpoint
+23:47:34: Removing checkpoint file 'nbody_checkpoint'
+23:47:50: Process 35452 created scene instance 0
+23:53:10: Making final checkpoint
+23:53:10: Removing checkpoint file 'nbody_checkpoint'
+23:53:27: Process 35533 created scene instance 0
+00:00:06: Making final checkpoint
+00:00:06: Removing checkpoint file 'nbody_checkpoint'
+00:00:22: Process 35585 created scene instance 0
+00:06:45: Making final checkpoint
+00:06:45: Removing checkpoint file 'nbody_checkpoint'
+00:07:01: Process 35663 created scene instance 0
+00:08:53: Making final checkpoint
+00:08:53: Removing checkpoint file 'nbody_checkpoint'
+00:09:09: Process 35708 created scene instance 0
+00:14:34: Making final checkpoint
+00:14:34: Removing checkpoint file 'nbody_checkpoint'
+00:14:50: Process 35767 created scene instance 0
+00:18:37: Making final checkpoint
+00:18:37: Removing checkpoint file 'nbody_checkpoint'
+00:18:53: Process 35817 created scene instance 0
+00:24:54: Making final checkpoint
+00:24:54: Removing checkpoint file 'nbody_checkpoint'
+00:25:10: Process 35887 created scene instance 0
+00:31:17: Making final checkpoint
+00:31:17: Removing checkpoint file 'nbody_checkpoint'
+00:31:33: Process 35952 created scene instance 0
+00:36:24: Making final checkpoint
+00:36:24: Removing checkpoint file 'nbody_checkpoint'
+00:36:40: Process 36002 created scene instance 0
+00:38:06: Making final checkpoint
+00:38:06: Removing checkpoint file 'nbody_checkpoint'
+00:38:22: Process 36033 created scene instance 0
+00:39:21: Making final checkpoint
+00:39:21: Removing checkpoint file 'nbody_checkpoint'
+00:39:38: Process 36069 created scene instance 0
+00:44:12: Making final checkpoint
+00:44:12: Removing checkpoint file 'nbody_checkpoint'
+00:44:29: Process 36127 created scene instance 0
+00:50:40: Making final checkpoint
+00:50:40: Removing checkpoint file 'nbody_checkpoint'
+00:50:56: Process 36188 created scene instance 0
+00:56:23: Making final checkpoint
+00:56:23: Removing checkpoint file 'nbody_checkpoint'
+00:56:40: Process 36249 created scene instance 0
+01:01:58: Making final checkpoint
+01:01:58: Removing checkpoint file 'nbody_checkpoint'
+01:02:15: Process 36303 created scene instance 0
+01:06:22: Making final checkpoint
+01:06:22: Removing checkpoint file 'nbody_checkpoint'
+01:06:38: Process 36368 created scene instance 0
+01:10:17: Making final checkpoint
+01:10:17: Removing checkpoint file 'nbody_checkpoint'
+01:10:33: Process 36412 created scene instance 0
+01:15:54: Making final checkpoint
+01:15:54: Removing checkpoint file 'nbody_checkpoint'
+01:16:11: Process 36462 created scene instance 0
+01:22:55: Making final checkpoint
+01:22:55: Removing checkpoint file 'nbody_checkpoint'
+01:23:11: Process 36533 created scene instance 0
+01:29:00: Making final checkpoint
+01:29:00: Removing checkpoint file 'nbody_checkpoint'
+01:29:16: Process 36582 created scene instance 0
+01:36:07: Making final checkpoint
+01:36:07: Removing checkpoint file 'nbody_checkpoint'
+01:36:24: Process 36653 created scene instance 0
+01:40:18: Making final checkpoint
+01:40:18: Removing checkpoint file 'nbody_checkpoint'
+01:40:35: Process 36711 created scene instance 0
+01:42:53: Making final checkpoint
+01:42:53: Removing checkpoint file 'nbody_checkpoint'
+01:43:09: Process 36748 created scene instance 0
+01:47:45: Making final checkpoint
+01:47:45: Removing checkpoint file 'nbody_checkpoint'
+01:48:01: Process 36803 created scene instance 0
+01:50:03: Making final checkpoint
+01:50:03: Removing checkpoint file 'nbody_checkpoint'
+01:50:19: Process 36838 created scene instance 0
+01:52:48: Making final checkpoint
+01:52:48: Removing checkpoint file 'nbody_checkpoint'
+01:53:04: Process 36876 created scene instance 0
+01:57:40: Making final checkpoint
+01:57:40: Removing checkpoint file 'nbody_checkpoint'
+01:57:57: Process 36939 created scene instance 0
+02:03:36: Making final checkpoint
+02:03:36: Removing checkpoint file 'nbody_checkpoint'
+02:03:53: Process 36984 created scene instance 0
+02:08:21: Making final checkpoint
+02:08:21: Removing checkpoint file 'nbody_checkpoint'
+02:08:37: Process 37048 created scene instance 0
+02:13:14: Making final checkpoint
+02:13:14: Removing checkpoint file 'nbody_checkpoint'
+02:13:30: Process 37106 created scene instance 0
+02:20:21: Making final checkpoint
+02:20:21: Removing checkpoint file 'nbody_checkpoint'
+02:20:38: Process 37171 created scene instance 0
+02:23:47: Making final checkpoint
+02:23:47: Removing checkpoint file 'nbody_checkpoint'
+02:24:03: Process 37221 created scene instance 0
+02:30:41: Making final checkpoint
+02:30:41: Removing checkpoint file 'nbody_checkpoint'
+02:30:57: Process 37277 created scene instance 0
+02:34:34: Making final checkpoint
+02:34:34: Removing checkpoint file 'nbody_checkpoint'
+02:34:50: Process 37336 created scene instance 0
+02:41:00: Making final checkpoint
+02:41:00: Removing checkpoint file 'nbody_checkpoint'
+02:41:16: Process 37392 created scene instance 0
+02:45:30: Making final checkpoint
+02:45:30: Removing checkpoint file 'nbody_checkpoint'
+02:45:47: Process 37456 created scene instance 0
+02:48:22: Making final checkpoint
+02:48:22: Removing checkpoint file 'nbody_checkpoint'
+02:48:39: Process 37494 created scene instance 0
+02:51:10: Making final checkpoint
+02:51:10: Removing checkpoint file 'nbody_checkpoint'
+02:51:26: Process 37531 created scene instance 0
+02:56:49: Making final checkpoint
+02:56:49: Removing checkpoint file 'nbody_checkpoint'
+02:57:05: Process 37596 created scene instance 0
+03:03:35: Making final checkpoint
+03:03:35: Removing checkpoint file 'nbody_checkpoint'
+03:03:51: Process 37665 created scene instance 0
+03:04:50: Making final checkpoint
+03:04:50: Removing checkpoint file 'nbody_checkpoint'
+03:05:06: Process 37697 created scene instance 0
+03:11:52: Making final checkpoint
+03:11:52: Removing checkpoint file 'nbody_checkpoint'
+03:12:08: Process 37765 created scene instance 0
+03:17:56: Making final checkpoint
+03:17:56: Removing checkpoint file 'nbody_checkpoint'
+03:18:12: Process 37836 created scene instance 0
+03:21:59: Making final checkpoint
+03:21:59: Removing checkpoint file 'nbody_checkpoint'
+03:22:15: Process 37885 created scene instance 0
+03:27:10: Making final checkpoint
+03:27:10: Removing checkpoint file 'nbody_checkpoint'
+03:27:26: Process 37942 created scene instance 0
+03:34:09: Making final checkpoint
+03:34:09: Removing checkpoint file 'nbody_checkpoint'
+03:34:25: Process 38006 created scene instance 0
+03:40:27: Making final checkpoint
+03:40:27: Removing checkpoint file 'nbody_checkpoint'
+03:40:43: Process 38060 created scene instance 0
+03:44:04: Making final checkpoint
+03:44:04: Removing checkpoint file 'nbody_checkpoint'
+03:44:21: Process 38119 created scene instance 0
+03:48:40: Making final checkpoint
+03:48:40: Removing checkpoint file 'nbody_checkpoint'
+03:48:56: Process 38158 created scene instance 0
+03:51:21: Making final checkpoint
+03:51:21: Removing checkpoint file 'nbody_checkpoint'
+03:51:37: Process 38210 created scene instance 0
+03:53:02: Making final checkpoint
+03:53:02: Removing checkpoint file 'nbody_checkpoint'
+03:53:19: Process 38251 created scene instance 0
+03:56:38: Making final checkpoint
+03:56:38: Removing checkpoint file 'nbody_checkpoint'
+03:56:54: Process 38293 created scene instance 0
+04:01:38: Making final checkpoint
+04:01:38: Removing checkpoint file 'nbody_checkpoint'
+04:01:54: Process 38363 created scene instance 0
+04:02:31: Making final checkpoint
+04:02:31: Removing checkpoint file 'nbody_checkpoint'
+04:02:48: Process 38398 created scene instance 0
+04:06:38: Making final checkpoint
+04:06:38: Removing checkpoint file 'nbody_checkpoint'
+04:06:54: Process 38453 created scene instance 0
+04:13:18: Making final checkpoint
+04:13:18: Removing checkpoint file 'nbody_checkpoint'
+04:13:34: Process 38509 created scene instance 0
+04:19:20: Making final checkpoint
+04:19:20: Removing checkpoint file 'nbody_checkpoint'
+04:19:36: Process 38584 created scene instance 0
+04:25:47: Making final checkpoint
+04:25:47: Removing checkpoint file 'nbody_checkpoint'
+04:26:04: Process 38644 created scene instance 0
+04:31:54: Making final checkpoint
+04:31:54: Removing checkpoint file 'nbody_checkpoint'
+04:32:10: Process 38688 created scene instance 0
+04:37:55: Making final checkpoint
+04:37:55: Removing checkpoint file 'nbody_checkpoint'
+04:38:11: Process 38759 created scene instance 0
+04:43:46: Making final checkpoint
+04:43:46: Removing checkpoint file 'nbody_checkpoint'
+04:44:03: Process 38825 created scene instance 0
+04:48:24: Making final checkpoint
+04:48:24: Removing checkpoint file 'nbody_checkpoint'
+04:48:41: Process 38869 created scene instance 0
+04:53:47: Making final checkpoint
+04:53:47: Removing checkpoint file 'nbody_checkpoint'
+04:54:03: Process 38934 created scene instance 0
+04:55:24: Making final checkpoint
+04:55:24: Removing checkpoint file 'nbody_checkpoint'
+04:55:41: Process 38970 created scene instance 0
+04:58:27: Making final checkpoint
+04:58:27: Removing checkpoint file 'nbody_checkpoint'
+04:58:43: Process 39008 created scene instance 0
+05:02:06: Making final checkpoint
+05:02:06: Removing checkpoint file 'nbody_checkpoint'
+05:02:22: Process 39061 created scene instance 0
+05:06:28: Making final checkpoint
+05:06:28: Removing checkpoint file 'nbody_checkpoint'
+05:06:44: Process 39110 created scene instance 0
+05:12:37: Making final checkpoint
+05:12:37: Removing checkpoint file 'nbody_checkpoint'
+05:12:53: Process 39174 created scene instance 0
+05:18:50: Making final checkpoint
+05:18:50: Removing checkpoint file 'nbody_checkpoint'
+05:19:07: Process 39232 created scene instance 0
+05:25:17: Making final checkpoint
+05:25:17: Removing checkpoint file 'nbody_checkpoint'
+05:25:34: Process 39293 created scene instance 0
+05:29:50: Making final checkpoint
+05:29:50: Removing checkpoint file 'nbody_checkpoint'
+05:30:06: Process 39342 created scene instance 0
+05:34:59: Making final checkpoint
+05:34:59: Removing checkpoint file 'nbody_checkpoint'
+05:35:15: Process 39392 created scene instance 0
+05:37:03: Making final checkpoint
+05:37:03: Removing checkpoint file 'nbody_checkpoint'
+05:37:19: Process 39442 created scene instance 0
+05:41:49: Making final checkpoint
+05:41:49: Removing checkpoint file 'nbody_checkpoint'
+05:42:06: Process 39497 created scene instance 0
+05:46:08: Making final checkpoint
+05:46:08: Removing checkpoint file 'nbody_checkpoint'
+05:46:24: Process 39554 created scene instance 0
+05:50:16: Making final checkpoint
+05:50:16: Removing checkpoint file 'nbody_checkpoint'
+05:50:32: Process 39608 created scene instance 0
+05:53:54: Making final checkpoint
+05:53:54: Removing checkpoint file 'nbody_checkpoint'
+05:54:10: Process 39667 created scene instance 0
+06:00:54: Making final checkpoint
+06:00:54: Removing checkpoint file 'nbody_checkpoint'
+06:01:10: Process 39718 created scene instance 0
+06:06:36: Making final checkpoint
+06:06:36: Removing checkpoint file 'nbody_checkpoint'
+06:06:52: Process 39788 created scene instance 0
+06:11:44: Making final checkpoint
+06:11:44: Removing checkpoint file 'nbody_checkpoint'
+06:12:00: Process 39834 created scene instance 0
+06:15:25: Making final checkpoint
+06:15:26: Removing checkpoint file 'nbody_checkpoint'
+06:15:42: Process 39941 created scene instance 0
+06:22:22: Making final checkpoint
+06:22:22: Removing checkpoint file 'nbody_checkpoint'
+06:22:38: Process 40016 created scene instance 0
+06:29:45: Making final checkpoint
+06:29:45: Removing checkpoint file 'nbody_checkpoint'
+06:30:01: Process 40079 created scene instance 0
+06:35:45: Making final checkpoint
+06:35:45: Removing checkpoint file 'nbody_checkpoint'
+06:36:01: Process 40151 created scene instance 0
+06:40:08: Making final checkpoint
+06:40:08: Removing checkpoint file 'nbody_checkpoint'
+06:40:25: Process 40194 created scene instance 0
+06:45:19: Making final checkpoint
+06:45:19: Removing checkpoint file 'nbody_checkpoint'
+06:45:36: Process 40248 created scene instance 0
+06:47:06: Making final checkpoint
+06:47:07: Removing checkpoint file 'nbody_checkpoint'
+06:47:23: Process 40295 created scene instance 0
+06:52:11: Making final checkpoint
+06:52:11: Removing checkpoint file 'nbody_checkpoint'
+06:52:28: Process 40354 created scene instance 0
+06:56:09: Making final checkpoint
+06:56:09: Removing checkpoint file 'nbody_checkpoint'
+06:56:26: Process 40409 created scene instance 0
+07:01:31: Making final checkpoint
+07:01:31: Removing checkpoint file 'nbody_checkpoint'
+mkdir: cannot create directory ‘/home/shelts/research/like_surface/hists/parameter_sweeps_rand_iter’: File exists
+07:01:48: Process 40471 created scene instance 0
+07:03:50: Making final checkpoint
+07:03:50: Removing checkpoint file 'nbody_checkpoint'
+07:04:06: Process 40502 created scene instance 0
+07:06:07: Making final checkpoint
+07:06:07: Removing checkpoint file 'nbody_checkpoint'
+07:06:23: Process 40553 created scene instance 0
+07:08:26: Making final checkpoint
+07:08:26: Removing checkpoint file 'nbody_checkpoint'
+07:08:42: Process 40601 created scene instance 0
+07:10:44: Making final checkpoint
+07:10:44: Removing checkpoint file 'nbody_checkpoint'
+07:11:01: Process 40654 created scene instance 0
+07:13:04: Making final checkpoint
+07:13:04: Removing checkpoint file 'nbody_checkpoint'
+07:13:20: Process 40692 created scene instance 0
+07:15:23: Making final checkpoint
+07:15:23: Removing checkpoint file 'nbody_checkpoint'
+07:15:39: Process 40731 created scene instance 0
+07:17:45: Making final checkpoint
+07:17:45: Removing checkpoint file 'nbody_checkpoint'
+07:18:01: Process 40780 created scene instance 0
+07:20:04: Making final checkpoint
+07:20:04: Removing checkpoint file 'nbody_checkpoint'
+07:20:21: Process 40821 created scene instance 0
+07:22:25: Making final checkpoint
+07:22:25: Removing checkpoint file 'nbody_checkpoint'
+07:22:42: Process 40859 created scene instance 0
+07:24:48: Making final checkpoint
+07:24:48: Removing checkpoint file 'nbody_checkpoint'
+07:25:05: Process 40900 created scene instance 0
+07:27:06: Making final checkpoint
+07:27:06: Removing checkpoint file 'nbody_checkpoint'
+07:27:22: Process 40934 created scene instance 0
+07:29:26: Making final checkpoint
+07:29:26: Removing checkpoint file 'nbody_checkpoint'
+07:29:42: Process 40982 created scene instance 0
+07:31:45: Making final checkpoint
+07:31:45: Removing checkpoint file 'nbody_checkpoint'
+07:32:01: Process 41044 created scene instance 0
+07:34:04: Making final checkpoint
+07:34:04: Removing checkpoint file 'nbody_checkpoint'
+07:34:20: Process 41096 created scene instance 0
+07:36:23: Making final checkpoint
+07:36:23: Removing checkpoint file 'nbody_checkpoint'
+07:36:40: Process 41208 created scene instance 0
+07:38:44: Making final checkpoint
+07:38:44: Removing checkpoint file 'nbody_checkpoint'
+07:39:00: Process 41248 created scene instance 0
+07:41:04: Making final checkpoint
+07:41:04: Removing checkpoint file 'nbody_checkpoint'
+07:41:20: Process 41296 created scene instance 0
+07:43:22: Making final checkpoint
+07:43:22: Removing checkpoint file 'nbody_checkpoint'
+07:43:39: Process 41332 created scene instance 0
+07:45:45: Making final checkpoint
+07:45:45: Removing checkpoint file 'nbody_checkpoint'
+07:46:02: Process 41373 created scene instance 0
+07:48:04: Making final checkpoint
+07:48:04: Removing checkpoint file 'nbody_checkpoint'
+07:48:20: Process 41411 created scene instance 0
+07:50:24: Making final checkpoint
+07:50:24: Removing checkpoint file 'nbody_checkpoint'
+07:50:40: Process 41452 created scene instance 0
+07:52:43: Making final checkpoint
+07:52:43: Removing checkpoint file 'nbody_checkpoint'
+07:52:59: Process 41494 created scene instance 0
+07:55:05: Making final checkpoint
+07:55:05: Removing checkpoint file 'nbody_checkpoint'
+07:55:21: Process 41541 created scene instance 0
+07:57:23: Making final checkpoint
+07:57:23: Removing checkpoint file 'nbody_checkpoint'
+07:57:40: Process 41579 created scene instance 0
+07:59:45: Making final checkpoint
+07:59:45: Removing checkpoint file 'nbody_checkpoint'
+08:00:01: Process 41625 created scene instance 0
+08:02:03: Making final checkpoint
+08:02:03: Removing checkpoint file 'nbody_checkpoint'
+08:02:19: Process 41666 created scene instance 0
+08:04:23: Making final checkpoint
+08:04:23: Removing checkpoint file 'nbody_checkpoint'
+08:04:40: Process 41712 created scene instance 0
+08:06:42: Making final checkpoint
+08:06:42: Removing checkpoint file 'nbody_checkpoint'
+08:06:58: Process 41764 created scene instance 0
+08:09:01: Making final checkpoint
+08:09:01: Removing checkpoint file 'nbody_checkpoint'
+08:09:18: Process 41801 created scene instance 0
+08:11:20: Making final checkpoint
+08:11:20: Removing checkpoint file 'nbody_checkpoint'
+08:11:36: Process 41839 created scene instance 0
+08:13:37: Making final checkpoint
+08:13:37: Removing checkpoint file 'nbody_checkpoint'
+08:13:54: Process 41869 created scene instance 0
+08:15:57: Making final checkpoint
+08:15:57: Removing checkpoint file 'nbody_checkpoint'
+08:16:13: Process 41921 created scene instance 0
+08:18:17: Making final checkpoint
+08:18:17: Removing checkpoint file 'nbody_checkpoint'
+08:18:33: Process 41965 created scene instance 0
+08:20:35: Making final checkpoint
+08:20:35: Removing checkpoint file 'nbody_checkpoint'
+08:20:51: Process 42002 created scene instance 0
+08:22:53: Making final checkpoint
+08:22:53: Removing checkpoint file 'nbody_checkpoint'
+08:23:10: Process 42042 created scene instance 0
+08:25:12: Making final checkpoint
+08:25:12: Removing checkpoint file 'nbody_checkpoint'
+08:25:28: Process 42088 created scene instance 0
+08:27:30: Making final checkpoint
+08:27:30: Removing checkpoint file 'nbody_checkpoint'
+08:27:46: Process 42131 created scene instance 0
+08:29:50: Making final checkpoint
+08:29:50: Removing checkpoint file 'nbody_checkpoint'
+08:30:07: Process 42179 created scene instance 0
+08:32:10: Making final checkpoint
+08:32:10: Removing checkpoint file 'nbody_checkpoint'
+08:32:27: Process 42209 created scene instance 0
+08:34:30: Making final checkpoint
+08:34:30: Removing checkpoint file 'nbody_checkpoint'
+08:34:46: Process 42252 created scene instance 0
+08:36:49: Making final checkpoint
+08:36:49: Removing checkpoint file 'nbody_checkpoint'
+08:37:05: Process 42305 created scene instance 0
+08:39:10: Making final checkpoint
+08:39:10: Removing checkpoint file 'nbody_checkpoint'
+08:39:27: Process 42343 created scene instance 0
+08:41:41: Making final checkpoint
+08:41:41: Removing checkpoint file 'nbody_checkpoint'
+08:41:57: Process 42385 created scene instance 0
+08:44:01: Making final checkpoint
+08:44:01: Removing checkpoint file 'nbody_checkpoint'
+08:44:17: Process 42432 created scene instance 0
+08:46:23: Making final checkpoint
+08:46:23: Removing checkpoint file 'nbody_checkpoint'
+08:46:40: Process 42462 created scene instance 0
+08:48:43: Making final checkpoint
+08:48:43: Removing checkpoint file 'nbody_checkpoint'
+08:48:59: Process 42500 created scene instance 0
+08:51:02: Making final checkpoint
+08:51:02: Removing checkpoint file 'nbody_checkpoint'
+08:51:18: Process 42542 created scene instance 0
+08:53:24: Making final checkpoint
+08:53:24: Removing checkpoint file 'nbody_checkpoint'
+08:53:40: Process 42589 created scene instance 0
+08:55:44: Making final checkpoint
+08:55:44: Removing checkpoint file 'nbody_checkpoint'
+08:56:00: Process 42636 created scene instance 0
+08:58:24: Making final checkpoint
+08:58:24: Removing checkpoint file 'nbody_checkpoint'
+08:58:40: Process 42671 created scene instance 0
+09:00:44: Making final checkpoint
+09:00:44: Removing checkpoint file 'nbody_checkpoint'
+09:01:01: Process 42717 created scene instance 0
+09:03:03: Making final checkpoint
+09:03:03: Removing checkpoint file 'nbody_checkpoint'
+09:03:19: Process 42760 created scene instance 0
+09:05:22: Making final checkpoint
+09:05:22: Removing checkpoint file 'nbody_checkpoint'
+09:05:38: Process 42803 created scene instance 0
+09:07:41: Making final checkpoint
+09:07:41: Removing checkpoint file 'nbody_checkpoint'
+09:07:57: Process 42845 created scene instance 0
+09:09:59: Making final checkpoint
+09:09:59: Removing checkpoint file 'nbody_checkpoint'
+09:10:15: Process 42879 created scene instance 0
+09:12:19: Making final checkpoint
+09:12:19: Removing checkpoint file 'nbody_checkpoint'
+09:12:35: Process 42917 created scene instance 0
+09:14:37: Making final checkpoint
+09:14:37: Removing checkpoint file 'nbody_checkpoint'
+09:14:53: Process 42963 created scene instance 0
+09:17:01: Making final checkpoint
+09:17:01: Removing checkpoint file 'nbody_checkpoint'
+09:17:17: Process 43001 created scene instance 0
+09:19:21: Making final checkpoint
+09:19:21: Removing checkpoint file 'nbody_checkpoint'
+09:19:37: Process 43043 created scene instance 0
+09:21:40: Making final checkpoint
+09:21:40: Removing checkpoint file 'nbody_checkpoint'
+09:21:56: Process 43090 created scene instance 0
+09:24:03: Making final checkpoint
+09:24:03: Removing checkpoint file 'nbody_checkpoint'
+09:24:19: Process 43127 created scene instance 0
+09:26:21: Making final checkpoint
+09:26:21: Removing checkpoint file 'nbody_checkpoint'
+09:26:37: Process 43173 created scene instance 0
+09:28:44: Making final checkpoint
+09:28:44: Removing checkpoint file 'nbody_checkpoint'
+09:29:00: Process 43209 created scene instance 0
+09:31:03: Making final checkpoint
+09:31:03: Removing checkpoint file 'nbody_checkpoint'
+09:31:19: Process 43251 created scene instance 0
+09:33:20: Making final checkpoint
+09:33:20: Removing checkpoint file 'nbody_checkpoint'
+09:33:37: Process 43299 created scene instance 0
+09:35:41: Making final checkpoint
+09:35:41: Removing checkpoint file 'nbody_checkpoint'
+09:35:57: Process 43344 created scene instance 0
+09:38:04: Making final checkpoint
+09:38:04: Removing checkpoint file 'nbody_checkpoint'
+09:38:20: Process 43392 created scene instance 0
+09:40:22: Making final checkpoint
+09:40:22: Removing checkpoint file 'nbody_checkpoint'
+09:40:38: Process 43433 created scene instance 0
+09:42:40: Making final checkpoint
+09:42:40: Removing checkpoint file 'nbody_checkpoint'
+09:42:57: Process 43473 created scene instance 0
+09:45:00: Making final checkpoint
+09:45:00: Removing checkpoint file 'nbody_checkpoint'
+09:45:16: Process 43539 created scene instance 0
+09:47:18: Making final checkpoint
+09:47:18: Removing checkpoint file 'nbody_checkpoint'
+09:47:34: Process 43580 created scene instance 0
+09:49:36: Making final checkpoint
+09:49:36: Removing checkpoint file 'nbody_checkpoint'
+09:49:52: Process 43623 created scene instance 0
+09:51:55: Making final checkpoint
+09:51:55: Removing checkpoint file 'nbody_checkpoint'
+09:52:11: Process 43669 created scene instance 0
+09:54:12: Making final checkpoint
+09:54:12: Removing checkpoint file 'nbody_checkpoint'
+09:54:28: Process 43705 created scene instance 0
+09:56:33: Making final checkpoint
+09:56:33: Removing checkpoint file 'nbody_checkpoint'
+09:56:49: Process 43743 created scene instance 0
+09:58:52: Making final checkpoint
+09:58:52: Removing checkpoint file 'nbody_checkpoint'
+09:59:08: Process 43779 created scene instance 0
+10:01:10: Making final checkpoint
+10:01:10: Removing checkpoint file 'nbody_checkpoint'
+10:01:26: Process 43833 created scene instance 0
+10:03:30: Making final checkpoint
+10:03:30: Removing checkpoint file 'nbody_checkpoint'
+10:03:47: Process 43884 created scene instance 0
+10:05:53: Making final checkpoint
+10:05:53: Removing checkpoint file 'nbody_checkpoint'
+10:06:09: Process 43931 created scene instance 0
+10:08:12: Making final checkpoint
+10:08:12: Removing checkpoint file 'nbody_checkpoint'
+10:08:29: Process 43970 created scene instance 0
+10:10:31: Making final checkpoint
+10:10:31: Removing checkpoint file 'nbody_checkpoint'
+10:10:48: Process 44000 created scene instance 0
+10:12:50: Making final checkpoint
+10:12:50: Removing checkpoint file 'nbody_checkpoint'
+10:13:06: Process 44052 created scene instance 0
+10:15:09: Making final checkpoint
+10:15:09: Removing checkpoint file 'nbody_checkpoint'
+10:15:25: Process 44087 created scene instance 0
+10:17:26: Making final checkpoint
+10:17:26: Removing checkpoint file 'nbody_checkpoint'
+10:17:42: Process 44125 created scene instance 0
+10:19:46: Making final checkpoint
+10:19:46: Removing checkpoint file 'nbody_checkpoint'
+10:20:02: Process 44174 created scene instance 0
+10:22:33: Making final checkpoint
+10:22:33: Removing checkpoint file 'nbody_checkpoint'
+10:22:49: Process 44215 created scene instance 0
+10:24:50: Making final checkpoint
+10:24:50: Removing checkpoint file 'nbody_checkpoint'
+10:25:06: Process 44257 created scene instance 0
+10:27:10: Making final checkpoint
+10:27:10: Removing checkpoint file 'nbody_checkpoint'
+10:27:26: Process 44293 created scene instance 0
+10:29:28: Making final checkpoint
+10:29:28: Removing checkpoint file 'nbody_checkpoint'
+10:29:44: Process 44346 created scene instance 0
+10:31:50: Making final checkpoint
+10:31:50: Removing checkpoint file 'nbody_checkpoint'
+10:32:06: Process 44382 created scene instance 0
+10:34:11: Making final checkpoint
+10:34:11: Removing checkpoint file 'nbody_checkpoint'
+10:34:27: Process 44411 created scene instance 0
+10:36:29: Making final checkpoint
+10:36:29: Removing checkpoint file 'nbody_checkpoint'
+10:36:45: Process 44452 created scene instance 0
+10:38:49: Making final checkpoint
+10:38:49: Removing checkpoint file 'nbody_checkpoint'
+10:39:06: Process 44505 created scene instance 0
+10:41:09: Making final checkpoint
+10:41:09: Removing checkpoint file 'nbody_checkpoint'
+10:41:25: Process 44552 created scene instance 0
+10:43:31: Making final checkpoint
+10:43:31: Removing checkpoint file 'nbody_checkpoint'
+10:43:47: Process 44589 created scene instance 0
+10:45:51: Making final checkpoint
+10:45:51: Removing checkpoint file 'nbody_checkpoint'
+10:46:08: Process 44624 created scene instance 0
+10:48:15: Making final checkpoint
+10:48:15: Removing checkpoint file 'nbody_checkpoint'
+10:48:31: Process 44678 created scene instance 0
+10:50:37: Making final checkpoint
+10:50:38: Removing checkpoint file 'nbody_checkpoint'
+10:50:54: Process 44724 created scene instance 0
+10:52:57: Making final checkpoint
+10:52:57: Removing checkpoint file 'nbody_checkpoint'
+10:53:13: Process 44781 created scene instance 0
+10:55:15: Making final checkpoint
+10:55:15: Removing checkpoint file 'nbody_checkpoint'
+10:55:31: Process 44828 created scene instance 0
+10:57:36: Making final checkpoint
+10:57:36: Removing checkpoint file 'nbody_checkpoint'

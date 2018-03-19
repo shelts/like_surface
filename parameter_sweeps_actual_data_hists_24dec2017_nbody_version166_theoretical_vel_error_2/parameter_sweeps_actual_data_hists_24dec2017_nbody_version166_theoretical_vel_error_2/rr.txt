@@ -1,0 +1,304 @@
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-11407.779698002101213</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-9412.656163397563432</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-12331.957807741651777</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-10089.038079092792032</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-5661.067693380718993</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-6875.945540467282626</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-6856.621839087005355</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-10219.600200441782363</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-12734.157484870847838</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-12452.718363451531332</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-11615.290708129503400</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-12598.287314686673199</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-5409.787740325494269</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-11230.968211757235622</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-5795.203966161840071</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-11521.766305951559843</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-12091.839653170462043</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-5700.736402612032180</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-12368.022599131210882</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-8241.676195986003222</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-13309.905455827843980</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-5467.578389404915470</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-5224.493853206799940</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-5618.619803050895825</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-5418.159810648639905</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-6393.510106990199347</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-6631.528472467635765</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-10912.640769972580529</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-5977.699715838076372</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-5390.971965772336262</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-13272.913065572347477</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-12019.320175589509745</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-5371.425482719549109</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-12904.489162882118762</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-6758.052148385876535</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-5742.207200674380147</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-5652.281101264375138</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-5641.385658166068424</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-5745.955679957700340</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-10326.237252568567783</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-11547.418834100817548</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-11804.715928126208382</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-10042.288613167549556</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-7211.230222010949547</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-5288.220743404352106</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-5350.991838875114809</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-12789.564593605215123</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-11425.799996437801383</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-7241.276037828420158</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-11047.717235236796114</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-6540.745041291861526</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-11407.779698002101213</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-11276.447410914764987</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-9641.209509784026523</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-12791.044683230262308</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-11148.686010817895294</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-5396.403844652813859</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-12785.327047802298694</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-5868.524977851205222</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-5609.207643897460002</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-12642.282447399975354</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-13326.142119378400821</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-13395.146558536813245</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-5853.817593866152492</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-7165.244571156874372</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-7083.630115653153553</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-6802.720418297160904</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-5855.865144128787506</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-12663.869953765200989</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-12162.585054857654541</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-12644.970756568698562</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-6703.372930981437094</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-6742.384950651127838</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-8492.723693650757923</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-11260.732286406631829</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-6222.214901043927057</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-11306.802939139863156</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-10681.961343005261369</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-6798.644174569217284</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-6273.888488554399373</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-10832.162129911699594</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-6834.508462449299259</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-6822.197209239821859</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-7112.455253834985342</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-5511.470326297030624</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-13320.061233524589625</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-6864.088179648892037</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-6571.955139521657657</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-12423.991945168489110</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-12803.399803776277622</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-5497.220314110025356</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-6578.587436798759882</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-9716.522438097545091</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-6475.537134638683710</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-5680.875755254754040</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-5268.360310785456022</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-5913.947142972378970</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-7132.793928530896665</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-6800.593326535504275</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-13221.709308666551806</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-5683.443324452152410</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-12398.696244104654397</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-5345.512525053607533</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-11329.315616847567071</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-8263.008709765710591</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-5795.635506346941838</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-12564.310479290461444</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-7139.075017453287728</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-6741.772071975345170</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-7727.115707291459330</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-6864.712638024790976</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-11142.061051389444401</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-12884.893368525987171</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-10518.466975885674401</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-7968.423924235343293</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-17749.939248500540998</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-5880.843223882905477</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-11249.262468876731873</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-5441.243712951069028</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-7234.245940262995646</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-6783.708435883907441</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-12839.802433335587921</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-6604.534903941208540</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-5773.573408410476077</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-11662.904780649505483</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-5899.133003463521163</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-5667.562533581377465</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-12175.046050926135649</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-11122.659075700572430</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-5986.080718081141640</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-11135.414563970303789</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-13117.293515454715816</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-5610.703030727922851</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-5630.099643834949347</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-8291.670866348918935</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-12642.450115307881788</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-6022.165184113629948</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-5769.964193744067416</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-6239.966522458678810</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-13283.123773610337594</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-12476.361116105443216</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-10974.233615235469188</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-11937.913274666127109</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-8326.378322206634039</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-5876.034600047260028</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-12926.768133047089577</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-5566.521318824408809</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-11504.662960651008689</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-8948.537995951681296</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-5668.583085439577189</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-5951.385360815966123</search_likelihood>
+Using OpenMP 30 max threads on a system with 32 processors
+<search_likelihood>-8236.388912690430516</search_likelihood>
